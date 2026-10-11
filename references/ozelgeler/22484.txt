@@ -1,0 +1,69 @@
+ID: 22484
+Başlık: Kirlilik Yükü Bedelinin Kurumlar Vergisi ve Katma Değer Vergisi Kanunu açısından indirim konusu yapılıp yapılamayacağı hk.
+Özelge No: 64597866-125[11/g]-3310
+Tarih: 2023-02-17
+Kanun: 5520 KURUMLAR VERGİSİ KANUNU
+Link: https://gib.gov.tr/mevzuat/kanun/435/ozelge/22484
+Arama terimleri: vekalet ücreti
+
+T.C. 
+GELİR İDARESİ BAŞKANLIĞI
+Büyük Mükellefler Vergi Dairesi Başkanlığı
+Mükellef Hizmetleri Grup Müdürlüğü
+
+Sayı
+ :
+ 64597866-125[11/g]-3310
+ 17.02.2023
+
+Konu
+ :
+ Kirlilik Yükü Bedelinin Kurumlar Vergisi ve Katma Değer Vergisi Kanunu açısından indirim konusu yapılıp yapılamayacağı hk.
+
+İlgi
+ :
+ ….
+
+İlgide kayıtlı özelge talep formunuzda;
+
+- Şirketinizin karton üretimi ile iştigal ettiği, …. tarafından Şirketiniz adına …. TL kirlilik yükü bedeli ve …. TL katma değer vergisi olmak üzere toplam …. TL tutarında ve yine …. TL kirlilik yükü bedeli ve …. TL katma değer vergisi olmak üzere toplam …. TL tutarında fatura düzenlendiği,
+
+- Söz konusu faturaların dava konusu edildiği, davalardan birinde Şirketiniz aleyhine karar verilmesi, diğerinde kısmen kabul kısmen red kararı verilmesi üzerine mahkeme süreci devam ederken …. ile aranızda uzlaşmaya varılarak karşılıklı olarak davalardan vazgeçildiği
+
+belirtilmiş olup, uzlaşma neticesinde ödenen fatura bedeli, reeskont faizi, ilam vekalet ücretine ilişkin ödemelerin mahkemenin kesinleştiği yıl olan … yılında gider olarak dikkate alınıp alınmayacağı, faturalarda yer alan katma değer vergisinin indirim konusu yapılıp yapılmayacağı hususunda Başkanlığımız görüşü talep edilmektedir.
+
+I- KURUMLAR VERGİSİ YÖNÜNDEN:
+
+ 5520 sayılı Kurumlar Vergisi Kanununun 6 ncı maddesinde, kurumlar vergisinin, mükelleflerin bir hesap dönemi içinde elde ettikleri safi kurum kazancı üzerinden hesaplanacağı, safi kurum kazancının tespitinde Gelir Vergisi Kanununun ticari kazanç hakkındaki hükümlerinin uygulanacağı hükme bağlanmıştır.
+
+193 sayılı Gelir Vergisi Kanununun 40 ıncı maddesinde safi kazancın tespitinde indirilecek giderler sayılmış olup, anılan maddenin birinci fıkrasının (3) numaralı bendinde işle ilgili olmak şartıyla, mukavelenameye, ilama veya kanun emrine istinaden ödenen zarar, ziyan ve tazminatların gider olarak yazılabileceği belirtilmiştir.
+
+Kurumlar Vergisi Kanununun 11 inci maddesinin birinci fıkrasının;
+
+- (d) bendinde, bu Kanuna göre hesaplanan kurumlar vergisi ile her türlü para cezaları, vergi cezaları, 21/7/1953 tarihli ve 6183 sayılı Amme Alacaklarının Tahsil Usulü Hakkında Kanun hükümlerine göre ödenen cezalar, gecikme zamları ve faizler ile Vergi Usul Kanunu hükümlerine göre ödenen gecikme faizlerinin,
+
+- (g) bendinde, sözleşmelerde ceza şartı olarak konulan tazminatlar hariç olmak üzere kurumun kendisinin, ortaklarının, yöneticilerinin ve çalışanlarının suçlarından doğan maddî ve manevî zarar tazminat giderlerinin,
+
+kurum kazancından indirilemeyeceği hüküm altına alınmıştır.
+
+Buna göre, ödenen tazminatların gider yazılabilmesi için işle ilgili olması ve sözleşmeye, ilama veya kanun emrine bağlı bulunması şarttır. Ancak, kurumlarca işle ilgili ödenen tazminatlar, sözleşmeye, ilama veya kanun emrine bağlı bulunsa dahi, kurumların, ortaklarının, yöneticilerinin ve çalışanlarının kusurundan kaynaklanması halinde gider olarak yazılamamaktadır.
+
+Konuya ilişkin olarak özelge talep formu ve eklerinin incelenmesinden, …. İdaresi denetim ekiplerince çeşitli tarihlerde yapılan analizlerde, …. deresine atık su deşarjı yapıldığı, yapılan deşarjın kabul edilebilir parametrelerin üzerinde kirliliğe sahip olması nedeniyle Şirketinizden kirlilik yükü bedeli adı altında belirlenen tutarların ödenmesinin istenildiği anlaşılmaktadır.
+
+Yukarıda yer alan hüküm ve açıklamalara göre, …. ile aranızda uzlaşmaya varılması sonucu kesinleşen kirlilik yükü bedelleri, faiz ve ilam vekalet ücretine ilişkin ödemelerin, Kurumlar Vergisi Kanununun 11 inci maddesinin birinci fıkrasının (g) bendi hükmü uyarınca kurum kazancının tespitinde gider olarak indirim konusu yapılması mümkün bulunmamaktadır.
+
+II- KATMA DEĞER VERGİSİ YÖNÜNDEN:
+
+3065 sayılı Katma Değer Vergisi (KDV) Kanununun;
+
+- 1/1 inci maddesinde, ticari, sınai, zirai faaliyet ve serbest meslek faaliyeti çerçevesinde Türkiye'de yapılan teslim ve hizmetlerin KDV ye tabi olduğu,
+
+- 29/1-a maddesinde, mükelleflerin kendilerine yapılan teslim ve hizmetler dolayısıyla hesaplanarak düzenlenen fatura ve benzeri vesikalarda gösterilen katma değer vergisini, yaptıkları vergiye tabi işlemler üzerinden hesaplanan KDV den, bu kanunda aksine hüküm olmadıkça, faaliyetlerine ilişkin olarak indirebilecekleri,
+
+- 30/d maddesinde, Gelir ve Kurumlar Vergisi kanunlarına göre kazancın tespitinde indirimi kabul edilmeyen giderler dolayısıyla ödenen katma değer vergisinin indirim konusu yapılamayacağı
+
+hüküm altına alınmıştır.
+
+Bu hüküm ve açıklamalara göre, …. ile aranızda uzlaşmaya varılması sonucu kesinleşen tutarlara göre ödenen kirlilik yükü bedelleri, faiz ve ilam vekalet ücretine ilişkin ödemelerin Kurumlar Vergisi Kanununa göre kazancın tespitinde indirimi kabul edilmediğinden, bu gider nedeniyle ödenen katma değer vergisinin de hesaplanan KDV'den indirim konusu yapılması mümkün değildir.
+
+Bilgi edinilmesini rica ederim..

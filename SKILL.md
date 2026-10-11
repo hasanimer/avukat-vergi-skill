@@ -41,7 +41,8 @@ Avukatın **kendi** vergi yükümlülükleri içindir. Müvekkil adına vergi uy
 | Damga vergisi, vekalet suret harcı, Av.K. 35/A uzlaşma | `references/damga-harc.md` |
 | AAÜT 2025-2026 tabloları, nispi/maktu hesap ve vergiye çeviri | `references/aaut-2025-2026.md` |
 | Uygulamadaki sorular: KDV ne zaman doğar (kesinleşme, ücretsiz iş), %10 KDV'nin sınırları, tevkil, ortak vekalet, alt kira, ücret iadesi, sık yapılan hatalar, TBB hesaplama araçlarıyla eşleşme | `references/uygulama-notlari.md` |
-| Özelge dizini (ilgililik, kategori, hüküm özeti, link) ve tam metinler | `references/ozelgeler/` |
+| Diğer: TBB munzam emeklilik, yurt dışı meslektaşa ödeme, vergi dairesinde iş takibi, tahsil edilemeyen alacak, avukatlık yanında başka faaliyet | `references/diger.md` |
+| Özelge dizini: 247 özelge, konuya göre gruplu (tarih, ID, konu, ilgililik, güncellik) | `references/ozelgeler/DIZIN.md` (makine okunur: `dizin.json`, tam metin: `<ID>.txt`) |
 | Kaynak metinler: Rehber 590 ve AAÜT madde metni | `references/kaynak/` |
 
 ## En sık kullanılan kurallar (ayrıntı ve kaynak referanslarda)

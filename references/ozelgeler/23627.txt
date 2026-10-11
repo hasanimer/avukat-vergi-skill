@@ -1,0 +1,46 @@
+ID: 23627
+Başlık: Mahkeme kararı gereğince veya icra kanalıyla avukatlara ödenen vekalet ücretlerinin vergilendirilmesi hk.
+Özelge No: B.07.1.GİB.4.34.17.01-KDV.1-1579
+Tarih: 2011-09-12
+Kanun: 3065 KATMA DEĞER VERGİSİ KANUNU
+Link: https://gib.gov.tr/mevzuat/kanun/436/ozelge/23627
+
+T.C.
+GELİR İDARESİ BAŞKANLIĞI
+İSTANBUL VERGİ DAİRESİ BAŞKANLIĞI
+MÜKELLEF HİZMETLERİ KDV GRUP MÜDÜRLÜĞÜ
+
+Sayı
+ :
+ B.07.1.GİB.4.34.17.01-KDV.1-1579
+ 12/09/2011
+
+Konu
+ :
+ Mahkeme kararı gereğince veya icra kanalıyla avukatlara ödenen vekalet ücretlerinin vergilendirilmesi
+
+ İlgide kayıtlı özelge talep formunda; Türkiye Barolar Birliği tarafından her yıl düzenli olarak belirlenen "Avukatlık Asgari Ücret Tarifesi"ne göre kesilen makbuzlarda, katma değer vergisinin (KDV) bu ücrete dahil olup olmadığı, KDV nin bu ücretin içinde yer almaması halinde KDV hariç makbuz kesilmesinin mümkün bulunup bulunmadığı konusunda Başkanlığımız görüşü talep edilmektedir.
+ 1. GELİR VERGİSİ KANUNU YÖNÜNDEN
+ 193 sayılı Gelir Vergisi Kanununun 65 inci maddesinde; "Her türlü serbest meslek faaliyetinden doğan kazançlar serbest meslek kazancıdır. Serbest meslek faaliyeti; sermayeden ziyade şahsi mesaiye, ilmi veya mesleki bilgiye veya ihtisasa dayanan ve ticari mahiyette olmayan işlerin işverene tabi olmaksızın şahsi sorumluluk altında kendi nam ve hesabına yapılmasıdır." hükmü yer almaktadır.
+ Avukatlık Kanununun 164 ile 166 ncı maddelerinde de avukatlık ücreti tanımlanmakta ve kaynakları itibariyle, sözleşmeye bağlı olarak iş sahibinden sağlanan vekalet ücreti ile dava sonunda, kararla tarifeye dayanılarak karşı tarafa yüklenen vekalet ücreti olmak üzere iki ayrı vekalet ücretinden söz edilmektedir.
+ 1136 sayılı Avukatlık Kanununun 4667 sayılı Kanunla değişik 164 üncü maddesinin son fıkrasında; "... Dava sonunda, kararla tarifeye dayanılarak karşı tarafa yüklenecek vekâlet ücreti avukata aittir. Bu ücret, iş sahibinin borcu nedeniyle takas ve mahsup edilemez, haczedilemez." denilmiştir.
+ Öte yandan Avukatlık Kanununun 168 inci maddesinin 3 üncü fıkrasında, "Avukatlık ücretinin takdirinde, hukuki yardımın tamamlandığı veya dava sonunda hüküm verildiği tarihte yürürlükte olan tarife esas alınır.", 169 uncu maddesinde ise, "Yargı mercilerince karşı tarafa yükletilecek avukatlık ücreti,avukatlık ücret tarifesinde yazılı miktardan az ve üç katından fazla olamaz." denilmektedir.
+ Dava sonunda, kararla tarifeye dayanılarak karşı/alacaklı taraf avukatına ödenen vekâlet ücreti;
+ a) Mahkeme veya icra veznesinin düzenlediği makbuz imzalanarak nakden,
+ b) Bizzat karşı/borçlu tarafın, mahkeme veya icra dairesinin tespit ettiği vekâlet ücretini elden (nakden) veya banka havalesi ile ödemesi,
+ c) Mahkeme veya icra dairesinin, yargılama giderleri ile birlikte davayı kazanan müvekkile herhangi bir şekilde ödeme yapması ve müvekkilin de karşı/borçlu taraftan alınan vekâlet ücretini avukata ödemesi,
+ şekillerinde tahsil edilebilmektedir.
+ Gelir Vergisi Kanununun 94 üncü maddesinin birinci fıkrasında, kamu idare ve müesseseleri, iktisadi kamu müesseseleri, sair kurumlar, ticaret şirketleri, iş ortaklıkları, dernekler, vakıflar, dernek ve vakıfların iktisadi işletmeleri, kooperatifler, yatırım fonu yönetenler, gerçek gelirlerini beyan etmeye mecbur olan ticaret ve serbest meslek erbabı, zirai kazançlarını bilanço veya zirai işletme hesabı esasına göre tespit eden çiftçilerin aşağıdaki bentlerde sayılan ödemeleri nakden veya hesaben yaptıkları sırada, istihkak sahiplerinin gelir vergilerine mahsuben tevkifat yapmaya mecbur oldukları hükme bağlanmıştır.
+ Buna göre, dava sonunda mahkeme ilamına göre veya icra takibi sonucu verilen kararla avukatlık tarifesine dayanılarak karşı tarafa yüklenilecek vekâlet ücretinin Gelir Vergisi Kanununun 65 ve 66 ncı maddelerine göre serbest meslek erbabı olan avukatlara ödenmesi halinde, Gelir Vergisi Kanununun 94 üncü maddesi ve 2006/11449 sayılı Bakanlar Kurulu Kararı uyarınca sorumlularca % 20 nispetinde gelir vergisi tevkifatına tabi tutulması gerekmektedir.
+ Diğer taraftan, karşı taraf aleyhine hükmedilen vekâlet ücreti ödemelerinin doğrudan avukatlara değil de icra müdürlüklerine yapıldığı durumda, icra müdürlüklerine ödeme yapıldığı sırada ödemeyi yapan borçlu tarafından vekâlet ücreti ödemesinden gelir vergisi tevkifatı yapılacaktır. 
+ Davayı kaybeden tarafından, mahkeme ilamına göre veya icra takibi sonucu karşı taraf avukatına ödenmesine karar verilen vekâlet ücretinin avukat dışında alacaklı tarafa vekâlet eden üçüncü bir kişiye nakden ödenmesi durumunda; bu vekâlet alacağın tahsiline yönelik olduğundan, ödeme yapan tarafın Gelir Vergisi Kanununun 94 üncü maddesinin birinci fıkrasında sayılan kişilerden olması halinde yapılan vekâlet ücreti ödemesi üzerinden gelir vergisi tevkifatının yapılması gerekmektedir.
+ Ancak, vekâlet ücretini ödeyen karşı tarafın ödeme esnasında stopaj yapmaması durumunda elde edilen hasılatın avukat tarafından yıllık beyannameye dahil edileceği tabiidir.
+ Davayı kaybeden tarafın, mahkeme veya icra dairesinin tespit ettiği vekâlet ücretini alacaklı tarafa doğrudan nakden ödemesi halinde de alacaklıyı temsil eden avukatın ücretli olmaması kaydıyla, ödeme yapan tarafın Gelir Vergisi Kanunu'nun 94. maddesinin birinci fıkrası kapsamında sayılan kişilerden olması halinde, yapılan vekâlet ücreti ödemesi üzerinden gelir vergisi tevkifatının yapılması gerekmektedir.
+ Ayrıca, avukatın davayı kazanan tarafın ücretlisi olması halinde, ticari veya serbest meslek kazancı kapsamında borçludan tahsil edilen vekâletücreti, Gelir Vergisi Kanununun 61, 94 ve 103 üncü maddeleri kapsamında ücret olarak avukata ödenecektir.
+ Diğer taraftan, alacaklı taraf avukatına ödenmesine karar verilen vekâlet ücretinin belgelendirilmesine yönelik olarak 23/2/2006 tarih ve 26089 sayılı Resmi Gazetede yayımlanan 356 Seri No.lu Vergi Usul Kanunu Genel Tebliğinde yer alan "... İcra dairelerince borçludan alınarak müvekkili adına takibat yapan alacaklı taraf avukatına ödenmesine karar verilen avukatlık (vekalet) ücretinin avukata ödendiği anda, avukat tarafından borçlu adına en az iki nüsha serbest meslek makbuzu düzenlenecek ve makbuzun avukatta kalan nüshasına da icra dairesince ödemenin yapılmış olduğuna dair bir şerh düşülerek, ödemeyi yapan memur tarafından (sicil numarası da yazılarak) imzalanacaktır..." şeklindeki açıklama 11/9/2007 tarih ve 26640 sayılı Resmi Gazetede yayımlanan 375 Seri No.lu Vergi Usul Kanunu Genel Tebliği ile; "İcra dairelerince borçludan alınarak müvekkili adına takibat yapan alacaklı taraf avukatına ödenmesine karar verilen avukatlık (vekalet) ücretlerinin avukata ödendiği anda, avukat tarafından borçlu adına en az iki nüsha serbest meslek makbuzu düzenlenecek olup, bir nüshası ödemeyi yapan memura verilecek; makbuzun avukatta kalan nüshasına ise icra dairesince ödemenin yapılmış olduğuna dair bir şerh düşülmesi ve ödemeyi yapan memur tarafından imzalanması şartı aranmayacaktır." şeklinde yeniden düzenlenmiştir. 
+ Buna göre, icra dairelerince borçludan alınarak müvekkili adına takibat yapan alacaklı taraf avukatına ödenmesine karar verilen avukatlık (vekalet) ücretleri yukarıda belirtildiği şekilde belgelendirilecektir.
+ 2. KATMA DEĞER VERGİSİ KANUNU YÖNÜNDEN
+ 3065 sayılı KDV Kanununun 1/1 inci maddesinde; ticari, sınai, zirai faaliyet ve serbest meslek faaliyeti çerçevesinde Türkiye'de yapılan teslim ve hizmetlerin KDV nin konusunu oluşturduğu hükme bağlanmış olup, avukatlar tarafından sunulan hizmetler, serbest melek faaliyetleri kapsamında KDV ye tabi bulunmaktadır.
+ Buna göre, mahkeme kararı gereğince veya icra kanalı ile avukatlara ödenen vekâlet ücretleri üzerinden KDV hesaplanması gerekmekte olup, avukatlar tarafından düzenlenecek serbest meslek makbuzunda ayrıca KDV gösterilecektir. Ancak, mahkeme kararında "KDV hariç" şeklinde bir ifadenin yer almaması halinde, düzenlenecek serbest meslek makbuzunda, vekalet ücretine "KDV dahil" kabul edilerek iç yüzde oranı uygulanmak suretiyle tespit edilen KDV tutarı dikkate alınacaktır.
+ Öte yandan, mahkemelerce hükmolunan vekalet ücreti ödemelerinin davayı kazanan gelir ya da kurumlar vergisi mükellefi olan işverenlere yapılması ve yapılan bu ödemenin Gelir Vergisi Kanunu uyarınca ticari ya da serbest meslek faaliyeti kapsamında olması halinde ödeme tutarı üzerinden KDV hesaplanacak, mahkeme kararında "KDV hariç" ya da "KDV dahil" ibaresinin yer alıp almadığı dikkate alınarak yukarıdaki açıklamalara göre işlem yapılacaktır.
+ Bilgi edinilmesini rica ederim.
