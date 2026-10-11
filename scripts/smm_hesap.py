@@ -378,8 +378,10 @@ def esmm_uyarilar(s: dict) -> list[str]:
         u.append("gerçek kişi alıcıda stopaj var — alıcı tacir/serbest meslek erbabı değilse stopaj yapılmaz")
     if re.search(r"BARO", s["alici"] or "", re.I) and s["kdv_orani"] and D(s["kdv_orani"]) != 10:
         u.append("baro alıcı: adli yardım hizmetinde KDV %10 (2007/13033 BKK (II) 32; özelge 38775) — kontrol edin")
-    if re.search(r"ÇOCUK|COCUK", s["kalemler"] or "", re.I) and s["kdv_orani"] and D(s["kdv_orani"]) != 10:
-        u.append("çocuk mahkemesi görevi: KDV %10 olabilir (özelge 32149) — kontrol edin")
+    if (re.search(r"ÇOCUK|COCUK|BOŞANMA|BOSANMA|AİLE|AILE|NAFAKA|VELAYET|TÜKETİCİ|TUKETICI|VESAYET|ADLİ YARDIM|ADLI YARDIM",
+                  s["kalemler"] or "", re.I) and s["kdv_orani"] and D(s["kdv_orani"]) != 10):
+        u.append("aile/tüketici/çocuk mahkemesi, vesayet veya adli yardım işi: KDV %10 olabilir "
+                 "(2007/13033 BKK (II) 32; özelge 32149, 38775) — kontrol edin")
     if s["kamu_ipucu"] and s["tarih"]:
         sinir = kdv_tevkifat_siniri(s["tarih"])
         kdv_dahil = s["brut"] + s["kdv"]
@@ -518,6 +520,29 @@ def test() -> int:
 
 
 # ---------------------------------------------------------------------------
+def makbuz_yazdir(r: dict, so, ko, to) -> None:
+    def oran(x):
+        x = D(x) * 100
+        return f"%{x.normalize():f}".replace(".", ",")
+    tev = f" ({(D(to) * 10).normalize():f}/10)" if to else ""
+    satirlar = [
+        ("Brüt ücret (KDV hariç)", r["brut"], ""),
+        (f"GV stopajı {oran(so)}", -r["stopaj"], "ödeyen keser, muhtasarla beyan eder"),
+        ("Net ücret", r["net_ucret"], ""),
+        (f"KDV {oran(ko)}", r["kdv"], ""),
+        (f"KDV tevkifatı{tev}", -r["kdv_tevkifat"], "alıcı 2 No.lu KDV ile beyan eder" if to else ""),
+        ("Tahsil edilecek", r["tahsil_edilecek"], ""),
+    ]
+    print("┌" + "─" * 52 + "┐")
+    for i, (ad, tutar, not_) in enumerate(satirlar):
+        if ad == "Net ücret" or ad == "Tahsil edilecek":
+            print("├" + "─" * 52 + "┤")
+        sayi = ("−" if tutar < 0 else "") + tl(abs(tutar))
+        print(f"│ {ad:<31}{sayi:>19} │")
+    print("└" + "─" * 52 + "┘")
+    print(f"  KDV dahil makbuz toplamı: {tl(r['kdv_dahil_toplam'])} · KDV1'de beyan edilecek KDV: {tl(r['tahsil_edilen_kdv'])}")
+
+
 def yazdir(d: dict) -> None:
     for k, v in d.items():
         if isinstance(v, dict):
@@ -578,9 +603,10 @@ def main(argv=None) -> int:
     a = ap.parse_args(argv)
 
     if a.komut == "makbuz":
+        so, ko, to = oran_coz(a.stopaj), oran_coz(a.kdv), oran_coz(a.kdv_tevkifat)
         r = makbuz(brut=a.brut, net=a.net, tahsil=a.tahsil, kdv_dahil=a.kdv_dahil,
-                   stopaj_orani=oran_coz(a.stopaj), kdv_orani=oran_coz(a.kdv), kdv_tevkifat=oran_coz(a.kdv_tevkifat))
-        yazdir(r)
+                   stopaj_orani=so, kdv_orani=ko, kdv_tevkifat=to)
+        makbuz_yazdir(r, so, ko, to)
     elif a.komut == "vergi":
         print(f"{a.yil} {'ücret' if a.ucret else 'ücret dışı'} tarifesi:")
         print("\n".join(tarife_tablosu(a.yil, a.ucret)))
@@ -590,9 +616,11 @@ def main(argv=None) -> int:
         for s in a.donem:
             parca = [x.strip() for x in s.split(",")] + ["0", "0"]
             ds.append({"hasilat": parca[0] or 0, "gider": parca[1] or 0, "stopaj": parca[2] or 0})
+        print(f"{'Dönem':<6}{'Küm. matrah':>15}{'Hesaplanan':>13}{'Küm. stopaj':>13}{'Önce ödenen':>13}{'ÖDENECEK':>12}")
         for r in gecici_vergi(ds):
-            print(f"Ç{r['donem']}: kümülatif matrah {tl(r['kumulatif_matrah'])}, hesaplanan {tl(r['hesaplanan'])}, "
-                  f"kümülatif stopaj {tl(r['kumulatif_stopaj'])}, önceki ödenen {tl(r['onceki_odenen'])} → ödenecek {tl(r['odenecek'])}")
+            print(f"{'Ç' + str(r['donem']):<6}{tl(r['kumulatif_matrah']):>15}{tl(r['hesaplanan']):>13}"
+                  f"{tl(r['kumulatif_stopaj']):>13}{tl(r['onceki_odenen']):>13}{tl(r['odenecek']):>12}")
+        print("Oran %15; kesilen stopaj ve önceki dönemlerde ödenen geçici vergi mahsup edilir (Rehber s.28-29).")
     elif a.komut == "yillik":
         girdi = {k: v for k, v in vars(a).items() if v is not None and k not in ("komut", "yil", "json")}
         r = yillik(girdi, a.yil)

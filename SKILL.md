@@ -40,6 +40,7 @@ Avukatın **kendi** vergi yükümlülükleri içindir. Müvekkil adına vergi uy
 | İşe başlama ve terk, ortak büro, ücretli avukat, genç girişimci, ölüm, ilave işyeri | `references/mukellefiyet-istisna.md` |
 | Damga vergisi, vekalet suret harcı, Av.K. 35/A uzlaşma | `references/damga-harc.md` |
 | AAÜT 2025-2026 tabloları, nispi/maktu hesap ve vergiye çeviri | `references/aaut-2025-2026.md` |
+| Uygulamadaki sorular: KDV ne zaman doğar (kesinleşme, ücretsiz iş), %10 KDV'nin sınırları, tevkil, ortak vekalet, alt kira, ücret iadesi, sık yapılan hatalar, TBB hesaplama araçlarıyla eşleşme | `references/uygulama-notlari.md` |
 | Özelge dizini (ilgililik, kategori, hüküm özeti, link) ve tam metinler | `references/ozelgeler/` |
 | Kaynak metinler: Rehber 590 ve AAÜT madde metni | `references/kaynak/` |
 
@@ -58,9 +59,14 @@ Avukatın **kendi** vergi yükümlülükleri içindir. Müvekkil adına vergi uy
   - Kararda "KDV hariç" yazmıyorsa ücret **KDV dahil** sayılır; stopaj KDV hariç tutar üzerinden hesaplanır (311 GVGT md.25-26).
   - Tevkifat yapılmazsa avukat ücreti brüt beyan eder ve mahsup edecek tutarı olmaz.
 - **Kamu alıcılara makbuz (Başsavcılık, baro, belediye vb.):**
-  - KDV dahil tutar sınırı aşarsa alıcı **KDV tevkifatı** yapar.
+  - KDV dahil tutar sınırı aşarsa alıcı **KDV tevkifatı** yapar. Bu kural, belirlenmiş alıcı adına düzenlenen **karşı taraf vekalet ücreti** makbuzlarında da geçerlidir (GİB özelgeleri 30226 ve 30232).
   - Oran ve sınır için `kdv.md` ve `parametreler.md` dosyalarına bak. Arşivi `smm_hesap.py esmm-ozet` komutuyla denetle.
 - **Masraf avansı:** Harç, tebligat ve bilirkişi için alınıp **tamamen harcanan** paralar kazanç sayılmaz (GVK 67/2). Vekalet ücreti dışındaki masraf karşılıkları için `smm-belge-duzeni.md` dosyasına bak.
+- **KDV'nin doğması:** KDV tahsilatla değil **hizmetin tamamlanmasıyla** doğar. Ücret alınmadıysa da iş **kesinleştiğinde** asgari tarife üzerinden KDV doğar; ücretsiz işler de buna dahildir. Makbuz "bedeli tahsil edilmemiştir" açıklamasıyla kesilir ve gelir vergisi beyanına girmez. Bkz. `uygulama-notlari.md` §3.
+- **%10 KDV:** Şu işlerde oran %10'dur. KDV dahil ücretin iç yüzdesi 1,10'a bölünerek bulunur.
+  - Aile, tüketici, çocuk mahkemesi ve vesayet işleri ile bunların ilamlı icrası
+  - Dava şartı iş arabuluculuğunda taraf vekilliği
+  - Adli yardım
 - **Geçici vergi:** Oran %15'tir ve hesap kümülatiftir. Kesilen stopaj ve daha önce ödenen geçici vergi mahsup edilir. Beyan dönemleri 17 Mayıs, 17 Ağustos, 17 Kasım ve 17 Şubat'tır (4. dönem 2025'ten itibaren).
 - **Yıllık beyan:**
   - 1–31 Mart arasında Defter-Beyan üzerinden verilir; vergi Mart ve Temmuz'da iki taksitte ödenir.

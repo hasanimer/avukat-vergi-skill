@@ -57,3 +57,23 @@ Sınırın uygulanması:
   - Asliye ceza, çocuk mahkemesi, icra ceza ve infaz hâkimliği: 5.502 TL
 - 2026 tarifesinde asliye ceza ücreti 6.904 TL'dir.
 - 2009 tarihli 35082 sayılı GİB görüşü CMK ödeme kâğıtları için binde 7,5 damga vergisi öngörüyordu; güncel durumu doğrulanmadı.
+
+## 8. %10 KDV kapsamı (2007/13033 BKK eki (II) sayılı liste 32. sıra)
+- Avukatlık hizmetlerinde oran %10'dur. Kapsam:
+  - Aile, tüketici ve çocuk mahkemelerinin görevine giren davalar ve işler. Bu sıfatla bakan asliye hukuk mahkemesindeki işler de dahildir.
+  - Vesayet işleri.
+  - Bunlara bağlı kanun yolları.
+  - İş uyuşmazlıklarında dava şartı arabuluculukta taraf vekilliği.
+  - Bunlara ilişkin ilamların icrası.
+  - Adli yardım.
+- Tartışmalı sınırlar için `uygulama-notlari.md` §4'e bak: tüketici hakem heyeti, ilamsız takipteki tedbir nafakası, özel vekil sıfatıyla adli yardım.
+- KDV dahil vekalet ücretinde iç yüzde: tutar / 1,10.
+
+## 9. Karşı taraf vekalet ücretinde KDV tevkifatı
+- Borçlu (davayı kaybeden) **belirlenmiş alıcıysa**, makbuz onun adına düzenlenir ve KDV dahil tutar sınırı aşıyorsa **5/10 KDV tevkifatı** uygulanır. Belirlenmiş alıcılar: 5018 s.K. cetvellerindeki idareler, belediyeler, bankalar, sigorta şirketleri vb.
+  - Dayanak: özelge 06/06/2022, 36062021-130[09-2021/ÖZE-40]-50290 (https://gib.gov.tr/mevzuat/kanun/436/ozelge/30232).
+- Aynı davaya ait ilam ve icra vekalet ücretleri sınır hesabında **toplanır**.
+  - Dayanak: özelge 09/06/2022, 64597866-130-9597 (https://gib.gov.tr/mevzuat/kanun/436/ozelge/30226).
+- Belirlenmiş alıcı listesinde olmayan kuruma (ör. su işletmesi genel müdürlüğü) düzenlenen makbuzda tevkifat yoktur.
+  - Dayanak: özelge 11/11/2021, ID 30251.
+- "Vekalet ücreti yargılama gideridir, tevkifat yapılmaz" görüşü bu özelgelerle çelişir.

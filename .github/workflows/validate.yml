@@ -31,3 +31,9 @@ jobs:
         run: |
           python3 scripts/smm_hesap.py test
           python3 scripts/aaut_hesap.py test
+      - name: e-SMM arşiv denetimi (örnek veri)
+        run: |
+          out=$(python3 scripts/smm_hesap.py esmm-ozet examples/ornek-esmm)
+          echo "$out"
+          echo "$out" | grep -q "5/10 KDV tevkifatı beklenirdi"
+          echo "$out" | grep -q "gerçek kişi alıcıda stopaj var"

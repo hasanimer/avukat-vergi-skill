@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="t d">
+  <title id="t">Avukat Vergi Asistanı</title>
+  <desc id="d">Makbuzdan beyannameye, kaynağıyla. Serbest çalışan avukatlar için Claude Code skill'i.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#16213a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e2c27a"/>
+      <stop offset="1" stop-color="#b8862b"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="340" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="340" rx="24" fill="url(#grid)"/>
+  <circle cx="1180" cy="-40" r="220" fill="#e2c27a" fill-opacity="0.06"/>
+  <circle cx="1240" cy="360" r="160" fill="#4f7cff" fill-opacity="0.07"/>
+
+  <!-- makbuz -->
+  <g transform="translate(92 36)" filter="url(#soft)">
+    <path d="M0 14a14 14 0 0 1 14-14h168a14 14 0 0 1 14 14v240l-14 12-14-12-14 12-14-12-14 12-14-12-14 12-14-12-14 12-14-12-14 12-14-12-14 12-14-12-14 12L0 254z" fill="#f8f5ec"/>
+    <rect x="22" y="24" width="96" height="10" rx="5" fill="#1b2a4a"/>
+    <rect x="22" y="44" width="62" height="7" rx="3.5" fill="#9aa6bd"/>
+    <line x1="22" y1="70" x2="174" y2="70" stroke="#d9d2bd" stroke-width="2" stroke-dasharray="4 5"/>
+    <rect x="22" y="86" width="70" height="7" rx="3.5" fill="#9aa6bd"/>
+    <rect x="128" y="86" width="46" height="7" rx="3.5" fill="#1b2a4a"/>
+    <rect x="22" y="106" width="58" height="7" rx="3.5" fill="#9aa6bd"/>
+    <rect x="136" y="106" width="38" height="7" rx="3.5" fill="#1b2a4a"/>
+    <rect x="22" y="126" width="80" height="7" rx="3.5" fill="#9aa6bd"/>
+    <rect x="132" y="126" width="42" height="7" rx="3.5" fill="#1b2a4a"/>
+    <line x1="22" y1="150" x2="174" y2="150" stroke="#d9d2bd" stroke-width="2"/>
+    <rect x="22" y="164" width="52" height="9" rx="4.5" fill="#1b2a4a"/>
+    <rect x="116" y="162" width="58" height="12" rx="6" fill="url(#gold)"/>
+    <!-- mühür -->
+    <g transform="translate(142 218) rotate(-14)">
+      <circle r="30" fill="none" stroke="#b8862b" stroke-width="3"/>
+      <circle r="24" fill="none" stroke="#b8862b" stroke-width="1.5" stroke-dasharray="3 3"/>
+      <text x="0" y="6" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="800" fill="#b8862b">%20</text>
+    </g>
+  </g>
+
+  <text x="1236" y="214" text-anchor="end" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="150" font-weight="800" fill="#ffffff" fill-opacity="0.035">2026</text>
+
+  <!-- başlık -->
+  <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+    <text x="360" y="104" font-size="18" font-weight="700" letter-spacing="3" fill="#e2c27a">CLAUDE CODE SKILL · SERBEST MESLEK KAZANCI</text>
+    <text x="358" y="170" font-size="60" font-weight="800" fill="#f5f7fb">Avukat Vergi Asistanı</text>
+    <text x="360" y="214" font-size="24" font-weight="400" fill="#b9c3d6">Makbuzdan beyannameye, <tspan fill="#e2c27a" font-weight="600">kaynağıyla.</tspan></text>
+
+    <g font-size="15" font-weight="600" fill="#dbe3f1">
+      <g transform="translate(360 248)">
+        <rect width="84" height="32" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14"/>
+        <text x="42" y="21" text-anchor="middle">e-SMM</text>
+      </g>
+      <g transform="translate(454 248)">
+        <rect width="144" height="32" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14"/>
+        <text x="72" y="21" text-anchor="middle">Vekâlet ücreti</text>
+      </g>
+      <g transform="translate(608 248)">
+        <rect width="72" height="32" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14"/>
+        <text x="36" y="21" text-anchor="middle">CMK</text>
+      </g>
+      <g transform="translate(690 248)">
+        <rect width="150" height="32" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14"/>
+        <text x="75" y="21" text-anchor="middle">KDV tevkifatı</text>
+      </g>
+      <g transform="translate(850 248)">
+        <rect width="134" height="32" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14"/>
+        <text x="67" y="21" text-anchor="middle">Geçici vergi</text>
+      </g>
+      <g transform="translate(994 248)">
+        <rect width="150" height="32" rx="16" fill="#e2c27a" fill-opacity="0.16" stroke="#e2c27a" stroke-opacity="0.55"/>
+        <text x="75" y="21" text-anchor="middle" fill="#f1dca8">Yıllık beyan</text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -8,3 +8,4 @@ __pycache__/
 # kişisel e-SMM arşivleri ve çıktıları depoya girmez
 *.zip
 *.csv
+*.local.txt
