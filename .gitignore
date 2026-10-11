@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+*.local.md
+*.local.json
+# kişisel e-SMM arşivleri ve çıktıları depoya girmez
+*.zip
+*.csv

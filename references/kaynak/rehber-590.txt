@@ -1,0 +1,1808 @@
+===== PDF SAYFA 1 =====
+SERBEST MESLEK
+   KAZANCI
+    ELDE EDEN
+ MÜKELLEFLER İÇİN
+
+VERGİ REHBERİ
+
+
+
+
+             Vergi Geleceğimizdir
+
+gib.gov.tr                          ÜCRETSİZDİR
+===== PDF SAYFA 2 =====
+                              Ayrıntılı Bilgi İçin
+
+
+
+
+                                    gib.gov.tr
+Bu Rehber, yayım tarihinde yürürlükte olan mevzuat dikkate alınarak
+hazırlanmıştır.
+
+Mevzuat bilgilerine ve güncel haberlere, Başkanlığımız;
+
+  •    İnternet sayfasından,
+  •    Vergi İletişim Merkezinin (VİMER) 189 numaralı telefon hattından,
+  •    Dijital Vergi Asistanından (GİBİ),
+  •    Doğrulanmış ve resmi sosyal medya hesaplarından,
+  •    Mükellef e-Posta İletişim Sisteminden (MEİS),
+  •    e-Posta bilgilendirme sisteminden,
+ulaşabilirsiniz.
+
+
+
+
+           2025 Takvim Yılına Ait Gelir Vergisi Beyannamenizi
+       1-31 Mart 2026 Tarihleri Arasında Hazır Beyan Sisteminden
+                         Vermeyi Unutmayınız.
+
+
+
+                     Mükellef Hizmetleri Daire Başkanlığı
+                                 Şubat/2026
+                                 Yayın No: 590
+===== PDF SAYFA 3 =====
+                                              İÇİNDEKİLER
+
+
+        GİRİŞ........................................................................................................... 5
+ 1.     SERBEST MESLEK FAALİYETİ VE SERBEST MESLEK KAZANCI............. 5
+ 2.     SERBEST MESLEK ERBABI..................................................................... 5
+ 3.     SERBEST MESLEK KAZANCININ TESPİTİ ............................................ 6
+ 4.     SERBEST MESLEK FAALİYETİNDE BELGE DÜZENİ . .......................... 7
+ 5.     SERBEST MESLEK KAZANCININ TESPİTİNDE HASILATTAN
+        İNDİRİLECEK GİDERLER. ........................................................................ 8
+ 6.     SERBEST MESLEK KAZANÇLARINDA VERGİ TEVKİFATI.................. 10
+
+ 7.     İŞ YERİ KİRA ÖDEMELERİNİN BANKA VEYA POSTA İDARESİ
+        ARACILIĞIYLA YAPILMASI. ................................................................... 11
+ 8.     SERBEST MESLEK KAZANÇLARINDA İSTİSNA. ................................ 12
+ 8.1.   Telif Hakkı ve İhtira Beratı Kazanç İstisnası. .................................... 12
+ 8.2.   Sergi ve Panayır İstisnası..................................................................... 13
+ 8.3.   Genç Girişimcilerde Kazanç İstisnası................................................. 13
+ 9.     SERBEST MESLEK KAZANÇLARINDA GEÇİCİ VERGİ . ...................... 14
+10.     SERBEST MESLEK KAZANÇLARININ BEYANI VE BEYANNAME
+        ÜZERİNDE YAPILACAK İNDİRİMLER ................................................... 15
+10.1.   Vergiye Uyumlu Mükelleflere Vergi İndirimi ................................... 15
+10.2.   Diğer İndirimler. ..................................................................................... 17
+11.     ZARAR MAHSUBU................................................................................... 20
+12.     UYGULANACAK VERGİ TARİFESİ.......................................................... 21
+13.     YILLIK BEYANNAMEYE EKLENECEK BELGELER. .............................. 22
+14.     BEYANNAMENİN VERİLME ZAMANI VE ŞEKLİ. .................................. 22
+===== PDF SAYFA 4 =====
+15.         VERGİNİN ÖDENME ZAMANI VE ŞEKLİ................................................ 23
+16.         GELİR VERGİSİNDE MAHSUP VE İADELER. ........................................ 24
+16.1.       Tevkif Yoluyla Kesilen Vergilerin Mahsup ve İadesi. ....................... 24
+16.1.1. Beyanname Üzerinden Hesaplanan Vergiden Mahsup ve
+            Kalan Kısmın İadesi ............................................................................. 25
+16.1.2. Mahsuben İade . .................................................................................... 25
+16.1.3. Nakden İade. ........................................................................................... 26
+16.2.       Geçici Verginin Mahsubu ve İadesi . ................................................... 27
+16.2.1. Tevkif Yoluyla Kesilen Vergilerin Geçici Vergiye Mahsubu. ........... 28
+16.3.       İade Talepleri Başvuru Şekli . .............................................................. 29
+16.4.       Gelir/Kurumlar Vergisi Standart İade Sistemi (GEKSİS) ............... 30
+17.         DEFTER – BEYAN SİSTEMİ. ................................................................... 30
+18.         TİCARİ VE MESLEKİ KAZANÇLARDA GÜNLÜK HASILAT
+             TESPİTİ VE GELİR VERGİSİ MATRAHININ BELİRLENMESİ. ............. 31
+19.         DİĞER HUSUSLAR. ................................................................................. 32
+19.1.       Bildirim Yükümlülüğü............................................................................ 32
+19.1.1. İşe Başlama............................................................................................. 33
+19.1.2. Değişiklikler (Adres Değişikliği, İş Değişikliği, İşletmede Değişiklik)......... 33
+19.1.3. İşi Bırakma. ............................................................................................. 33
+19.2.       Muhafaza ve İbraz Yükümlülüğü. ........................................................ 33
+19.3.       Tevsik Zorunluluğu . .............................................................................. 34
+20.         SERBEST MESLEK KAZANCININ BEYANINA İLİŞKİN ÖRNEKLER. ........ 35
+===== PDF SAYFA 5 =====
+GİRİŞ
+
+193 sayılı Gelir Vergisi Kanununa göre, gerçek kişilerin gelirleri gelir vergisine
+tabidir. Gelir vergisine tabi gelir unsurları; ticari kazanç, zirai kazanç, ücret,
+serbest meslek kazancı, gayrimenkul sermaye iradı, menkul sermaye iradı ve
+diğer kazanç ve iratlardan oluşmaktadır.
+
+Bu Rehberde, 2025 takvim yılında serbest meslek kazancı elde eden
+mükelleflerin vergilendirilmesine yönelik olarak; serbest meslek kazancının
+tanımı, özellikleri, tespiti ve serbest meslek kazancından telif hakkı ve
+ihtira beratı kazanç istisnası, indirilebilecek giderler, Defter Beyan Sistemi
+üzerinden beyannamenin verilme zamanı ve verginin ödenmesi ile serbest
+meslek kazancının beyanına ilişkin açıklamalara ve örneklere yer verilmiştir.
+
+
+1. SERBEST MESLEK FAALİYETİ VE SERBEST MESLEK KAZANCI
+
+Serbest meslek faaliyeti, sermayeden ziyade şahsi mesaiye, ilmi veya mesleki
+bilgiye veya ihtisasa dayanan ve ticari niteliği olmayan işlerin işverene bağlı
+olmaksızın şahsi sorumluluk altında kendi nam ve hesabına yapılmasıdır.
+
+Her türlü serbest meslek faaliyetinden doğan kazançlar serbest meslek
+kazancıdır. Tahkim işleri dolayısıyla hakemlerin aldıkları ücretler ile kollektif,
+adi komandit ve adi şirketler tarafından yapılan serbest meslek faaliyeti
+neticesinde doğan kazançlar da serbest meslek kazancıdır.
+
+
+
+        Serbest meslek faaliyetinin bir işverene tabi olarak yapılması
+                 halinde, elde edilen gelir ücret geliri olur.
+
+
+
+2. SERBEST MESLEK ERBABI
+Serbest meslek faaliyetini kendi nam ve hesabına, mutat meslek halinde ifa
+eden; avukat, doktor, diş hekimi, veteriner hekim, mimar, mühendis, müşavir,
+serbest muhasebeci, serbest muhasebeci mali müşavir, yeminli mali
+müşavir, danışman, ressam, yazar, bestekar, kimyager, noter, öğretmen,
+artist, menajer, senarist, yönetmen, ebe, sünnetçi, arzuhalci, rehber ve sağlık
+memuru vb. kişiler serbest meslek erbabıdır.
+
+
+
+                                                                                     5
+===== PDF SAYFA 6 =====
+    Aşağıda yer alan işleri yapanlar da serbest meslek erbabı sayılmaktadırlar:
+
+      •   Gümrük komisyoncuları, bilumum borsa ajan ve acenteleri, noterler,
+          noterlik görevini ifa ile mükellef olanlar.
+
+      •   Bizzat serbest meslek erbabı tarifine girmemekle beraber serbest
+          meslek erbabını bir araya getirerek teşkilat kurmak veya bunlara
+          sermaye temin etmek suretiyle veya sair suretlerle serbest meslek
+          kazancından hisse alanlar.
+
+      •   Dava vekilleri, müşavirler, kurumlar ve tüccarlarla serbest meslek
+          erbabının ticarî ve meslekî işlerini takip edenler ve konser veren müzik
+          sanatçıları.
+
+      •   Vergi Usul Kanununun 155 inci maddesinde belirtilen şartlardan en
+          az ikisini taşıyan ebe, sünnetçi, sağlık memuru, arzuhalci, rehber gibi
+          mesleki faaliyette bulunanlar.
+
+      •   Serbest meslek faaliyetinde bulunan kollektif ve adi şirketlerde
+          ortaklar, adi komandit şirketlerde komandite ortaklar.
+
+      •   5510 sayılı Kanunun ek 10 uncu maddesi uyarınca anılan Kanunun
+          4 üncü maddesinin birinci fıkrasının (b) bendi kapsamında; sigortalı
+          sayılan hekimler ile tıpta uzmanlık mevzuatına göre uzman olan kişiler.
+
+    3. SERBEST MESLEK KAZANCININ TESPİTİ
+
+    Bir hesap dönemi içinde serbest meslek faaliyeti karşılığı olarak tahsil edilen
+    para ve ayınlar ile diğer suretlerle sağlanan ve para ile temsil edilebilen
+    menfaatlerden bu faaliyet dolayısıyla yapılan (ödenen) giderler indirildikten
+    sonra kalan fark serbest meslek kazancıdır.
+
+    Müşteri veya müvekkilinden, serbest meslek faaliyeti ile ilgili olmak üzere
+    para ve ayın şeklinde alınan gider karşılıkları da serbest meslek kazancına
+    ilave edilir.
+
+    Amortismana tabi iktisadi kıymetlerin satılması halinde, alınan bedel ile
+    bunların envanter defterinde kayıtlı değerleri arasındaki müspet fark kazanca
+    ilave edilir.
+
+
+
+
+6
+===== PDF SAYFA 7 =====
+Vergi, resim, harç, keşif, şahitlik, bilirkişilik ve ekspertiz gibi hususlara
+harcanmak üzere müşteri veya müvekkilden alınan ve tamamen bu hususlara
+harcanan para ve ayınlar serbest meslek kazancı sayılmaz.
+
+Serbest meslek erbabı “Serbest Meslek Kazanç Defteri” tutmak zorundadır.
+Kollektif, adi komandit ve adi şirketler de mesleki kazançlarını Serbest
+Meslek Kazanç Defteri üzerinden tespit ederler. Bu şirketlerin bilanço esasına
+göre tuttukları defterler serbest meslek kazanç defteri yerine geçer. Serbest
+meslek kazanç defterine işlemlerin günü gününe kaydedilmesi zorunludur.
+
+Serbest meslek erbabı için nakden tahsil edilmemiş olmasına rağmen,
+aşağıda belirtilen bazı haller de tahsil olarak kabul edilmektedir:
+
+  •    Serbest meslek erbabının haberdar olması şartıyla; kendi adına, kamu
+       müessesesine, icra dairesine, bankaya, notere veya postaya para
+       yatırılması,
+
+  •    Serbest meslek kazancı olarak doğan alacağın başka bir şahsa temliki
+       veya müşterisine olan borcu ile takası da
+
+tahsil hükmündedir.
+
+
+
+      213 sayılı Vergi Usul Kanununa göre tutulan ve üçüncü şahıslarla
+         olan münasebet ve muamelelere ait olan kayıtların tevsiki
+                                 mecburidir.
+
+
+
+4. SERBEST MESLEK FAALİYETİNDE BELGE DÜZENİ
+
+Serbest meslek faaliyetinde bulunan serbest meslek erbabı, mesleki
+faaliyetlerine ilişkin her türlü tahsilatı için iki nüsha “Serbest Meslek
+Makbuzu” düzenlemek ve bir nüshasını müşteriye vermek, müşteri de bu
+makbuzu istemek ve almak zorundadır.
+
+509 Sıra No.lu Vergi Usul Kanunu Genel Tebliği ile yapılan düzenlemeler
+kapsamında, vergiden muaf olmayan serbest meslek erbabınca düzenlenen
+serbest meslek makbuzları, 1/6/2020 tarihinden itibaren elektronik serbest
+meslek makbuzu (e-SMM) olarak düzenlenecektir.
+
+
+                                                                                 7
+===== PDF SAYFA 8 =====
+         1/2/2020 tarihinden (bu tarih dahil) itibaren faaliyete başlayacak
+        olanların ise; işe başladıkları ayı izleyen 3 üncü ayın sonuna kadar
+              e-Serbest Meslek Makbuzu düzenlemeleri zorunludur.
+
+
+
+    Hekimler ve veterinerlerce 379 Sıra No.lu VUK Genel Tebliği kapsamında
+    POS (Hekim POS) cihazları, e-SMM Uygulamasına geçenler için sadece
+    tahsilat işlemlerinde kullanabilecek olup, bu cihazlardan yapılan tahsilatlar
+    sonrasında da mutlaka e-SMM düzenlemesi gerekmektedir. Bununla birlikte,
+    EFT-POS özellikli YN ÖKC kullanan mükellefler, istemeleri halinde söz konusu
+    cihazlardan ÖKC Bilgi Fişi (e-SMM Bilgi Fişi) almak ve banka işlem bilgilerine
+    e-Serbest Meslek Makbuzu üzerinde yer vermek suretiyle, düzenlenen bilgi
+    fişini e-Serbest Meslek Makbuzunun kâğıt çıktısı yerine kullanabileceklerdir.
+
+    Ayrıca, mesleki faaliyetlerine ilişkin olarak, 213 sayılı Kanun kapsamındaki
+    belgeleri düzenleme zorunluluğu bulunmayanlara yaptırdıkları işler
+    veya onlardan satın aldıkları mallar için malın teslimi veya hizmetin
+    yapıldığı tarihten itibaren azami 7 gün içinde gider pusulası düzenlemeleri
+    gerekmektedir. Malın veya hizmetin bedelinin, bahse konu süre dâhilinde
+    satıcıya; banka, Posta ve Telgraf Teşkilatı A.Ş. veya 6493 sayılı Ödeme ve
+    Menkul Kıymet Mutabakat Sistemleri, Ödeme Hizmetleri ve Elektronik Para
+    Kuruluşları Hakkında Kanun kapsamında yetkilendirilmiş ödeme kuruluşları
+    aracılığıyla ödenmesi halinde, bu kurumlarca gider pusulasında bulunması
+    zorunlu bilgileri ihtiva edecek şekilde düzenlenen belgeler (dekont, makbuz
+    gibi), gider pusulası yerine geçtiğinden, bu durumda ayrıca gider pusulası
+    düzenlenmesine gerek bulunmamaktadır.
+
+    5. SERBEST MESLEK KAZANCININ TESPİTİNDE HASILATTAN
+      İNDİRİLECEK GİDERLER
+    Serbest meslek kazancının tespitinde hasılattan indirilecek giderler şunlardır:
+
+          Mesleki kazancın elde edilmesi ve devam ettirilmesiyle ilgili genel giderler.
+
+    İkametgâhlarının bir kısmını iş yeri olarak kullananlar, ikametgâh için
+    ödedikleri kiranın tamamı ile ısıtma ve aydınlatma gibi diğer giderlerin
+    yarısını indirebilirler.
+
+
+8
+===== PDF SAYFA 9 =====
+Örnek: Muhasebeci olarak faaliyet yürüten Mükellef (A), 2025 takvim yılında
+hem ikamet etmek hem de muhasebecilik faaliyetini icra etmek üzere
+kiraladığı daire için yıllık 700.000 TL kira bedeli ve 140.400 TL tutarında
+aydınlatma, ısıtma ve su gideri ödemiştir. Bu durumda mükellef (A) 700.000 TL
+kira bedelinin tamamı ile aydınlatma, ısıtma ve su giderlerinin yarısı olan
+70.200 TL’yi 2025 takvim yılı serbest meslek kazancından indirebilecektir.
+
+İş yeri kendi mülkü olanlar kira yerine amortismanı, ikametgâhı kendi mülkü
+olup bunun bir kısmını iş yeri olarak kullananlar ise amortismanın yarısını
+gider yazabilirler.
+
+Örnek: Mükellef (B), ikamet etmek ve avukatlık faaliyetini yürütmek üzere
+2025 takvim yılında 11.700.000 TL’ye daire satın almıştır. Söz konusu daire için normal
+amortisman usulüne göre hesaplamış olduğu yıllık (11.700.000 x %2) 234.000 TL
+amortisman giderinin yarısı olan 117.000 TL’yi serbest meslek kazancının
+tespitinde indirim konusu yapabilecektir.
+
+      Hizmetli ve işçilerin iş yerinde veya iş yerinin müştemilatındaki iaşe ve
+      ibate giderleri, tedavi ve ilaç giderleri, sigorta primleri ve emekli aidatı
+      (bu primlerin ve aidatın geri alınmamak üzere Türkiye’de kâin sigorta
+      şirketlerine veya emekli ve yardım sandıklarına ödenmiş olması ve
+      emekli ve yardım sandıklarının tüzel kişiliği haiz bulunmaları şartıyla)
+      ile demirbaş olarak verilen giyim giderleri.
+
+      Mesleki faaliyetle ilgili seyahat ve ikamet giderleri (seyahat maksadının
+      gerektirdiği süre ile sınırlı olmak şartıyla).
+
+      Mesleki faaliyette kullanılan tesisat, demirbaş eşya ve envantere
+      dâhil taşıtlar için Vergi Usul Kanunu hükümlerine göre ayrılan
+      amortismanlar. Ancak özel tüketim vergisi ve katma değer vergisi hariç
+      ilk iktisap bedeli 135.000 TL’yi (2025 takvim yılı için 1.100.000 TL, 2026
+      takvim yılı için 1.380.000 TL), söz konusu vergilerin maliyet bedeline
+      eklendiği veya binek otomobilin ikinci el olarak iktisap edildiği hâllerde,
+      amortismana tabi tutarı 250.000 TL’yi (2025 takvim yılı için 2.100.000 TL,
+      2026 takvim yılı için 2.600.000 TL) aşan binek otomobillerinin her birine
+      ilişkin ayrılan amortismanın en fazla bu tutarlara isabet eden kısmı
+      gider yazılabilir. Bu hükmün uygulanmasında binek otomobilin iktisap
+      edildiği tarihte yürürlükte olan tutar dikkate alınır.
+
+
+
+
+                                                                                          9
+===== PDF SAYFA 10 =====
+          Kiralanan veya envantere dâhil olan ve işte kullanılan taşıtların giderleri
+          (Taşıt giderlerinden kasıt genel olarak taşıtların tamir, bakım, yakıt gibi
+          giderleridir.). Ancak binek otomobillerine ilişkin giderlerin en fazla %70’i
+          ve kiralama yoluyla edinilen binek otomobillerinin her birine ilişkin
+          aylık kira bedelinin 5.500 TL’lik (2025 takvim yılı için 37.000 TL, 2026
+          takvim yılı için 46.000 TL) kısmı ile binek otomobillerinin iktisabında
+          ödenen özel tüketim vergisi ve katma değer vergisi toplamının en fazla
+          115.000 TL’lik (2025 takvim yılı için 990.000 TL, 2026 takvim yılı için
+          1.200.000 TL) kısmı gider olarak dikkate alınabilir.
+
+          Alınan mesleki yayınlar için ödenen bedeller.
+
+          Mesleki faaliyetin ifası için ödenen mal ve hizmet alım bedelleri.
+
+          Serbest meslek faaliyetleri dolayısıyla emekli sandıklarına ödenen
+          giriş ve emeklilik aidatları ile mesleki teşekküllere ödenen aidatlar.
+
+          Mesleki kazancın elde edilmesi ve idame ettirilmesi için ödenen meslek,
+          ilan ve reklam vergileri ile iş yerleriyle ilgili ayni vergi, resim ve harçlar.
+
+          Mesleki faaliyetle ilgili olarak kanun, ilam ve sözleşmeye göre ödenen
+          tazminatlar.
+
+
+
+             Her türlü para cezaları ve vergi cezaları ile serbest meslek
+          erbabının suçlarından doğan tazminatlar gider olarak indirilemez.
+
+
+
+
+     6. SERBEST MESLEK KAZANÇLARINDA VERGİ TEVKİFATI
+
+     Serbest meslek faaliyetiyle uğraşanlara (noterlere serbest meslek
+     faaliyetlerinden dolayı yapılan ödemeler hariç) yapılan ödemeler (arızi
+     serbest meslek faaliyeti nedeniyle yapılan ödemeler dâhil) esnasında ödemeyi
+     yapanlar tarafından gelir vergisi tevkifatı (kesintisi) yapılması gerekir.
+
+     Yaptıkları serbest meslek işleri dolayısıyla bu işleri icra edenlere yapılan
+     ödemelerden (Noterlere serbest meslek faaliyetlerinden dolayı yapılan
+     ödemeler hariç);
+
+
+10
+===== PDF SAYFA 11 =====
+a) Gelir Vergisi Kanununun 18 inci maddesi kapsamına giren serbest meslek
+   işleri dolayısıyla yapılan ödemelerden %17,
+
+b) Diğerlerinden %20,
+
+oranında kesinti yapılır. Bu kesinti, bir ön vergileme olup, yıllık beyannamede
+hesaplanan vergiden mahsup edilecektir.
+
+Arızi serbest meslek kazançları için istisna haddi altında kalan (2025 takvim
+yılı için 280.000 TL, 2026 takvim yılı için 350.000 TL) kazançlardan yapılan
+gelir vergisi tevkifatı ile serbest meslek kazanç istisnası kapsamına giren
+ve gelir vergisi tarifesinin dördüncü gelir dilimindeki tutarı (2025 takvim yılı
+için 4.300.000 TL, 2026 takvim yılı için 5.300.000 TL) aşmayan kazançlardan
+yapılan gelir vergisi tevkifatı nihai bir vergilendirme olmaktadır.
+
+Avrupa Birliği organlarıyla akdedilen anlaşmalar çerçevesinde proje
+karşılığı sağlanan hibelerle (18/4/2013 tarihinden önce sağlanan hibeler
+dâhil) finanse edilen ve yaptıkları serbest meslek işleri dolayısıyla bu işleri
+icra edenlere yapılan ödemelerden, Gelir Vergisi Kanununa eklenen geçici
+84 üncü maddeye istinaden 18/4/2013 tarihinden itibaren vergi kesintisi
+yapılmaz. Söz konusu hibelerle gerçekleştirilecek projelere ilişkin olarak bu
+fondan yapılan harcamalar, gelir ve kurumlar vergisi matrahının tespitinde
+gider ve maliyet olarak dikkate alınmaz.
+
+7194 sayılı Kanun ile yapılan düzenlemeye göre, Gelir Vergisi Kanununun
+94 üncü maddesine eklenen fıkra ile mahkemelerce veya icra ve iflas
+müdürlüklerince karşı tarafa yükletilen, avukatlara ait olan ve serbest
+meslek kazancına dâhil edilmesi gereken vekalet ücretleri üzerinden,
+kimlerin tevkifat yapmakla yükümlü olduğu hususuna açıklık kazandırılmıştır.
+Buna göre gelir vergisi tevkifatı, İcra ve İflas Kanunu ile Avukatlık Kanunu
+uyarınca karşı tarafa yükletilen vekâlet ücretini (icra ve iflas müdürlüklerine
+yatırılanlar dâhil) ödeyenler tarafından yapılacaktır.
+
+7. İŞ YERİ KİRA ÖDEMELERİNİN BANKA VEYA POSTA İDARESİ
+  ARACILIĞIYLA YAPILMASI
+İş yeri kiralamalarında miktar sınırlaması olmaksızın kira ödemelerinin
+banka veya PTT tarafından düzenlenen belgelerle tevsik edilmesi zorunluluğu
+bulunmaktadır.
+
+
+
+                                                                                   11
+===== PDF SAYFA 12 =====
+     Banka veya PTT aracı kılınmak suretiyle, para yatırma veya havale, çek veya
+     kredi kartı gibi araçlar kullanılmak suretiyle yapılan tahsilat ve ödemeler
+     karşılığında dekont veya hesap bildirim cetvelleri düzenlendiğinden bu
+     belgeler tevsik edici belge olarak kabul edilecektir. Bankaların internet
+     şubeleri üzerinden yapılan ödeme ve tahsilatlar da aynı kapsamdadır. Kişilerin
+     kira ödemelerini; banka şubelerine giderek T.C. kimlik numarası, vergi
+     kimlik numarası, ad soyad/unvan bilgileri ve “kira ödemesi” açıklamasıyla
+     kiraya verenin hesabına yatırması durumunda da tevsik yükümlülüğü yerine
+     getirilmiş sayılır.
+
+     Tevsik zorunluluğuna uymayanlara her bir işlem için Vergi Usul Kanunu
+     uyarınca özel usulsüzlük cezası kesilecektir.
+
+     8. SERBEST MESLEK KAZANÇLARINDA İSTİSNA
+     8.1. Telif Hakkı ve İhtira Beratı Kazanç İstisnası
+
+     Müellif, mütercim, heykeltıraş, hattat, ressam, bestekâr, bilgisayar
+     programcısı ve mucitlerin ve bunların kanuni mirasçılarının;
+
+       •   Şiir, hikâye, roman, makale, bilimsel araştırma ve incelemeleri,
+           bilgisayar yazılımı, röportaj, karikatür, fotoğraf, film, video band, radyo
+           ve televizyon senaryo ve oyunu gibi eserlerini gazete, dergi, bilgisayar
+           ve internet ortamı, radyo, televizyon ve videoda yayınlamak,
+
+       •   Kitap, CD, disket, resim, heykel ve nota halindeki eserleri ile ihtira
+           beratlarını satmak,
+
+       •   Bunlar üzerindeki mevcut haklarını devir ve temlik etmek veya
+           kiralamak,
+
+     suretiyle elde ettikleri kazançlar, serbest meslek kazancı olup gelir
+     vergisinden istisna edilmiştir.
+
+     Eserlerin neşir, temsil, icra ve teşhir gibi suretlerle değerlendirilmesi
+     karşılığında alınan bedel ve ücretler istisnaya dâhildir. Yukarıda yazılı
+     kazançların arızî olarak elde edilmesi istisna hükmünün uygulanmasına engel
+     teşkil etmez. Serbest meslek kazançları istisnasının, Gelir Vergisi Kanununun
+     94 üncü maddesi uyarınca tevkif suretiyle ödenecek vergiye etkisi yoktur.
+
+
+
+
+12
+===== PDF SAYFA 13 =====
+Örneğin; bir yazarın, kadrolu olarak çalışmadığı bir dergide yayınlanan
+makalesinden elde ettiği gelir serbest meslek kazancı olup, istisna
+kapsamındadır. Fakat bu işi aynı dergide kadrolu çalışarak yapması
+durumunda, bu faaliyet karşılığında alınan bedel ücret olacaktır.
+
+193 sayılı Kanunun 18 inci maddesi kapsamında elde edilen ve aynı Kanunun
+103 üncü maddesinde yazılı tarifenin dördüncü gelir diliminde yer alan tutarı
+(2025 takvim yılı için 4.300.000 TL, 2026 takvim yılı için 5.300.000 TL) aşan
+kazançlar için bu istisnadan yararlanılması mümkün bulunmamaktadır. Bu
+durumda olanların, 94 üncü maddenin birinci fıkrası kapsamında tevkifat
+yapma yükümlülüğü yoktur. Yılsonu itibariyle 18 inci madde kapsamında elde
+edilen kazançlar toplamının söz konusu tutarı aşması halinde, elde edilen
+kazançların tamamı yıllık gelir vergisi beyannamesi ile beyan edilecektir.
+
+8.2. Sergi ve Panayır İstisnası
+
+Dar mükellefiyete tabi olanların, hükümetin izniyle açılan sergi ve panayırlarda
+yaptıkları serbest meslek faaliyetlerinden elde ettikleri kazançlar gelir
+vergisinden istisna edilmiştir.
+
+8.3. Genç Girişimcilerde Kazanç İstisnası
+
+Ticari, zirai veya mesleki faaliyeti nedeniyle adlarına ilk defa gelir vergisi
+mükellefiyeti tesis olunan ve mükellefiyet başlangıç tarihi itibarıyla 29
+(yirmi dokuz) yaşını doldurmamış tam mükellef gerçek kişilerin, faaliyete
+başladıkları takvim yılından itibaren üç vergilendirme dönemi boyunca elde
+ettikleri bu kazançlarının gelir vergisi tarifesinin ikinci diliminde yer alan
+tutara (2025 takvim yılı için 330.000 TL, 2026 takvim yılı için 400.000 TL) kadar
+olan kısmı aşağıdaki şartlar dâhilinde gelir vergisinden istisna tutulmaktadır.
+
+İstisnadan yararlanılabilmesi için;
+
+  1. Mükelleflerin işe başlamayı kanuni süresi içerisinde bildirmeleri,
+
+  2.    İşte bilfiil çalışılması ya da işin kendisi tarafından sevk ve idare edilmesi
+       (Çırak, kalfa veya yardımcı işçi çalıştırmak ya da seyahat, hastalık,
+       askerlik, tutukluluk ve hükümlülük gibi zaruri ayrılmalar dolayısıyla
+       geçici olarak işinde bilfiil çalışmamak bu şartı bozmaz.),
+
+
+
+
+                                                                                        13
+===== PDF SAYFA 14 =====
+       3. Faaliyetin adi ortaklık veya şahıs şirketi bünyesinde yapılması hâlinde
+          tüm ortakların işe başlama tarihi itibarıyla anılan madde kapsamındaki
+          şartları taşıması,
+
+       4. Ölüm nedeniyle faaliyetin eş ve çocuklar tarafından devralınması hâli
+          hariç olmak üzere, faaliyeti durdurulan veya faaliyetine devam eden
+          bir işletmenin ya da mesleki faaliyetin eş veya üçüncü dereceye kadar
+          (bu derece dâhil) kan veya kayın hısımlarından devralınmamış olması,
+
+       5. Mevcut bir işletmeye veya mesleki faaliyete sonradan ortak olunmaması,
+
+     gerekmektedir.
+
+     Bu istisnanın, Gelir Vergisi Kanununun 94 üncü maddesi uyarınca tevkif
+     suretiyle ödenecek vergiye etkisi yoktur.
+
+     9. SERBEST MESLEK KAZANÇLARINDA GEÇİCİ VERGİ
+     Geçici vergi, takvim yılının üçer aylık dönemleri itibariyle serbest meslek
+     kazancı üzerinden %15 oranında hesaplanır.
+
+     Takvim yılının üçer aylık dönemlerine ilişkin olarak ödenen geçici vergi
+     yıllık beyanname üzerinden hesaplanan gelir vergisinden mahsup edilir. Bu
+     mahsuplara rağmen kalan geçici vergi tutarı o yılın sonuna kadar yazılı olarak
+     talep edilmesi halinde mükellefe red ve iade edilir.
+
+     Mahsup işleminin yapılabilmesi için, tahakkuk ettirilmiş geçici verginin
+     ödenmiş olması gerekmektedir. Geçici vergi dönemleri itibarıyla tahakkuk
+     ettirilmiş, ancak ödenmemiş bulunan geçici verginin yıllık beyanname
+     üzerinden hesaplanan gelir veya kurumlar vergisinden mahsup edilmesi
+     mümkün değildir.
+
+
+                  DÖNEMLER                       BEYAN VE ÖDEME ZAMANI
+
+               Ocak-Şubat-Mart                            17 Mayıs
+
+             Nisan-Mayıs-Haziran                         17 Ağustos
+
+            Temmuz-Ağustos-Eylül                          17 Kasım
+
+              Ekim-Kasım-Aralık *                         17 Şubat
+
+
+
+14
+===== PDF SAYFA 15 =====
+* 7566 sayılı Kanun uyarınca yapılan değişiklik ile 1/1/2025 tarihinden
+itibaren başlayan vergilendirme dönemleri gelir ve kazançlarına ilişkin
+verilecek beyannamelere uygulanmak üzere dördüncü geçici vergilendirme
+dönemi beyannamesi verilecektir.
+
+10. SERBEST MESLEK KAZANÇLARININ BEYANI VE BEYANNAME
+    ÜZERİNDE YAPILACAK İNDİRİMLER
+
+10.1. Vergiye Uyumlu Mükelleflere Vergi İndirimi
+
+Gelir Vergisi Kanununun Mükerrer 121 inci maddesine göre ticari, zirai veya
+mesleki faaliyeti nedeniyle gelir vergisi mükellefi olan uyumlu mükelleflerin
+yıllık gelir vergisi beyannameleri üzerinden hesaplanan verginin %5’i,
+ödenmesi gereken gelir vergisinden indirilir.
+
+Söz konusu indirimden faydalanmak için;
+
+  •   İndirimin hesaplanacağı beyannamenin ait olduğu yıl ile bu yıldan
+      önceki son iki yıla ait vergi beyannamelerinin kanuni süresinde
+      verilmiş (Kanuni süresinde verilen bir beyannameye ilişkin olarak
+      kanuni süresinden sonra düzeltme amacıyla veya pişmanlıkla verilen
+      beyannameler bu şartın ihlali sayılmaz.) olması,
+
+  •   (1) numaralı bentte belirtilen süre içerisinde kesinleşmiş olması
+      koşuluyla vergi beyannamelerindeki vergi türleri itibarıyla ikmalen,
+      re’sen veya idarece yapılmış bir tarhiyat bulunmaması (Kesinleşen
+      tarhiyatların, indirimin hesaplanacağı beyannamenin ait olduğu yıl için
+      geçerli olan, yıllık indirim tutar sınırının %1’ini aşmaması durumunda
+      bu şart ihlal edilmiş sayılmaz.),
+
+  •   İndirimin hesaplanacağı beyannamenin verildiği tarih itibarıyla, (1)
+      numaralı bent kapsamındaki vergi beyannameleri üzerine tahakkuk
+      eden vergilerin ödenmiş olması (Ödemenin, ilgili mevzuatı gereği
+      istenilen bilgi ve belgelerin tam ve eksiksiz olarak ibraz edilmiş olması
+      koşuluyla, vergi kanunları gereği doğan iade alacaklarından mahsuben
+      yapılmış olması ve indirimden yararlanıldıktan sonra söz konusu iade
+      alacağı tutarının mahsuben ödemesi talep edilen vergi borcu tutarının
+      altına düşmesi hâlinde, eksik ödenmiş duruma gelen vergilerin
+      mahsuben ödenmek istenilen tutarın %10’unu aşmaması kaydıyla,
+      eksik ödenmiş vergiler dolayısıyla veya vergi kanunları gereğince,
+
+
+
+                                                                                  15
+===== PDF SAYFA 16 =====
+            tecil edilerek belirlenen şartların gerçekleşmesine bağlı olarak terkin
+            edilecek vergilerin, şartların sağlanamaması hâlinde kanunlarında
+            belirlenen tecil süresinin sonunu takip eden on beşinci günün bitimine
+            kadar ödenmesi şartıyla, bu şart ihlal edilmiş sayılmaz.), ayrıca, vergi
+            aslı (vergi cezaları ile fer’i alacaklar dâhil) 1.000 TL’nin üzerinde vadesi
+            geçmiş borcun bulunmaması,
+
+     şarttır.
+
+     Hesaplanan indirim tutarı, her hâl ve takdirde 1/1/2026 tarihinden itibaren
+     verilmesi gereken yıllık gelir ve kurumlar vergisi beyannamelerinde
+     uygulanmak üzere 12.000.000 Türk lirasından fazla olamaz.
+
+     İndirilecek tutarın ödenmesi gereken vergiden fazla olması durumunda kalan
+     tutar, yıllık gelir vergisi beyannamesinin verilmesi gereken tarihi izleyen bir
+     tam yıl içinde mükellefin beyanı üzerine tahakkuk eden diğer vergilerinden
+     mahsup edilebilir. Bu süre içinde mahsup edilemeyen tutarlar red ve iade
+     edilmez.
+
+     İndirimin hesaplanacağı beyannamenin ait olduğu yıl ile önceki dört takvim
+     yılında 213 sayılı Vergi Usul Kanununun 359 uncu maddesinde sayılan fiilleri
+     işlediği tespit edilenler, bu madde hükümlerinden yararlanamazlar.
+
+     Vergi indiriminden yararlanan mükelleflerin, öngörülen şartları taşımadığının
+     sonradan tespiti hâlinde ilgili vergilendirme döneminde indirim uygulaması
+     dolayısıyla ödenmeyen vergiler, vergi ziyaı cezası uygulanmaksızın tarh edilir.
+
+     Bu maddede geçen vergi beyannameleri ibaresi, yıllık gelir vergisi ve kurumlar
+     vergisi beyannameleri, geçici vergi beyannameleri, muhtasar, muhtasar
+     ve prim hizmet beyannameleri ile Hazine ve Maliye Bakanlığına bağlı vergi
+     dairelerine verilmesi gereken katma değer vergisi ve özel tüketim vergisi
+     beyannamelerini; vergi ibaresi, anılan Bakanlığa bağlı vergi dairelerine
+     verilmesi gereken beyannameler üzerine tahakkuk eden vergileri ifade eder.
+
+     Konuya ilişkin 301 ve 312 Seri No.lu Gelir Vergisi Genel Tebliğlerinde ayrıntılı
+     açıklamalar yapılmıştır.
+
+     Örnek: Avukatlık faaliyetinden dolayı gelir vergisi mükellefi olan Mükellef
+     (C), vergi indiriminden yararlanma şartlarının tamamını taşımakta olup 2025
+     takvim yılında 8.000.000 TL serbest meslek kazancı, 900.000 TL alacak faizi
+     elde etmiştir. Mükellef, bu dönemde 1.200.000 TL geçici vergi, 1.000.000 TL
+     de tevkif suretiyle kesilen vergi ödemiştir.
+
+16
+===== PDF SAYFA 17 =====
+Buna göre, Mükellef (C) %5 vergi indiriminden aşağıdaki şekilde
+yararlanacaktır.
+
+ Serbest Meslek Kazancı                                         8.000.000 TL
+
+ Menkul Sermaye İradı                                             900.000 TL
+
+ Gelir Vergisi Matrahı (8.000.000 + 900.000)                    8.900.000 TL
+
+ Hesaplanan Gelir Vergisi                                       3.250.000 TL
+
+ Serbest Meslek Kazancı/Gelir         Vergisi   Matrahı
+                                                                  % 89,88 TL
+ (8.000.000 / 8.900.000)
+ Hesaplanan Gelir Vergisinin Serbest Meslek Kazancına
+                                                                2.921.100 TL
+ İsabet Eden Kısmı (3.250.000 X %89,88)
+
+ Hesaplanan Vergi İndirimi Tutarı (2.921.100 X %5)                146.055 TL
+
+ Mahsup Edilecek Vergi Toplamı (1.200.000 + 1.000.000)          2.200.000 TL
+
+ Ödenmesi Gereken Vergi (3.250.000 – 2.200.000)                 1.050.000 TL
+
+ Vergi İndirimi Tutarı                                            146.055 TL
+
+ Ödenecek Gelir Vergisi (1.050.000 – 146.055)                     903.945 TL
+
+
+10.2. Diğer İndirimler
+
+Serbest meslek erbabı, kazanç temin etmemiş olsa bile yıllık beyanname
+vermek zorundadır. Gelir vergisi beyannamesinde indirimlerin yapılabilmesi
+için; yıllık beyanname ile bildirilecek bir gelirin bulunması ve yapılacak
+indirimlerin ilgili mevzuatta belirtilen şartları taşıması gerekmektedir.
+
+İndirim konusu yapılacak tutarın hesaplanmasında beyan edilen gelir olarak,
+yıllık gelir vergisi beyannamesinde yer alan indirimler ve geçmiş yıl zararları
+düşülmeden önceki tutar esas alınacaktır.
+
+
+
+
+                                                                                  17
+===== PDF SAYFA 18 =====
+     Serbest meslek kazancından indirim konusu yapılabilecek hususlar şunlardır:
+
+       •   Hayat/şahıs sigorta primleri,
+
+       •   Eğitim ve sağlık harcamaları,
+
+       •   Engellilik İndirimi (Bu indirimden bakmakla yükümlü olduğu engelli
+           kişi bulunan serbest meslek erbabı da yararlanır.),
+
+       •   Beyan edilecek gelirden sınırlı olarak indirilebilecek bağış ve yardımlar
+           ile tamamı indirilebilecek bağış ve yardımlar,
+
+       •   Sponsorluk harcamaları,
+
+       •   Cumhurbaşkanınca başlatılan yardım           kampanyalarına     makbuz
+           karşılığı yapılan ayni ve nakdi bağışlar,
+
+       •   İktisadi işletmeleri hariç, Türkiye Kızılay Derneğine ve Türkiye Yeşilay
+           Cemiyetine makbuz karşılığı yapılan nakdi bağış ve yardımlar,
+
+       •   Türkiye’den yurt dışı mukim kişi ve/veya kurumlara verilen
+           hizmetlerden sağlanan kazançlara ilişkin indirim,
+
+       •   Korumalı iş yeri indirimi,
+
+       •   Bireysel katılım yatırımcısı indirimi,
+
+       •   5746 sayılı Kanun kapsamındaki Ar-Ge ve tasarım indirimi,
+
+       •   Diğer kanunlara göre tamamı indirilecek bazı bağış ve yardımlar;
+
+              222 sayılı İlköğretim ve Eğitim Kanununa göre yapılan bağışlar,
+              278 sayılı Türkiye Bilimsel ve Teknik Araştırma Kurumu Kurulması
+              Hakkında Kanuna göre yapılan bağışlar,
+              2547 sayılı Yükseköğretim Kanununa göre yapılan bağışlar,
+              2690 sayılı Türkiye Enerji, Nükleer ve Maden Araştırma Kurumu ile
+              İlgili Bazı Düzenlemeler Yapılması Hakkında Kanuna göre yapılan
+              nakdî bağış ve yardımlar,
+              2828 sayılı Sosyal Hizmetler Kanununa göre yapılan bağışlar,
+              2876 sayılı Atatürk Kültür, Dil ve Tarih Yüksek Kurumu Kanununa
+              göre yapılan bağış ve yardımlar,
+
+
+18
+===== PDF SAYFA 19 =====
+3294 sayılı Sosyal Yardımlaşma ve Dayanışmayı Teşvik Kanununa
+göre yapılan bağış ve yardımlar,
+3388 sayılı Türk Silahlı Kuvvetlerini Güçlendirme Vakfı Kanununa
+göre yapılan bağış ve yardımlar,
+3713 sayılı Terörle Mücadele Kanununa göre yapılan bağışlar,
+4122 sayılı Milli Ağaçlandırma ve Erozyon Kontrolü Seferberlik
+Kanununa göre kurulan ormanlarda, ağaçlandırma, bakım ve
+koruma masrafları,
+5434 sayılı Türkiye Cumhuriyeti Emekli Sandığı Kanununa göre
+yapılan bağış ve yardımlar,
+6546 sayılı Çanakkale Savaşları Gelibolu Tarihi Alan Başkanlığı
+Kurulması Hakkında Kanuna göre yapılan bağış ve yardımlar ile
+sponsorluk harcamaları,
+6569 sayılı Türkiye Sağlık Enstitüleri Başkanlığı Kurulması ile Bazı
+Kanun ve Kanun Hükmünde Kararnamelerde Değişiklik Yapılmasına
+Dair Kanuna göre yapılan bağış ve yardımlar,
+7034 Türk-Japon Bilim ve Teknoloji Üniversitesinin Kuruluşu
+Hakkında Kanuna göre yapılan bağış ve yardımlar,
+7174 sayılı Kapadokya Alanı Hakkında Kanuna göre yapılan bağış
+ve yardımlar ile sponsorluk harcamaları,
+7269 sayılı Umumi Hayata Müessir Afetler Dolayısıyla Alınacak
+Tedbirlerle Yapılacak Yardımlara Dair Kanuna göre yapılan bağış
+ve yardımlar,
+7430 Sayılı Antalya Diplomasi Forumu Vakfı Kanununa göre yapılan
+bağış ve yardımlar,
+7432 sayılı Uludağ Alanı Hakkında Kanuna göre yapılan bağış ve
+yardımlar ile sponsorluk harcamaları,
+7439 sayılı Türk Arkeoloji ve Kültürel Miras Vakfı Kanununa göre
+yapılan bağış ve yardımlar,
+
+
+
+
+                                                                       19
+===== PDF SAYFA 20 =====
+               7441 sayılı Afet Yeniden İmar Fonunun Kurulması Hakkında Kanuna
+               göre yapılan nakdi bağış ve yardımlar,
+               7474 sayılı Aile ve Gençlik Fonu Kurulması Hakkında Kanuna göre
+               yapılan nakdi bağış ve yardımlar,
+               7512 sayılı Dışişleri Teşkilatını Güçlendirme Vakfı Kanununa göre
+               yapılan bağış ve yardımlar.
+
+
+
+           Bağış ve yardımın nakden yapılmaması halinde, bağışlanan veya
+           yardımın konusunu teşkil eden mal veya hakkın varsa mukayyet
+              değeri, yoksa Vergi Usul Kanunu hükümlerine göre Takdir
+                   Komisyonunca tespit edilecek değeri esas alınır.
+
+
+     11. ZARAR MAHSUBU
+     Gelirin toplanmasında gelir unsurlarından bazılarından doğan zararlar (Gelir
+     Vergisi Kanununun 80 inci maddesinde yazılı diğer kazanç ve iratlardan
+     doğanlar hariç) diğer kaynakların kazanç ve iratlarına mahsup edilir.
+
+     Bu mahsup neticesinde kapatılmayan zarar kısmı, müteakip yılların gelirinden
+     indirilir. Arka arkaya beş yıl içinde mahsup edilmeyen zarar bakiyesi müteakip
+     yıllara devredilemez.
+
+     Tam mükellefiyete tabi kişiler, yurt dışı faaliyetlerinden doğan zararlarını,
+     faaliyette bulunulan ülkenin vergi kanunlarına göre denetim yetkisi verilen
+     kuruluşlarca rapora bağlanması ve raporun aslı ve tercüme edilmiş
+     bir örneğinin Türkiye’deki ilgili vergi dairesine ibrazı halinde mahsup
+     edebileceklerdir.
+
+     Türkiye’de mahsup edilen yurt dışı zararın, ilgili ülkede de mahsup edilmesi
+     halinde, Türkiye’de beyannameye dâhil edilecek yurt dışı kazanç, mahsuptan
+     önceki tutar olacaktır.
+
+     Türkiye’de gelir vergisinden istisna edilen kazançlarla ilgili yurt dışı zararlar,
+     yurt içindeki kazanç ve iratlardan mahsup edilmez.
+
+
+
+
+20
+===== PDF SAYFA 21 =====
+Geçmiş yıllarda oluşan ve mahsup edilemeyen zararların cari yıl
+kazançlarından mahsubu mümkündür. Arka arkaya 5 yıl içinde mahsup
+edilmeyen zarar bakiyesi takip eden yıllara devredilemez.
+
+Envantere dâhil olmayan gayrimenkullerin satışından doğan zararların
+mahsubu mümkün değildir.
+
+12. UYGULANACAK VERGİ TARİFESİ
+Gelir Vergisi Kanununa göre; 2025 takvim yılında elde edilen gelirlere aşağıda
+yer alan vergi tarifesi uygulanarak gelir vergisi hesaplanır.
+
+
+
+ Gelir vergisine tabi gelirler;
+
+ 158.000 TL’ye kadar                                                    %15
+
+
+ 330.000 TL’nin 158.000 TL’si için 23.700 TL, fazlası                   %20
+
+ 800.000 TL’nin 330.000 TL’si için 58.100 TL (ücret gelirlerinde
+                                                                        %27
+ 1.200.000 TL’nin 330.000 TL’si için 58.100 TL), fazlası
+
+4.300.000 TL’nin 800.000 TL’si için 185.000 TL (ücret gelirlerinde
+                                                                        %35
+4.300.000 TL’nin 1.200.000 TL’si için 293.000 TL), fazlası
+
+4.300.000 TL’den fazlasının 4.300.000 TL’si için 1.410.000 TL
+(ücret gelirlerinde 4.300.000 TL’den fazlasının 4.300.000 TL’si için    %40
+1.378.000 TL), fazlası
+
+ oranında vergilendirilir.
+
+
+2026 takvim yılı gelirlerinin vergilendirilmesinde esas alınacak vergi tarifesi,
+332 Seri No.lu Gelir Vergisi Genel Tebliği ile belirlenmiştir.
+
+
+
+
+                                                                                   21
+===== PDF SAYFA 22 =====
+     13. YILLIK BEYANNAMEYE EKLENECEK BELGELER
+     Serbest meslek faaliyetinde bulunan mükellefler, “Yıllık Gelir Vergisi
+     Beyannamesi-1001 A” ve beyannamenin son bölümündeki “Performans
+     Verileri (Bilgileri)” tablosu ile “Yıllık Gelir Vergisi Beyannamesi Eki”nde yer alan
+     “Serbest Meslek Kazançlarına İlişkin Bildirim” tablosunu dolduracaklardır.
+
+     Serbest meslek faaliyetinden elde edilen kazanç dışında bir gelirin bulunması
+     halinde, bu kazançlara ait diğer tablolar da doldurulacaktır.
+
+     Ayrıca beyannameye;
+
+          Yabancı ülkelerde ödenen vergi varsa, ödenen bu vergilere ilişkin
+          belgeler,
+
+          Kesinti yoluyla ödenen vergilere ilişkin belgeler (beyannamede
+          gösterilen gelire dâhil kazançlardan kesilen vergi varsa),
+
+     eklenecektir.
+
+     14. BEYANNAMENİN VERİLME ZAMANI VE ŞEKLİ
+
+     2025 takvim yılında elde edilen serbest meslek kazancının, Yıllık Gelir
+     Vergisi Beyannamesi ile 1 – 31 Mart 2026 tarihleri arasında beyan edilmesi
+     gerekmektedir.
+
+     Yıllık gelir vergisi beyannamesi, kayıtlı bulunulan vergi dairesine Dijital Vergi
+     Dairesi/Defter-Beyan Sistemi üzerinden elektronik ortamda gönderilir.
+
+     Defter-Beyan Sistemi kapsamındaki mükelleflerin Sistemi kullanmaya
+     başladıkları döneme ilişkin tüm beyannamelerini Sistem üzerinden gönderme
+     zorunluluğu bulunmaktadır.
+
+
+
+
+22
+===== PDF SAYFA 23 =====
+   Serbest meslek erbabı;
+             Yıllık Gelir Vergisi Beyannamesi,
+             Katma Değer Vergisi Beyannamesi,
+             Geçici Vergi Beyannamesi,
+             Muhtasar Beyanname,
+             Muhtasar ve Prim Hizmet Beyannamesi,
+             Damga Vergisi Beyannamesini,
+
+      Dijital Vergi Dairesi/Defter-Beyan Sistemi üzerinden gönderecektir.
+
+
+Ayrıca bu mükelleflerin;
+
+  •     Takvim yılı içinde memleketi terk etmesi halinde, memleketi terkten
+        önceki 15 gün içinde yıllık gelir vergisi beyannamesi ile beyanda
+        bulunması gerekmektedir.
+
+  •     Takvim yılı içinde ölümü halinde, ölüm tarihinden itibaren 4 ay içinde
+        vefat eden kişi namına varislerce yıllık gelir vergisi beyannamesi ile
+        beyanda bulunulması gerekmektedir. Ölüm halinde, kıst döneme ait
+        beyannamenin elektronik ortamdan (Dijital Vergi Dairesi/Defter-
+        Beyan Sisteminden) gönderimi mümkün bulunmaktadır.
+
+15. VERGİNİN ÖDENME ZAMANI VE ŞEKLİ
+2025 takvim yılı kazançlarına ilişkin olarak verilecek yıllık beyannameler
+üzerinden hesaplanan gelir vergisinin Mart ve Temmuz aylarında iki eşit
+taksit olmak üzere;
+
+  •     Birinci taksitin damga vergisi ile birlikte 31 Mart 2026,
+
+  •     İkinci taksitin ise 31 Temmuz 2026,
+
+tarihine kadar ödenmesi gerekmektedir.
+
+Memleketi terk ve ölüm gibi mükellefiyetin kalkmasını gerektiren
+durumlarda, beyan üzerine tarh edilen vergiler beyanname verme süreleri
+içinde ödenecektir.
+
+
+
+                                                                                 23
+===== PDF SAYFA 24 =====
+     Ödemeler;
+          Başkanlığımıza ait gib.gov.tr internet sitesi (Dijital Vergi Dairesi ve GİB
+          Mobil Uygulaması) üzerinden;
+            •    Başkanlığımızca belirlenen tutarlar dahilinde, anlaşmalı bankaların
+                 kredi kartları ile
+            • Anlaşmalı bankaların banka kartları veya banka hesabından,
+            •    Yabancı ülkede faaliyet gösteren bankaların; kredi kartları, banka
+                 kartları ve diğer ödeme yöntemleri ile
+          Anlaşmalı bankaların;
+            • Şubelerinden,
+            • Alternatif ödeme kanallarından (İnternet Bankacılığı, Telefon
+              Bankacılığı, Mobil Bankacılık vb.),
+          PTT iş yerlerinden,
+          Tüm vergi dairelerinden,
+
+     yapılabilmektedir.
+
+     16. GELİR VERGİSİNDE MAHSUP VE İADELER
+     252 Seri No.lu Gelir Vergisi Genel Tebliğinde, tevkif yoluyla kesilen vergilerin
+     yıllık beyanname üzerinden hesaplanan gelir veya kurumlar vergisinden
+     mahsubu ve kalan kısmın iadesi, geçici verginin mahsup ve iadesi ile
+     bu vergilere ait vergi hatalarından kaynaklanan iade işlemlerine ilişkin
+     düzenleme ve açıklamalar yer almaktadır.
+
+     16.1. Tevkif Yoluyla Kesilen Vergilerin Mahsup ve İadesi
+
+     Yıllık beyannamede gösterilen gelire dâhil kazanç ve iratlardan Gelir Vergisi
+     Kanununa göre kesilmiş bulunan vergiler, beyanname üzerinden hesaplanan
+     gelir vergisinden mahsup edilir, mahsubu yapılan miktar gelir vergisinden
+     fazla olursa aradaki fark vergi dairesince mükellefe bildirilir ve mükellefin
+     tebliğ tarihinden itibaren bir yıl içinde müracaatı üzerine kendisine red ve
+     iade edilir.
+
+
+
+
+24
+===== PDF SAYFA 25 =====
+16.1.1. Beyanname Üzerinden Hesaplanan Vergiden Mahsup ve Kalan Kısmın
+        İadesi
+
+Yıllık beyanname ile beyan edilen gelir üzerinden hesaplanan vergiden
+yıl içinde tevkif yoluyla kesilen vergiler mahsup edilir. Mahsup işleminin
+yapılabilmesi için, tevkif yoluyla kesilen verginin beyannameye dâhil edilen
+gelire ilişkin olması gerekmektedir. Mükelleflerin kesintiyi yapan vergi
+sorumlularına ait bilgiler ile yıl içinde yapılan tevkifatlara ilişkin tabloyu yıllık
+beyannamelerine eklemeleri yeterli olacaktır.
+
+16.1.2. Mahsuben İade
+
+Tevkif yoluyla kesilen vergilerin yıllık beyannamedeki mahsuplar sonunda
+kalan kısmının diğer vergi borçlarına mahsup talebi, tutarına bakılmaksızın
+ve inceleme raporu ve teminat aranılmadan yerine getirilir. Mahsup talebinin
+429 Sıra No.lu Vergi Usul Kanunu Genel Tebliği ekindeki iade talep dilekçesi
+(1A) ile yapılması gerekmektedir.
+
+Mahsuben iade işlemi, aranan tüm belgelerin tamamlanması koşuluyla, yıllık
+gelir vergisi beyannamesinin verildiği tarih esas alınarak yerine getirilir.
+
+Yıllık gelir veya kurumlar vergisi beyannamesinin kanuni süresinde
+verilmemesi ya da sair nedenlerle ikmalen veya re’sen yapılan tarhiyatlar
+üzerine tahakkuk eden vergiler ile ilgili olarak daha önce tevkif yoluyla kesilen
+vergiler öncelikle tarhiyat aşamasında vergi dairesince dikkate alınarak
+yerine getirilir. Bu mahsuplar sonunda kalan kısım talep edilmesi halinde
+diğer vergi borçlarına mahsup edilir. Bu durumda mahsup talepleri iade
+talep dilekçesinin (1A) ve eklerinin eksiksiz olarak vergi dairesi kayıtlarına
+girdiği tarihten itibaren hüküm ifade eder. Bu tarihten itibaren mükelleflerin
+mahsubunu talep ettikleri vergi borçları için gecikme zammı uygulanmaz.
+
+Mükellefler, ortağı bulundukları adi ortaklık veya kollektif şirketlerin
+müteselsilen sorumlu oldukları vergi borçlarına da mahsuben iade talebinde
+bulunabilirler. Bu taleplerin yerine getirilebilmesi için, iade alacaklısı
+mükellefin muaccel hale gelmiş vergi borcunun bulunmaması ve mahsup
+dilekçesinde adi ortaklık veya kollektif şirketin hangi dönem borçları için
+mahsup talep edildiğinin belirtilmesi gerekir. Mükellefin muaccel hale gelmiş
+vergi borcunun bulunmaması halinde, iade alacağının sonraki dönemlerde
+muaccel hale gelecek vergi borçlarına mahsubu mümkündür. Bu takdirde
+
+
+                                                                                        25
+===== PDF SAYFA 26 =====
+     mahsup talebi sonraki dönemlerde doğacak verginin tahakkuku ile hüküm
+     ifade eder.
+
+     Mahsup taleplerinin yerine getirilmesinde, zamanaşımı hükümleri göz
+     önünde bulundurulur.
+
+     16.1.3. Nakden İade
+
+     Nakden iade taleplerinin iade talep dilekçesi (1A) ile yapılması şarttır. Tevkif
+     yoluyla kesilen vergilere ilişkin nakden iade edilecek tutarın 2025 takvim yılı
+     için 340.000 TL’yi (2026 takvim yılı için 426.000 TL) geçmemesi halinde iade
+     talebi, iade talep dilekçesi (1A) ile birlikte, bu dilekçenin “Nakden İadelere
+     İlişkin Açıklamalar” kısmında yer alan eklenecek belgelerin eksiksiz ibraz
+     edilmesi kaydıyla inceleme raporu ve teminat aranmaksızın yerine getirilir.
+
+     Bu kapsamda; serbest meslek kazancı elde edenler için tevkif yoluyla kesilen
+     vergilerin vergi sorumlusu adına tahakkuk ettiğini gösteren belgenin onaylı
+     örneğinin, iade işlemini gerçekleştirecek olan vergi dairesine iade talep
+     dilekçesi (1A) ile birlikte ibraz edilmesi yeterlidir.
+
+     Buna göre, yapılacak nakden iade işlemlerinde tevkifat yapılan kişinin
+     adı soyadı, vergi kimlik numarası (T.C. Kimlik numarası), ödemenin gayri
+     safi tutarı ve yapılan tevkifatın tutarına ilişkin bilgiler ile tevkif yoluyla
+     kesilen vergilerin ödenip ödenmediği hususunun vergi daireleri tarafından
+     GİBİNTRANET/Yönetim Bilgi Sistemi (YBS) ekranından tespit edilebilmesi
+     durumunda, bu bilgilere ilişkin belgeler mükelleflerden ayrıca kâğıt
+     ortamında aranılmayacaktır.
+
+     Ancak, nakden iadeye ilişkin bilgilerin YBS ekranından tespit edilememesi
+     durumunda belirtilen belgelerin dilekçe ekinde istenilmesine devam
+     edilecektir.
+
+     Nakden yapılacak iade taleplerinin 2025 takvim yılı için 340.000 TL’yi (2026
+     takvim yılı için 426.000 TL) aşması halinde, 2025 takvim yılı için 340.000 TL’yi
+     (2026 takvim yılı için 426.000 TL) aşan kısım Vergi Usul Kanununa göre vergi
+     inceleme yetkisi bulunanlarca yapılacak inceleme sonucunda düzenlenecek
+     vergi inceleme raporuna göre iade edilir. 340.000 TL’ye (2026 takvim yılı
+     için 426.000 TL) kadar olan kısım ise, (1A) iade talep dilekçesi ve eklerinin
+     eksiksiz ibraz edilmesi koşuluyla teminat aranmaksızın ve inceleme raporu
+     beklenmeksizin iade edilir.
+
+
+
+26
+===== PDF SAYFA 27 =====
+İade talebi, teminat gösterilmesi halinde inceleme sonucu beklenmeksizin
+yerine getirilecektir. Teminat olarak 6183 sayılı Amme Alacaklarının Tahsil
+Usulü Hakkında Kanunun 10 uncu maddesinin birinci fıkrasının (1), (2) ve
+(3) numaralı bentlerinde sayılanlardan bir veya bir kaçı gösterilebilir. Banka
+teminat mektuplarının (süresiz-şartsız) paraya çevrilmeleri konusunda
+hiçbir sınırlayıcı şart taşımaması ve 19/10/2005 tarihli ve 5411 sayılı
+Bankacılık Kanunu hükümlerine göre faaliyette bulunan bankalar tarafından
+düzenlenmiş olması gerekir.
+
+Nakden iade talebinin 2025 takvim yılı için 3.400.000 TL’ye (2026 takvim
+yılı için 4.266.000 TL) kadar olan kısmı mükellefle süresinde tam tasdik
+sözleşmesi düzenlemiş yeminli mali müşavirce düzenlenecek tam tasdik
+raporu uyarınca iade edilir.
+
+İade talebinin 2025 takvim yılı için 3.400.000 TL’yi (2026 takvim yılı için
+4.266.000 TL) aşan kısmının iadesi ise vergi inceleme yetkisi bulunanlarca
+düzenlenen vergi inceleme raporu sonucuna göre yerine getirilir.
+
+Genel ve özel bütçeli idarelere, il özel idarelerine, belediyelere, köylere ve
+sermayelerinin en az %51 veya daha fazlası bu kurumlara ait işletmelere
+yapılacak iadeler, gerekli belgelerin ibrazı üzerine miktara bakılmaksızın
+inceleme raporu ve teminat aranılmadan yerine getirilir.
+
+Nakden iade edilebilir aşamaya gelen alacağın üçüncü şahısların vergi
+borçlarına mahsubu talep edilebilir. Bu mahsup işlemine ilişkin verilecek
+iade talep dilekçesine (1A), Vergi Usul Kanunu Genel Tebliği (Sıra No:
+429)’nin ekinde yer alan “Üçüncü Kişilerin/Kurumların Vergi Borçlarına
+Mahsup Talebine İlişkin Liste” eklenir. Bu şekilde yapılan mahsup talepleri
+düzeltme fişinin onaylandığı tarih itibarıyla yerine getirilir. İade talebinin
+kısmen mahsuben kısmen nakden olması halinde, söz konusu talepler ayrı
+ayrı değerlendirilir. Dolayısıyla talebin tümünün nakit iadesi olarak kabul
+edilerek işlem yapılması mümkün değildir.
+
+Nakden iade talepleri ile ilgili olarak bu bölümde belirtilen dilekçe ve eklerinin
+ibrazı, talep edilen tutarın tamamı için aranılacaktır.
+
+16.2. Geçici Verginin Mahsubu ve İadesi
+Üçer aylık dönemler halinde tahakkuk ettirilerek tahsil edilen geçici vergi,
+yıllık beyanname üzerinden hesaplanan gelir vergisinden mahsup edilir.
+
+
+
+                                                                                     27
+===== PDF SAYFA 28 =====
+     Mahsup edilemeyen tutar mükellefin diğer vergi borçlarına mahsup edilir.
+     Bu mahsuplara rağmen kalan geçici vergi tutarı o yılın sonuna kadar yazılı
+     olarak talep edilmesi halinde mükellefe red ve iade edilir.
+
+     Mahsup işleminin yapılabilmesi için, tahakkuk ettirilmiş geçici verginin
+     ödenmiş olması gerekmektedir. Geçici vergi dönemleri itibarıyla tahakkuk
+     ettirilmiş, ancak ödenmemiş bulunan geçici verginin yıllık beyanname
+     üzerinden hesaplanan gelir veya kurumlar vergisinden mahsup edilmesi
+     mümkün değildir.
+
+     Tahakkuk ettirilmiş ancak ödenmemiş olması dolayısıyla yıllık beyanname
+     üzerinden hesaplanan vergiden mahsup imkânı bulunmayan geçici vergi
+     tutarları terkin edilir. Terkin edilen geçici vergi tutarı için vade tarihinden
+     terkin edilmesi gereken tarih olan yıllık beyannamenin verilmesi gereken
+     kanuni sürenin başlangıç tarihine kadar gecikme zammı uygulanır.
+
+     Ödenen geçici vergi tutarının, geçici verginin ilgili olduğu döneme ilişkin olarak
+     verilen beyanname üzerinden hesaplanan gelir veya kurumlar vergisinden
+     fazla olması halinde, mahsup edilemeyen tutar mükellefin diğer vergi
+     borçlarına mahsup edilir. Mahsup işleminin yapılabilmesi için yazılı başvuru
+     şartı aranmaz. Söz konusu mahsup işlemi ilgili vergi dairesince re’sen yapılır.
+
+     Mahsup işlemi yıllık beyannamenin verildiği tarih esas alınarak yerine getirilir.
+     Mahsubu yapılacak vergi borçları için vade tarihinden, yıllık beyannamenin
+     verildiği tarihe kadar gecikme zammı uygulanır. Mahsup sonucu iadesi
+     gereken miktarın bulunması ve bu tutarın beyannamenin ilgili tablosuna
+     yazılmış olması, mükellefçe yazılı olarak yapılmış iade talebi olarak kabul
+     edilir. Yıllık beyannamenin ilgili tablosunda/satırında gösterilmeyen geçici
+     verginin mahsuben veya nakden iade edilebilmesi için o yılın sonuna kadar
+     elektronik ortamda, 429 Sıra No.lu Vergi Usul Kanunu Genel Tebliği ekindeki
+     iade talep dilekçesi (1B) kullanılarak başvuruda bulunulması gerekir.
+
+     Geçici verginin gerek mahsuben gerekse nakden iadesinde herhangi bir tutar
+     sınırlaması olmayıp, geçici verginin ödenmiş olması yeterlidir. Geçici vergiye
+     ilişkin iade taleplerinde teminat ve inceleme raporu aranmaz.
+
+     16.2.1. Tevkif Yoluyla Kesilen Vergilerin Geçici Vergiye Mahsubu
+
+     İlgili dönemler halinde hesaplanan geçici vergiden varsa o hesap dönemi ile
+     ilgili olarak daha önce ödenmiş geçici vergi ve geçici vergiye tabi kazançlarla
+
+
+
+28
+===== PDF SAYFA 29 =====
+ilgili olarak tevkif edilmiş vergiler mahsup edilmekte, mahsuptan sonra kalan
+tutar o dönem için ödenmesi gereken geçici vergi olmaktadır.
+
+Yıllık beyannamenin vergi bildirimi tablosunda yer alan geçici vergiye ilişkin
+satırda, beyannamenin ilgili olduğu geçici vergi dönemlerinde ödenen
+geçici vergi tutarı (ilgili geçici vergi beyannamelerinin ödenecek geçici vergi
+satırında yer alan tutarlar toplamı) gösterilir. Yıllık beyannamenin vergi
+bildirimi tablosunun kesinti yoluyla ödenen vergiler satırında ise, o yıl içinde
+tevkif yoluyla kesilen vergilerin tamamı (geçici vergiden mahsubu yapılan
+tevkifat tutarları dahil) gösterilir.
+
+16.3. İade Talepleri Başvuru Şekli
+
+İade hakkı doğuran işlemler nedeniyle nakden ya da mahsuben yapılacak iade
+talepleri, Gelir İdaresi Başkanlığı Dijital Vergi Dairesi (İnternet Vergi Dairesi)
+üzerinden elektronik ortamda, 429 Sıra No.lu Vergi Usul Kanunu Genel
+Tebliği ekindeki ilgili iade talep dilekçeleri kullanılmak suretiyle yapılacaktır.
+
+429 Sıra No.lu Vergi Usul Kanunu Genel Tebliği ile vergi kanunları gereği
+iade hakkı doğuran işlemler nedeniyle nakden veya mahsuben talep edilecek
+iadelere ilişkin başvuru dilekçeleri, Dijital Vergi Dairesi (İnternet Vergi
+Dairesinde) “Bilgi Girişi/İade Talep Dilekçeleri” bölümünden alınmaktadır.
+
+İade talep dilekçeleri, Dijital Vergi Dairesi (İnternet Vergi Dairesi) şifresi
+kullanılmak suretiyle mükellefler veya mükelleflerce yetkilendirilecek
+serbest muhasebeci, serbest muhasebeci mali müşavir veya yeminli mali
+müşavir vasıtası ile elektronik ortamda gönderilebilir.
+
+Mükellefler aynı standart dilekçe ile hem mahsuben hem de nakden iade
+talebinde bulunabilirler. Bu durumda mahsuben iadesi talep edilen tutar
+için mahsuben iadenin şartları, nakden iadesi talep edilen tutar için nakden
+iadenin şartları aranır.
+
+Dilekçelere eklenmesi gereken belgeler elektronik olarak eklenir. Elektronik
+olarak verilmesi mümkün olmayanlar ise vergi dairesine evrak kayıt
+numarası/iade dosya numarası belirtilmek suretiyle teslim edilir.
+
+İade taleplerini elektronik olarak yapmak zorunda olan mükelleflerin iade
+taleplerini elektronik olarak yapmamaları durumunda iade talepleri dikkate
+alınmayacaktır.
+
+
+                                                                                     29
+===== PDF SAYFA 30 =====
+     Tebliğde yer verilen başvuru şartlarına uygun olmaması nedeniyle iade
+     talebinin dikkate alınmaması, iade hakkını ortadan kaldırmadığı gibi gerekli
+     şartların sağlanması halinde yeniden iade talebinde bulunulmasına da engel
+     değildir.
+
+     16.4. Gelir/Kurumlar Vergisi Standart İade Sistemi (GEKSİS)
+
+     99 Seri No.lu Gelir Vergisi Sirkülerinde belirtildiği üzere; elektronik
+     ortamda beyanname gönderme zorunluluğu olan gelir ve kurumlar vergisi
+     mükelleflerinin iade taleplerini Gelir ve Kurumlar Vergisi Standart İade
+     Sistemini (GEKSİS) kullanmak suretiyle yapmaları gerekmektedir.
+
+     GEKSİS kontrol raporunun oluşabilmesi için iade talep eden mükellefler
+     tarafından Dijital Vergi Dairesi (İnternet Vergi Dairesi) aracılığı ile bilgi girişi
+     yapılmalıdır. Bu şekilde yapılan bilgi girişleri iade talep dilekçesi mahiyetinde
+     değildir. İade taleplerini elektronik olarak yapmak zorunda olan mükellefler
+     iade talep dilekçelerini de vermelidir. Standart Gelir/Kurumlar Vergisi İade
+     Talep Dilekçelerini (1A ve 1B) vermeyen ve bilgi girişi yapmayan mükelleflerin
+     GEKSİS kontrol raporu oluşturulmayacaktır.
+
+     Mükelleflerin elektronik ortamda gönderecekleri bilgi ve belgeler esas
+     alınarak iadelere yönelik kontrol ve analizler elektronik ortamda yapılacak
+     olup Başkanlığımızca hazırlanan GEKSİS Kontrol Raporu iadeyi yapacak
+     birime sunulacaktır. Mükellefler de oluşturulan GEKSİS Özet Raporuna Dijital
+     Vergi Dairesi (İnternet Vergi Dairesi) aracılığıyla ulaşabileceklerdir.
+
+     Diğer taraftan, elektronik ortamda gönderilemeyen diğer belge/liste/
+     tablolar eskiden olduğu gibi kâğıt ortamında dilekçe ekinde vergi dairesine
+     verilecektir.
+
+     Ayrıca; sistem ile ilgili olarak ayrıntılı bilgilerin yer aldığı Gelir/Kurumlar
+     Vergisi İade Talebi Girişi Kılavuzuna ve Sık Sorulan Sorulara https://intvrg.
+     gib.gov.tr/GEKSIS_Kilavuz.pdf adresinden ulaşılabilir.
+
+     17. DEFTER – BEYAN SİSTEMİ
+     Defter-Beyan Sistemi; serbest meslek kazancı elde eden mükelleflerin
+     kayıtlarının elektronik ortamda tutulmasına, bu kayıtlardan mükelleflerin
+     defterlerinin elektronik olarak oluşturulmasına, saklanmasına ve ibrazına,
+     vergi beyannameleri, bildirim ve dilekçelerin elektronik ortamda Başkanlığın
+
+
+
+30
+===== PDF SAYFA 31 =====
+elektronik beyan ve bildirim sistemleri aracılığıyla verilebilmesine, elektronik
+ortamda belge düzenlenebilmesine imkân tanıyan ve kapsamda yer alan
+mükelleflerin Gelir İdaresi Başkanlığı veri tabanında yer alan diğer bilgilerini
+mükelleflerin bilgisine sunan bir sistemdir.
+
+Serbest meslek kazancı elde eden mükelleflerin Sistemi kullanmaları
+zorunludur.
+
+Takvim yılı içerisinde mükellefiyet tesis ettiren ve söz konusu Sistemi
+kullanmak zorunda olan mükellefler, kendileri veya aracılık ve sorumluluk
+yetkisi verdiği kişiler aracılığıyla işe başlama bildiriminin verildiği günü
+izleyen yedinci iş günü mesai saati sonuna kadar gelir vergisi yönünden bağlı
+oldukları vergi dairesine başvuru yapacaklardır. Söz konusu başvuru işe
+başlama bildiriminin verildiği günü izleyen yedinci iş gününün sonuna kadar
+defterbeyan.gov.tr adresi üzerinden de yapılabilecektir.
+
+Sisteme, vergi dairelerinden, Dijital Vergi Dairesi (dijital.gib.gov.tr) veya GİB
+Mobil uygulamasından İnternet Vergi Dairesi işlemlerini kullanmak üzere
+alınan “kullanıcı kodu” ve “şifre” bilgileri ile defterbeyan.gov.tr adresi
+üzerinden giriş yapılacaktır. Dijital Vergi Dairesi uygulaması ile de Defter-
+Beyan Sistemine erişim mümkündür. Sisteme giriş yapılarak gelir ve gider
+kayıtları elektronik ortamda gerçekleştirebilir, defterler bu kayıtlardan
+hareketle elektronik ortamda oluşturabilir, saklanabilir ve beyannameler
+hazırlanarak onaylanabilir. Diğer taraftan fatura, serbest meslek makbuzu
+gibi belgeler elektronik ortamda düzenlenebilecektir.
+
+Defter-Beyan Sistemini meslek mensubu aracılığıyla kullanan mükellefler
+de Sistemi, herhangi bir işlem yapmadan bilgilenme amacıyla görüntüleme
+yapmak suretiyle kullanabileceklerdir.
+
+18. TİCARİ VE MESLEKİ KAZANÇLARDA GÜNLÜK HASILAT
+    TESPİTİ VE GELİR VERGİSİ MATRAHININ BELİRLENMESİ
+
+Ticari veya mesleki faaliyeti nedeniyle mükellefiyeti bulunanların günlük
+hasılat tutarları, bir ayda üçten, bir takvim yılında ise on ikiden az olmamak
+kaydıyla yapılacak yoklamalar ile tespit edilebilecektir.
+Günlük hasılat tutarlarının tespiti için ilgili ayda; yoklama yapılan günlerde
+belirlenen günlük hasılat tutarlarının toplamı, yoklama yapılan gün sayısına
+
+
+
+                                                                                    31
+===== PDF SAYFA 32 =====
+     bölünerek “günlük ortalama hasılat” tutarı belirlenecek ve günlük ortalama
+     hasılat tutarları, tespit yapılan ayda çalışılan gün sayısıyla çarpılmak suretiyle
+     yoklama yapılan ayın hasılat tutarı tespit edilecektir.
+     Yoklama yapılan aylara ilişkin aylık hasılat tutarlarının toplamı tespit yapılan
+     ay sayısına bölünmek suretiyle “aylık ortalama hasılat” tutarı tespit edilecek
+     ve aylık ortalama hasılat tutarı, ilgili yılda faaliyette bulunulan ay sayısıyla
+     çarpılmak suretiyle mükelleflerin ilgili takvim yılı hasılat tutarları tespit
+     olunacaktır.
+     Yapılacak yoklamalar sonucu tespit edilen hasılat tutarları ile;
+
+       •    Bilanço esasına göre defter tutanlar için ilgili takvim yılına ait gelir
+            tablosunda yer alan brüt satış tutarı,
+
+       •    İşletme hesabı esasına göre defter tutanlar için ilgili takvim yılına
+            ait işletme hesap özetinde yer alan dönem içinde elde edilen hasılat
+            tutarı,
+
+       •    Serbest meslek kazanç defteri tutanlar için ilgili takvim yılına ait
+            serbest meslek kazanç bildiriminde yer alan gayrisafi hasılat tutarı,
+
+     arasındaki fark %20’den fazla olan mükellefler Vergi Usul Kanununun 370
+     inci maddesi kapsamında izaha davet edilecektir.
+
+     Bu düzenleme 1/1/2025 tarihinde yürürlüğe girmiştir. Konuya ilişkin 326 Seri
+     No.lu Gelir Vergisi Tebliğinde ayrıntılı açıklamalar yapılmıştır.
+
+     19. DİĞER HUSUSLAR
+     19.1. Bildirim Yükümlülüğü
+     Serbest meslek erbabı mükelleflerin;
+
+       •   İşe başlama,
+       •   Değişiklikler (adres değişikliği, iş değişikliği, işletmede değişiklik),
+       •   İşi bırakma,
+
+     hususlarını/durumlarını vergi dairesine bildirmeleri zorunludur.
+
+
+
+
+32
+===== PDF SAYFA 33 =====
+19.1.1. İşe Başlama
+
+İşe başlama bildirimi, serbest meslek erbabı tarafından imzalanarak
+kendilerince veya Avukatlık Kanununa göre ruhsat almış avukatlar veya 3568
+sayılı Kanuna göre yetki almış meslek mensuplarınca işe başlama tarihinden
+itibaren 10 gün içinde Dijital Vergi Dairesi üzerinden elektronik ortamda ya
+da ilgili vergi dairesine kâğıt ortamında yapılır.
+
+İşe başlama bildiriminin, serbest muhasebeci, serbest muhasebeci mali
+müşavir veya yeminli mali müşavirler aracılığıyla düzenlenmesi halinde,
+bildirim bu kişiler tarafından da ayrıca kaşe/mühür basılmak suretiyle
+imzalanır.
+
+Bununla birlikte serbest meslek erbabının işe başladıkları ayı izleyen 3 üncü
+ayın sonuna kadar e-Serbest Meslek Makbuzu uygulamasına dâhil olmak için
+gerekli başvuruyu yapmaları gerekmektedir.
+
+19.1.2. Değişiklikler (Adres Değişikliği, İş Değişikliği, İşletmede Değişiklik)
+
+Serbest meslek erbabının adres, iş veya iş yerlerinde meydana gelen
+değişiklikleri, değişikliğin meydana geldiği tarihten itibaren 1 ay içerisinde
+Dijital Vergi Dairesi üzerinden elektronik ortamda ya da vergi dairesine kâğıt
+ortamında bildirmesi gerekmektedir.
+
+19.1.3. İşi Bırakma
+
+Vergiye tabi olmayı gerektiren muamelelerin tamamen durdurulması ve sona
+ermesi işi bırakmayı ifade eder. Serbest meslek erbabından işi bırakanların,
+bu durumu 1 ay içerisinde Dijital Vergi Dairesi üzerinden elektronik ortamda
+ya da vergi dairesine kâğıt ortamında bildirmesi gerekmektedir.
+
+19.2. Muhafaza ve İbraz Yükümlülüğü
+
+213 sayılı Vergi Usul Kanununa göre defter tutmak mecburiyetinde olan
+serbest meslek erbabı, tuttukları defterler ile bu defter kayıtlarının dayanağını
+oluşturan vesikaları ilgili bulundukları yılı takip eden takvim yılından
+başlayarak 5 yıl süre ile muhafaza etmeye ve yetkili makam ve memurların
+talebi üzerine ibraz etmeye mecburdurlar.
+
+
+
+
+                                                                                    33
+===== PDF SAYFA 34 =====
+     19.3. Tevsik Zorunluluğu
+
+     213 sayılı Vergi Usul Kanununun mükerrer 257 nci maddesinde, mükelleflere
+     muameleleri ile ilgili tahsilat ve ödemelerini banka, benzeri finans kurumları
+     veya posta idarelerince düzenlenen belgelerle tevsik etmeleri zorunluluğunu
+     getirme ve bu zorunluluğun kapsamını ve uygulamaya ilişkin usul ve esaslarını
+     belirleme hususlarında Hazine ve Maliye Bakanlığına yetki verilmiştir.
+
+     Bu yetkiye dayanılarak tahsilat ve ödemelerin aracı finansal kurumlar
+     tarafından düzenlenen belgelerle tevsiki uygulamasının usul ve esasları 459
+     Sıra No.lu Vergi Usul Kanunu Genel Tebliğinde belirlenmiştir.
+
+     Hazine ve Maliye Bakanlığına tanınan yetkiye istinaden;
+
+       •   Birinci ve ikinci sınıf tüccarların,
+       •   Kazançları basit usulde tespit edilenlerin,
+       •   Defter tutmak zorunda olan çiftçilerin,
+       •   Serbest meslek erbabının,
+       •   Vergiden muaf esnafın,
+       •   Mükellef olmayanların,
+
+     (mükellef olmayanların kendi aralarında yapacakları işlemler hariç olmak
+     üzere) kendi aralarında ve bu kapsamda olmayanlarla yapacakları 30.000 TL’yi
+     aşan tahsilat ve ödemelerini, aracı finansal kurumlar (5411 sayılı Kanunda
+     tanımlanan banka, 6493 sayılı Kanun kapsamında yetkilendirilmiş ödeme
+     kuruluşları, 6475 sayılı Kanuna göre kurulan Posta ve Telgraf Teşkilatı A.Ş.)
+     kanalıyla yapmaları ve bu tahsilat ve ödemeleri söz konusu kurumlarca
+     mevzuatlarına göre düzenlenen belgelerle (dekont, hesap bildirim cetveli,
+     alındı vb.) tevsik etmeleri zorunludur.
+
+     Tevsik zorunluluğuna uymayanlara her bir işlem için Vergi Usul Kanunu
+     uyarınca özel usulsüzlük cezası kesilecektir.
+
+     Tevsik zorunluluğu kapsamında olanlardan araç kiralama faaliyeti ile
+     uğraşanların vermiş oldukları motorlu kara taşıtı ve motorlu kara aracı
+     (13/10/1983 tarihli ve 2918 sayılı Karayolları Trafik Kanunu ile 18/7/1997
+     tarihli ve 23053 mükerrer sayılı Resmî Gazete’de yayımlanan Karayolları
+     Trafik Yönetmeliğine göre tescile yetkili kuruluşlarca kayıt ve tescil edilmesi
+
+
+34
+===== PDF SAYFA 35 =====
+zorunlu olmayan taşıt ve araçlar hariç) kiralama hizmetlerine ilişkin tahsilat
+ve ödemelerin ise yukarıda belirtilen hadle sınırlı kalınmaksızın, aracı finansal
+kurumlar tarafından düzenlenen belgeler ile tevsik edilmesi zorunludur.
+
+Tahsilat ve ödemelerin tevsik zorunluluğu kapsamında aracı finansal
+kurumlar kanalıyla yapılması, bu zorunluluğu ortaya çıkaran işleme ilişkin
+olarak Vergi Usul Kanununda yer alan belgeleri düzenleme zorunluluğunu
+ortadan kaldırmamaktadır.
+
+20. SERBEST MESLEK KAZANCININ BEYANINA İLİŞKİN ÖRNEKLER
+
+ÖRNEK 1: Mükellef (D)’nin avukatlık faaliyetinden 2025 takvim yılında elde
+ettiği serbest meslek kazancı 2.850.000 TL’dir. Mükellefin iki konuttan elde
+ettiği kira geliri toplamı 880.000 TL’dir.
+
+Mükellef, gayrisafi konut kira geliri olan 880.000 TL’den götürü gider usulünde
+gayrimenkul sermaye iradının %15’i olan (880.000 X %15) 132.000 TL’yi gider
+olarak indirecek ve bakiye 748.000 TL’yi gayrimenkul sermaye iradından
+dolayı matrah olarak beyan edecektir. Mükellef, serbest meslek kazancını
+yıllık beyanname ile bildirmek zorunda olduğundan Gelir Vergisi Kanununun
+21 inci maddesinde yer alan kira gelirleri için belirlenen 2025 takvim yılı için
+47.000 TL’lik mesken istisnasından yararlanamayacaktır.
+
+Mükellef (D), serbest meslek kazancından dolayı yıllık gelir vergisi
+beyannamesi verecektir.
+
+Serbest meslek kazancı ile konut kira geliri tutarının toplamı olan (2.850.000
++ 748.000) 3.598.000 TL’yi beyan edecektir.
+
+Mükellef (D)’nin 2025 takvim yılı kazancı üzerinden hesaplanan gelir vergisi
+aşağıdaki gibi olacaktır.
+
+
+ Serbest meslek kazancı                                           2.850.000 TL
+
+ Gayrimenkul sermaye iradı (konut)                                  880.000 TL
+
+ Götürü gider (880.000 X %15)                                       132.000 TL
+
+ Safi kira geliri (880.000 – 132.000)                               748.000 TL
+
+
+
+                                                                                    35
+===== PDF SAYFA 36 =====
+      Vergiye tabi gelir (2.850.000 + 748.000)                         3.598.000 TL
+
+      Hesaplanan gelir vergisi                                         1.164.300 TL
+
+      Ödenmesi gereken gelir vergisi                                   1.164.300 TL
+
+     * Bu örnekte, mükellefin yıl içinde ödediği geçici vergi, tevkif suretiyle kesilen
+     vergiler ve giderler dikkate alınmamıştır.
+
+     ÖRNEK 2: Doktor Mükellef (E)’nin kendi muayenehanesi bulunmaktadır.
+
+     Mükellef (E) 2025 takvim yılında;
+         Doktorluk hizmetinden toplam 3.185.000 TL hasılat elde etmiştir.
+         Mesleki giderleri toplamı 1.098.500 TL’dir.
+         Yıllık 270.000 TL Bağ-Kur primi ödemiştir.
+         Küçük çocukları için 156.000 TL sağlık sigortası primi ödemiştir.
+         Bireysel emeklilik sistemi katkı payı olarak 91.000 TL ödemiştir.
+
+     Sağlık sigortası için ödenen primin tamamı, beyan edilen gelirin %15’ini
+     (1.816.500 X %15 = 272.475) ve 2025 takvim yılı asgari ücretin yıllık brüt
+     tutarını (312.066 TL) aşmaması şartıyla indirim konusu yapılabilir.
+
+     Gelir Vergisi Kanununun 89 uncu maddesinin birinci fıkrasının (1) numaralı
+     bendine göre, mükellefin küçük çocukları adına ödemiş olduğu sağlık sigorta
+     primlerinin tamamı indirim konusu yapılabilmekle birlikte, indirim tutarı bu
+     sınırları aşamayacağından, indirime konu edilebilecek sağlık sigorta primi
+     tutarı 156.000 TL’dir.
+
+     Bireysel emeklilik sistemine ödenen katkı payları hiçbir suretle yıllık
+     beyannamede vergi matrahının tespitinde indirilemez.
+
+
+
+
+36
+===== PDF SAYFA 37 =====
+Mükellef (E)’nin 2025 takvim yılı kazancı üzerinden hesaplanan gelir vergisi
+aşağıdaki gibi olacaktır.
+
+
+ Gayrisafi hasılat toplamı                                       3.185.000 TL
+
+ İndirilecek giderler toplamı                                    1.098.500 TL
+
+ Bağ-Kur primi                                                     270.000 TL
+
+ Beyan edilecek serbest meslek kazancı
+                                                                 1.816.500 TL
+ [3.185.000 – (1.098.500 + 270.000)]
+
+ Beyan edilen gelirden yapılan indirimler
+                                                                   156.000 TL
+ (sağlık sigorta primi)
+
+ Vergiye tabi gelir (matrah) (1.816.500 – 156.000 )              1.660.500 TL
+
+ Hesaplanan gelir vergisi                                          486.175 TL
+
+ Ödenmesi gereken gelir vergisi                                    486.175 TL
+
+*Bu örnekte, mükellefin yıl içinde ödediği geçici vergi ile tevkif suretiyle
+kesilen vergiler dikkate alınmamıştır.
+
+ÖRNEK 3: Mimarlık faaliyetinden dolayı serbest meslek erbabı olan Mükellef
+(F), 2025 takvim yılında 2.925.000 TL gayrisafi hasılat elde etmiştir. Türkiye
+Kızılay Derneğine makbuz karşılığı 65.000 TL bağış yapmıştır. Mükellef (F)’nin
+faaliyeti ile ilgili olarak yapmış olduğu genel gider tutarı ise 676.000 TL’dir.
+
+Mükellef (F), ayrıca yazmış olduğu kitapla ilgili olarak bir yayın kuruluşundan
+1.040.000 TL telif kazancı elde etmiş olup, telif kazancı üzerinden yıl içinde
+(1.040.000 X %17) 176.800 TL tevkifat yapılmıştır.
+
+Mükellef (F)’nin elde etmiş olduğu 1.040.000 TL tutarındaki telif kazancı
+Gelir Vergisi Kanununun 103 üncü maddesinde yazılı tarifenin dördüncü
+gelir diliminde yer alan tutarı (2025 takvim yılı için 4.300.000 TL) aşmadığı
+için 18 inci madde kapsamında gelir vergisinden istisna olduğundan beyan
+edilmeyecek ve yıl içinde yapılan 176.800 TL tutarındaki tevkifat nihai vergi
+olacaktır. Tevkif edilen vergi beyanname üzerinden mahsup edilemeyecektir.
+
+
+
+                                                                                   37
+===== PDF SAYFA 38 =====
+     GVK’nın 89 uncu maddesinin birinci fıkrasının (11) numaralı bendine göre,
+     Türkiye Kızılay Derneğine makbuz karşılığında yapılan 65.000 TL olan bağışın
+     tamamı gelir vergisi beyannamesinde indirebilecektir.
+
+     Mükellefin serbest meslek kazancı ile ilgili olarak gelir vergisi aşağıdaki gibi
+     hesaplanacaktır.
+
+
+      Gayrisafi hasılat toplamı                                       2.925.000 TL
+
+      İndirilecek giderler toplamı                                      676.000 TL
+
+      Beyan edilecek serbest meslek kazancı
+                                                                      2.249.000 TL
+      (2.925.000 – 676.000 )
+
+      Beyan edilen gelirden yapılan indirimler (bağış)                   65.000 TL
+
+      Vergiye tabi gelir (matrah) (2.249.000 – 65.000 )               2.184.000 TL
+
+      Hesaplanan gelir vergisi                                          669.400 TL
+
+      Ödenmesi gereken gelir vergisi                                    669.400 TL
+
+     *Bu örnekte, mükellefin yıl içinde ödediği geçici vergi ile tevkif suretiyle
+     kesilen vergiler dikkate alınmamıştır.
+
+     ÖRNEK 4: Serbest Muhasebeci Mali Müşavirlik faaliyetinden dolayı serbest
+     meslek mükellefi olan Mükellef (G)’nin 2025 takvim yılında 3.445.000
+     TL gayrisafi hasılatı, 832.000 TL indirilecek gideri bulunmaktadır. Ödevli
+     bakmakla yükümlü bulunduğu çocuğu için 1. dereceden engellilik indiriminden
+     yararlanmakta olup, ayrıca yıl içinde 208.000 TL Bağ-Kur primi ödemiştir. Bu
+     verilere göre beyan edilecek serbest meslek kazancı şöyle olacaktır.
+
+     2025 takvim yılı için aylık engellilik indirimi tutarı birinci derece engelliler
+     için 9.900 TL olarak belirlenmiştir. Mükellef (G) bakmakla yükümlü olduğu
+     çocuğu için 1. derece engellilik indiriminden yararlanmakta olduğundan,
+     yıllık engellilik indirimi tutarı (9.900 TL X 12 ) 118.800 TL’dir.
+
+
+
+
+38
+===== PDF SAYFA 39 =====
+Mükellefin serbest meslek kazancı ile ilgili olarak gelir vergisi aşağıdaki gibi
+hesaplanacaktır.
+
+
+ Gayrisafi hasılat toplamı                                        3.445.000 TL
+
+ İndirilecek giderler toplamı                                       832.000 TL
+
+ Serbest meslek kazancı (3.445.000 – 832.000)                     2.613.000 TL
+
+ Bağ-Kur primi                                                      208.000 TL
+ Engellilik indirimi tutarı 2025 yılı için yıllık
+                                                                    118.800 TL
+ (9.900 X 12)
+ Beyan edilecek serbest meslek kazancı
+                                                                  2.286.200 TL
+ [2.613.000 – (208.000 + 118.800)]
+
+ Vergiye tabi gelir (matrah)                                      2.286.200 TL
+
+ Hesaplanan gelir vergisi                                           705.170 TL
+
+ Ödenmesi gereken gelir vergisi                                     705.170 TL
+
+*Bu örnekte, mükellefin yıl içinde ödediği geçici vergi ile tevkif suretiyle
+kesilen vergiler dikkate alınmamıştır.
+
+ÖRNEK 5: Diş Hekimi olarak faaliyette bulunan Mükellef (H)’nin 2025 takvim
+yılında elde ettiği serbest meslek kazancı ve iş yeri kira gelirine ilişkin olarak
+gelir vergisi aşağıdaki gibi hesaplanacaktır.
+
+Mükellef (H), 4.160.000 TL serbest meslek kazancı için yıllık gelir vergisi
+beyannamesi verecektir. Serbest meslek kazancı ile brüt iş yeri kira gelirinin
+toplamı (4.160.000 + 936.000 = 5.096.000 TL), 2025 takvim yılı beyanname
+verme sınırını (330.000 TL) aştığından, yıllık gelir vergisi beyannamesine iş
+yeri kira geliri de dâhil edilecektir.
+
+
+
+
+                                                                                     39
+===== PDF SAYFA 40 =====
+     Mükellefin, 2025 takvim yılı gelir vergisi beyannamesi aşağıdaki gibi
+     düzenlenecektir.
+
+
+      Serbest meslek kazancı                                            4.160.000 TL
+
+      GMSİ (brüt iş yeri kira geliri)                                     936.000 TL
+
+      Götürü gider (936.000 X %15)**                                      140.400 TL
+
+      Safi kira geliri (936.000 – 140.400)                                795.600 TL
+
+      Beyan edilecek gelir toplamı (4.160.000 + 795.600)                4.955.600 TL
+
+      Vergiye tabi gelir (matrah)                                       4.955.600 TL
+
+      Hesaplanan gelir vergisi                                          1.672.240 TL
+
+      Ödenmesi gereken gelir vergisi                                    1.672.240 TL
+
+     * Bu örnekte, mükellefin yıl içinde ödediği geçici vergi ile tevkif suretiyle
+     kesilen vergiler dikkate alınmamıştır.
+
+     ** Mükellef, gayrimenkul sermaye iradı yönünden götürü gider yöntemini
+     seçmiştir.
+
+     ÖRNEK 6: Ressam (İ), 2025 takvim yılında muhtelif tarihlerde sattığı resimler
+     karşılığında 4.927.000 TL hasılat elde etmiştir. Ressam (İ)’ye yapılan söz
+     konusu ödemeler üzerinden, 193 sayılı Kanunun 94 üncü maddesi uyarınca
+     %17 oranında (837.590 TL) gelir vergisi tevkifatı yapılmıştır. Ressam (İ)’nin,
+     bu faaliyeti ile ilgili olarak yapmış olduğu ve tevsik edebildiği giderlerinin
+     toplamı 611.000 TL’dir. Ressam (İ)’nin, yıl içinde eşi ve çocukları için 494.000 TL
+     eğitim ve sağlık harcaması faturası bulunmaktadır.
+
+     Ressam (İ)’nin, yaptığı resimler 5846 sayılı Kanun hükümlerine göre Kültür ve
+     Turizm Bakanlığınca eser olarak kayıt-tescil edilmiştir.
+
+     Ressam (İ)’nin, resimleri her ne kadar 193 sayılı Kanunun 18 inci maddede
+     sayılan eserler kapsamında değerlendirilse de elde ettiği kazanç yılsonu
+     itibarıyla (4.927.000 TL – 611.000 TL) 4.316.000 TL, 103 üncü maddede
+     yazılı tarifenin dördüncü gelir diliminde yer alan tutarı (2025 takvim yılı için
+     4.300.000 TL) aştığından söz konusu istisnadan faydalanılması mümkün
+
+
+
+40
+===== PDF SAYFA 41 =====
+bulunmamaktadır. Bu durumda, söz konusu kazanç, yıllık gelir vergisi
+beyannamesi ile beyan edilecektir.
+
+GVK’nın 89 uncu maddesinin birinci fıkrasının (2) numaralı bendine göre,
+mükellefin kendisi, eşi ve küçük çocuklarına ilişkin olarak yapılan eğitim ve
+sağlık harcamaları; beyan edilen gelirin %10› unu aşmaması, Türkiye›de
+yapılması ve gelir veya kurumlar vergisi mükellefiyeti bulunan gerçek veya
+tüzel kişilerden alınacak belgelerle tevsik edilmesi şartıyla indirim konusu
+yapılabilecektir.
+
+Bu durumda, beyan edilen gelirin %10’u (4.316.000 X %10) 431.600 TL
+olduğundan Ressam (İ), 494.000 TL olan eğitim/sağlık harcamasının
+tamamını değil 431.600 TL’lik kısmını beyanname üzerinden indirim konusu
+yapabilecektir.
+
+Buna göre Ressam (İ)’nin, 2025 takvim yılı gelir vergisi beyannamesi aşağıdaki
+gibi düzenlenecektir.
+
+
+ Serbest meslek kazancı                                        4.927.000 TL
+
+ İndirilecek giderler toplamı                                    611.000 TL
+
+ Beyan edilecek gelir toplamı (4.927.000 – 611.000 )           4.316.000 TL
+
+ Beyan edilen gelirden yapılan indirimler
+                                                                 431.600 TL
+ (eğitim-sağlık harcaması)
+
+ Vergiye tabi gelir (4.316.000 – 431.600)                      3.884.400 TL
+
+ Hesaplanan gelir vergisi                                      1.264.540 TL
+
+ Mahsup edilecek gelir vergisi                                   837.590 TL
+
+ Ödenmesi gereken gelir vergisi (1.264.540 – 837.590 )           426.950 TL
+
+
+
+
+                                                                                 41
+===== PDF SAYFA 42 =====
+     ÖRNEK 7: Avukat olarak faaliyet gösteren Mükellef (K)’nın 2025 takvim yılı
+     faaliyet bilgileri aşağıdaki gibidir:
+
+       • Avukatlık faaliyetleri karşılığında brüt 4.875.000 TL hasılat elde etmiş
+         olup söz konusu hasılat üzerinden yıl içinde %20 oranında 975.000 TL
+         gelir vergisi tevkifatı yapılmıştır.
+
+       • Mükellef (K), yazmış olduğu kitaplardan 2.665.000 TL telif ücreti almış
+         olup kendisine yapılan bu ödemelerden 453.050 TL (2.665.000 X %17)
+         gelir vergisi tevkifatı yapılmıştır.
+
+       • İkametgâhını aynı zamanda iş yeri olarak kullanan Mükellef (K)
+         kiraladığı daire için yıllık 561.600 TL kira bedeli ve 234.000 TL tutarında
+         aydınlatma, ısıtma, su gideri ödemiştir.
+
+       • 143.000 TL Bağ-Kur primi ödemiştir.
+
+       • Türkiye Yeşilay Cemiyetine makbuz karşılığı 26.000 TL bağışta
+         bulunmuştur.
+
+       • Mükellef (K)’nın GVK’nın mükerrer madde 121’de belirtilen şartları
+         sağlamış olduğu anlaşıldığından %5 vergi indirimine hak kazanmıştır.
+
+     Buna göre;
+
+     Mükellef (K)’nın elde etmiş olduğu 2.665.000 TL tutarındaki telif kazancı
+     Gelir Vergisi Kanununun 103 üncü maddesinde yazılı tarifenin dördüncü
+     gelir diliminde yer alan tutarı (2025 takvim yılı için 4.300.000 TL) aşmadığı
+     için 18 inci madde kapsamında gelir vergisinden istisna olduğundan beyan
+     edilmeyecek ve yıl içinde yapılan 453.050 TL tutarındaki tevkifat nihai vergi
+     olacaktır. Tevkif edilen vergi beyanname üzerinden mahsup edilemeyecektir.
+
+     Mükellef (K), ikametgahını aynı zamanda iş yeri olarak kullandığından kira
+     için ödediği 561.600 TL’nin tamamını ve genel giderler için ödediği 234.000 TL’nin
+     yarısı olan 117.000 TL’yi kazancından indirim konusu yapabilecektir.
+
+     Mükellef (K), 2025 takvim yılı için ödediği 143.000 TL tutarındaki Bağ-Kur
+     primini gider olarak indirebilecektir.
+
+     GVK’nın 89 uncu maddesinin birinci fıkrasının (11) numaralı bendine göre,
+     Türkiye Yeşilay Cemiyetine makbuz karşılığında yapılan 26.000 TL olan
+     bağışın tamamı gelir vergisi beyannamesinde indirebilecektir.
+
+
+
+
+42
+===== PDF SAYFA 43 =====
+ Toplam serbest meslek hasılatı (4.875.000)                       4.875.000 TL
+
+
+ Toplam giderler
+     - Kira 561.600 TL                                              678.600 TL
+     - Aydınlatma, ısıtma, su 117.000 TL
+
+
+ Serbest meslek kazanç tutarı (4.875.000 – 678.600)               4.196.400 TL
+
+
+Yukarıda yapılan açıklamalara göre mükellefin 2025 takvim yılı gelir vergisi
+beyannamesi aşağıdaki gibi düzenlenecektir.
+
+
+ Serbest meslek kazancı                                          4.196.400 TL
+
+ Bağ-Kur primi                                                     143.000 TL
+
+ Beyan edilen gelirden yapılan indirimler (bağış)                   26.000 TL
+
+ Vergiye tabi gelir [4.196.400 – (143.000 + 26.000)]             4.027.400 TL
+
+ Hesaplanan gelir vergisi                                        1.314.590 TL
+
+ Hesaplanan vergi indirimi tutarı (1.314.590 X %5)                65.729,5 TL
+
+ Kesinti yoluyla ödenen vergiler                                   975.000 TL
+
+ Ödenmesi gereken gelir vergisi
+                                                                 273.860,5 TL
+ [1.314.590 – (65.729,5 + 975.000)]
+
+
+
+
+     Yukarıdaki sayısal örneklerde beyannameye dâhil edilen kazanç
+     ve iratlarla ilgili olarak yıl içinde tevkif yoluyla kesilen vergilerin
+    bulunması halinde, söz konusu tutar hesaplanan gelir vergisinden
+                               mahsup edilecektir.
+
+
+
+
+                                                                                 43
+===== PDF SAYFA 44 =====
+gib.gov.tr
+
+
+
+
+      İLETİŞİM
+     KANALLARI
+
+
+                         @
+               MEIS
+                Mükellef e-Posta
+                İletişim Sistemi
+
+
+
+
+             gibsosyalmedya
+
