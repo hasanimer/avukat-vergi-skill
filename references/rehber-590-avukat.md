@@ -67,7 +67,7 @@ Bağ-Kur primi: Rehber örneklerinde serbest meslek kazancından düşülür (Ö
 - **Telif istisnası (GVK 18):** Avukatın yazdığı kitap, makale veya bilimsel çalışmalardan elde ettiği kazanç istisnadır. Arızi olarak elde edilmesi istisnaya engel değildir. Kadrolu çalışılan bir dergide yazılan yazının karşılığı ise ücret olur (s.13).
   - Yıllık telif kazancı 4. dilim tutarını (**2026: 5.300.000 TL**) aşarsa istisna uygulanmaz ve **tamamı beyan edilir**. Bu durumda ödeyen tevkifat yapmaz (s.13).
   - İstisna kapsamında %17 kesinti **nihai** vergidir ve beyannameden **mahsup edilemez**. Avukat Örnek 7 (s.42): 2.665.000 TL telif × %17 = 453.050 TL nihai vergi.
-- **Genç girişimci istisnası (GVK 20/A):** Mükellefiyet başlangıcında 29 yaşını doldurmamış ve ilk kez mükellef olan kişi, 3 vergilendirme dönemi boyunca 2. dilim tutarına kadar istisnadan yararlanır (2025: 330.000 TL, **2026: 400.000 TL**). Şartlar:
+- **Genç girişimci istisnası (GVK mük. 20):** Mükellefiyet başlangıcında 29 yaşını doldurmamış ve ilk kez mükellef olan kişi, 3 vergilendirme dönemi boyunca 2. dilim tutarına kadar istisnadan yararlanır (2025: 330.000 TL, **2026: 400.000 TL**). Şartlar:
   - İşe başlama süresinde bildirilmiş olmalıdır.
   - İşte bilfiil çalışılmalıdır. Askerlik ve hastalık gibi zorunlu ayrılmalar bu şartı bozmaz.
   - Faaliyet ortaklık halinde yürütülüyorsa tüm ortaklar şartları taşımalıdır.

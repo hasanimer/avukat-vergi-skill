@@ -23,6 +23,13 @@ Avukat, müvekkilleri adına işverenlere karşı açılan davalar sonucunda kar
   (3) GVK 94/1'de sayılmayanlar (tevkifat yükümlüsü olmayanlar, ör. gerçek kişi borçlu) tarafından yapılan vekalet ücreti ödemelerinden tevkifat yapılmaz.
   (4) Ücretli çalışan avukatın işverenine yapılan vekalet ücreti ödemesinden tevkifat yapılmaz; işveren avukata öderken ücret hükümlerine göre tevkifat yapar.
   (5) Mahkeme kararında "KDV hariç" ifadesi yoksa vekalet ücreti KDV DAHİL kabul edilir; iç yüzde ile hesaplanan KDV serbest meslek makbuzunda gösterilir; gelir vergisi tevkifatı KDV HARİÇ tutar üzerinden yapılır.
+- **Ek kurallar** (311 GVGT; araştırmayla doğrulandı):
+  - **md.26/5:** Vekalet ücretini borçlu davayı kazanan tarafa öder, o da avukata öderse SMM **ödemeyi yapan alacaklı (müvekkil)** adına düzenlenir. Tevkifatı da kazanan taraf yapar (md.25/2-c).
+  - **md.26/6:** Kazanan taraf vekalet ücretini **ücretli çalışan** avukatına öderse ödeme ücret bordrosuyla yapılır.
+  - **md.25/6:** Borçlunun istinaf ya da temyiz için yatırdığı teminatın avukata ödenmesinde, ayrıca haciz veya kefil yoluyla tahsilde tevkifat yapılmaz.
+  - Tüccar veya serbest meslek erbabı gerçek kişi borçlu, tevkifatı yalnız ticari veya mesleki faaliyetine ilişkin ödemelerde yapar (GVK 94).
+  - **KDV GUT I/B-4** (Seri 52 ile, 31/10/2024'ten itibaren) belge düzenini 311 GVGT md.26 ile aynı hale getirdi. Eski "müvekkil adına düzenle" yaklaşımı artık uygulanmaz.
+  - GVK 94/3'ün iptali istemi AYM tarafından reddedildi (E.2024/94, K.2025/179). Rejim yerleşiktir.
 - 311 Seri No.lu GVGT md. 26 (belge düzeni):
   (2) Borçlu doğrudan avukata öderse → SMM borçlu (davayı kaybeden) adına düzenlenir.
   (3) Borçlu icra ve iflas müdürlüğü aracılığıyla öderse → SMM borçlu (davayı kaybeden) adına düzenlenir; makbuzun bir nüshasının icra müdürlüğüne verilmesine gerek yoktur.

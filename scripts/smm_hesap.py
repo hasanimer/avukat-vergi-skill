@@ -54,7 +54,7 @@ PARAMS = {
         "tarife_ucret": [(158000, "0.15"), (330000, "0.20"), (1200000, "0.27"), (4300000, "0.35"), (None, "0.40")],
         "telif_istisna_siniri": 4300000,      # GVK 18 — tarifenin 4. dilim tutarı
         "arizi_smk_istisna": 280000,          # GVK 82
-        "genc_girisimci_istisna": 330000,     # GVK 20/A — 2. dilim tutarı
+        "genc_girisimci_istisna": 330000,     # GVK mük. 20 — 2. dilim tutarı
         "uyum_indirimi_azami": 12000000,      # GVK mük. 121 — 1/1/2026dan itibaren verilen beyannameler (2025 kazancı) için
         "asgari_ucret_yillik_brut": "312066", # Rehber Örnek 2
         "engellilik_aylik": {1: 9900, 2: 5700, 3: 2400},  # 1. derece Rehber Örnek 4; 2-3. derece 2025 GVGT

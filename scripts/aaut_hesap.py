@@ -222,6 +222,8 @@ def main(argv=None) -> int:
         print(f"  e-SMM brüt (KDV hariç): {tl(v['brut'])}\n  KDV %{oran_coz(a.kdv) * 100:.0f}: {tl(v['kdv'])}\n  GV stopajı: {tl(v['stopaj'])}"
               f"\n  KDV tevkifatı: {tl(v['kdv_tevkifat'])}\n  Avukata ödenecek: {tl(v['tahsil_edilecek'])}")
         print("  Makbuz: borçlu (davayı kaybeden) adına; icra müdürlüğüne nüsha gerekmez (311 GVGT md.26).")
+        print("  (Borçlu ücreti müvekkile ödediyse, makbuz ödemeyi yapan müvekkil adına kesilir (md.26/5); "
+              "teminat, haciz veya kefil yoluyla tahsilde tevkifat yapılmaz (md.25/6).)")
         for n_ in notlar:
             print(f"NOT: {n_}")
     elif a.komut == "test":

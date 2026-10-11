@@ -69,6 +69,23 @@ Sınırın uygulanması:
 - Tartışmalı sınırlar için `uygulama-notlari.md` §4'e bak: tüketici hakem heyeti, ilamsız takipteki tedbir nafakası, özel vekil sıfatıyla adli yardım.
 - KDV dahil vekalet ücretinde iç yüzde: tutar / 1,10.
 
+## 8a. Belirlenmiş alıcılar (I/C-2.1.3.1/b ve 2.1.3.2.13)
+Listede şunlar yer alır:
+- 5018 s.K. cetvellerindeki idareler
+- Kanunla veya CBK ile kurulan kamu kurum ve kuruluşları
+- **01/03/2024'ten itibaren kamu iktisadi teşebbüsleri** (Seri 50)
+- Döner sermayeli kuruluşlar
+- Kamu kurumu niteliğindeki meslek kuruluşları (baro dahil)
+- Bankalar, sigorta, reasürans ve emeklilik şirketleri
+- Emekli ve yardım sandıkları
+- Kalkınma ajansları
+
+Liste dışındaki alıcıya (ör. özel şirket) kesilen avukatlık makbuzunda KDV tevkifatı yoktur.
+
+**CMK ücretlerinde oran:**
+- Liste (II) 32 CMK ücretlerini ayrıca saymaz. Bu yüzden çocuk mahkemesinin görev alanı dışındaki CMK işlerinde genel oran **%20** uygulanır.
+- Bu, lafzi bir yorumdur; oranı doğrudan belirten bir özelge bulunamadı.
+
 ## 9. Karşı taraf vekalet ücretinde KDV tevkifatı
 - Borçlu (davayı kaybeden) **belirlenmiş alıcıysa**, makbuz onun adına düzenlenir ve KDV dahil tutar sınırı aşıyorsa **5/10 KDV tevkifatı** uygulanır. Belirlenmiş alıcılar: 5018 s.K. cetvellerindeki idareler, belediyeler, bankalar, sigorta şirketleri vb.
   - Dayanak: özelge 06/06/2022, 36062021-130[09-2021/ÖZE-40]-50290 (https://gib.gov.tr/mevzuat/kanun/436/ozelge/30232).

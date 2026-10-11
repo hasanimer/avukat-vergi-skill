@@ -160,7 +160,7 @@ Dayanak GVK 68 ve 89. Ayrıntı `giderler.md` dosyasında.
   - "Küçük çocuk" ifadesi 18 yaşından küçükleri kapsar.
 
 ## 9. Genç girişimci
-- ✅ 29 yaşını doldurmamış, ilk kez mükellef olan ve bağımsız çalışan avukat **3 yıl boyunca 2. dilim tutarına kadar** gelir vergisi istisnasından yararlanır (GVK 20/A).
+- ✅ 29 yaşını doldurmamış, ilk kez mükellef olan ve bağımsız çalışan avukat **3 yıl boyunca 2. dilim tutarına kadar** gelir vergisi istisnasından yararlanır (GVK mük. 20).
 - ✅ Ayrıca **1 yıl Bağ-Kur desteği** alır. Belgeyi vergi dairesinden alıp SGK'ya ver.
 - ✅ **Bordrolu çalışıyorsan** (4/a) Bağ-Kur desteği uygulanmaz.
 - ✅ İstisna **stopajı etkilemez**; CMK ve adli yardımda kesilen stopaj iade edilmez. Biriken stopaj KDV, damga vergisi ve diğer borçlara **mahsup edilebilir**.
@@ -205,7 +205,7 @@ Bu liste, kullanıcının paylaştığı bir uygulama derlemesini GİB özelgele
 | # | Hata | Doğrusu | Durum |
 |---|---|---|---|
 | 1 | Av.K. 43'teki 3 aylık büro edinme süresini VUK 153'teki **10 günlük işe başlama bildirimi** ile karıştırmak | Baro kaydı ve iş yeri kirası sonrası 10 gün içinde Dijital Vergi Dairesi'nden bildirilir. Gecikme VUK 352 kapsamında usulsüzlüktür | ✅ |
-| 2 | Bildirimi geciktirip **genç girişimci istisnasını** kaybetmek | GVK 20/A'nın ilk şartı işe başlamanın süresinde bildirilmesidir. Geç bildirimde 3 yıllık gelir vergisi istisnası ve buna bağlı 1 yıllık Bağ-Kur desteği kaybedilir | ✅ (Rehber s.13) |
+| 2 | Bildirimi geciktirip **genç girişimci istisnasını** kaybetmek | GVK mük. 20'nın ilk şartı işe başlamanın süresinde bildirilmesidir. Geç bildirimde 3 yıllık gelir vergisi istisnası ve buna bağlı 1 yıllık Bağ-Kur desteği kaybedilir | ✅ (Rehber s.13) |
 | 3 | İş yeri kira sözleşmesinin **damga vergisini** unutmak | Binde 1,89, toplam kira üzerinden ödenir. Beyan süresi ve yolu (muhtasar ya da ayrı beyanname) için `damga-harc.md` | ✅ (süre ayrıca teyit edilmeli) |
 | 4 | Karşı taraf vekalet ücretine ayrıca %20 KDV eklemek | Kararda "KDV hariç" yazmıyorsa ücret KDV dahildir; iç yüzde uygulanır (tutar / 1,20; %10'luk işlerde / 1,10) | ✅ 311 GVGT md.25/5 |
 | 5 | **Stopajı kesilmemiş** vekalet ücretinde stopajı mahsup etmeye çalışmak | Kesilmeyen stopaj **mahsup edilmez**. Ücret brüt beyan edilir. Vergi dairesinin kayıtlarında görünmeyen stopaj iade ve mahsup kontrolünde (GEKSİS) uyuşmazlık çıkarır | ✅ özelge 17/10/2022-245464 |

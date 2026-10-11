@@ -26,7 +26,7 @@ Serbest meslek kazancına **ücret dışı** tarife uygulanır.
 |---|---|---|---|
 | Telif istisnası üst sınırı (GVK 18; aşılırsa tamamı beyan edilir) | 4.300.000 | 5.300.000 | Rehber s.13; 4. dilim |
 | Arızi serbest meslek kazancı istisnası (GVK 82) | 280.000 | 350.000 | 332 md.3/2-ı |
-| Genç girişimci istisnası (GVK 20/A) | 330.000 | 400.000 | 2. dilim |
+| Genç girişimci istisnası (GVK mük. 20) | 330.000 | 400.000 | 2. dilim |
 | Mesken kira istisnası (GVK 21). **Serbest meslek kazancı beyan edenler yararlanamaz.** | 47.000 | 58.000 | 332 md.3/2-b; Rehber Örnek 1 |
 | Beyanname verme sınırı (GVK 86/1-c; 2. dilim) | 330.000 | 400.000 | Rehber Örnek 5 |
 | Tevkifata ve istisnaya konu olmayan MSİ+GMSİ beyan sınırı (GVK 86/1-d) | — | 22.000 | 332 md.3/2-i |
@@ -35,7 +35,7 @@ Serbest meslek kazancına **ücret dışı** tarife uygulanır.
 | %5 uyum indirimi azami tutarı | 12.000.000 (01/01/2026'dan itibaren verilen beyannameler, yani 2025 kazancı) | 2027 beyanı için yeniden belirlenecek | 332 md.3/4 |
 | Eğitim ve sağlık harcaması | Beyan edilen gelirin %10'u | Aynı | GVK 89/1-2 |
 | Bağış (genel) | %5 (kalkınmada öncelikli yörelerde %10) | Aynı | GVK 89/1-4 |
-| Yurt dışına verilen hizmet indirimi (GVK 89/1-13) | %80 | %80 | 7491 s.K. **Avukatlık ve hukuki danışmanlık kanundaki kapalı listede yok**; yararlanılamaz (89/1-15 mülgadır) |
+| Yurt dışına verilen hizmet indirimi (GVK 89/1-13) | %80 | **%100** (CBK 11257, RG 30/04/2026-33239; 1/1/2026'dan itibaren başlayan dönemler) | 7491 s.K. **Avukatlık ve hukuki danışmanlık kanundaki kapalı listede yok**; yararlanılamaz (89/1-15 mülgadır) |
 
 ## Binek otomobil (GVK 68/1-4, 68/1-5)
 | | 2025 | 2026 |
