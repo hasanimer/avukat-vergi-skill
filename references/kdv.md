@@ -101,7 +101,7 @@ Tevkifat yalnız **KDV dahil bedel** işlem yılının VUK 232 fatura sınırın
 - **Açık soru (özelge yok): diğer dava şartı arabuluculuklar.** B/32 metni yalnız "iş uyuşmazlıklarında" dava şartı arabuluculuğu sayar. Ticari ve tüketici uyuşmazlıklarında dava şartı arabuluculukta taraf vekilliği için indirimli oranı destekleyen bir özelge yoktur. İhtiyari arabuluculuk da kapsam dışıdır (`uygulama-notlari.md` §4). İhtiyatlı uygulama %20'dir; indirimli oran isteniyorsa özelge alınmalıdır.
 - **CMK zorunlu müdafilik ve vekilliğinde oran (lafzi yorum).**
   - B/32 adli yardımı yalnız "HMK ve Avukatlık Kanunu" kapsamında sayar; CMK görevlendirmeleri bu ibarede yoktur. Bu nedenle çocuk mahkemesi görev alanı dışındaki CMK görevleri %20'ye tabidir.
-  - CMK ücretinin oranını doğrudan belirleyen bir özelge bulunamadı; sonuç metnin lafzına dayanır (çıkarım; araştırma kaydında güven düşük). Barodan gelen CMK ödemelerinde oran seçimi sık yapılan bir hatadır.
+  - CMK ücretinin oranını doğrudan belirleyen bir özelge bulunamadı; sonuç metnin lafzına dayanır (çıkarım; araştırma kaydında güven düşük). CMK ödemelerinde (ücreti Başsavcılık öder; baro yalnız görevlendirir) oran seçimi sık yapılan bir hatadır.
   - Çocuk mahkemesi görev alanındaki CMK görevleri %10'dur (32149).
 - **2026'da avukatlığa özgü değişiklik yok.** Şubat–Ekim 2026 arasında avukatlık hizmetlerine özgü bir KDV değişikliği tespit edilmedi. KDV GUT Seri 57 (RG 31.01.2026/33154) ve Seri 58 (RG 16.06.2026/33282) avukatlıkla ilgili değildir (araştırma notu, 2026 taraması).
   - Seri 56 (RG 31.12.2025/33124 5. Mük.) yalnız III/B-3'teki 2026 iade tutarını ekler (§8); tevkifatla ilgisi yoktur.

@@ -171,7 +171,7 @@
 - **Masraf satırları:**
   - Zorunlu yol gideri, Yönetmelik md. 4/1-e'deki "ücret" tanımına girer. Bu nedenle serbest meslek kazancıdır; %20 stopaja ve KDV'ye tabidir. [Özelge: 26.05.2014, 39044742-130-1439 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/31985]
   - Yol giderinin tevkifat sınırı hesabında işin bedeline eklenmesi, bu "ücret" tanımından çıkarılmış bir sonuçtur.
-  - Avukatın yatırdığı temyiz, istinaf ve itiraz harçları Yönetmelik md. 11/6 uyarınca kesintisiz iade edilir ve kazanç sayılmaz (GVK 67). Bu yüzden e-SMM'de tarife ücreti ve yol gideri ile harç iadesini ayır; harç iadesini hasılat olarak yazma. (Dayanak: CMK Ücret Yönetmeliği md. 11/6)
+  - Avukatın yatırdığı temyiz, istinaf ve itiraz harçlarının iadesi kazanç sayılmaz; dayanak GVK 67/4'tür. Yönetmelik md. 11/6'daki "kesintisiz iade" ibaresi Danıştay 10. D. 26.05.2015, E.2011/8240, K.2015/2572 kararıyla iptal edilmiştir (`damga-harc.md` §4). e-SMM'de tarife ücreti ve yol gideri ile harç iadesini ayır; harç iadesini hasılat olarak yazma.
 - **KDV oranı:**
   - Genel kural %20'dir.
   - Çocuk mahkemelerinin görev alanındaki işlerde oran %10'dur (özelge tarihinde %8). Buna, suça sürüklenen çocuk müdafiliğinin savcılık ve kolluk önündeki soruşturma evresi de dahildir. [Özelge: 16.02.2022, E-62902401-130[2020-701-75]-22832 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/32149]
