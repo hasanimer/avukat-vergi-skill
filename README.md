@@ -31,9 +31,9 @@ Her cevap bir **GİB rehberi sayfasına, özelgeye ya da mevzuat maddesine** day
 <table>
 <tr>
 <td align="center" width="25%"><h3>590</h3><sub>GİB Serbest Meslek Kazancı Rehberi<br/>(Şubat 2026), sayfa referanslı</sub></td>
-<td align="center" width="25%"><h3>450+</h3><sub>avukatlıkla ilgili GİB özelgesi<br/>tarandı ve sınıflandırıldı</sub></td>
+<td align="center" width="25%"><h3>450+</h3><sub>avukatlıkla ilgili GİB özelgesi tarandı;<br/>253'ü tam metniyle pakette</sub></td>
 <td align="center" width="25%"><h3>2026</h3><sub>tarife, had ve cezalar<br/>332 GVGT · 588 VUK GT · 71 DVK GT</sub></td>
-<td align="center" width="25%"><h3>45 ✓</h3><sub>öz-sınama: Rehber örnekleri,<br/>2026 tarifesi, AAÜT</sub></td>
+<td align="center" width="25%"><h3>63 ✓</h3><sub>öz-sınama + 12 senaryo testi<br/>(bağımsız hakem: 9,1/10)</sub></td>
 </tr>
 </table>
 
@@ -233,6 +233,13 @@ scripts/ozelge_guncelle.py        [--terim avukat] [--sadece-yeni]
 | ⚖️ | Avukatlık Asgari Ücret Tarifesi (RG 04.11.2025, 33067; değişiklikler 08.01.2026 ve 28.03.2026) | [`aaut-2025-2026.md`](references/aaut-2025-2026.md) |
 | 🧾 | KDV GUT I/C-2.1.3.2.13 ve I/C-2.1.3.4.1 · Seri 36 ve 50 · 2007/13033 BKK (II) 32 | [`kdv.md`](references/kdv.md) |
 | 📄 | GVK 94/3 · 311 Seri No.lu GVGT md. 25–26 · GİB özelgeleri | [`vekalet-ucreti.md`](references/vekalet-ucreti.md) |
+| 🧾 | e-SMM, akdi ücret, masraf avansı, tahsil zamanı · 509 Sıra No.lu VUK GT | [`smm-belge-duzeni.md`](references/smm-belge-duzeni.md) |
+| 🤝 | Arabuluculuk, CMK ve adli yardım, bilirkişilik, kayyımlık, hakemlik, telif | [`ek-faaliyetler.md`](references/ek-faaliyetler.md) |
+| 🏠 | GVK 68 giderleri: ev-ofis, binek araç, Bağ-Kur, personel, kira stopajı | [`giderler.md`](references/giderler.md) |
+| 🪪 | Mükellefiyet, genç girişimci (GVK mük. 20), arızi kazanç, iade ve mahsup | [`mukellefiyet-istisna.md`](references/mukellefiyet-istisna.md) |
+| 🔏 | Damga vergisi (71 Seri No.lu DVK GT) ve harçlar | [`damga-harc.md`](references/damga-harc.md) |
+| 🧩 | Özel durumlar: TBB munzam emeklilik, yurt dışı meslektaş, tazminat, ortaklık | [`diger.md`](references/diger.md) |
+| 🗂 | 253 GİB özelgesinin tam metni ve dizini | [`ozelgeler/DIZIN.md`](references/ozelgeler/DIZIN.md) |
 | 🎓 | TBB Eğitim Merkezi, *Avukatın Vergilendirilmesi* çevrim içi eğitimi (Av. Oğuzhan Aslan, 2025). Uygulama notları, güncel mevzuatla karşılaştırmalı | [`uygulama-notlari.md`](references/uygulama-notlari.md) |
 
 <details>
@@ -258,6 +265,8 @@ Ayrıca şunlar sınanır:
 
 CI bu testleri her push'ta çalıştırır.
 
+**Senaryo testi.** 12 gerçekçi avukat sorusu (CMK, çocuk mahkemesi %10 KDV, belediye aleyhine vekalet ücreti, icraya stopajsız yatırma, ücretsiz iş, geçici vergi, ev-ofis ve binek araç, bilirkişilik, yurt dışı müvekkil, arabuluculuk, tevkil) yalnız skill kullanılarak cevaplandı ve bağımsız bir hakem ajanı cevap anahtarı ile özelge metinlerine göre puanladı. Ortalama **9,1/10**; hiçbir anahtar maddede yanlış sonuç yok. Hakemlerin ve dosyalar arası denetçinin bulguları birincil kaynakla doğrulanarak işlendi; en zayıf dört senaryo yeniden sınandığında ortalama **9,6/10** oldu.
+
 </details>
 
 ## 🗺 Yol haritası
@@ -268,9 +277,10 @@ CI bu testleri her push'ta çalıştırır.
 - [x] KDV tevkifatı, CMK ve adli yardım: birincil kaynaktan doğrulanmış bulgular
 - [x] Hesap araçları ve e-SMM XML arşiv denetimi
 - [x] TBB eğitiminden uygulama notları, güncel mevzuatla karşılaştırmalı
-- [ ] Özelge sentezi: e-SMM ve belge düzeni, giderler, yan faaliyetler (arabuluculuk, bilirkişilik, kayyımlık), mükellefiyet, damga vergisi
-- [ ] Gerçekçi avukat senaryolarıyla değerlendirme seti
+- [x] Özelge sentezi: e-SMM ve belge düzeni, giderler, yan faaliyetler (arabuluculuk, bilirkişilik, kayyımlık), mükellefiyet, damga vergisi
+- [x] Gerçekçi avukat senaryolarıyla değerlendirme seti ve dosyalar arası tutarlılık denetimi
 - [ ] Kasım 2026 AAÜT ve Ocak 2027 parametre güncellemesi
+- [ ] Açık konular: e-SMM iptal ve düzeltme usulü, kısmi tevkifattan doğan KDV iadesi, emekli avukatın SGDP'si, binek araç MTV'si, önceki (2024–2025) AAÜT tarifesi
 
 ## ⚠️ Uyarı
 
