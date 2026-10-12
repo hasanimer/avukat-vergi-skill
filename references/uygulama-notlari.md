@@ -107,7 +107,7 @@ KDV dahil vekalet ücretinde iç yüzde %10'luk işlerde **1,10** ile hesaplanı
 - ✅ **Gider ortaklığında alt kira:** Büroyu kiralayan avukatın ortağından aldığı pay **mesleki faaliyet değildir**; bunun için e-SMM düzenlenmez.
   - Kiraya veren avukat bu tutarı yıllık beyannamede **gayrimenkul sermaye iradı** olarak beyan eder.
   - Alt kiracı avukat ödediği kira üzerinden **%20 kira stopajı** keser ve muhtasarla beyan eder. Bu stopaj kiraya verenin vergisinden mahsup edilir.
-- ✅ **İptal edilen makbuz:** Sıra numarası boşluğu sorgulanmasın diye mali müşavire bildir. Hatalı alıcıyla kesilen makbuz iptal edilip doğru alıcıya yeniden düzenlenir; ayrıca bir işlem gerekmez.
+- **İptal edilen makbuz (uygulama görüşü; teyit edilmedi):** Sıra numarası boşluğu sorgulanmasın diye mali müşavire bildir. Hatalı alıcıyla kesilen makbuz iptal edilip doğru alıcıya yeniden düzenlenir. Ayrıca işlem gerekmediği birincil kaynaktan doğrulanamadı; e-SMM iptal ve itiraz usulü 509 Sıra No.lu VUK GT V.5.4 uyarınca teknik kılavuza bırakılmıştır (`vekalet-ucreti.md` §13).
 - **Ücretin iadesi** (iş bırakıldı, anlaşma bozuldu, dava kaybedildi):
   - ✅ İade için makbuz düzenlenmez; **banka dekontu** yeterlidir, açıklamaya "vekalet ücreti iadesi" yazılır.
   - ✅ **Gelir vergisi:** Sözleşme şartına dayanan ve belgelenen iade, daha önce gelir yazılan tutar kadar GVK 68 kapsamında gider yazılır. Stopaj kesildiyse iade stopaj dahil toplam tutar üzerinden yapılır (özelge 29/03/2017, ID 23649). 2012 tarihli 23574 aksi yöndeydi; daha yeni ve olaya uygun görüş 23649'dur (`giderler.md`).
@@ -165,7 +165,7 @@ Dayanak GVK 68 ve 89. Ayrıntı `giderler.md` dosyasında.
 - ⚖️ **Bağ-Kur primi:** GİB'e göre prim gider değil, beyan edilen serbest meslek kazancından yapılan **indirimdir** (özelge 17/12/2012, ID 23610; 110 Seri No.lu GVGT). Eğitimci de "gider değil indirim" diyor. Rehber 590 Örnek 7'nin metni ise "gider olarak" ifadesini kullanıyor.
   - Kazanç primi karşılıyorsa iki okuma aynı sonucu verir. Karşılamıyorsa fark eder: indirim yönteminde kalan prim diğer gelirlerden düşülemez, sonraki yıla devretmez ve zarar doğurmaz.
   - GİB yöntemi (indirim) esas alınır. Dayanak için `giderler.md` "Sigorta ve Bağ-Kur".
-- ✅ **Baro aidatı ve TBB keseneği** gider yazılır. Mesleğin ilk 5 yılında yalnız TBB keseneği ödenir.
+- ✅ **Baro aidatı ve TBB keseneği** gider yazılır. Eğitimciye göre mesleğin ilk 5 yılında yalnız TBB keseneği ödenir (teyit edilmedi; birincil kaynak bulunamadı, `giderler.md`).
 - ✅ **Tazminatlar:**
   - Personelin kıdem ve ihbar tazminatı (kanun veya ilam), kusursuz sorumluluk tazminatı gider yazılır.
   - Avukatın **suçundan doğan** tazminatı (ör. süre kaçırma nedeniyle görevi kötüye kullanma) gider yazılamaz (GVK 68 son fıkra).
@@ -179,7 +179,7 @@ Dayanak GVK 68 ve 89. Ayrıntı `giderler.md` dosyasında.
 
 ## 9. Genç girişimci
 - ✅ 29 yaşını doldurmamış, ilk kez mükellef olan ve bağımsız çalışan avukat **3 yıl boyunca 2. dilim tutarına kadar** gelir vergisi istisnasından yararlanır (GVK mük. 20).
-- ✅ Ayrıca **1 yıl Bağ-Kur desteği** alır. Belgeyi vergi dairesinden alıp SGK'ya ver.
+- Ayrıca **1 yıl Bağ-Kur desteği** alabilir; belge vergi dairesinden alınıp SGK'ya verilir (eğitimci görüşü; 5510 sayılı Kanundaki dayanak hüküm ve başvuru usulü teyit edilmedi, `mukellefiyet-istisna.md` §6).
 - ✅ **Bordrolu çalışıyorsan** (4/a) Bağ-Kur desteği uygulanmaz.
 - ✅ İstisna **stopajı etkilemez**; GVK 94 sorumlusu %20 kesmeye devam eder (Rehber 590 s.14).
 - ✅ Kesilen stopaj (CMK ve adli yardım dahil) yıllık beyannamede mahsup edilir. Fazlası KDV, damga vergisi ve diğer borçlara **mahsuben** (tutar sınırı yok) ya da **nakden** (2026: 426.000 TL'ye kadar inceleme raporu ve teminat aranmaz) iade edilir. İade için fark mükellefe tebliğ edildikten sonra 1 yıl içinde başvurulur (GVK 121; 252 Seri No.lu GVGT; Rehber 590 s.25–26).
@@ -213,14 +213,14 @@ Dayanak GVK 68 ve 89. Ayrıntı `giderler.md` dosyasında.
 - ✅ Stopaj avukatın kendi parasıdır ve yıllık beyanda mahsup edilir.
 - Artan kısım KDV, damga vergisi ve SGK prim borçlarına **mahsup edilebilir**. 1 yıl içinde talep etmek şartıyla ileride doğacak borçlara da mahsup edilebilir.
 - Eğitimcinin önerisi: nakden iade incelemeye yol açabildiği için mahsuben iadeyi tercih et.
-- **Genel bütçeli kamu idareleri** muhtasar vermediği için kestikleri stopaj vergi dairesi ekranında görünmez. Bu yüzden vergi dairesi "stopaj ödendi" belgesi isteyebilir.
+- Eğitimciye göre **genel bütçeli kamu idarelerinin** kestiği stopaj vergi dairesi ekranında görünmeyebilir; bu yüzden vergi dairesi "stopaj ödendi" belgesi isteyebilir. "Muhtasar vermedikleri için" gerekçesi teyit edilmedi: GVK 98'de genel bütçeli idareler için muhtasar istisnası yoktur (KDV'deki I/C-2.1.1.1 istisnası GV stopajına uygulanmaz).
   - Mevzuata göre nakden iade sınırına kadar (2026: 426.000 TL) bilgiler YBS'den görülebiliyorsa belge aranmaz (Rehber s.26).
   - Görülemiyorsa ödeme emri belgesi istenir.
 - Uygulamada en sık çıkan sorun budur. Ödeme yapan kurumdan ödeme emri belgesini yazılı talep et.
 
 ## 13. Diğer
 - ✅ **Vergi mahkemesinde vekalet ücreti** dava değerinden bağımsız olarak maktudur (Av.K. 168/2). AAÜT 2025–2026'da duruşmasız 30.000 TL, duruşmalı 40.000 TL.
-- ✅ **Uyumlu mükellef indirimi** (%5): Son 3 yılın beyannameleri süresinde verilmiş ve vergiler ödenmiş olmalı, 1.000 TL'yi aşan vadesi geçmiş borç bulunmamalı, kesinleşmiş tarhiyat olmamalı.
+- ✅ **Uyumlu mükellef indirimi** (%5): İndirim yılı ve önceki 2 yılın beyannameleri süresinde verilmiş ve tahakkuk eden vergiler ödenmiş olmalı, 1.000 TL'yi aşan vadesi geçmiş borç bulunmamalı, bu dönemde kesinleşmiş tarhiyat olmamalı (indirim sınırının %1'ini aşmayan hariç) ve indirim yılı ile önceki 4 yılda VUK 359 fiili bulunmamalı (GVK mük. 121; `rehber-590-avukat.md` §9).
 - **Bağ-Kur prim borcu:** Dönemsel yapılandırma kanunları iki yol tanır: gün ve borcun silinmesi ya da faizsiz taksitlendirme. Güncel imkânlar için SGK duyurularına bak.
 
 ## 14. Sık yapılan hatalar: kontrol listesi
@@ -229,7 +229,7 @@ Bu liste, kullanıcının paylaştığı bir uygulama derlemesini GİB özelgele
 | # | Hata | Doğrusu | Durum |
 |---|---|---|---|
 | 1 | Av.K. 43'teki 3 aylık büro edinme süresini VUK 153'teki **10 günlük işe başlama bildirimi** ile karıştırmak | Baro kaydı ve iş yeri kirası sonrası 10 gün içinde Dijital Vergi Dairesi'nden bildirilir. Gecikme VUK 352 kapsamında usulsüzlüktür | ✅ |
-| 2 | Bildirimi geciktirip **genç girişimci istisnasını** kaybetmek | GVK mük. 20'nın ilk şartı işe başlamanın süresinde bildirilmesidir. Geç bildirimde 3 yıllık gelir vergisi istisnası ve buna bağlı 1 yıllık Bağ-Kur desteği kaybedilir | ✅ (Rehber s.13) |
+| 2 | Bildirimi geciktirip **genç girişimci istisnasını** kaybetmek | GVK mük. 20'nın ilk şartı işe başlamanın süresinde bildirilmesidir. Geç bildirimde 3 yıllık gelir vergisi istisnası kaybedilir (Rehber s.13). Buna bağlı 1 yıllık Bağ-Kur desteğinin de kaybedildiği eğitimci görüşüdür (dayanak teyit edilmedi) | ✅ GV istisnası (Rehber s.13); Bağ-Kur desteği teyit edilmedi |
 | 3 | İş yeri kira sözleşmesinin **damga vergisini** unutmak | Binde 1,89, toplam kira üzerinden ödenir. Kural olarak kağıdın düzenlendiği tarihi izleyen 15 gün içinde beyan edilip ödenir (DVK m.22/b). "Belirlenen mükellefler" için aylık beyan yolu (m.22/a) avukat bakımından teyit edilmedi. Bkz. `damga-harc.md` §2 | ✅ (m.22/a yolu teyit edilmedi) |
 | 4 | Karşı taraf vekalet ücretine ayrıca %20 KDV eklemek | Kararda "KDV hariç" yazmıyorsa ücret KDV dahildir; iç yüzde uygulanır (tutar / 1,20; %10'luk işlerde / 1,10) | ✅ 311 GVGT md.25/5 |
 | 5 | **Stopajı kesilmemiş** vekalet ücretinde stopajı mahsup etmeye çalışmak | Kesilmeyen stopaj **mahsup edilmez**. Ücret brüt beyan edilir. Vergi dairesinin kayıtlarında görünmeyen stopaj iade ve mahsup kontrolünde (GEKSİS) uyuşmazlık çıkarır | ✅ özelge 17/10/2022-245464 |
@@ -246,7 +246,7 @@ Bu liste, kullanıcının paylaştığı bir uygulama derlemesini GİB özelgele
 | 15 | Ücret sözleşmesinin **damga vergisini** ödememek | Binde 9,48 ödenir. İcra veya dava öncesi **pişmanlıkla beyan** (VUK 371) yapılırsa vergi ziyaı cezası kesilmez | ✅ |
 | 16 | Kamu kurumunun **karşı taraf vekalet ücretinden** damga vergisi kesmesi | Karşı taraf vekalet ücreti ödemesi kurumun mal veya hizmet alımı değildir. DVK (1) sayılı tablo IV/1-a uygulanmaz, **damga vergisi kesilmez** (özelge 08/04/2022, ID 34278). Kesildiyse düzeltme veya iade istenebilir, gerekirse dava açılır. Beraat vekalet ücreti için de aynı gerekçe ileri sürülebilir | ✅ |
 | 16a | **CMK ve adli yardım** ödemelerinden damga vergisi kesilmesi | GİB'in 2009 görüşüne göre Başsavcılığın CMK ödemesi **hizmet alımı** sayılır ve IV/1-a kapsamında damga vergisine tabidir. Harcırah Kanunu uyarınca ödenen **zorunlu yol gideri de dahildir** (özelge 27/08/2009, ID 35082). Oran 2026'da binde 9,48. IV/1-a 2025'te de uygulanıyor (38832). "Bu kesinti de haksızdır" görüşü tartışmalıdır. Bkz. `damga-harc.md` | ⚖️ (yalnız "kesinti haksızdır" görüşü) |
-| 17 | **Karşı taraf vekalet ücretinde KDV tevkifatı** | **GİB görüşü: uygulanır.** Borçlu belirlenmiş alıcıysa (5018'e ekli cetvellerdeki idareler, banka vb.) ve KDV dahil tutar sınırı aşıyorsa 5/10 tevkifat yapılır. **Belediyenin kendisi** listede yoktur; belediyeye verilen hizmette 5/10 tevkifat yapılmaz, %20 GV stopajı ise kesilir. Büyükşehir su ve kanalizasyon idareleri ile belediye birlikleri listededir (özelge 10/11/2021, ID 30252; KDV GUT I/C-2.1.3.1/b). Aynı davanın ilam ve icra vekalet ücretleri sınır hesabında toplanır (özelgeler 06/06/2022 ID 30232; 09/06/2022 ID 30226). "Yargılama gideridir, tevkifat yapılmaz" görüşü GİB'in yerleşik özelgeleriyle çelişir | ⚖️ (GİB: uygulanır) |
+| 17 | **Karşı taraf vekalet ücretinde KDV tevkifatı** | **GİB görüşü: uygulanır.** Borçlu KDV GUT I/C-2.1.3.2.13 listesindeyse (5018'e ekli cetvellerdeki idareler, banka, sigorta, baro vb.; belirlenmiş alıcı olmak tek başına yetmez, 30229) ve KDV dahil tutar sınırı aşıyorsa 5/10 tevkifat yapılır. **Belediyenin kendisi** listede yoktur; belediyeye verilen hizmette 5/10 tevkifat yapılmaz, %20 GV stopajı ise kesilir (özelge 10/11/2021, ID 30252). Büyükşehir su ve kanalizasyon idareleri ile belediye birlikleri yalnız I/C-2.1.3.1/b'de belirlenmiş alıcıdır, 2.1.3.2.13'te adıyla sayılmaz: kendi kuruluş kanunu olan su idaresinde (İSKİ) 5/10 vardır, olmayanda yoktur (23533, 30251; `kdv.md` §4). Aynı davanın ilam ve icra vekalet ücretleri sınır hesabında toplanır (özelgeler 06/06/2022 ID 30232; 09/06/2022 ID 30226). "Yargılama gideridir, tevkifat yapılmaz" görüşü GİB'in yerleşik özelgeleriyle çelişir | ⚖️ (GİB: uygulanır) |
 | 18 | 2026'da **12.000 TL** altı işlemde KDV tevkifatı yapmak ya da sınırın altında kalmak için bedeli bölmek | Sınır KDV dahil 12.000 TL'dir (2025: 9.900 TL) ve işlem bazında uygulanır. Bütünlük arz eden iş bölünemez. Başsavcılığa kesilen makbuzlarda sınır dosya bazında uygulanır (özelge 30159) | ✅ |
 
 ## Çapraz kontrol: TBB Hesaplama Araçları

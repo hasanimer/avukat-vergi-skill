@@ -119,7 +119,7 @@ Ayrıntı ve kaynaklar aşağıdaki maddelerdedir.
 - **Stopajın ödenip ödenmediği:** Ücret icradan reddiyat makbuzuyla, tevkifat düşülerek ödendiyse avukat, kesilen verginin sorumluca vergi dairesine ödenip ödenmediğini takip etmek zorunda değildir. Ödenmemesinden de sorumlu tutulmaz. Özelge 2011 tarihlidir, ancak ilke güncel kuralla uyumludur. [Özelge: 17.11.2011, B.07.1.GİB.4.34.16.01-GVK 94-2032 — https://gib.gov.tr/mevzuat/kanun/433/ozelge/23625]
 - **Tevkifat yükümlüsü olmayan borçlu:**
   - GVK 94'te sayılmayan borçlunun ödemesinden tevkifat yapılmaz. Avukat tutarı geçici vergi dönemlerinde ve yıllık beyannamede beyan eder. e-SMM yine borçlu adına düzenlenir (26/2-3).
-  - Dikkat: GVK 94'ün son fıkralarına göre gerçek kişi tacir ve serbest meslek erbabının tevkifat yükümlülüğü ticari veya mesleki işleriyle ilgili ödemelerle sınırlıdır. İşle ilgisiz bir davada bu kişilerin tevkifat yapmaması savunulabilir; bu ayrıma doğrudan değinen bir özelge bulunamadı. Tersinden, borç ticari veya mesleki işiyle ilgiliyse gerçek kişi tacir de tevkifat yapar.
+  - Dikkat: GVK 94'ün son fıkralarına göre gerçek kişi tacir ve serbest meslek erbabının tevkifat yükümlülüğü ticari veya mesleki işleriyle ilgili ödemelerle sınırlıdır. İşle ilgisiz (kişisel) bir davada bu kişiler tevkifat yapmaz. GİB bunu akdi ücret için açıkça söyler (23620: emekli maaşından kesilen SGDP'nin iadesi davasında tacir ve serbest meslek erbabı müvekkiller stopaj yapmaz); karşı taraf vekalet ücretini ödeyen borçluya uygulanması kıyastır. Tersinden, borç ticari veya mesleki işiyle ilgiliyse gerçek kişi tacir de tevkifat yapar.
   - Aynı ölçüt müvekkil üzerinden ödemede de geçerlidir: "müvekkil gerçek kişiyse stopaj yok" kuralı ancak müvekkil GVK 94 kapsamı dışındaysa doğrudur.
   - [Özelge: 17.11.2011, B.07.1.GİB.4.34.16.01-GVK 94-2032 — https://gib.gov.tr/mevzuat/kanun/433/ozelge/23625] [Özelge: 20.04.2012, B.07.1.GİB.4.38.15.01-GV-20-485-57 — https://gib.gov.tr/mevzuat/kanun/433/ozelge/23617] [Tebliğ: 311 GVGT 25/3]
 - **e-SMM sorunları tevkifatı etkilemez:**
@@ -357,7 +357,7 @@ Tutarlar TL'dir.
 - **Sigortalı çalışırken sürekli CMK görevi alan avukat:** 2011 tarihli özelgeye göre baronun sürekli görevlendirmesi faaliyetin mutad yapıldığını gösterir; avukat mükellefiyet açmalı ve SMM düzenlemelidir. Güncel Yönetmelik md.11/4 ise sigortalı müdafinin işveren avukatın makbuzunu kullanmasını öngörür (12. başlık). Av.K. 11-12'deki çalışma yasakları ayrıca değerlendirilmelidir. [Özelge: 09.06.2011, B.07.1.GİB.4.38.15.02-VUK-21-197-50 — https://gib.gov.tr/mevzuat/kanun/433/ozelge/23655]
 - **"Masraf" satırı:**
   - Zorunlu yol gideri, CMK Ücret Yönetmeliği md.4/1-e'deki "ücret" tanımına girer. Bu nedenle stopaja ve KDV'ye tabidir ve tevkifat sınırı hesabında işin bedeline eklenir.
-  - Aynı tanım müdafi veya vekilin ödediği temyiz, istinaf ve itiraz harçlarını da kapsar. Ancak harç iadesi md.11/6 uyarınca kesintisiz ödenir ve kazanç sayılmaz (GVK 67/4). Yönetmelik GVK 67'nin "ikinci fıkrası"na atıf yapar; kazanç sayılmama kuralı ise 4. fıkradadır, 2. fıkra gider karşılıklarının kazanca eklenmesine ilişkindir. e-SMM'de tarife ücreti ve yol gideri, harç iadesinden ayrı tutulmalıdır.
+  - Aynı tanım müdafi veya vekilin ödediği temyiz, istinaf ve itiraz harçlarını da kapsar. Harcın kesintisiz ödenmesine ilişkin md.11/6 ibaresi, md.8/2-3 ve 11/3'teki harç ibareleriyle birlikte Danıştay 10. D. 26.05.2015, E.2011/8240, K.2015/2572 kararıyla iptal edilmiştir; md.4/1-e'deki tanım iptal edilenler arasında değildir (`damga-harc.md` §4). Avukat harcı kendisi ödeyip iade alırsa iadenin kazanç sayılmaması GVK 67/4'ten çıkarımdır. Yönetmelik GVK 67'nin "ikinci fıkrası"na atıf yapar; kazanç sayılmama kuralı ise 4. fıkradadır, 2. fıkra gider karşılıklarının kazanca eklenmesine ilişkindir. e-SMM'de tarife ücreti ve yol gideri, harç iadesinden ayrı tutulmalıdır.
   - Yönetmeliğin md.11/3 ve 4/1-b'deki "büro" (birden fazla barolu illerdeki adli yardım bürosu) ibareleri Danıştay 8. Dairesinin 24.12.2025 tarihli, E.2025/1380, K.2025/10316 sayılı kararıyla iptal edilmiştir (araştırma notu; Yönetmelik metni: mevzuat.gov.tr MevzuatNo=11156).
   - [Özelge: 26.05.2014, 39044742-130-1439 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/31985]
 - **Dosya bazlı sınır:**
@@ -419,7 +419,7 @@ Bu başlıktaki bilgiler avukatın kendi vergisine değil, müvekkile veya karş
 - İşveren serbest avukat olduğunda 311 GVGT 25/4'ün uygulanıp uygulanmayacağı (6. başlık).
 - Bozma üzerine iadede borçlunun kestiği stopajın düzeltilmesi (8. başlık) ve yersiz kesintinin iadesinde başvurulacak vergi dairesi (2. başlık).
 - KDV tevkifat sınırındaki "işlemin yapıldığı yıl" ifadesinin hizmet yılını mı, makbuz yılını mı kastettiği (5. başlık).
-- e-SMM iptal ve itiraz usulü (509 Sıra No.lu VUK GT V.5.4 ayrıntıyı ebelge.gib.gov.tr teknik kılavuzlarına bırakır; kılavuz incelenmedi) ve KDV tevkifatının e-SMM satırlarında gösterimi (GUT birincil metninden okunmadı).
+- e-SMM iptal ve itiraz usulü (509 Sıra No.lu VUK GT V.5.4 ayrıntıyı ebelge.gib.gov.tr teknik kılavuzlarına bırakır; kılavuz incelenmedi) ve KDV tevkifatının e-SMM XML alanlarında ve kodlarla gösterimi (belgede gösterilecek tutarlar KDV GUT I/C-2.1.3.4.2'dedir; `smm-belge-duzeni.md` §9).
 - Adli yardımda baronun gelir vergisi tevkifatı: Baro KDV GUT'ta açıkça belirlenmiş alıcıdır, ancak GVK 94/1'deki tevkifat sorumluları listesinde adıyla yer almaz. 23551, ücretli dönemde hak edilen zorunlu müdafilik ve adli yardım ödemelerinden %20 tevkifat yapılacağını söyler; baronun kendisine yönelik doğrudan özelge bulunamadı. Baro ödeme dökümünü kontrol et; kesinti yoksa brüt tutarı beyan et.
 
 ## Bu dosyada kullanılan özelgeler
@@ -427,7 +427,7 @@ Bu başlıktaki bilgiler avukatın kendi vergisine değil, müvekkile veya karş
 
 | Tarih | Sayı | Konu | ID | Yerel | Link |
 |---|---|---|---|---|---|
-| 24.11.2025 | E-23921810-155-41850 | Resmi dairenin hizmet alımı ödemelerinde DVK (1) s. tablo IV/1-a yürürlükte (doğrudan temin) | 38832 | yok | https://gib.gov.tr/mevzuat/kanun/438/ozelge/38832 |
+| 24.11.2025 | E-23921810-155-41850 | Resmi dairenin hizmet alımı ödemelerinde DVK (1) s. tablo IV/1-a yürürlükte (doğrudan temin) | 38832 | var | https://gib.gov.tr/mevzuat/kanun/438/ozelge/38832 |
 | 19.11.2025 | E-93996897-130-211856 | KDV tevkifat sınırının güncel tebliğ metni (VUK 232 fatura sınırı) | 38780 | yok | https://gib.gov.tr/mevzuat/kanun/436/ozelge/38780 |
 | 15.08.2025 | E-64597866-130-1025186 | 2025 tevkifat sınırı 9.900 TL (VUK GT 577) | 38981 | yok | https://gib.gov.tr/mevzuat/kanun/436/ozelge/38981 |
 | 02.07.2025 | E-84974990-130[KDV-2/İ/28-2025/75]-365183 | Adli yardımlı davanın ilamlı icrasında icra vekalet ücretine %10 KDV | 38775 | var | https://gib.gov.tr/mevzuat/kanun/436/ozelge/38775 |
@@ -451,7 +451,7 @@ Bu başlıktaki bilgiler avukatın kendi vergisine değil, müvekkile veya karş
 | 21.03.2022 | 62030549-120[94-2019/1718]-313032 | Kurum aleyhine ve lehine vekalet ücreti; ücretli avukat; KDV tevkifatı | 23533 | var | https://gib.gov.tr/mevzuat/kanun/433/ozelge/23533 |
 | 16.02.2022 | E-62902401-130[2020-701-75]-22832 | 32. sıra KDV oranının tarihçesi; çocuk mahkemesi işlerinde soruşturma dahil indirimli oran | 32149 | var | https://gib.gov.tr/mevzuat/kanun/436/ozelge/32149 |
 | 11.11.2021 | 20811645-130[21-415-30]-72187 | Özel kuruluş kanunu olmayan kurum belirlenmiş alıcı değil; KDV tevkifatı yok | 30251 | var | https://gib.gov.tr/mevzuat/kanun/436/ozelge/30251 |
-| 10.11.2021 | E-76464994-130[KDV.2021/114]-177070 | Belediyeler I/C-2.1.3.1/b'deki belirlenmiş alıcılar arasında değil; KDV tevkifatı yok | 30252 | yok | https://gib.gov.tr/mevzuat/kanun/436/ozelge/30252 |
+| 10.11.2021 | E-76464994-130[KDV.2021/114]-177070 | Belediyeler I/C-2.1.3.1/b'deki belirlenmiş alıcılar arasında değil; KDV tevkifatı yok | 30252 | var | https://gib.gov.tr/mevzuat/kanun/436/ozelge/30252 |
 | 02.06.2021 | E-66523654-130[ÖZG-7-2021]-29773 | Adli yardım (baro) ve CMK (savcılık) ödemelerinde 5/10 KDV tevkifatı | 30273 | var | https://gib.gov.tr/mevzuat/kanun/436/ozelge/30273 |
 | 19.03.2021 | 38418978-120[94-20/27-İ]-101240 | İcraya yatırılan ücrette kadrolu avukat; yersiz kesintinin iadesi | 24440 | var | https://gib.gov.tr/mevzuat/kanun/433/ozelge/24440 |
 | 12.03.2021 | 64597866-120-4566 | Tehir-i icra teminatı ve sonradan yatırılan ücrette tevkifat | 23536 | var | https://gib.gov.tr/mevzuat/kanun/433/ozelge/23536 |

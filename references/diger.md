@@ -343,10 +343,10 @@ Aşağıdaki özelgeler avukatın kendi vergisini değil, müvekkilin ya da müv
 
 | Tarih | Sayı | Konu | Link | Yerel metin |
 |---|---|---|---|---|
-| 10.04.2026 | E-97895701-160[2026/5.1-19]-493812 | 35/A uzlaşma tutanağıyla mal rejimi tasfiyesi; VİV'de hisse değerlemesi (ilk tarhiyat) | https://gib.gov.tr/mevzuat/kanun/440/ozelge/38852 | — |
+| 10.04.2026 | E-97895701-160[2026/5.1-19]-493812 | 35/A uzlaşma tutanağıyla mal rejimi tasfiyesi; VİV'de hisse değerlemesi (ilk tarhiyat) | https://gib.gov.tr/mevzuat/kanun/440/ozelge/38852 | `references/ozelgeler/38852.txt` |
 | 29.04.2025 | 38418978-120[68-2024]-237911 | Baro yardımlaşma sandığı aidatı gider yazılamaz (üyelik isteğe bağlı) | https://gib.gov.tr/mevzuat/kanun/433/ozelge/38659 | `references/ozelgeler/38659.txt` |
 | 03.01.2024 | E-39044742-130[Özelge]-7175 | 60 No.lu KDV Sirküleri: yurt dışında ifa edilen hizmet KDV dışı, yüklenilen KDV indirilemez (avukat örneği) | https://gib.gov.tr/mevzuat/kanun/436/ozelge/28818 | `references/ozelgeler/28818.txt` |
-| 10.11.2021 | E-76464994-130[KDV.2021/114]-177070 | Belediye KDV GUT I/C-2.1.3.1/b belirlenmiş alıcı listesinde değil; KDV tevkifatı yok | https://gib.gov.tr/mevzuat/kanun/436/ozelge/30252 | — |
+| 10.11.2021 | E-76464994-130[KDV.2021/114]-177070 | Belediye KDV GUT I/C-2.1.3.1/b belirlenmiş alıcı listesinde değil; KDV tevkifatı yok | https://gib.gov.tr/mevzuat/kanun/436/ozelge/30252 | `references/ozelgeler/30252.txt` |
 | 20.04.2021 | 27575268-105[322-2019-583]-145006 | Arabuluculuk anlaşma belgesi; değersiz alacak; KDV indirimi | https://gib.gov.tr/mevzuat/kanun/434/ozelge/25314 | — |
 | 04.08.2020 | 62030549-125[8-2017/361]-E.567951 | İlamla ödenen tazminat, faiz, vekalet ücreti ve yargılama giderinin gider yazılması | https://gib.gov.tr/mevzuat/kanun/435/ozelge/28034 | — |
 | 13.03.2019 | 39044742-010-213227 | Yurt dışı grup şirketinin yansıttığı yurt dışı dava avukatlık ve icra masrafları: sorumlu sıfatıyla KDV yok | https://gib.gov.tr/mevzuat/kanun/436/ozelge/29006 | — |

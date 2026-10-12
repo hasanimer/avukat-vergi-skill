@@ -113,7 +113,7 @@
   - ⚖️ **Tartışmalı:** CMK ödemesinden yapılan DV kesintisinin de haksız olduğu görüşü vardır. Yayımlanmış GİB görüşü IV/1-a yönündedir; öncelikle bu görüşü esas al. Bkz. `uygulama-notlari.md` §14 #16a.
   - Avukatın ödediği kanun yolu harçlarının kesintisiz iadesine ilişkin Yönetmelik ibaresi Danıştay kararıyla iptal edilmiştir; ayrıntı için §4'e bak.
   - [Özelge: 27.08.2009, B.07.1.GİB.0.02.62/6210-35 — https://gib.gov.tr/mevzuat/kanun/438/ozelge/35082; yerel: references/ozelgeler/35082.txt]
-  - [Özelge: 24.11.2025, E-23921810-155-41850 — https://gib.gov.tr/mevzuat/kanun/438/ozelge/38832; yerel tam metin yok]
+  - [Özelge: 24.11.2025, E-23921810-155-41850 — https://gib.gov.tr/mevzuat/kanun/438/ozelge/38832; yerel: references/ozelgeler/38832.txt]
 - **Kıyas: bilirkişi ve uzlaştırmacı.**
   - Bilirkişi ücreti GVK 61/3-5 gereği ücret sayılır. Bu nedenle bütçenin hizmet alımı kaleminden ödense de kağıtları IV/1-b'ye tabidir (2026'da binde 7,59).
   - Avukat bilirkişi olarak çalıştığında IV/1-b, CMK müdafi olarak çalıştığında IV/1-a uygulanır.
@@ -132,7 +132,7 @@
   - İcra dairelerinin resmi daireler namına kişilere yaptığı ödemelerin makbuzları IV/1-d uyarınca nispi DV'ye tabidir. 2026 oranı binde 7,59'dur.
   - Matrah; faiz, yargılama gideri, avukatlık ücreti ve harç dahil toplam tutardır. KDV matraha girmez (30 Seri No.lu DVGT).
   - Özelge kamulaştırmasız el atma bedeline ilişkindir.
-  - [Özelge: 06.05.2020, 97895701-155[2019/223]-354039 — https://gib.gov.tr/mevzuat/kanun/438/ozelge/34330; yerel tam metin yok]
+  - [Özelge: 06.05.2020, 97895701-155[2019/223]-354039 — https://gib.gov.tr/mevzuat/kanun/438/ozelge/34330; yerel: references/ozelgeler/34330.txt]
   - Resmi daire lehine yapılan kamulaştırmada bedel ödemesi (2) sayılı tablo I/A-9 uyarınca istisnadır. Ancak bedelin unsuru olmayan faiz, icra masrafı ve **mahkeme vekalet ücreti** için icra dairesi IV/1-d uyarınca kesinti yapar (oran 2011'de binde 6,6 idi).
   - [Özelge: 04.11.2011, B.07.1.GİB.4.33.15.01-2008-705-40-84 — https://gib.gov.tr/mevzuat/kanun/438/ozelge/34890; yerel: references/ozelgeler/34890.txt]
 - **Ücretli (bordrolu) avukat: IV/1-b.**
@@ -189,7 +189,7 @@
   - Tutanağı imzalayanlar ihale yetkilisince ihale komisyonu olarak görevlendirilmişse tutanak ihale kararı sayılır ve II/2 uyarınca vergilendirilir (2026'da binde 5,69).
   - Özelgedeki avukatlık hizmeti 4734 m.22/g kapsamında doğrudan teminle alınmıştı.
   - Doğrudan teminde idarenin yaptığı ödemelere ait kağıtlar da, idare DVK m.8 anlamında resmi daireyse, IV/1-a uyarınca DV'ye tabidir ve vergi ödemeden kesilir (38832). Avukatlık hizmetine uygulanması kıyastır.
-  - [Özelge: 24.03.2016, 90792880-155.01[2015/503]-19719 — https://gib.gov.tr/mevzuat/kanun/438/ozelge/34561; yerel tam metin yok]
+  - [Özelge: 24.03.2016, 90792880-155.01[2015/503]-19719 — https://gib.gov.tr/mevzuat/kanun/438/ozelge/34561; yerel: references/ozelgeler/34561.txt]
 - **Büro (iş yeri) kira sözleşmesi.**
   - Sözleşme süresince ödenecek toplam kira üzerinden **binde 1,89** DV ödenir (I/A-2). Artışlar dikkate alınmaz.
   - Konut kira sözleşmesi DV'den istisnadır.
@@ -255,7 +255,7 @@ DVK m.3'e göre mükellef kağıdı imzalayanlardır. Bu belgelerde vergi yükü
   - [Özelge: 03.10.2011, B.07.1.GİB.4.34.18.01-003.01-1699 — https://gib.gov.tr/mevzuat/kanun/439/ozelge/35851; yerel: references/ozelgeler/35851.txt]
 - **CMK görevinde avukatın ödediği kanun yolu harçları.**
   - CMK Ödemeleri Yönetmeliği md.4/1-e'deki "ücret" tanımı, müdafi veya vekilin ödediği temyiz, istinaf ve itiraz harçlarını da sayar.
-  - md.11/6'ya göre bu harçlar "herhangi bir kesintiye tabi olmaksızın" ödenir. Fıkra GVK 67'nin "ikinci fıkrasına" atıf yapar. Harç için alınıp tamamen harcanan paranın kazanç sayılmamasının maddi dayanağı ise GVK 67/4'tür.
+  - md.11/6 bu harçların "herhangi bir kesintiye tabi olmaksızın" ödeneceğini öngörüyor ve GVK 67'nin "ikinci fıkrasına" atıf yapıyordu; bu ibare aşağıdaki Danıştay kararıyla iptal edilmiştir. Harç için alınıp tamamen harcanan paranın kazanç sayılmamasının maddi dayanağı ise GVK 67/4'tür.
   - **Dikkat:** Danıştay 10. Dairesinin 26.05.2015 tarihli, E.2011/8240, K.2015/2572 sayılı kararı, md.8/2-3, md.11/3 ve md.11/6'daki, müdafi veya vekilin karşıladığı temyiz, istinaf ve itiraz harçlarına ilişkin ibareleri iptal etmiştir. md.4/1-e'deki tanım iptal edilen ibareler arasında gösterilmemiştir. Bu nedenle kesintisiz harç iadesinin Yönetmelikteki dayanağı iptal edilmiştir (mevzuat.gov.tr dipnotu, 12.10.2026'da okundu; kararın kesinleşip kesinleşmediği teyit edilmedi).
   - Avukat harcı yine de kendisi ödeyip iade alırsa e-SMM'de tarife ücreti ve yol gideri ile harç iadesini ayrı göster. İadenin kazanç ve IV/1-a DV matrahı dışında kalması GVK 67/4'ten çıkarımdır.
   - Kaynak: Yönetmeliğin güncel metni ve dipnotları, https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=11156&MevzuatTur=7. Ayrıca bkz. `kdv.md` §5 ve `ek-faaliyetler.md` (CMK).
@@ -273,7 +273,7 @@ Bu bölümdeki vergi ve harçları müvekkil öder. Bilgiler danışmanlık ve m
   - Şerhli anlaşmaya dayanarak hisselerin bedel karşılığında bir ortağa devri, şüyuun izalesi yoluyla satış sayılır. Bu devirde HK (4) sayılı tarife I/20-a uyarınca devredenden ve devralandan ayrı ayrı nispi tapu harcı alınır.
   - Hesaplanan harç asgari tutarın (2026: 411,60 TL) altında kalırsa, devir sayısına bakılmaksızın her taşınmazda devredenden ve devralandan birer asgari harç alınır (7440 s.K., 12.03.2023).
   - 7566 s.K. m.8 (RG 19.12.2025, yayım tarihinde yürürlükte) I/20-a'daki genel matrah ibaresini değiştirmiştir. Yeni ifade: "emlak vergisi değerinden az olmamak üzere beyan edilen devir ve iktisap bedeli". Cebri icra ve şüyuun izalesi hallerinde "satış bedeli" esasını koyan parantez içi hükme dokunulmamıştır.
-  - [Özelge: 25.08.2025, 28521120-140.04.01-23065 — https://gib.gov.tr/mevzuat/kanun/439/ozelge/38792; yerel tam metin yok]
+  - [Özelge: 25.08.2025, 28521120-140.04.01-23065 — https://gib.gov.tr/mevzuat/kanun/439/ozelge/38792; yerel: references/ozelgeler/38792.txt]
 - **Yabancı hakem kararının tenfizi (masraf planlaması).**
   - Yurt dışında verilen hakem kararının Türkçe tercümesinden, Türkiye'de hükmünden yararlanıldığında DV alınır; örneğin mahkemeye sunulması veya noterde tasdik edilmesi (II/1). Belli para içeren karar II/1-a uyarınca nispi DV'ye tabidir (2026'da binde 9,48).
   - Tenfiz davasında başvurma harcı alınır (2026'da asliyede 732,00 TL). Ayrıca hüküm altına alınan değer üzerinden binde 68,31 nispi karar ve ilam harcı alınır. Nispi harcın dörtte biri peşin ödenir (HK m.28/1-a).
@@ -289,7 +289,7 @@ Bu bölümdeki vergi ve harçları müvekkil öder. Bilgiler danışmanlık ve m
     - Borsada kayıtlıysa ölüm tarihinden önceki üç yıl içindeki son muamele değeriyle
     - Borsada kayıtlı değilse veya üç yıl içinde muamele görmemişse itibari değerle
   - 35/A tutanağı, mal rejimi alacağını ayırarak VİV matrahını belirlemede müvekkil lehine kullanılabilir (çıkarım).
-  - [Özelge: 10.04.2026, E-97895701-160[2026/5.1-19]-493812 — https://gib.gov.tr/mevzuat/kanun/440/ozelge/38852; yerel tam metin yok]
+  - [Özelge: 10.04.2026, E-97895701-160[2026/5.1-19]-493812 — https://gib.gov.tr/mevzuat/kanun/440/ozelge/38852; yerel: references/ozelgeler/38852.txt]
 - **Taahhütname ve arabuluculuk belgesinin DV'si** de müvekkilin maliyetidir. Bkz. §3 (34305, 34347).
 
 ## Zaman içindeki değişimler ve çelişkiler
@@ -302,7 +302,7 @@ Bu bölümdeki vergi ve harçları müvekkil öder. Bilgiler danışmanlık ve m
 - **CMK ödemeleri (35082):**
   - Vergi dairesinin IV/1-b (ücret) görüşü GİB Başkanlığınca düzeltildi; IV/1-a uygulanır ve zorunlu yol gideri de dahildir. IV/1-a hükmünün 2025'te de aynı içerikle uygulandığını 38832 gösterir.
   - IV/1-b yalnızca bilirkişi ve uzlaştırmacı gibi GVK 61'e göre ücret sayılan ödemeler için geçerlidir (34740, 23157).
-  - `uygulama-notlari.md` §14 #16a'da yer alan "harcırah niteliğindeki yol gideri tabi değildir" ifadesi 35082'nin metniyle uyuşmuyor. Özelge, mutat ve mutat dışı taşıtla yapılan zorunlu yol giderlerini açıkça IV/1-a kapsamına alır.
+  - Özelge, mutat ve mutat dışı taşıtla yapılan zorunlu yol giderlerini açıkça IV/1-a kapsamına alır; `uygulama-notlari.md` §14 #16a da bu yöndedir. "Harcırah niteliğindeki yol gideri DV'ye tabi değildir" görüşü 35082'ye dayandırılamaz.
   - ⚖️ Kesintinin haksız olduğu görüşü için `uygulama-notlari.md` §14 #16a.
 - **CMK harç iadesi:** Yönetmelik md.11/6'daki kesintisiz harç iadesi ibaresi Danıştay 10. D. 26.05.2015, E.2011/8240, K.2015/2572 kararıyla iptal edilmiştir. Kazanç sayılmama kuralının maddi dayanağı GVK 67/4'tür; Yönetmelik 67'nin ikinci fıkrasına atıf yapıyordu (§4).
 - **34278 ile 34890 ve 34330 arasında gerçek bir çelişki yoktur.**
@@ -324,21 +324,21 @@ Bu bölümdeki vergi ve harçları müvekkil öder. Bilgiler danışmanlık ve m
 
 | Tarih | Sayı | Konu | Link | Yerel metin |
 |---|---|---|---|---|
-| 10.04.2026 | E-97895701-160[2026/5.1-19]-493812 | 35/A tutanağıyla mal rejimi tasfiyesi; VİV beyanında terekeye dahil edilecek kısım | https://gib.gov.tr/mevzuat/kanun/440/ozelge/38852 | yok |
+| 10.04.2026 | E-97895701-160[2026/5.1-19]-493812 | 35/A tutanağıyla mal rejimi tasfiyesi; VİV beyanında terekeye dahil edilecek kısım | https://gib.gov.tr/mevzuat/kanun/440/ozelge/38852 | references/ozelgeler/38852.txt |
 | 06.04.2026 | E-97895701-155[2025/20]-464441 | Av.K. 35/A uzlaşma tutanağının DV'si (tabi değil) | https://gib.gov.tr/mevzuat/kanun/438/ozelge/38910 | references/ozelgeler/38910.txt |
-| 24.11.2025 | E-23921810-155-41850 | Doğrudan teminde resmi dairenin ödemeleri: IV/1-a; kesilen DV'nin muhtasarla beyanı | https://gib.gov.tr/mevzuat/kanun/438/ozelge/38832 | yok |
-| 25.08.2025 | 28521120-140.04.01-23065 | Şerhli ortaklığın giderilmesi arabuluculuk anlaşmasıyla tapuda devir, tapu harcı | https://gib.gov.tr/mevzuat/kanun/439/ozelge/38792 | yok |
+| 24.11.2025 | E-23921810-155-41850 | Doğrudan teminde resmi dairenin ödemeleri: IV/1-a; kesilen DV'nin muhtasarla beyanı | https://gib.gov.tr/mevzuat/kanun/438/ozelge/38832 | references/ozelgeler/38832.txt |
+| 25.08.2025 | 28521120-140.04.01-23065 | Şerhli ortaklığın giderilmesi arabuluculuk anlaşmasıyla tapuda devir, tapu harcı | https://gib.gov.tr/mevzuat/kanun/439/ozelge/38792 | references/ozelgeler/38792.txt |
 | 31.07.2024 | E-62030549-120-1020639 | Karşı taraf vekalet ücretinde tevkifat sorumlusu ve SMM muhatabı (311 Seri No.lu GVGT md.25-26) | https://gib.gov.tr/mevzuat/kanun/433/ozelge/23511 | references/ozelgeler/23511.txt |
 | 09.02.2023 | 17192610-299[GV-22-235]-36925 | Uzlaştırmacı ücreti: ücret niteliği, asgari ücret GV ve DV istisnası | https://gib.gov.tr/mevzuat/kanun/433/ozelge/23157 | references/ozelgeler/23157.txt |
 | 16.09.2022 | 97895701-140.01.04[2022/1387]-1039884 | Avukat onaylı vekaletname suret harcı | https://gib.gov.tr/mevzuat/kanun/439/ozelge/35418 | references/ozelgeler/35418.txt |
 | 08.04.2022 | 97895701-155[2021/251]-389396 | Belediyenin mahkeme kararıyla ödediği karşı taraf vekalet ücreti, IV/1-a dışı | https://gib.gov.tr/mevzuat/kanun/438/ozelge/34278 | references/ozelgeler/34278.txt |
 | 02.11.2020 | 64597866-155.01-25500 | İcra dairesinde avukatın imzaladığı borç ödeme taahhütnamesi, I/A-1; tek nüsha kuralı | https://gib.gov.tr/mevzuat/kanun/438/ozelge/34305 | references/ozelgeler/34305.txt |
-| 06.05.2020 | 97895701-155[2019/223]-354039 | İcra yoluyla resmi daire namına ödemede IV/1-d matrahı (avukatlık ücreti dahil) | https://gib.gov.tr/mevzuat/kanun/438/ozelge/34330 | yok |
+| 06.05.2020 | 97895701-155[2019/223]-354039 | İcra yoluyla resmi daire namına ödemede IV/1-d matrahı (avukatlık ücreti dahil) | https://gib.gov.tr/mevzuat/kanun/438/ozelge/34330 | references/ozelgeler/34330.txt |
 | 26.12.2019 | B.07.1.GİB.4.06.17.02-155[2455]-472115 (metinde: 90792880-155[2455]-472115) | Arabuluculuk anlaşma belgesi, şerhsiz kullanımda maktu DV | https://gib.gov.tr/mevzuat/kanun/438/ozelge/34347 | references/ozelgeler/34347.txt |
 | 23.12.2019 | B.07.1.GİB.4.07.16.01-120.03[GVK.ÖZ.2017.61]-283385 (metinde: 49327596-120.03[GVK.ÖZ.2017.61]-283385) | Kişilerce serbest meslek erbabına ödemede DV yok; %20 stopaj | https://gib.gov.tr/mevzuat/kanun/438/ozelge/23363 | references/ozelgeler/23363.txt |
 | 21.09.2018 | 97895701-155[2017/233]-844975 | Yabancı hakem kararı tercümesinde DV, tenfiz davasında harç | https://gib.gov.tr/mevzuat/kanun/439/ozelge/34628 | references/ozelgeler/34628.txt |
 | 26.05.2016 | B.07.1.GİB.4.35.16.01-120.04.06[94-2016/2]-296 (metinde: 84098128-120.04.06[94-2016/2]-296) | Ücretli avukat adına hükmedilen vekalet ücreti: SMM ve tevkifat (311 GVGT ile aşıldı) | https://gib.gov.tr/mevzuat/kanun/433/ozelge/23579 | references/ozelgeler/23579.txt |
-| 24.03.2016 | 90792880-155.01[2015/503]-19719 (GİB künye kaydında 24.04.2016 ve "0792880-…" görünür) | Doğrudan teminle avukatlık hizmeti: olur ve tutanak DV'si, sözleşme DV'ye tabi | https://gib.gov.tr/mevzuat/kanun/438/ozelge/34561 | yok |
+| 24.03.2016 | 90792880-155.01[2015/503]-19719 (GİB künye kaydında 24.04.2016 ve "0792880-…" görünür) | Doğrudan teminle avukatlık hizmeti: olur ve tutanak DV'si, sözleşme DV'ye tabi | https://gib.gov.tr/mevzuat/kanun/438/ozelge/34561 | references/ozelgeler/34561.txt |
 | 19.02.2016 | 90792880-155.01.05.02[2013/2512]-6991 | Ücretli sendika avukatına ödenen vekalet ücreti, IV/1-b; SMM muhatabı | https://gib.gov.tr/mevzuat/kanun/438/ozelge/23471 | references/ozelgeler/23471.txt |
 | 07.01.2016 | B.07.1.GİB.4.34.16.01-120[65-2014/483]-1238 (metinde: 62030549-120[65-2014/483]-1238) | Ücret alacağının icra yoluyla tahsili; icra masrafı ve tahsil harcı kazanca girmez | https://gib.gov.tr/mevzuat/kanun/433/ozelge/23585 | references/ozelgeler/23585.txt |
 | 15.03.2013 | 97895701-155[1-2012/124]-419 | Bilirkişi ücreti kağıtları IV/1-b (kıyas) | https://gib.gov.tr/mevzuat/kanun/438/ozelge/34740 | references/ozelgeler/34740.txt |
