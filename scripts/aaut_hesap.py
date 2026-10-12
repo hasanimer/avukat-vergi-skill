@@ -13,8 +13,13 @@ Alt komutlar:
 
 Vergi: Kararda "KDV hariç" ibaresi yoksa hükmedilen vekalet ücreti KDV dahil kabul edilir;
 KDV iç yüzdeyle ayrılır, GV stopajı KDV hariç tutar üzerinden hesaplanır (311 Seri No.lu
-GVGT md.25/5; GİB özelgesi 17/10/2022-245464). Stopajı ödeyen GVK 94 sorumlusu yapar;
-gerçek kişi borçlu kesinti yapmaz. Makbuz borçlu (davayı kaybeden) adına düzenlenir.
+GVGT md.25/5; GİB özelgesi 17/10/2022-245464). Stopajı GVK 94/1'de sayılan ödeyen yapar.
+Ölçüt gerçek kişi olmak değil, 94/1'de sayılmaktır: ticari veya mesleki faaliyeti olmayan ya da
+ödemeyi bu faaliyetiyle ilgisiz (kişisel) bir iş için yapan gerçek kişi borçlu kesinti yapmaz;
+tacir veya serbest meslek erbabı gerçek kişi işiyle ilgili ödemede yapar (311 GVGT md.25/3;
+özelge 23620). Makbuz borçlu (davayı kaybeden) adına düzenlenir. KDV tevkifatı (5/10) yalnız
+borçlu KDV GUT I/C-2.1.3.2.13 listesindeyse ve sınır aşılıyorsa; belediyenin kendisi listede
+değildir (özelge 30252).
 """
 from __future__ import annotations
 
@@ -169,6 +174,9 @@ def test() -> int:
     esit("45.000 KDV dahil → brüt", v["brut"], 37500)
     esit("45.000 KDV dahil → stopaj", v["stopaj"], 7500)
     esit("45.000 KDV dahil → avukata ödenecek", v["tahsil_edilecek"], 37500)
+    g = vergi_karsiligi(45000, stopaj_sorumlusu=False)
+    esit("94/1'de sayılmayan borçlu → stopaj yok", g["stopaj"], 0)
+    esit("94/1'de sayılmayan borçlu → avukata ödenecek", g["tahsil_edilecek"], 45000)
     print("Tüm testler geçti." if not hata else f"{hata} test başarısız.")
     return 1 if hata else 0
 
@@ -189,8 +197,11 @@ def main(argv=None) -> int:
     k.add_argument("--asil-alacak", type=D)
     k.add_argument("--hukmedilen", type=D, help="Kararda yazan ücret (verilirse tarife hesabı atlanır)")
     k.add_argument("--kdv-haric", action="store_true", help="Kararda 'KDV hariç' ibaresi varsa")
-    k.add_argument("--odeyen-gercek-kisi", action="store_true", help="Ödeyen GVK 94 sorumlusu değil (stopaj yok)")
-    k.add_argument("--kdv-tevkifat", default="0", help="Ödeyen belirlenmiş alıcıysa ve sınır aşılıyorsa ör. 5/10")
+    k.add_argument("--odeyen-gercek-kisi", "--odeyen-sorumlu-degil", dest="odeyen_gercek_kisi", action="store_true",
+                   help="Ödeyen GVK 94/1'de sayılmıyor, stopaj yok (ör. ödemeyi işiyle ilgisiz yapan gerçek kişi). "
+                        "Tacir veya serbest meslek erbabı gerçek kişi işiyle ilgili ödemede stopaj yapar (311 GVGT md.25/3)")
+    k.add_argument("--kdv-tevkifat", default="0", help="Ödeyen KDV GUT I/C-2.1.3.2.13 listesindeyse (5018 idaresi, baro, banka, "
+                   "sigorta vb.; belediyenin kendisi değil: özelge 30252) ve KDV dahil tutar sınırı aşıyorsa ör. 5/10")
     k.add_argument("--kdv", default="20", help="KDV oranı: 20 (genel) veya 10 (adli yardım, aile/tüketici/çocuk mahkemesi, "
                    "vesayet, iş uyuşmazlığında dava şartı arabuluculuk ve bunların ilamlı icrası — 2007/13033 BKK (II) 32)")
     sub.add_parser("test")

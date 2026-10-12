@@ -3,7 +3,7 @@
 **Kapsam**
 - Avukatın kendi e-SMM'lerinde KDV: oran (%20 / %10), matrah, vergiyi doğuran olay ve düzeltme.
 - KDV tevkifatı: dava ve icrada 5/10, hukuki danışmanlıkta 9/10, tutar sınırı, karşı taraf vekalet ücreti.
-- CMK, adli yardım ve arabuluculuk; yabancı müvekkil, yurt dışında verilen ve yurt dışından alınan hizmet; KDV indirimi.
+- CMK, adli yardım, arabuluculuk ve telif; yabancı müvekkil, yurt dışında verilen ve yurt dışından alınan hizmet; KDV indirimi.
 - Son kontrol 12.10.2026. Tutarların tek kaynağı `parametreler.md`; bu dosyadaki tutarlar onunla aynıdır.
 
 **İlgili dosyalar**
@@ -26,13 +26,13 @@
 |---|---|---|---|
 | 1 | Standart avukatlık makbuzunda KDV oranı kaç? | **%20** (10.07.2023'ten; öncesi %18) | KDVK 28; CBK 7346; §1 |
 | 2 | Hangi işler %10? | Aile, tüketici ve çocuk mahkemesinin görev alanındaki işler (çocukta soruşturma dahil), vesayet, bunların kanun yolları, iş uyuşmazlığında dava şartı arabuluculukta **taraf vekilliği**, bunların **ilamlı** icrası, HMK/Av.K. adli yardımı. Arabulucunun kendi hizmeti, tüketici hakem heyeti işleri ve ilamsız takip %20 (hakem heyeti ve ilamsız takip ⚖️, §9) | 2007/13033 BKK (II) B/32; 38775; 32149; 32205; 32244; §1 |
-| 3 | CMK zorunlu müdafilik ücretinde KDV? | %20 (lafzi yorum; oranı belirleyen özelge yok). Çocuk mahkemesinin görev alanındaki işte %10. SMM Başsavcılık adına düzenlenir; KDV dahil bedel 12.000 TL'yi aşarsa Başsavcılık 5/10 tevkif eder | B/32; 32149; 30273; §5 |
+| 3 | CMK zorunlu müdafilik ücretinde KDV? | %20 (lafzi yorum; oranı belirleyen özelge yok). Çocuk mahkemesinin görev alanındaki işte %10. SMM Başsavcılık adına düzenlenir; KDV dahil bedel 12.000 TL'yi aşarsa Başsavcılık 5/10 tevkif eder. Tarifenin KDV dahil mi hariç mi olduğu metinde yazmaz; KDV dahil kabulü uygulamadır (teyit edilmedi) | B/32; 32149; 30273; RG 08.01.2026/33131; §5 |
 | 4 | Kararda "KDV hariç" yazmıyor; KDV nasıl hesaplanır? | Ücret KDV dahildir. İç yüzde: tutar ÷ 1,20 (B/32 işlerinde ÷ 1,10). GV stopajı KDV hariç tutardan hesaplanır | KDV GUT I/B-4; 311 GVGT md.25/5; 29607; §2 |
 | 5 | Karşı taraf vekalet ücretinde makbuz kime, KDV tevkifatı var mı? | Makbuz **borçlu (kaybeden)** adına düzenlenir. Borçlu 2.1.3.2.13 listesindeyse (kamu idaresi, banka, sigorta vb.) ve KDV dahil tutar sınırı aşıyorsa 5/10 tevkifat uygulanır. Aynı davanın ilam ve icra ücretleri sınırda toplanır | KDV GUT I/B-4 (Seri 52); 311 GVGT md.26/2-3; 30232; 30226; §2, §4 |
 | 6 | KDV tevkifatı ne zaman uygulanır? | Alıcı 2.1.3.2.13 listesindeyse ve KDV dahil bedel işlem yılının VUK 232 sınırını (2026: **12.000 TL**; 2025: **9.900 TL**) aşarsa. Dava ve icrada **5/10**, belirlenmiş alıcıya hukuki danışmanlıkta **9/10**. Sınır aşılınca tevkifat tutarın tamamına uygulanır | KDV GUT I/C-2.1.3.2.13, 2.1.3.2.2, 2.1.3.4.1; Seri 50; §4 |
-| 7 | Özel şirket, belediye veya gerçek kişi müvekkilde tevkifat var mı? | Yok. Belediyenin kendisi listede değildir. BİST şirketi gibi belirlenmiş alıcılarda yalnız hukuki danışmanlıkta 9/10 vardır | 30252; 30229; 30232; §4 |
+| 7 | Özel şirket, belediye veya gerçek kişi müvekkilde tevkifat var mı? | Yok. Belediyenin kendisi I/C-2.1.3.1/b listesinde değildir (karşı taraf vekalet ücreti dahil); belediye %20 GV stopajını yine keser. BİST şirketi gibi belirlenmiş alıcılarda yalnız hukuki danışmanlıkta 9/10 vardır | 30252; 30257; 30268; 30229; 30232; §4 |
 | 8 | Arabulucu olarak düzenlediğim makbuzda KDV? | %20. Başsavcılık öderse dosya bazında KDV dahil bedel sınırı aşınca 5/10 tevkifat uygulanır; özel hukuk kişisi öderse tevkifat yoktur | 32244; 30159; 38680; §6 |
-| 9 | Yabancı müvekkil KDV'yi değiştirir mi? | Türkiye'deki dava, icra veya hakla ilgili iş: %20. Müvekkilin yurt dışındaki işiyle ilgili ve yurt dışında yararlanılan iş: istisna (hizmet ihracı). Yurt dışında ifa edilip yurt dışında yararlanılan iş: KDV'nin konusu dışında; bu işe ait KDV indirilemez | KDVK 6/b, 11/1-a, 12/2; 28940; 23500; 28818; §7 |
+| 9 | Yabancı müvekkil KDV'yi değiştirir mi? | Türkiye'deki dava, icra veya hakla ilgili iş: %20. Müvekkilin yurt dışındaki işiyle ilgili ve yurt dışında yararlanılan iş: istisna (hizmet ihracı). Yurt dışında ifa edilip yurt dışında yararlanılan iş: KDV'nin konusu dışında; bu işe ait KDV indirilemez. GV: yurt dışına verilen hizmet indirimi (GVK 89/1-13) ve yurt dışı kazanç istisnası (GVK mük. 20/D) Türkiye'de verilen avukatlık hizmetine uygulanmaz | KDVK 6/b, 11/1-a, 12/2; 28940; 23500; 28818; GVK 89/1-13; `parametreler.md`; §7 |
 | 10 | Müvekkil ödemedi, ücret iade edildi ya da iş ücretsiz; KDV ne olur? | Hizmet ifa edildiyse KDV düzeltilmez (GİB görüşü; `uygulama-notlari.md` §5 farklı, ⚖️ §9). Bozma kararıyla iade edilen karşı taraf vekalet ücretinde KDVK 35 düzeltmesi yapılır. Ücretsiz veya tarife altı işte KDV tarife tutarı üzerinden hesaplanır | 23574; 23649; 23702; 29150; KDVK 27/5; 23601; §2, §9 |
 
 ## Özet tablolar (2026)
@@ -105,7 +105,7 @@ Tevkifat yalnız **KDV dahil bedel** işlem yılının VUK 232 fatura sınırın
   - Çocuk mahkemesi görev alanındaki CMK görevleri %10'dur (32149).
 - **2026'da avukatlığa özgü değişiklik yok.** Şubat–Ekim 2026 arasında avukatlık hizmetlerine özgü bir KDV değişikliği tespit edilmedi. KDV GUT Seri 57 (RG 31.01.2026/33154) ve Seri 58 (RG 16.06.2026/33282) avukatlıkla ilgili değildir (araştırma notu, 2026 taraması).
   - Seri 56 (RG 31.12.2025/33124 5. Mük.) yalnız III/B-3'teki 2026 iade tutarını ekler (§8); tevkifatla ilgisi yoktur.
-  - 7577 s.K. KDVK'ya 17/4-ğ bendini ekledi (`parametreler.md`). Bu bendin avukatlık hizmetine etkisi bu dosyada incelenmedi (teyit edilmedi). KDVK 27 bu kanundan etkilenmedi.
+  - 7577 s.K. (RG 17.04.2026/33227) md.3 KDVK'ya 17/4-ğ bendini ekledi; yürürlük yayımı izleyen ikinci aybaşı, yani 01.06.2026'dır (7577 yürürlük maddesi). Bent yalnız "2942 sayılı Kamulaştırma Kanunu kapsamında taşınmazların kamulaştırmayı yapan Devlet ve kamu tüzel kişilerine devri"ni istisna eder. Avukatın kamulaştırma veya bedel tespiti davasında verdiği hizmet bu devir değildir; genel orandaki KDV sürer (çıkarım; bendin lafzı). İstisna, taşınmazı kamulaştırılan KDV mükellefi müvekkili ilgilendirir. KDVK 27 bu kanundan etkilenmedi.
 - **İç yüzde.** KDV dahil vekalet ücretinde KDV = tutar ÷ 1,20 × 0,20; %10'luk işlerde tutar ÷ 1,10 × 0,10. Komut: `aaut_hesap.py ... --kdv 10`, `smm_hesap.py makbuz ... --kdv 10` (`uygulama-notlari.md` §4).
 
 ## 2. KDV matrahı, vergiyi doğuran olay ve düzeltme
@@ -196,6 +196,7 @@ Tevkifat yalnız **KDV dahil bedel** işlem yılının VUK 232 fatura sınırın
 ### 5/10 "diğer hizmetler" (KDV GUT I/C-2.1.3.2.13)
 - **Kural.** Dava ve icra hizmetleri 9/10 kapsamı dışında kaldığından "Tebliğde özel olarak belirlenmeyen diğer hizmet" sayılır. Listedeki alıcılara verildiğinde:
   - Alıcı 5/10 tevkifat yapar ve tevkif ettiği KDV'yi 2 No.lu beyannameyle beyan eder.
+  - İstisna: Genel bütçeli idareler (ör. Adalet Bakanlığı'na bağlı Cumhuriyet başsavcılıkları) tevkif ettikleri KDV için 2 No.lu beyanname vermez; tevkif edilen tutarı muhasebe birimi doğrudan gelir kaydeder. 5018 idaresi ödemeyi genel bütçe ödenekleri dışındaki bir kaynaktan yaparsa 2 No.lu beyanname verir. Baro, banka ve sigorta şirketi gibi diğer alıcılar 2 No.lu beyanname verir (KDV GUT I/C-2.1.1.1 ve 2.1.3.4.3.1; 30168 ve 29078'de alıntı). Avukat açısından sonuç değişmez.
   - Avukat 1 No.lu beyannamede yalnız tevkif edilmeyen kısmı beyan eder.
   - 5/10 oranı Seri 35'ten Seri 58'e (son tebliğ RG 16.06.2026) kadar değişmedi (doğrulanmış araştırma notu).
 - **Listenin seyri** (RG metinleri kontrol edildi):
@@ -233,12 +234,23 @@ Tevkifat yalnız **KDV dahil bedel** işlem yılının VUK 232 fatura sınırın
   - Bu alıcılara verilen hukuki danışmanlık ise I/C-2.1.3.2.2 uyarınca 9/10'a tabidir (30232).
 
   [Özelge: 08.06.2022, 39044742-130[Özelge]-637351 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/30229] [Özelge: 06.06.2022, 36062021-130[09-2021/ÖZE-40]-50290 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/30232]
-- **Belediyeler belirlenmiş alıcı değildir.** Belediyelerin kendisi listede yoktur; yalnız belediye birlikleri ve büyükşehir su ve kanalizasyon idareleri vardır. Belediyeye verilen avukatlık hizmetinde, danışmanlık dahil, kısmi tevkifat uygulanmaz. Dayanak özelge yapım işi ve personel taşıma hizmetine ilişkindir; avukatlık için alıcı listesinden çıkarılan bir sonuçtur (çıkarım). Bu dosyanın önceki sürümünde belediyelerin belirlenmiş alıcı olarak sayılması hatalıydı. [Özelge: 10.11.2021, 76464994-130-177070 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/30252]
+- **Belediyeler belirlenmiş alıcı değildir.**
+  - I/C-2.1.3.1/b'nin ilk satırı "5018 sayılı Kanuna ekli cetvellerde yer alan idare, kurum ve kuruluşlar, il özel idareleri ve bunların teşkil ettikleri birlikler, belediyelerin teşkil ettikleri birlikler ile köylere hizmet götürme birlikleri"ni sayar. Belediyelerin kendisi bu sayımda yoktur; listede yalnız belediyelerin kurduğu birlikler ve büyükşehir belediyelerinin su ve kanalizasyon idareleri vardır. Belediyeler 2.1.3.2.13 listesinde de yoktur.
+  - GİB bunu üç özelgede açıkça söyler: yapım işi ve personel taşıma (30252), yapım işi (30268), ticari reklam (30257, "büyükşehir belediyeleri dahil").
+  - Alıcının statüsü hizmet türünden bağımsız belirlenir. Bu yüzden belediyeye verilen dava, icra ve danışmanlık hizmetinde de KDV tevkifatı (5/10 veya 9/10) yoktur. Karşı taraf vekalet ücretinde borçlu belediye ise de sonuç aynıdır (aşağıda).
+  - Belediye GVK 94 sorumlusudur; %20 GV stopajını keser.
+  - Belediye birlikleri ve büyükşehir su ve kanalizasyon idareleri belirlenmiş alıcıdır; danışmanlıkta 9/10 uygulanır. Dava ve icrada 5/10 için alıcının 2.1.3.2.13'te de bulunması gerekir: su idaresinin kendi kuruluş kanunu varsa evet (İSKİ, 23533), yoksa hayır (30251). Belediye birlikleri 2.1.3.2.13'te adıyla sayılmaz (teyit edilmedi).
+  - Bu dosyanın önceki sürümünde belediyelerin belirlenmiş alıcı olarak sayılması hatalıydı.
+
+  [Özelge: 10.11.2021, E-76464994-130[KDV.2021/114]-177070 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/30252] [Özelge: 01.11.2021, E-16432732-130[14-2021-14]-50118 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/30257] [Özelge: 03.06.2021, E-36062021-130[2021-KDV-ÖZE/27]-37017 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/30268]
 
 ### Karşı taraf vekalet ücreti
 - **Kaybeden listedeyse 5/10.** Davayı kaybeden listedeki bir alıcıysa (kamu idaresi, banka, sigorta vb.) avukat SMM'yi kaybeden taraf adına düzenler (311 GVGT md.26/2-3; KDV GUT I/B-4, Seri 52). Hizmet ona verilmemiş olsa da bu SMM'de 5/10 tevkifat uygulanır. Böylece makbuzda hem %20 GV stopajı hem 5/10 KDV tevkifatı birlikte gösterilir. "Vekalet ücreti yargılama gideridir, tevkifat yapılmaz" görüşü bu özelgelerle çelişir (⚖️, §9). [Özelge: 06.06.2022, 36062021-130[09-2021/ÖZE-40]-50290 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/30232]
 - **İlam ve icra vekalet ücreti tek işlemdir.** Aynı davaya ait ilam vekalet ücreti ile icra vekalet ücreti tevkifat sınırında birlikte dikkate alınır. İkisinin KDV dahil toplamı sınırı aşarsa 5/10 uygulanır. Ücretler tek SMM'de ayrı satırlarla ya da ayrı SMM'lerle belgelenebilir. Aynı işe ait, aynı anda yapılan tahsilat için birden fazla makbuz düzenlenemez. [Özelge: 09.06.2022, 64597866-130-9597 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/30226]
 - **Listede olmayan borçlu.** Belirlenmiş alıcı listesinde olmayan kuruma düzenlenen makbuzda tevkifat yoktur. Örnek: özel kuruluş kanunu olmayan su işletmesi genel müdürlüğü. [Özelge: 11.11.2021, 20811645-130[21-415-30]-72187 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/30251]
+- **Borçlu belediye.** Belediye 2.1.3.2.13 listesinde olmadığından KDV tevkifatı yoktur; GV stopajı vardır (yukarıda; 30252, 30257, 30268).
+  - Örnek (2026, %20): 45.000 TL hükmedilen ücret KDV dahildir. KDV hariç ücret 37.500 TL, KDV 7.500 TL, stopaj 7.500 TL. Belediye 37.500 TL öder. Avukat 7.500 TL KDV'nin tamamını 1 No.lu beyannamede beyan eder. Komut: `smm_hesap.py makbuz --kdv-dahil 45000`.
+  - Kendi kuruluş kanunu olan bağlı idarede (ör. İSKİ) 5/10 vardır (23533).
 - Hesap örneği (45.000 TL, kamu idaresi borçlu) `aaut-2025-2026.md`'dedir.
 
 ### Tutar sınırı (I/C-2.1.3.4.1)
@@ -279,7 +291,7 @@ Tevkifat yalnız **KDV dahil bedel** işlem yılının VUK 232 fatura sınırın
 - **Kesintiler.**
   - KDV %20'dir (lafzi yorum, §1); çocuk mahkemesinin görev alanındaki görevlerde %10'dur.
   - Başsavcılık GVK 94 sorumlusudur ve %20 GV stopajı yapar (2009/14592 BKK). 2024–2026 değişiklik kararları (9284, 9286, 9707, 11344) 2/b oranına dokunmamıştır.
-  - KDV dahil bedel sınırı aşarsa (2026: 12.000 TL; 2025: 9.900 TL) Başsavcılık ayrıca 5/10 KDV tevkifatı uygular ve bunu 2 No.lu beyannameyle beyan eder.
+  - KDV dahil bedel sınırı aşarsa (2026: 12.000 TL; 2025: 9.900 TL) Başsavcılık ayrıca 5/10 KDV tevkifatı uygular. Başsavcılık genel bütçeli idareye (Adalet Bakanlığı) bağlıdır ve ödeme bakanlık bütçesinden yapılır. Bu yüzden tevkif edilen KDV için 2 No.lu beyanname verilmez; tutar muhasebe birimince doğrudan gelir kaydedilir (KDV GUT I/C-2.1.1.1, 2.1.3.4.3.1; §4). Avukat açısından sonuç değişmez: yalnız tevkif edilmeyen kısmı 1 No.lu beyannamede beyan eder.
   - Avukatın e-SMM'sindeki stopaj ve tevkifat tutarları, ödeme birimince (UHAP) yapılan kesintilerle aynı olmalıdır.
 
   [Özelge: 02.06.2021, E-66523654-130[ÖZG-7-2021]-29773 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/30273] [Özelge: 16.02.2022, E-62902401-130[2020-701-75]-22832 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/32149] [Özelge: 26.05.2014, 39044742-130-1439 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/31985]
@@ -287,9 +299,11 @@ Tevkifat yalnız **KDV dahil bedel** işlem yılının VUK 232 fatura sınırın
   - **Sigortalı (ücretli) avukat.** CMK görevi alırsa tahsilat, yanında çalıştığı avukatın ya da büronun SMM'siyle yapılır (Yönetmelik md.11/4). Gelir büro sahibinin serbest meslek kazancıdır ve KDV'ye tabidir (31985).
   - **Şirkette sigortalı olup baroca sürekli CMK görevi alan avukat.** GİB'e göre bu faaliyet mutattır. Mükellefiyet açılmalı ve SMM düzenlenmelidir (23655). Bu durumda KDV mükellefiyeti de doğar (çıkarım). Av.K. 11-12'deki çalışma yasakları ayrıca değerlendirilmelidir.
   - **Ücretliyken alınan, ayrıldıktan sonra ödenen iş.** Ücretli avukatken baronun verdiği CMK ve adli yardım işlerinin ücreti, avukat işten ayrıldıktan sonra ödenirse arızi serbest meslek kazancıdır. SMM düzenleme ve KDV yükümlülüğü doğmaz (221 Seri No.lu GV Tebliği). Ödeyen %20 GV stopajı yapar (23551).
+    - *Çelişki:* Yönetmelik md.11/4'e göre sigortalı çalışan müdafi, yanında çalıştığı avukatın ya da büronun SMM'sini kullanır. 31985 ve 23310'a göre bu ücret işverenin serbest meslek kazancıdır ve KDV'ye tabidir; çalışana bırakılırsa çalışan için ücrettir. 23551 ise aynı dönemin ücretini eski çalışanın arızi kazancı saymıştır ve yalnız talep edeni bağlar. Mümkünse tahsilatı eski işverenin e-SMM'siyle yap (ayrıntı `ek-faaliyetler.md` §4).
+    - *Bent farkı:* Arızi serbest meslek kazancı GVK 82/1-4'tedir ve 82'deki arızi kazanç istisnası (2026: 350.000 TL) bu bende uygulanır (çıkarım; özelgeler beyanı düzenlemez). Kendi mükellefiyetini terk edenin sonradan aldığı ücret ise 82/1-5'tedir ve istisna dışıdır (aşağıda; GVK 82 metni).
   - **Mükellefiyeti kapatan (terk eden) avukat.** Mükellef olduğu döneme ait baro görevlerinden sonradan tahsil ettiği tutarlar GVK 82/1-5 kapsamında arızi kazançtır. Bu bent için istisna yoktur. SMM gerekmez, KDV doğmaz (221 Seri GVGT) ve %20 tevkifat yapılır (23169).
 
-  [Özelge: 26.05.2014, 39044742-130-1439 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/31985] [Özelge: 09.06.2011, B.07.1.GİB.4.38.15.02-VUK-21-197-50 — https://gib.gov.tr/mevzuat/kanun/433/ozelge/23655] [Özelge: 20.04.2020, 84098128-120[65-2019/5]-134497 — https://gib.gov.tr/mevzuat/kanun/433/ozelge/23551] [Özelge: 20.05.2022, E-50426076-120[65-2021/20-822]-66280 — https://gib.gov.tr/mevzuat/kanun/433/ozelge/23169]
+  [Özelge: 26.05.2014, 39044742-130-1439 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/31985] [Özelge: 24.02.2012, B.07.1.GİB.4.34.16.01-GVK 121-730 — https://gib.gov.tr/mevzuat/kanun/433/ozelge/23310] [Özelge: 09.06.2011, B.07.1.GİB.4.38.15.02-VUK-21-197-50 — https://gib.gov.tr/mevzuat/kanun/433/ozelge/23655] [Özelge: 20.04.2020, 84098128-120[65-2019/5]-134497 — https://gib.gov.tr/mevzuat/kanun/433/ozelge/23551] [Özelge: 20.05.2022, E-50426076-120[65-2021/20-822]-66280 — https://gib.gov.tr/mevzuat/kanun/433/ozelge/23169]
 - **CMK "masraf" satırı.**
   - **Zorunlu yol gideri ücrete dahildir.** CMK Ücret Yönetmeliği md.4/1'deki "ücret" tanımı zorunlu yol giderini kapsar. 2014 tarihli özelgede bu (d) bendidir; güncel metinde (e) bendidir (Yönetmelik, mevzuat.gov.tr MevzuatNo 11156).
   - GİB, Başsavcılıkça ödenen müdafilik ücreti ile zorunlu yol giderini birlikte serbest meslek kazancı ve KDV'ye tabi saymıştır. Bu yüzden yol gideri KDV'ye (%20; çocuk mahkemesi işinde %10) ve stopaja tabidir ve tevkifat sınırı hesabında bedele eklenir (GVK 67/2; KDVK 24/b).
@@ -297,13 +311,19 @@ Tevkifat yalnız **KDV dahil bedel** işlem yılının VUK 232 fatura sınırın
   - **Danıştay iptali.** Md.11/3 ve 4/1-b'deki "büro" (birden fazla barolu illerdeki adli yardım bürosu) ibareleri Danıştay 8. Dairesinin 24.12.2025 tarihli, E.2025/1380, K.2025/10316 sayılı kararıyla iptal edilmiştir.
 
   [Özelge: 26.05.2014, 39044742-130-1439 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/31985]
-- **CMK tarifesi KDV dahildir.**
+- **CMK tarifesinin KDV dahil olup olmadığı metinde yazmaz (teyit edilmedi).**
+  - Ne 2026 tarifesinde (RG 08.01.2026/33131, md.4-5) ne CMK Ücret Yönetmeliğinde KDV dahil ya da hariç ibaresi vardır. Uygulamada tarife tutarının KDV dahil kabul edilerek e-SMM düzenlendiği bildirilir; bunu doğrulayan birincil kaynak bulunamadı (`ek-faaliyetler.md` §4 ile aynı).
+  - Kullanıcı tutarı "KDV hariç" olarak veriyorsa bunu hata sayma; iki varsayımı birlikte göster ve e-SMM'yi baro ödeme listesindeki ve UHAP dökümündeki fiili tutara göre düzenle. Komutlar: KDV dahil kabulünde `smm_hesap.py makbuz --kdv-dahil <tutar>`, KDV hariç kabulünde `--brut <tutar>`.
+  - Aşağıdaki örnekler KDV dahil kabulüyle hesaplanmıştır; KDV hariç karşılığı her örnekte ayrıca verilmiştir.
   - Hukuki yardımın yapıldığı tarihteki tarife uygulanır (Yönetmelik md.10/11). Aynı evrede bir kişi için aynı avukata birden fazla ücret ödenmez (md.10/3). Aynı dosyada birden fazla şüpheli varsa md.10/4 uygulanır.
   - Tarifeler: 2025 için RG 01.02.2025/32800, 2026 için RG 08.01.2026/33131. Tutarlar `ek-faaliyetler.md`'dedir.
-  - 2025 tarifesinden örnek tutarlar (KDV dahil): soruşturma evresi 3.209 TL; asliye ceza, çocuk mahkemesi, icra ceza ve infaz hâkimliği 5.502 TL.
-  - **Örnek (2025'te verilen, 2026'da ödenen asliye ceza görevi).** Hizmet 2025'te verildiği için 2025 tarifesi (5.502 TL, KDV dahil) uygulanır (md.10/11). Mahkeme çocuk mahkemesi olmadığından KDV %20'dir. Bedel yol gideriyle birlikte hem 2025 (9.900 TL) hem 2026 (12.000 TL) sınırının altında kalır. Bu yüzden "işlem yılı" belirsizliği (§9) sonucu değiştirmez ve tevkifat yapılmaz (doğrulanmış araştırma notu).
-  - **Örnek (2026, asliye ceza).** Tarife 6.904 TL'dir ve KDV dahildir. KDV = 6.904 ÷ 1,20 × 0,20 = 1.150,67 TL; KDV hariç ücret 5.753,33 TL. Stopaj %20 × 5.753,33 = 1.150,67 TL. Ödenecek net tutar 6.904 − 1.150,67 = 5.753,33 TL'dir. Bedel 12.000 TL'nin altında olduğundan KDV tevkifatı yapılmaz.
-  - **Örnek (2025, aynı ödeme listesinde birden çok ücret).** Ödeme dökümünde üç soruşturma ücreti (3 × 3.209 TL) ve üç zorunlu yol gideri (3 × 200 TL) var; toplam 10.227 TL.
+  - 2025 tarifesinden örnek tutarlar: soruşturma evresi 3.209 TL; asliye ceza, çocuk mahkemesi, icra ceza ve infaz hâkimliği 5.502 TL.
+  - **Örnek (2025'te verilen, 2026'da ödenen asliye ceza görevi).** Hizmet 2025'te verildiği için 2025 tarifesi (5.502 TL) uygulanır (md.10/11). Mahkeme çocuk mahkemesi olmadığından KDV %20'dir. Bedel yol gideriyle birlikte hem 2025 (9.900 TL) hem 2026 (12.000 TL) sınırının altında kalır. KDV hariç kabulünde tarife tutarının KDV dahil karşılığı 6.602,40 TL'dir; olağan bir yol gideriyle de sınırların altında kalır. Bu yüzden "işlem yılı" belirsizliği (§9) sonucu değiştirmez ve tevkifat yapılmaz (doğrulanmış araştırma notu).
+  - **Örnek (2026, asliye ceza).** Tarife 6.904 TL'dir.
+    - KDV dahil kabulüyle: KDV = 6.904 ÷ 1,20 × 0,20 = 1.150,67 TL; KDV hariç ücret 5.753,33 TL. Stopaj %20 × 5.753,33 = 1.150,67 TL. Ödenecek net tutar 6.904 − 1.150,67 = 5.753,33 TL'dir.
+    - KDV hariç kabulüyle: KDV 1.380,80 TL, KDV dahil bedel 8.284,80 TL. Stopaj 1.380,80 TL. Ödenecek net tutar 6.904 TL'dir.
+    - Bedel iki kabulde de 12.000 TL'nin altında olduğundan KDV tevkifatı yapılmaz.
+  - **Örnek (2025, aynı ödeme listesinde birden çok ücret).** Ödeme dökümünde üç soruşturma ücreti (3 × 3.209 TL) ve üç zorunlu yol gideri (3 × 200 TL) var; toplam 10.227 TL (KDV dahil kabulüyle; KDV hariç kabulünde KDV dahil bedel 12.272,40 TL).
     - Tek işlem sayılırsa 2025 sınırı (9.900 TL) aşılır ve 5/10 tevkifat doğrudur.
     - Ücretler farklı dosyalara aitse her biri yaklaşık 3.409 TL'dir; dosya bazlı yaklaşımla tevkifat gerekmezdi (kıyas, 30159).
     - Aynı dosyada birden fazla şüpheliye aitse toplam üzerinden tevkifat savunulabilir.
@@ -326,7 +346,7 @@ Tevkifat yalnız **KDV dahil bedel** işlem yılının VUK 232 fatura sınırın
 - **Baronun GV stopajı (teyit edilmedi).** Baro KDV GUT'ta açıkça belirlenmiş alıcıdır (I/C-2.1.3.1/b). GVK 94/1'deki tevkifat sorumluları arasında ise adıyla sayılmaz. Adli yardım ödemesinde baronun stopaj yapıp yapmayacağına ilişkin doğrudan özelge bulunamadı. Uygulamada kesinti yapıldığı görülmektedir (`uygulama-notlari.md` §9). Baro ödeme dökümünü kontrol et; kesinti yoksa brüt tutarı beyan et.
   - Not: Bu dosyanın önceki sürümü "baro adına makbuz ve %20 stopaj" için 23551'i kaynak gösteriyordu. 23551 yalnız ücretli dönemden kalan baro işlerinin arızi kazanç olduğunu söyler; bu konuda kaynak değildir.
 
-## 6. Arabuluculuk, bilirkişilik ve hakemlik
+## 6. Arabuluculuk, bilirkişilik, hakemlik ve telif
 
 - **Oran.** Avukat arabulucunun hizmeti %20 KDV'ye tabidir. Aynı dosyada iş uyuşmazlığında tarafı temsil eden avukatın hizmeti ise %10'dur. e-SMM'de bu iki oranın karıştırılması sık yapılan bir hatadır. [Özelge: 17.03.2020, 21152195-130[28-2019/2632]-E.118974 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/32244] [Özelge: 05.05.2020, 39044742-130[Özelge]-E.351562 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/32239]
 - **Başsavcılığın ödediği dava şartı arabuluculuk ücreti.** Başsavcılık 5018 cetvelindeki idare olarak, KDV dahil bedel sınırı aşarsa 5/10 tevkifat uygular. Sınır her dosyanın SMM'si için ayrı ayrı uygulanır; toplu ödense de dosya bazında bakılır. [Özelge: 07.11.2023, E-37009108-130[467770]-182439 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/30159] [Özelge: 12.08.2020, 37009108-130[242841]-E.63884 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/30288]
@@ -345,6 +365,12 @@ Tevkifat yalnız **KDV dahil bedel** işlem yılının VUK 232 fatura sınırın
   - Tahkimde hakemlik yapan avukat için sonuç bu yüzden kıyastır. Tevkifat ise ödeyenin 2.1.3.2.13 listesinde olup olmamasına bağlıdır (çıkarım).
 
   [Özelge: 12.06.2014, 39044742-130-1633 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/29271]
+- **Telif (GVK 18; kitap, makale).** Avukata özgü özelge yoktur; aşağıdakiler yazar ve öğretim elemanlarına verilen özelgelerden kıyastır. GV yönü (%17 stopaj, istisna) `ek-faaliyetler.md`'dedir.
+  - **Arızi telif KDV'ye tabi değildir.** Telif mutad meslek halinde ve süreklilik arz edecek şekilde yapılmıyorsa arızi serbest meslek faaliyetidir; KDV mükellefiyeti doğmaz (21081; bugün KDV GUT I/C-2.1.2.2).
+  - **Sürekli telif KDV'ye tabidir.** Süreklilik arz eden telif bedelleri üzerinden genel oranda KDV hesaplanır (31168; özelge tarihinde %18, bugün %20).
+  - **Sorumlu sıfatıyla beyan avukata uygun değildir.** KDV'nin alıcı tarafından 2 No.lu beyannameyle ödenmesi, ancak KDV mükellefiyeti yalnız GVK 18 işlemlerinden ibaret olan ve bu işlemlerin tamamını GVK 94 sorumlularına yapan kişi için mümkündür (21081). Avukatlık nedeniyle zaten KDV mükellefi olan avukat bu şartı taşımaz. Sürekli telifte KDV'yi kendisi belgeler ve 1 No.lu beyannamede beyan eder (çıkarım).
+
+  [Özelge: 16.08.2013, 73903997-130[9-2012 /21]-160 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/21081] [Özelge: 10.12.2020, 84974990-130[KDV2/13/I/2019/42]-E.338325 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/31168]
 
 ## 7. Yurt dışı unsurlu işler
 
@@ -376,7 +402,8 @@ KDVK 6/b'ye göre hizmet ya Türkiye'de yapılmışsa ya da hizmetten Türkiye'd
   - Yurt dışı şubenin işinin bedelini Türkiye'deki şirket öderse şirket %20 stopaj yapar; SMM hizmetten yararlanan şube adına düzenlenir. [Özelge: 20.11.2023, 39044742-130[Özelge]-1312115 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/23500]
   - Türk müvekkilin yurt dışı davasında SMM ödemeyi yapan adına düzenlenir. Ödeyen GVK 94'te sayılan bir sorumluysa (örnekte yurt içinde vergi mükellefi müvekkil) %20 stopaj uygular. [Özelge: 15.08.2013, 67854564-1741-492 — https://gib.gov.tr/mevzuat/kanun/434/ozelge/23663]
   - **ÇVÖA.** Yurt dışında vergi ödenmişse sonuç ilgili ÇVÖA'ya göre değişir. Almanya ve Cezayir anlaşmaları Türkiye'de mahsup, Fas anlaşması istisna (artan oranlı hesap saklı) öngörür. "Sabit yer" ve "183 gün" ölçütleri anlaşmadan anlaşmaya farklıdır: Cezayir ÇVÖA md.14'te ikisi de vardır, Fas ÇVÖA'da yalnız sabit yer ölçütü vardır. Her ülke için ilgili anlaşma ayrıca okunmalıdır. [Özelge: 15.08.2013, 67854564-1741-492 — https://gib.gov.tr/mevzuat/kanun/434/ozelge/23663] [Özelge: 20.11.2023, 39044742-130[Özelge]-1312115 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/23500]
-  - GV yönünden yurt dışına verilen hizmet indirimi (GVK 89/1-13) avukatlığa uygulanmaz (`parametreler.md`).
+  - GV yönünden yurt dışına verilen hizmet indirimi (GVK 89/1-13) avukatlığa uygulanmaz; bentteki kapalı listede avukatlık ve hukuki danışmanlık yoktur. GVK mük. 20/D yurt dışı kazanç istisnası da Türkiye'de verilen avukatlık hizmetinin kazancını kapsamaz (`parametreler.md`).
+  - **Dövizle tahsil edilen ücret.** GV yönünden yabancı parayla yapılan ödemeler "ödeme gününün borsa rayici ile", borsada rayici yoksa Bakanlıkça belirlenen kur üzerinden TL'ye çevrilir (GVK 67). KDV matrahında ve e-SMM'de hangi tarihin kurunun kullanılacağı bu dosyada teyit edilmedi; belge düzeni için `smm-belge-duzeni.md`'ye bak.
 - **Avukatın yurt dışından hizmet alması (sorumlu sıfatıyla KDV).**
   - Türkiye'de yararlanılan yurt dışı hizmetlerinin KDV'sini avukat 2 No.lu beyannameyle beyan eder ve öder, sonra 1 No.lu beyannamede indirir (KDVK 9/1; KDVK 29/1-ç). İndirim dönemi §8'dedir.
   - Hizmeti veren yabancı firmanın Türkiye'de işyeri varsa KDV'yi firma faturada hesaplar; avukat bunu 1 No.lu beyannamede indirir ve 2 No.lu beyan gerekmez.
@@ -461,7 +488,7 @@ Her konuda önce GİB görüşü verilmiştir. Karşı görüş ve risk değerle
 | Karşı taraf vekalet ücretinde KDV tevkifatı | Uygulanır: borçlu listede ve sınır aşılıyorsa 5/10 (30232, 30226) | "Yargılama gideridir, tevkifat yapılmaz" görüşü özelgelerle çelişir | §4; `uygulama-notlari.md` §14/17 |
 | Hizmet ihracı (yurt dışındaki müvekkil, Türkiye'de verilen hizmet) | İstisna için yararlanmanın yurt dışında olması şart. Türkiye'deki dava, icra ve haklarla ilgili hizmette KDV hesaplanır (28940) | Eğitimci: müvekkil yurt dışındaysa ve sonuçtan yurt dışında yararlanılıyorsa istisna. Döviz şartı güncel GUT II/A-2 alıntılarında yoktur | §7; `uygulama-notlari.md` §10; `diger.md` |
 | Ücretin müvekkile iadesi (iş bırakıldı, anlaşma bozuldu, dava kaybedildi) | Hizmet ifa edildiyse KDV düzeltilmez (23574, 23649). Bozma kararıyla iade edilen karşı taraf vekalet ücretinde KDVK 35 düzeltmesi yapılır (23702, 29150) | `uygulama-notlari.md` §5 iade tutarındaki KDV'nin indirilecek KDV olarak alınmasını öneriyor. Bu, ancak hizmet tamamlanmadan işlemden vazgeçilmesi gibi KDVK 35 hallerinde savunulabilir (çıkarım); aksi halde risklidir | §2 |
-| KDV matrahında hangi tarihteki AAÜT esas alınır | Matrah tarifenin altında olamaz (KDVK 27/5; 23601). Hangi tarihteki tarifenin esas alınacağı düzenlenmemiştir | İhtiyatlı yol `uygulama-notlari.md` §3'tedir | §2 |
+| KDV matrahında hangi tarihteki AAÜT esas alınır | Matrah tarifenin altında olamaz (KDVK 27/5; 23601). Hangi tarihteki tarifenin esas alınacağına ilişkin GİB görüşü yok | AAÜT md.21 geneldir: ücretin takdirinde hukuki yardımın tamamlandığı veya hükmün verildiği tarihteki tarife esas alınır. Md.1/2'ye göre tarife akdi ücretin asgarisinin hesabında da dikkate alınır. KDV de çoğunlukla bu anda doğar (§2). Bu yüzden ihtiyatlı yol tamamlanma tarihindeki tarifedir (çıkarım). `uygulama-notlari.md` §3 md.21'i yalnız karşı tarafa yükletilecek ücrete bağlıyor ve sözleşme ya da işe başlama tarihini öneriyor; md.21'in metninde bu sınırlama yoktur | §2; `aaut-2025-2026.md` |
 | Sürekli şirket vekilliğinde tarife toplamının aylık ücretleri aşan farkı | Doğrudan GİB görüşü yok. KDVK 27/5'teki tarife alt sınırı ilkesi geçerlidir | Eğitimci: fark talep edilmese de KDV'si doğar | `uygulama-notlari.md` §5 |
 | Tevkifat sınırında "işlem yılı" | Metin "işlemin yapıldığı yıl" der; hizmet yılı mı makbuz yılı mı, belirsiz | Açık soru | §4 |
 | Birden çok CMK ücretinin tek ödemede toplanması | Özelge yok. Arabuluculukta dosya bazlı sınır (30159) | Farklı dosyalarda dosya bazlı yaklaşım kıyasen savunulabilir | §4, §5 |
@@ -488,6 +515,7 @@ Her konuda önce GİB görüşü verilmiştir. Karşı görüş ve risk değerle
 | 29183 (2015) | Yansıtılan posta pulu bedeli genel oranda KDV'ye tabi | Finansal kiralama şirketinin yansıtmasına ilişkindir. Avukat adına belgelenen masraf asıl hizmetin oranına tabidir (KDVK 24/b, çıkarım). |
 | 30482 (2013), 29183 (2015), 23638 (2011) | KDV oranı %18 | Bugün %20; sonuçlar aynıdır. |
 | 23551 (2020) | Bu dosyanın önceki sürümünde baroya makbuz ve %20 stopaj kuralının kaynağı olarak gösterilmişti | 23551 yalnız ücretli dönemden kalan baro işinin arızi kazanç olduğunu söyler (SMM ve KDV yok, stopaj var). Baronun stopajı teyit edilmedi (§5). |
+| Bu dosyanın önceki sürümü (§5) | "CMK tarifesi KDV dahildir" kesin kural olarak yazılmıştı; Başsavcılığın tevkif ettiği KDV'yi 2 No.lu beyannameyle beyan ettiği söyleniyordu | Tarife ve Yönetmelik metninde KDV ibaresi yoktur; KDV dahil kabulü uygulamadır (teyit edilmedi). Genel bütçeli idareler 2 No.lu beyanname vermez (KDV GUT I/C-2.1.1.1). |
 
 ## 11. Müvekkile bilgi
 
@@ -501,7 +529,7 @@ Bu bölüm avukatın kendi vergisi değil, müvekkilin sorabileceği konulardır
 - **Müvekkilin dava ve icra masraflarını üçüncü kişiye yansıtması.** Örnek, finansal kiralama şirketinin taraf olduğu davaların masraflarını kiracıya yansıtmasıdır. Dava ve icra harçları teslim veya hizmet bedeli olmadığından KDV'siz yansıtılır; posta pulu bedeli genel oranda KDV'ye tabidir. Tahsil edilen hükmolunan vekalet ücreti de ayrıca değerlendirilir. [Özelge: 18.06.2015, B.07.1.GİB.4.34.17.01-KDV.1-61668 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/29183]
 - **Belirlenmiş alıcı müvekkil (kamu idaresi, banka, sigorta, baro vb.).**
   - Avukattan aldığı dava ve icra hizmetinde KDV dahil bedel sınırı aşarsa 5/10, hukuki danışmanlıkta 9/10 tevkif eder.
-  - Tevkif ettiği KDV'yi 2 No.lu beyannameyle beyan edip öder.
+  - Tevkif ettiği KDV'yi 2 No.lu beyannameyle beyan edip öder. Genel bütçeli idareler bunun dışındadır: tevkif ettikleri KDV muhasebe birimince doğrudan gelir kaydedilir; ödeme genel bütçe ödenekleri dışından yapılırsa 2 No.lu beyanname verilir (KDV GUT I/C-2.1.1.1, 2.1.3.4.3.1; §4).
   - KDV mükellefiyse ödediği dönemin 1 No.lu beyannamesinde indirir (KDV GUT III/C-1.1).
   - Avukatlık ve danışmanlık ayrı ücretlendirilmemişse toplam bedelden 9/10 tevkifat doğar. Sözleşmede ikisinin ayrı fiyatlanması müvekkilin de yararınadır (§3).
 - **Yurt dışı şubesi veya grup şirketi olan müvekkil.**
@@ -512,12 +540,13 @@ Bu bölüm avukatın kendi vergisi değil, müvekkilin sorabileceği konulardır
 ## Kaynaklar
 
 ### Mevzuat ve tebliğ künyeleri
-- **3065 s. KDVK** md.1/1, 6/b, 9/1, 10/a-c, 11/1-a, 12/2, 15/b, 23/f, 24/b, 27/5, 28, 29/1, 29/1-ç (7491 s.K.), 29/2, 29/3 (7104 s.K.), 30/a-b-d, 35.
+- **3065 s. KDVK** md.1/1, 6/b, 9/1, 10/a-c, 11/1-a, 12/2, 15/b, 17/4-ğ (7577 s.K. md.3, RG 17.04.2026/33227; 01.06.2026), 23/f, 24/b, 27/5, 28, 29/1, 29/1-ç (7491 s.K.), 29/2, 29/3 (7104 s.K.), 30/a-b-d, 35.
+- **193 s. GVK** md.18, 67 (gider karşılıkları, harç avansı, yabancı para), 82/1-4 ve 82/1-5 (arızi kazanç istisnası yalnız 1-4. bentlere), 89/1-13, mük. 20/D, 94.
 - **2007/13033 s. BKK** eki (I) sayılı liste B/9; (II) sayılı liste B/32.
   - 1594 s. CB Kararı (01.10.2019; uygulama 02.10.2019).
   - 4862 s. CB Kararı (RG 26.11.2021/31671; adli yardım 01.12.2021'den).
   - 7346 s. CB Kararı (RG 07.07.2023/32241; 10.07.2023'ten %10/%20).
-- **KDV Genel Uygulama Tebliği** (RG 26.04.2014/28983): I/B-4; I/C-2.1.3.1/b; I/C-2.1.3.2.2 ve 2.1.3.2.2.2; I/C-2.1.3.2.13; I/C-2.1.3.4.1; I/C-2.1.5; II/A-2; III/B-3; III/C-1.1.
+- **KDV Genel Uygulama Tebliği** (RG 26.04.2014/28983): I/B-4; I/C-2.1.1.1 (genel bütçeli idarelerin beyanı); I/C-2.1.2.2 (GVK 18 kapsamındaki işlemler); I/C-2.1.3.1/b; I/C-2.1.3.2.2 ve 2.1.3.2.2.2; I/C-2.1.3.2.13; I/C-2.1.3.4.1; I/C-2.1.3.4.3.1 (alıcıların beyanı); I/C-2.1.5; II/A-2; III/B-3; III/C-1.1.
 - **KDV GUT değişiklik tebliğleri:**
   - Seri 35: RG 16.02.2021/31397 (md.9; 01.03.2021).
   - Seri 36: RG 03.06.2021/31500 (md.1-3; 01.07.2021).
@@ -528,6 +557,7 @@ Bu bölüm avukatın kendi vergisi değil, müvekkilin sorabileceği konulardır
 - **VUK 232 fatura sınırı:** VUK GT 556 (2024), 577 (RG 30.12.2024/32768 2. Mük.; 2025), 588 (RG 31.12.2025/33124 5. Mük.; 2026).
 - **311 Seri No.lu GVGT** (RG 27.05.2020/31137): md.13/3, 14, 25 (25/2-c, 25/5, 25/6), 26 (26/2-3, 26/5, 26/6). GVK 94/3 (7194 s.K.). 2009/14592 BKK (%20 stopaj).
 - **CMK:** CMK Ücret Yönetmeliği (mevzuat.gov.tr MevzuatNo 11156): md.4/1-e, 10/3, 10/4, 10/11, 11/3-6, 11/8. CMK Ücret Tarifesi 2025 (RG 01.02.2025/32800) ve 2026 (RG 08.01.2026/33131). Danıştay 8. D. 24.12.2025, E.2025/1380, K.2025/10316.
+- **AAÜT** md.1/2 ve md.21 (`references/kaynak/aaut-2025-metin.txt`).
 - **Diğer:** 6325 s.K. md.18/A(13); 2026 Arabuluculuk Asgari Ücret Tarifesi (RG 26.12.2025/33119); 60 No.lu KDV Sirküleri md.1.1.1 ve 8.1.1.1; 509 Sıra No.lu VUK GT (e-SMM); 221 Seri No.lu GV Tebliği (arızi serbest meslek).
 
 ### Bu dosyada kullanılan özelgeler
@@ -555,6 +585,7 @@ Bu bölüm avukatın kendi vergisi değil, müvekkilin sorabileceği konulardır
 | 18.12.2023 | 39044742-130[Özelge]-1473219 | Binek otomobil gider ve kira KDV'si: yalnız gider kabul edilen kısım indirilir | https://gib.gov.tr/mevzuat/kanun/436/ozelge/27978 | — |
 | 20.11.2023 | 39044742-130[Özelge]-1312115 | Türk şirketin yurt dışı şubelerine yurt dışında avukatlık | https://gib.gov.tr/mevzuat/kanun/436/ozelge/23500 | `references/ozelgeler/23500.txt` |
 | 07.11.2023 | E-37009108-130[467770]-182439 | Arabuluculukta Başsavcılık 5/10; sınır dosya bazında | https://gib.gov.tr/mevzuat/kanun/436/ozelge/30159 | `references/ozelgeler/30159.txt` |
+| 02.05.2023 | E-21152195-130[2022/5627]-197120 | KDV GUT I/C-2.1.1.1: genel bütçeli idareler 2 No.lu beyanname vermez | https://gib.gov.tr/mevzuat/kanun/436/ozelge/30168 | — |
 | 17.10.2022 | E-95462982-105[VUK.ÖZLG-20-109]-245464 | Karşı taraf vekalet ücreti: KDV dahil kabulü, borçlu adına SMM, stopaj | https://gib.gov.tr/mevzuat/kanun/433/ozelge/23524 | `references/ozelgeler/23524.txt` |
 | 13.10.2022 | E-43735382-130[KDV:13-1]-48863 | İkinci el araç: özel matrah yalnız galericilere; kullanılmış binek %1 | https://gib.gov.tr/mevzuat/kanun/436/ozelge/32116 | — |
 | 17.06.2022 | 62030549-120[94-2020/1307]-687704 | Davayı kazananın borçluya faturası | https://gib.gov.tr/mevzuat/kanun/433/ozelge/23531 | `references/ozelgeler/23531.txt` |
@@ -565,14 +596,17 @@ Bu bölüm avukatın kendi vergisi değil, müvekkilin sorabileceği konulardır
 | 21.03.2022 | 62030549-120[94-2019/1718]-313032 | İSKİ (özel kuruluş kanunu var): 5/10; ücret akdi olan avukatta KDV yok | https://gib.gov.tr/mevzuat/kanun/433/ozelge/23533 | `references/ozelgeler/23533.txt` |
 | 16.02.2022 | E-62902401-130[2020-701-75]-22832 | Çocuk mahkemesi (soruşturma dahil) indirimli oran | https://gib.gov.tr/mevzuat/kanun/436/ozelge/32149 | `references/ozelgeler/32149.txt` |
 | 11.11.2021 | 20811645-130[21-415-30]-72187 | Özel kuruluş kanunu olmayan su idaresi: tevkifat yok | https://gib.gov.tr/mevzuat/kanun/436/ozelge/30251 | `references/ozelgeler/30251.txt` |
-| 10.11.2021 | 76464994-130-177070 | Belediyeler belirlenmiş alıcı değil; KİT'ler belirlenmiş alıcı | https://gib.gov.tr/mevzuat/kanun/436/ozelge/30252 | — |
+| 10.11.2021 | E-76464994-130[KDV.2021/114]-177070 | Belediyeler belirlenmiş alıcı değil; KİT'ler belirlenmiş alıcı; I/C-2.1.3.1/b tam listesi | https://gib.gov.tr/mevzuat/kanun/436/ozelge/30252 | — |
+| 01.11.2021 | E-16432732-130[14-2021-14]-50118 | Belediyeler (büyükşehir dahil) belirlenmiş alıcı değil: ticari reklamda tevkifat yok | https://gib.gov.tr/mevzuat/kanun/436/ozelge/30257 | — |
 | 01.11.2021 | 61504625-130-54793 | 2.1.3.2.13 listesinde emeklilik şirketleri (Seri 36) | https://gib.gov.tr/mevzuat/kanun/436/ozelge/28922 | — |
 | 06.08.2021 | 84974990-130[KDV.5/H/9140.09.48]-238180 | Yurt dışı danışmanlık alımında 2 No.lu KDV | https://gib.gov.tr/mevzuat/kanun/436/ozelge/28925 | `references/ozelgeler/28925.txt` |
 | 04.06.2021 | E-36062021-130[09-2021/ÖZE-19]-37262 | Bankalara avukatlıkta 5/10 | https://gib.gov.tr/mevzuat/kanun/436/ozelge/30267 | `references/ozelgeler/30267.txt` |
+| 03.06.2021 | E-36062021-130[2021-KDV-ÖZE/27]-37017 | Belediyeler belirlenmiş alıcı değil: yapım işinde tevkifat yok | https://gib.gov.tr/mevzuat/kanun/436/ozelge/30268 | — |
 | 02.06.2021 | E-37009108-130-62236 | Sigorta şirketlerine avukatlıkta 5/10 | https://gib.gov.tr/mevzuat/kanun/436/ozelge/30274 | `references/ozelgeler/30274.txt` |
 | 02.06.2021 | E-66523654-130[ÖZG-7-2021]-29773 | Adli yardım ve CMK ödemelerinde 5/10 | https://gib.gov.tr/mevzuat/kanun/436/ozelge/30273 | `references/ozelgeler/30273.txt` |
 | 02.06.2021 | E-43735382-130[KDV:13-2]-18110 | TSO'ya dava avukatlığında 5/10 | https://gib.gov.tr/mevzuat/kanun/436/ozelge/28936 | `references/ozelgeler/28936.txt` |
 | 03.05.2021 | 39044742-130[Özelge]-378259 | Yabancı sigortacıya Türkiye'de tahsil/avukatlık: ihracat değil | https://gib.gov.tr/mevzuat/kanun/436/ozelge/28940 | `references/ozelgeler/28940.txt` |
+| 10.12.2020 | 84974990-130[KDV2/13/I/2019/42]-E.338325 | Sürekli telif (GVK 18) KDV'ye tabi; yayıncı sorumlu sıfatıyla beyan eder | https://gib.gov.tr/mevzuat/kanun/436/ozelge/31168 | — |
 | 13.08.2020 | 84974990-130[KDV.1/İ-28-2019/95]-E.213856 | Tüketici hakem heyeti işleri genel oranda | https://gib.gov.tr/mevzuat/kanun/436/ozelge/32205 | `references/ozelgeler/32205.txt` |
 | 12.08.2020 | 55054586-130-E.41573 | Aile mahkemesi ilamının icrası indirimli oranda | https://gib.gov.tr/mevzuat/kanun/436/ozelge/32217 | `references/ozelgeler/32217.txt` |
 | 12.08.2020 | 37009108-130[242841]-E.63884 | Arabuluculukta 5018 idaresi 5/10 | https://gib.gov.tr/mevzuat/kanun/436/ozelge/30288 | `references/ozelgeler/30288.txt` |
@@ -584,6 +618,7 @@ Bu bölüm avukatın kendi vergisi değil, müvekkilin sorabileceği konulardır
 | 13.03.2019 | 39044742-010-213227 | Yurt dışı grup şirketinin yansıttığı yabancı avukatlık masrafları | https://gib.gov.tr/mevzuat/kanun/436/ozelge/29006 | — |
 | 28.12.2018 | 11395140-105[VUK-1-20846]-1194369 | Avukatın başka avukata iş vermesi: KDV'li SMM, stopaj | https://gib.gov.tr/mevzuat/kanun/434/ozelge/26372 | `references/ozelgeler/26372.txt` |
 | 27.12.2017 | B.07.1.GİB.4.06.17.01-130-527124 | Harç yansıtmada belgenin muhatabı; eksper ücreti KDV dışı; fatura bazlı sınır | https://gib.gov.tr/mevzuat/kanun/436/ozelge/30328 | `references/ozelgeler/30328.txt` |
+| 05.10.2017 | 35672403-010[130-155-01-2015]-67 | KDV GUT I/C-2.1.3.4.3.1 alıntısı: genel bütçeli idareler hariç 2 No.lu beyan | https://gib.gov.tr/mevzuat/kanun/436/ozelge/29078 | — |
 | 29.03.2017 | 11395140-105[VUK-1-19829]-87103 | Vergiyi doğuran olay; şarta bağlı ücretin iadesinde KDV düzeltilemez | https://gib.gov.tr/mevzuat/kanun/434/ozelge/23649 | `references/ozelgeler/23649.txt` |
 | 06.03.2017 | B.07.1.GİB.4.06.17.01-130-69835 | Hizmet veren adına harç: KDV matrahına dahil | https://gib.gov.tr/mevzuat/kanun/436/ozelge/30351 | `references/ozelgeler/30351.txt` |
 | 24.05.2016 | B.07.1.GİB.4.06.17.01-130[11-2015 /60]-96425 | Türkiye'de hak korumaya yönelik danışmanlık: ihracat değil | https://gib.gov.tr/mevzuat/kanun/436/ozelge/29135 | `references/ozelgeler/29135.txt` |
@@ -601,11 +636,13 @@ Bu bölüm avukatın kendi vergisi değil, müvekkilin sorabileceği konulardır
 | 25.10.2013 | 39044742-KDV.24-1698 | Yabancı grup şirketine kuruluş hizmeti SMM'si KDV'li; stopaj yok | https://gib.gov.tr/mevzuat/kanun/436/ozelge/30482 | `references/ozelgeler/30482.txt` |
 | 22.10.2013 | 88409335-130[9-ÖZELGE-2013-1-3]-26 | CMK'da tevkifat yok (eskimiş) | https://gib.gov.tr/mevzuat/kanun/436/ozelge/30484 | `references/ozelgeler/30484.txt` |
 | 11.10.2013 | 49327596-120[65.GVK.2013.29]-259 | Yol/konaklama masrafı hasılat; tarife altı veya ücretsiz işte KDV tarife üzerinden | https://gib.gov.tr/mevzuat/kanun/433/ozelge/23601 | `references/ozelgeler/23601.txt` |
+| 16.08.2013 | 73903997-130[9-2012 /21]-160 | Arızi telif KDV'ye tabi değil; GVK 18'de sorumlu sıfatıyla beyan şartları | https://gib.gov.tr/mevzuat/kanun/436/ozelge/21081 | — |
 | 15.08.2013 | 67854564-1741-492 | Türk müvekkile Almanya'da dava: KDV konu dışı | https://gib.gov.tr/mevzuat/kanun/434/ozelge/23663 | `references/ozelgeler/23663.txt` |
 | 15.08.2013 | 39044742-KDV.1-1257 | Yabancı avukatlık şirketinden yurt dışında hizmet: KDV dışı | https://gib.gov.tr/mevzuat/kanun/436/ozelge/24439 | — |
 | 11.03.2013 | 97677631-041-2-7 | Başsavcılığa SMM, ödeme ertesi yıl: kazanç hesaba geçtiği yılın | https://gib.gov.tr/mevzuat/kanun/433/ozelge/23700 | — |
 | 21.02.2013 | 30094508-130[9-2012/2.7]-5 | 5018 idarelerine avukatlık dahil hizmetlerde 5/10 (117 Seri) | https://gib.gov.tr/mevzuat/kanun/436/ozelge/30576 | — |
 | 18.02.2013 | 66491453-010-2 | Baro, adli yardım bürosu ve CMK birimi belirlenmiş alıcı | https://gib.gov.tr/mevzuat/kanun/436/ozelge/30586 | `references/ozelgeler/30586.txt` |
+| 24.02.2012 | B.07.1.GİB.4.34.16.01-GVK 121-730 | Ücretli müdafinin CMK ücreti işverenin SMM'siyle; stopaj işverence mahsup | https://gib.gov.tr/mevzuat/kanun/433/ozelge/23310 | `references/ozelgeler/23310.txt` |
 | 23.02.2012 | B.07.1.GİB.4.55.15.01-2011-GVK-ÖZE-213-83 | Kuruma bırakılan %30 vekalet ücreti payı: KDV toplam bedel üzerinden | https://gib.gov.tr/mevzuat/kanun/433/ozelge/23313 | `references/ozelgeler/23313.txt` |
 | 21.02.2012 | B.07.1.GİB.4.35.17.01-35-02-208 | Tahsil edilemeyen veya iade edilen ücrette KDV düzeltilemez | https://gib.gov.tr/mevzuat/kanun/436/ozelge/23574 | `references/ozelgeler/23574.txt` |
 | 20.04.2012 | B.07.1.GİB.4.38.15.01-GV-20-485-57 | Aynı borçludan birden fazla dosya: tek SMM, dosya bazında tutar | https://gib.gov.tr/mevzuat/kanun/433/ozelge/23617 | `references/ozelgeler/23617.txt` |

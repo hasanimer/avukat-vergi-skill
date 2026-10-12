@@ -4,26 +4,33 @@ Bu dizin avukatlık faaliyetiyle ilgili GİB özelgelerini listeler: "avukat" ar
 
 > Özelgeler yalnız talep edeni bağlar (VUK 413). "Güncellik" sütunu, sonradan değişen mevzuat açısından yapılan ön değerlendirmedir.
 
-## damga-harc (11)
+## damga-harc (15)
 
 | Tarih | ID | Konu | İlgililik | Güncellik |
 |---|---|---|---|---|
 | 2026-04-06 | [38910](https://gib.gov.tr/mevzuat/kanun/438/ozelge/38910) | 1136 Sayılı Avukatlık Kanununun 35/A Maddesi Uyarınca Düzenlenen Uzlaşma Tutanağıının damga vergisine tabi olup olmadığı hk. | yuksek | guncel |
+| 2025-11-24 | [38832](https://gib.gov.tr/mevzuat/kanun/438/ozelge/38832) | Doğrudan temin yöntemiyle yapılan alımlarda damga vergisi uygulaması | orta | guncel |
+| 2025-08-25 | [38792](https://gib.gov.tr/mevzuat/kanun/439/ozelge/38792) | İcra Edilebilirlik Şerhi Alınan Arabuluculuk Anlaşmasına Göre Tapuda Yapılacak Devir İşleminde Uygulanacak Tapu Harcı | orta | muhtemelen_guncel |
 | 2022-09-16 | [35418](https://gib.gov.tr/mevzuat/kanun/439/ozelge/35418) | Vekalet suret harcı | yuksek | guncel |
 | 2022-04-08 | [34278](https://gib.gov.tr/mevzuat/kanun/438/ozelge/34278) | Mahkeme kararına göre yapılan vekalet ücreti  ödemelerinde damga vergisi kesilip kesilmeyeceği | yuksek | guncel |
 | 2020-11-02 | [34305](https://gib.gov.tr/mevzuat/kanun/438/ozelge/34305) | Borç ve Ödeme Taahhüt Belgesi'nin  damga vergisine tabi olup olmaması ve  ayrılan karşılık giderinin vergisel  durumu | orta | muhtemelen_guncel |
+| 2020-05-06 | [34330](https://gib.gov.tr/mevzuat/kanun/438/ozelge/34330) | Kamulaştırmasız el atma bedellerinin icra yoluyla ilgilisine ödenmesi sırasında damga vergisinin hangi matrah üzerinden hesaplanacağı | orta | guncel |
 | 2019-12-26 | [34347](https://gib.gov.tr/mevzuat/kanun/438/ozelge/34347) | 6325 sayılı Kanun gereği düzenlenen anlaşma belgesinin damga vergisi | orta | muhtemelen_guncel |
 | 2019-12-23 | [23363](https://gib.gov.tr/mevzuat/kanun/438/ozelge/23363) | Site yönetimi tarafından yapılan ücret ödemelerinde gelir vergisi, damga vergisi ve belge düzeni. | orta | muhtemelen_guncel |
 | 2018-09-21 | [34628](https://gib.gov.tr/mevzuat/kanun/439/ozelge/34628) | Yabancı hakem kararlarının Türkiye’de icrası için açılacak tenfiz davası sırasında harç ve Türkçe tercümelerin resmi dairelere ibrazında dam | orta | muhtemelen_guncel |
+| 2016-04-24 | [34561](https://gib.gov.tr/mevzuat/kanun/438/ozelge/34561) | Yönetim kurulu kararı, genel müdürlük olur'u ve piyasa araştırması tutanağının damga vergisine tabi olup olmadığı hk. | orta | muhtemelen_guncel |
 | 2011-11-04 | [34890](https://gib.gov.tr/mevzuat/kanun/438/ozelge/34890) | Tezyid-i bedel davaları sonucunda mahkemelerce karara bağlanan tezyid-i bedel ve bunlara ilişkin olarak tahakkuk eden gecikme faizlerinin öd | orta | muhtemelen_guncel |
 | 2011-10-20 | [34905](https://gib.gov.tr/mevzuat/kanun/438/ozelge/34905) | Banka ile üçüncü kişiler arasında imzalanan, ciro hedefi ve firmalara bu hedeflerin gerçekleştirilmesine bağlı olarak ödeme yapılması hususl | yuksek | muhtemelen_guncel |
 | 2011-10-03 | [35851](https://gib.gov.tr/mevzuat/kanun/439/ozelge/35851) | Gayrimenkulün malik listesinin tapu müdürlüğü tarafından onaylanmasından harç alınıp alınmayacağı hk. | orta | muhtemelen_guncel |
-| 2009-08-27 | [35082](https://gib.gov.tr/mevzuat/kanun/438/ozelge/35082) | müdafi ve vekil avukat olarak görevlendirilenler tarafından düzenlenecek serbest meslek makbuzunda gelir vergisi ve damga vergisinin nasıl h | yuksek | eskimis_olabilir |
+| 2009-08-27 | [35082](https://gib.gov.tr/mevzuat/kanun/438/ozelge/35082) | müdafi ve vekil avukat olarak görevlendirilenler tarafından düzenlenecek serbest meslek makbuzunda gelir vergisi ve damga vergisinin nasıl h | yuksek | guncel (ilke güncel, bkz. 38832; oran eski: 2026'da binde 9,48) |
 
-## diger (4)
+> 34561 künyesi: GİB kaydında tarih 24.04.2016 ve sayı "0792880-…" görünür. Özelge metninde tarih 24/03/2016, sayı 90792880-155.01[2015/503]-19719'dur. Atıfta metindeki künyeyi kullan.
+
+## diger (5)
 
 | Tarih | ID | Konu | İlgililik | Güncellik |
 |---|---|---|---|---|
+| 2026-04-10 | [38852](https://gib.gov.tr/mevzuat/kanun/440/ozelge/38852) | Edinilmiş Mallara Katılma Rejimi hk. | orta | guncel |
 | 2016-11-03 | [21414](https://gib.gov.tr/mevzuat/kanun/433/ozelge/21414) | Türkiye Barolar Birliği Sosyal Yardım ve Dayanışma Fonu tarafından gerekli koşulları taşıyan avukatlara yapılacak Munzam Emeklilik Yardımı | yuksek | muhtemelen_guncel |
 | 2016-02-17 | [20749](https://gib.gov.tr/mevzuat/kanun/433/ozelge/20749) | Hindistan mukimi şirkete verilen danışmanlık hizmeti karşılığı Hindistan'da yetkili makama ödenen tevkifatın Türkiye'de ödenecek gelir vergi | orta | muhtemelen_guncel |
 | 2012-02-24 | [20767](https://gib.gov.tr/mevzuat/kanun/433/ozelge/20767) | Yurt dışında yerleşik bir Avukata ödenen ücret için gelir vergisi tevkifatı yapılıp yapılmayacağı hk. | orta | muhtemelen_guncel |
@@ -113,7 +120,7 @@ Bu dizin avukatlık faaliyetiyle ilgili GİB özelgelerini listeler: "avukat" ar
 | 2010-04-22 | [23671](https://gib.gov.tr/mevzuat/kanun/433/ozelge/23671) | Serbest meslek erbabının kredi kullanarak aldığı işyeri için ödediği faizlerin gayrimenkulün aktife alındığı hesap dönemi sonuna kadar olan  | yuksek | muhtemelen_guncel |
 | 2005-03-15 | [37843](https://gib.gov.tr/mevzuat/kanun/433/ozelge/37843) | Mesleğin ifası için alınan eğitim hizmeti (diksiyon kursu) için yapılan ödemelerin, serbest meslek kazancının tespitinde gider olarak indiri | yuksek | muhtemelen_guncel |
 
-## kdv (38)
+## kdv (39)
 
 | Tarih | ID | Konu | İlgililik | Güncellik |
 |---|---|---|---|---|
@@ -127,6 +134,7 @@ Bu dizin avukatlık faaliyetiyle ilgili GİB özelgelerini listeler: "avukat" ar
 | 2022-06-06 | [30232](https://gib.gov.tr/mevzuat/kanun/436/ozelge/30232) | Karşı tarafın kamu idaresi olması durumunda karşı taraf vekalet ücreti için düzenlenecek faturada KDV tevkifatı. | yuksek | muhtemelen_guncel |
 | 2022-02-16 | [32149](https://gib.gov.tr/mevzuat/kanun/436/ozelge/32149) | Avukatlık hizmetlerine uygulanacak KDV oranı HK. | yuksek | muhtemelen_guncel |
 | 2021-11-11 | [30251](https://gib.gov.tr/mevzuat/kanun/436/ozelge/30251) | Avukat Vekalet Ücreti Ödemelerinde KDV Tevkifatı | yuksek | muhtemelen_guncel |
+| 2021-11-10 | [30252](https://gib.gov.tr/mevzuat/kanun/436/ozelge/30252) | Belediyenin Raylı Sistem Yapım İşi ve Personel Taşımacılığı Hizmet Alımı İşinde KDV Tevkifatı Yapılıp Yapılmayacağı | yuksek | guncel |
 | 2021-08-06 | [28925](https://gib.gov.tr/mevzuat/kanun/436/ozelge/28925) | İtalya Mukimi Firmadan Alınan Danışmanlık Hizmetinin ve Bu Hizmetin Türkiye'deki Firmalara Verilmesinin Vergilendirilmesi Hk. | orta | muhtemelen_guncel |
 | 2021-06-04 | [30267](https://gib.gov.tr/mevzuat/kanun/436/ozelge/30267) | KDV Tevkifatı hk. | yuksek | muhtemelen_guncel |
 | 2021-06-02 | [30274](https://gib.gov.tr/mevzuat/kanun/436/ozelge/30274) | Avukatlık Hizmetinde KDV Tevkifatı hk. | yuksek | muhtemelen_guncel |

@@ -57,10 +57,11 @@ PARAMS = {
         "genc_girisimci_istisna": 330000,     # GVK mük. 20 — 2. dilim tutarı
         "uyum_indirimi_azami": 12000000,      # GVK mük. 121 — 1/1/2026dan itibaren verilen beyannameler (2025 kazancı) için
         "asgari_ucret_yillik_brut": "312066", # Rehber Örnek 2
-        "engellilik_aylik": {1: 9900, 2: 5700, 3: 2400},  # 1. derece Rehber Örnek 4; 2-3. derece 2025 GVGT
+        "engellilik_aylik": {1: 9900, 2: 5700, 3: 2400},  # 329 Seri No.lu GVGT (RG 30/12/2024-32768 2.Mük.); 1. derece ayrıca Rehber Örnek 4
         "mesken_istisnasi": 47000,            # Rehber Örnek 1
-        "nakden_iade_siniri": 340000,
-        "kdv_tevkifat_siniri": 9900,          # KDV dahil, işlem/dosya bazında; KDV GUT I/C-2.1.3.4.1 = VUK 232 sınırı (VUK GT 577)
+        "nakden_iade_siniri": 340000,         # 2025 takvim yılı; raporsuz ve teminatsız (Rehber s.26)
+        "ymm_iade_siniri": 3400000,           # 2025 takvim yılı; YMM tam tasdik raporuyla (Rehber s.27)
+        "kdv_tevkifat_siniri": 9900,          # KDV dahil, işlem bazında (Başsavcılığa kesilen arabuluculuk makbuzlarında GİB dosya bazında uyguladı: özelge 30159); KDV GUT I/C-2.1.3.4.1 = VUK 232 sınırı (VUK GT 577)
         "dogrulandi": "GİB Rehberi Yayın 590 (2025 tarifesi ve tutarları)",
     },
     2026: {
@@ -69,11 +70,12 @@ PARAMS = {
         "telif_istisna_siniri": 5300000,
         "arizi_smk_istisna": 350000,
         "genc_girisimci_istisna": 400000,
-        "uyum_indirimi_azami": 12000000,      # 2027'de verilecek beyanname için yeniden değerlenecek — teyit edin
+        "uyum_indirimi_azami": None,          # 2026 kazancı (Mart 2027 beyanı) için Aralık 2026 sonunda belirlenecek; henüz yayımlanmadı. 12.000.000 yalnız 2025 kazancı içindir (332 md.3/4). --uyum-azami ile verin
         "asgari_ucret_yillik_brut": "396360", # 33.030 x 12 (AÜTK 2025/1, RG 26/12/2025-33119)
         "engellilik_aylik": {1: 12000, 2: 7000, 3: 3000},  # 332 Seri No.lu GVGT md.3/(2)-d
-        "nakden_iade_siniri": 426000,
-        "kdv_tevkifat_siniri": 12000,         # VUK GT 588 (RG 31/12/2025-33124 5.Mük.) VUK 232 sınırı
+        "nakden_iade_siniri": 426000,         # 2026 takvim yılı (Rehber s.26)
+        "ymm_iade_siniri": 4266000,           # 2026 takvim yılı (Rehber s.27)
+        "kdv_tevkifat_siniri": 12000,         # KDV dahil, işlem bazında (arabuluculukta dosya bazında: özelge 30159); VUK GT 588 (RG 31/12/2025-33124 5.Mük.) VUK 232 sınırı
         "mesken_istisnasi": 58000,
         "dogrulandi": "332 Seri No.lu GVGT (RG 31/12/2025-33124 5.Mük.) tarife ve tutarlar; VUK GT 588 (VUK 232 = 12.000); Rehber 590",
     },
@@ -211,11 +213,19 @@ def yillik(a: dict, yil: int) -> dict:
     hasilat = D(a.get("hasilat", 0))
     gider = D(a.get("gider", 0))
     bagkur = D(a.get("bagkur", 0))
-    smk = hasilat - gider - bagkur                       # beyan edilecek serbest meslek kazancı
+    # GİB: Bağ-Kur primi gider değil, yalnız serbest meslek kazancından indirilir. Kazancı aşan kısım diğer
+    # gelirlerden düşülmez, zarar doğurmaz, devretmez (özelge 23610; 110 Seri No.lu GVGT).
+    # ⚖️ Rehber Örnek 7 "gider olarak" der; kazanç primi karşılamadığında sonuç değişir (uygulama-notlari.md §8).
+    bagkur_ind = min(bagkur, max(D(0), hasilat - gider))
+    smk = hasilat - gider - bagkur_ind                   # beyan edilecek serbest meslek kazancı
     diger_gelir = D(a.get("diger_gelir", 0))             # ör. safi GMSİ, menkul sermaye iradı
     beyan_edilen = smk + diger_gelir                     # indirim sınırlarının bazı (Rehber 10.2)
 
     notlar, ind = [], {}
+    if bagkur > bagkur_ind:
+        notlar.append(f"Bağ-Kur priminin {tl(bagkur - bagkur_ind)} TL'si serbest meslek kazancını aştığı için indirilmedi; "
+                      "GİB'e göre diğer gelirlerden düşülmez ve sonraki yıla devretmez (özelge 23610). "
+                      "⚖️ Rehber Örnek 7 primi 'gider' sayar; bkz. uygulama-notlari.md §8.")
     base = max(D(0), beyan_edilen)
     if a.get("egitim_saglik"):
         sinir = r2(base * D("0.10"))
@@ -250,7 +260,10 @@ def yillik(a: dict, yil: int) -> dict:
     if a.get("uyum_indirimi"):
         payda = max(smk, D(0)) + max(diger_gelir, D(0))
         oran = (max(smk, D(0)) / payda) if payda > 0 else D(0)
-        uyum = min(r2(hesaplanan * oran * UYUM_INDIRIM_ORANI), D(p["uyum_indirimi_azami"]))
+        azami = a.get("uyum_indirimi_azami")
+        if azami is None:
+            azami = need(p, "uyum_indirimi_azami", yil)      # komut satırı: --uyum-azami
+        uyum = min(r2(hesaplanan * oran * UYUM_INDIRIM_ORANI), D(azami))
         notlar.append(f"%5 indirim: hesaplanan vergi × mesleki kazanç payı ({oran:.4%}) × %5. "
                       "Rehber Örnek C oranı 4 haneye yuvarlar; sonuç birkaç TL farklı olabilir.")
 
@@ -271,10 +284,16 @@ def yillik(a: dict, yil: int) -> dict:
                       "beyan süresini izleyen 1 yıl içinde diğer beyana dayalı vergilerden mahsup edilebilir, iade edilmez.")
     iade = -sonuc if sonuc < 0 else D(0)
     if iade > 0:
+        # Rehber s.26-27 hadleri "takvim yılı için" verir; talebin hangi yıla düştüğüne göre seçin.
+        hadler = "; ".join(f"{y}: {tl(PARAMS[y]['nakden_iade_siniri'])} TL'ye kadar raporsuz ve teminatsız, aşan kısım "
+                           f"{tl(PARAMS[y]['ymm_iade_siniri'])} TL'ye kadar YMM tam tasdik raporuyla"
+                           for y in (yil, yil + 1) if PARAMS.get(y, {}).get("ymm_iade_siniri"))
         notlar.append("Mahsup edilemeyen tutar: geçici vergi kısmı yıl sonuna kadar talep halinde (beyannamede gösterilirse talep sayılır), "
-                      f"tevkifat kısmı 1A dilekçesiyle iade/mahsup. Nakden iadede {yil} sınırı: {tl(p['nakden_iade_siniri'])} TL (aşan kısım inceleme/YMM).")
+                      f"tevkifat kısmı 1A dilekçesiyle iade/mahsup. Nakden iade hadleri (takvim yılı; Rehber s.26-27): {hadler}; "
+                      "bunun üstü vergi inceleme raporuyla. Teminat verilirse iade inceleme beklenmeden yapılır. "
+                      "Vergi borçlarına mahsupta tutar sınırı yok.")
     return {
-        "serbest_meslek_kazanci": smk, "diger_gelir": diger_gelir, "beyan_edilen_gelir": beyan_edilen,
+        "serbest_meslek_kazanci": smk, "bagkur_indirimi": bagkur_ind, "diger_gelir": diger_gelir, "beyan_edilen_gelir": beyan_edilen,
         "indirimler": ind, "gecmis_yil_zarari": zarar, "matrah": matrah, "hesaplanan_vergi": hesaplanan,
         "uyum_indirimi": uyum, "mahsup_gecici": gecici, "mahsup_tevkifat": tevkifat,
         "odenecek": max(sonuc, D(0)), "iade_mahsup_alacagi": iade,
@@ -287,9 +306,39 @@ def yillik(a: dict, yil: int) -> dict:
 # ---------------------------------------------------------------------------
 NS = {"e": "http://earsiv.efatura.gov.tr"}
 KOD = {"0015": "kdv", "0003": "stopaj", "9015": "kdv_tevkifat"}
-KAMU_IPUCU = re.compile(r"BAŞSAVCILI|SAVCILI|MAHKEME|BAKANLI|BELEDİYE|VALİLİ|KAYMAKAM|MÜDÜRLÜĞÜ|BAŞKANLI|"
-                        r"ÜNİVERSİTE|BAROSU|BARO BAŞKAN|HASTANE|SGK|SOSYAL GÜVENLİK|DÖNER SERMAYE|GENEL MÜDÜRLÜ|İL ÖZEL İDARE",
-                        re.I)
+# Alıcı adından kaba sınıflama (yalnız ipucu; kesin sonuç alıcının statüsüne bakılarak verilir).
+# 5/10 KDV tevkifatı (dava, icra) yalnız KDV GUT I/C-2.1.3.2.13 listesindeki alıcılarda: 5018 cetvellerindeki idareler,
+# kendi kuruluş kanunu/CBK'si olan kamu kurumları, döner sermayeli kuruluşlar, kamu kurumu niteliğindeki meslek
+# kuruluşları (baro), bankalar, sigorta/reasürans/emeklilik şirketleri, emekli ve yardım sandıkları, kalkınma ajansları,
+# 01/03/2024'ten KİT'ler (metin: özelge 30159, 30251).
+KAMU_IPUCU = re.compile(r"BAŞSAVCILI|SAVCILI|MAHKEME|BAKANLI|VALİLİ|KAYMAKAM|MÜDÜRLÜĞÜ|BAŞKANLI|"
+                        r"BAROSU|BARO BAŞKAN|SGK|SOSYAL GÜVENLİK|DÖNER SERMAYE|GENEL MÜDÜRLÜ", re.I)
+# Belediyenin kendisi belirlenmiş alıcı değil (I/C-2.1.3.1/b; özelge 30252): KDV tevkifatı yok, GV stopajı var.
+BELEDIYE_IPUCU = re.compile(r"BELEDİYE", re.I)
+# Belirlenmiş alıcı (I/C-2.1.3.1/b) ama 2.1.3.2.13'te olup olmadığı addan anlaşılmayanlar: büyükşehir su ve
+# kanalizasyon idaresi (kendi kuruluş kanunu olan İSKİ'de var: 23533; olmayanda yok: 30251), belediye birlikleri,
+# il özel idareleri, köylere hizmet götürme birlikleri; ayrıca devlet/vakıf ayrımı addan çıkmayan üniversite ve hastane.
+BELIRSIZ_IPUCU = re.compile(r"SU VE KANALİZASYON|\b[A-ZÇĞİÖŞÜ]{1,3}SKİ\b.*GENEL MÜDÜRLÜ|BELEDİYE.*BİRLİĞİ|BELEDİYELER BİRLİĞİ|"
+                            r"İL ÖZEL İDARE|KÖYLERE HİZMET", re.I)
+BELIRSIZ_KURUM = re.compile(r"ÜNİVERSİTE|HASTANE", re.I)
+# Listede olmayanlar: özel hastane, vakıf üniversitesi (belirlenmiş alıcıdır ama 2.1.3.2.13'te yok).
+LISTE_DISI_IPUCU = re.compile(r"ÖZEL\b.*HASTANE|HASTANE.*\b(A\.Ş|LTD)|VAKIF ÜNİVERSİTE", re.I)
+
+
+def alici_sinifi(ad: str) -> str:
+    """'liste' (5/10 beklenir), 'belirsiz' (kontrol edin), 'belediye' (KDV tevkifatı yok) veya ''."""
+    a = (ad or "").replace("i", "İ").replace("ı", "I").upper()
+    if LISTE_DISI_IPUCU.search(a):
+        return ""
+    if BELIRSIZ_IPUCU.search(a):
+        return "belirsiz"
+    if BELEDIYE_IPUCU.search(a):
+        return "belediye"
+    if KAMU_IPUCU.search(a):        # ör. "SAĞLIK BAKANLIĞI ... DEVLET HASTANESİ", "ÜNİVERSİTESİ DÖNER SERMAYE"
+        return "liste"
+    if BELIRSIZ_KURUM.search(a):
+        return "belirsiz"
+    return ""
 
 
 def _t(el, path):
@@ -345,7 +394,7 @@ def esmm_oku(kaynak: str) -> list[dict]:
             satirlar.append({
                 "dosya": ad, "makbuz_no": _t(m, "e:makbuzNo"), "tarih": _t(m, "e:belgeTarihi"),
                 "alici": alici, "alici_kimlik": kimlik, "alici_tur": tur,
-                "kamu_ipucu": bool(KAMU_IPUCU.search(alici or "")), "ulke": ulke,
+                "alici_sinifi": alici_sinifi(alici), "ulke": ulke,
                 "kalemler": " | ".join(kalemler), "brut": brut, "kdv": v["kdv"], "stopaj": v["stopaj"],
                 "kdv_tevkifat": v["kdv_tevkifat"], "tahsil": D(_t(m, "e:odenecekTutar") or "0"),
                 "kdv_orani": oranlar.get("kdv", ""), "stopaj_orani": oranlar.get("stopaj", ""),
@@ -375,23 +424,37 @@ def esmm_uyarilar(s: dict) -> list[str]:
     if s["alici_tur"] == "tuzel" and s["stopaj"] == 0:
         u.append("tüzel kişi alıcı ama GV stopajı yok — alıcı GVK 94 sorumlusuysa %20 kesinti gerekir")
     if s["alici_tur"] == "gercek" and s["stopaj"] > 0:
-        u.append("gerçek kişi alıcıda stopaj var — alıcı tacir/serbest meslek erbabı değilse stopaj yapılmaz")
+        u.append("gerçek kişi alıcıda stopaj var — alıcı GVK 94/1'de sayılan tacir/serbest meslek erbabı değilse "
+                 "veya ödemeyi bu faaliyetiyle ilgisiz (kişisel) bir iş için yapıyorsa stopaj yapılmaz (özelge 23620)")
     if re.search(r"BARO", s["alici"] or "", re.I) and s["kdv_orani"] and D(s["kdv_orani"]) != 10:
         u.append("baro alıcı: adli yardım hizmetinde KDV %10 (2007/13033 BKK (II) 32; özelge 38775) — kontrol edin")
     if (re.search(r"ÇOCUK|COCUK|BOŞANMA|BOSANMA|AİLE|AILE|NAFAKA|VELAYET|TÜKETİCİ|TUKETICI|VESAYET|ADLİ YARDIM|ADLI YARDIM",
                   s["kalemler"] or "", re.I) and s["kdv_orani"] and D(s["kdv_orani"]) != 10):
         u.append("aile/tüketici/çocuk mahkemesi, vesayet veya adli yardım işi: KDV %10 olabilir "
                  "(2007/13033 BKK (II) 32; özelge 32149, 38775) — kontrol edin")
-    if s["kamu_ipucu"] and s["tarih"]:
+    sinif = s.get("alici_sinifi", "")
+    if sinif == "belediye" and s["kdv_tevkifat"] > 0:
+        u.append("belediye alıcı: belediyenin kendisi belirlenmiş alıcı değil (KDV GUT I/C-2.1.3.1/b; özelge 30252), "
+                 "dava, icra ve danışmanlıkta KDV tevkifatı uygulanmamalıydı; KDV'nin tamamı 1 No.lu beyannamede beyan edilir "
+                 "(GV stopajı ise kesilir)")
+    elif sinif in ("liste", "belirsiz") and s["tarih"]:
         sinir = kdv_tevkifat_siniri(s["tarih"])
         kdv_dahil = s["brut"] + s["kdv"]
+        etiket = "kamu alıcı" if sinif == "liste" else "belirlenmiş alıcı olabilir"
         if sinir is None:
-            u.append(f"kamu alıcı: KDV tevkifatı sınırı {s['tarih'][:4]} için tanımsız — KDV dahil {tl(kdv_dahil)} TL'yi VUK 232 sınırıyla karşılaştırın")
+            u.append(f"{etiket}: KDV tevkifatı sınırı {s['tarih'][:4]} için tanımsız — KDV dahil {tl(kdv_dahil)} TL'yi VUK 232 sınırıyla karşılaştırın")
+        elif kdv_dahil <= sinir and s["kdv_tevkifat"] > 0:
+            u.append(f"{etiket} ama KDV dahil {tl(kdv_dahil)} ≤ {tl(sinir)}: tevkifat sınır altında uygulanmamalıydı "
+                     "(aynı işe ait başka makbuzlarla toplam sınırı aşıyorsa doğrudur: KDV GUT I/C-2.1.3.4.1)")
+        elif sinif == "belirsiz" and kdv_dahil > sinir:
+            u.append(f"{etiket}, KDV dahil {tl(kdv_dahil)} > {tl(sinir)}: dava ve icrada 5/10 KDV tevkifatı yalnız alıcı "
+                     "KDV GUT I/C-2.1.3.2.13 listesindeyse gerekir (devlet üniversitesi/hastanesi, kendi kuruluş kanunu olan su "
+                     "idaresi gibi: özelge 23533); vakıf üniversitesi ve kendi kuruluş kanunu olmayan su idaresinde yok (özelge 30251); "
+                     f"bu makbuzda tevkifat {'var' if s['kdv_tevkifat'] > 0 else 'yok'} — alıcının statüsünü kontrol edin")
         elif kdv_dahil > sinir and s["kdv_tevkifat"] == 0:
             u.append(f"kamu alıcı ve KDV dahil {tl(kdv_dahil)} > {tl(sinir)}: 5/10 KDV tevkifatı beklenirdi (KDV GUT I/C-2.1.3.2.13) "
-                     "— makbuz birden fazla dosyayı kapsıyorsa sınır dosya bazında uygulanır (özelge 30159)")
-        elif kdv_dahil <= sinir and s["kdv_tevkifat"] > 0:
-            u.append(f"kamu alıcı ama KDV dahil {tl(kdv_dahil)} ≤ {tl(sinir)}: tevkifat sınır altında uygulanmamalıydı")
+                     "— makbuz birden fazla dosyayı kapsıyorsa sınırı dosya bazında kontrol edin (GİB arabuluculukta dosya bazında "
+                     "uyguladı: özelge 30159)")
         elif kdv_dahil > sinir and s["kdv_tevkifat"] > 0:
             u.append(f"bilgi: 5/10 KDV tevkifatı uygulanmış (KDV dahil {tl(kdv_dahil)} > {tl(sinir)}); makbuz birden fazla "
                      "dosyayı kapsıyorsa her dosyanın ayrı ayrı sınırı aşıp aşmadığını kontrol edin (özelge 30159)")
@@ -432,7 +495,9 @@ def esmm_ozet(kaynak: str, csv_yolu: str | None, yil: int | None) -> None:
             v = t[k]
             print(f"{k:<10}{n[k]:>5}{tl(v['brut']):>15}{tl(v['kdv']):>13}{tl(v['kdv_tevkifat']):>12}"
                   f"{tl(v['kdv'] - v['kdv_tevkifat']):>13}{tl(v['stopaj']):>13}{tl(v['tahsil']):>15}")
-    print("* beyan KDV: KDV1'de ödenecek hale gelen kısım (hesaplanan − alıcının 2 No.lu KDV ile beyan edeceği tevkifat).")
+    print("* beyan KDV: KDV1'de ödenecek hale gelen kısım (hesaplanan − alıcının tevkif ettiği KDV). Tevkif edilen KDV'yi alıcı "
+          "2 No.lu KDV ile beyan eder; genel bütçeli idareler (ör. Başsavcılık) beyanname vermez, doğrudan gelir kaydeder "
+          "(KDV GUT I/C-2.1.1.1).")
 
     print("\n== UYARILAR ==")
     var = False
@@ -502,19 +567,57 @@ def test() -> int:
     esit("Örnek 7 (avukat) hesaplanan", k["hesaplanan_vergi"], 1314590)
     esit("Örnek 7 (avukat) %5 indirim", k["uyum_indirimi"], D("65729.50"))
     esit("Örnek 7 (avukat) ödenecek", k["odenecek"], D("273860.50"))
-    # Makbuz: UHAP CMK dökümü (KDV dahil 9.627 → KDV hariç 8.022,50, 5/10 KDV tevkifatı)
+    # Makbuz aritmetiği (biçim örneği): KDV dahil 9.627 → KDV hariç 8.022,50; 5/10 oranı elle verilir, makbuz()
+    # sınırı denetlemez. 9.627 tek başına 2025 (9.900) ve 2026 (12.000) sınırının altındadır; tevkifat ancak aynı işleme
+    # ait KDV dahil toplam sınırı aşarsa gerekir (ör. 2025'te 3 × 200 yol gideriyle 10.227; kdv.md §5). CMK tutarının
+    # KDV dahil kabulü uygulamadan gelir, tarife metninde KDV ibaresi yok (teyit edilmedi; ek-faaliyetler.md §4).
     m = makbuz(kdv_dahil=9627, kdv_tevkifat=D("0.5"))
     esit("CMK iç yüzde brüt", m["brut"], D("8022.50"))
     esit("CMK stopaj", m["stopaj"], D("1604.50"))
     esit("CMK KDV tevkifatı", m["kdv_tevkifat"], D("802.25"))
     esit("CMK ödenecek", m["tahsil_edilecek"], D("7220.25"))
     m2 = makbuz(tahsil=10000, stopaj_orani=0)
-    esit("Gerçek kişi, 10.000 tahsil → brüt", m2["brut"], D("8333.33"))
+    esit("Stopajsız (ödeyen GVK 94/1'de yok), 10.000 tahsil → brüt", m2["brut"], D("8333.33"))
     m3 = makbuz(net=8000)
     esit("Net 8.000 → brüt", m3["brut"], 10000)
     gv = gecici_vergi([{"hasilat": 100000, "stopaj": 20000}, {"hasilat": 100000, "stopaj": 5000}])
     esit("Geçici vergi Ç1 (stopaj > vergi)", gv[0]["odenecek"], 0)
     esit("Geçici vergi Ç2 (kümülatif)", gv[1]["odenecek"], 5000)
+
+    def dogru(ad, kosul):
+        nonlocal hatalar
+        hatalar += 0 if kosul else 1
+        print(f"{'OK ' if kosul else 'HATA'} {ad}")
+
+    # Bağ-Kur yalnız serbest meslek kazancından indirilir; aşan kısım diğer gelirlerden düşülmez (özelge 23610)
+    b = yillik({"hasilat": 300000, "gider": 250000, "bagkur": 120000, "diger_gelir": 400000}, 2025)
+    esit("Bağ-Kur indirimi kazançla sınırlı", b["bagkur_indirimi"], 50000)
+    esit("Bağ-Kur fazlası diğer gelirden düşülmez", b["beyan_edilen_gelir"], 400000)
+    # %5 uyum indirimi azami tutarı 2026 kazancı için yayımlanmadı (parametreler.md; 332 md.3/4 yalnız 2025 kazancı)
+    dogru("2026 uyum azami tutarı teyitsiz (None)", PARAMS[2026]["uyum_indirimi_azami"] is None)
+    u26 = yillik({"hasilat": 1000000, "uyum_indirimi": True, "uyum_indirimi_azami": D(10000)}, 2026)
+    esit("Uyum indirimi komut satırı azamisiyle sınırlanır", u26["uyum_indirimi"], 10000)
+    # KDV tevkifat sınırı (KDV GUT I/C-2.1.3.4.1; Seri 36 ve 50; VUK GT 577, 588)
+    esit("Tevkifat sınırı 2023", kdv_tevkifat_siniri("2023-06-01"), 2000)
+    esit("Tevkifat sınırı 2025", kdv_tevkifat_siniri("2025-06-01"), 9900)
+    esit("Tevkifat sınırı 2026", kdv_tevkifat_siniri("2026-02-10"), 12000)
+    # Alıcı sınıfı: belediyenin kendisi belirlenmiş alıcı değil (özelge 30252); İSKİ/30251 ayrımı → kontrol
+    dogru("Başsavcılık → liste", alici_sinifi("ÖRNEK CUMHURİYET BAŞSAVCILIĞI") == "liste")
+    dogru("Baro → liste", alici_sinifi("ÖRNEK BAROSU BAŞKANLIĞI") == "liste")
+    dogru("Belediye başkanlığı → belediye", alici_sinifi("ÖRNEK BELEDİYE BAŞKANLIĞI") == "belediye")
+    dogru("Belediye (küçük harf) → belediye", alici_sinifi("Örnek Büyükşehir Belediyesi") == "belediye")
+    dogru("Su ve kanalizasyon idaresi → belirsiz",
+          alici_sinifi("ÖRNEK SU VE KANALİZASYON İDARESİ GENEL MÜDÜRLÜĞÜ") == "belirsiz")
+    dogru("Özel hastane → liste dışı", alici_sinifi("ÖZEL ÖRNEK HASTANESİ A.Ş.") == "")
+    ornek = {"brut": D(15000), "kdv": D(3000), "stopaj": D(3000), "kdv_tevkifat": D(0), "tahsil": D(15000),
+             "alici_tur": "tuzel", "alici": "ÖRNEK BELEDİYE BAŞKANLIĞI", "alici_sinifi": "belediye",
+             "kalemler": "", "kdv_orani": "20.00", "tarih": "2026-05-04", "ulke": ""}
+    dogru("Belediye, sınır üstü, tevkifatsız → uyarı yok", esmm_uyarilar(ornek) == [])
+    ornek.update(kdv_tevkifat=D(1500), tahsil=D(13500))
+    dogru("Belediyede tevkifat → uyarı", any("uygulanmamalıydı" in x for x in esmm_uyarilar(ornek)))
+    ornek.update(alici="ÖRNEK CUMHURİYET BAŞSAVCILIĞI", alici_sinifi="liste", kdv_tevkifat=D(0), tahsil=D(15000))
+    dogru("Başsavcılık, sınır üstü, tevkifatsız → 5/10 uyarısı",
+          any("5/10 KDV tevkifatı beklenirdi" in x for x in esmm_uyarilar(ornek)))
     print(f"\n{'Tüm testler geçti.' if not hatalar else f'{hatalar} test başarısız.'}")
     return 1 if hatalar else 0
 
@@ -530,7 +633,9 @@ def makbuz_yazdir(r: dict, so, ko, to) -> None:
         (f"GV stopajı {oran(so)}", -r["stopaj"], "ödeyen keser, muhtasarla beyan eder"),
         ("Net ücret", r["net_ucret"], ""),
         (f"KDV {oran(ko)}", r["kdv"], ""),
-        (f"KDV tevkifatı{tev}", -r["kdv_tevkifat"], "alıcı 2 No.lu KDV ile beyan eder" if to else ""),
+        (f"KDV tevkifatı{tev}", -r["kdv_tevkifat"],
+         "alıcı 2 No.lu KDV ile beyan eder; genel bütçeli idare (ör. Başsavcılık) beyanname vermez, gelir kaydeder "
+         "(KDV GUT I/C-2.1.1.1)" if to else ""),
         ("Tahsil edilecek", r["tahsil_edilecek"], ""),
     ]
     print("┌" + "─" * 52 + "┐")
@@ -540,6 +645,9 @@ def makbuz_yazdir(r: dict, so, ko, to) -> None:
         sayi = ("−" if tutar < 0 else "") + tl(abs(tutar))
         print(f"│ {ad:<31}{sayi:>19} │")
     print("└" + "─" * 52 + "┘")
+    for ad, tutar, not_ in satirlar:
+        if not_ and tutar:
+            print(f"  {ad}: {not_}")
     print(f"  KDV dahil makbuz toplamı: {tl(r['kdv_dahil_toplam'])} · KDV1'de beyan edilecek KDV: {tl(r['tahsil_edilen_kdv'])}")
 
 
@@ -568,7 +676,8 @@ def main(argv=None) -> int:
     g.add_argument("--net", type=D)
     g.add_argument("--tahsil", type=D)
     g.add_argument("--kdv-dahil", type=D, help="KDV dahil tutar (iç yüzde), ör. 'KDV hariç' denmeyen vekalet ücreti")
-    m.add_argument("--stopaj", default="20", help="GV stopaj oranı: 20 (varsayılan), 17 (telif), 0 (gerçek kişi/sorumlu değil)")
+    m.add_argument("--stopaj", default="20", help="GV stopaj oranı: 20 (varsayılan), 17 (telif), 0 (ödeyen GVK 94/1'de "
+                   "sayılmıyor, ör. ödemeyi işiyle ilgisiz yapan gerçek kişi)")
     m.add_argument("--kdv", default="20", help="KDV oranı (varsayılan 20; istisna için 0)")
     m.add_argument("--kdv-tevkifat", default="0", help="KDV tevkifat oranı, ör. 5/10")
 
@@ -589,6 +698,8 @@ def main(argv=None) -> int:
         y.add_argument("--" + a.replace("_", "-"), dest=a, type=D)
     y.add_argument("--engellilik-derece", type=int)
     y.add_argument("--uyum-indirimi", action="store_true")
+    y.add_argument("--uyum-azami", dest="uyum_indirimi_azami", type=D,
+                   help="%%5 uyum indirimi azami tutarı (GVK mük. 121); PARAMS'ta teyitsiz (None) olan yıllar için")
     y.add_argument("--json", action="store_true")
 
     e = sub.add_parser("esmm-ozet", help="e-SMM XML arşivini özetle")

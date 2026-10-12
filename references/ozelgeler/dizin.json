@@ -1,5 +1,20 @@
 [
  {
+  "id": 38852,
+  "tarih": "2026-04-10",
+  "no": "E-97895701-160[2026/5.1-19]-493812",
+  "kanun": "7338",
+  "baslik": "Edinilmiş Mallara Katılma Rejimi hk.",
+  "link": "https://gib.gov.tr/mevzuat/kanun/440/ozelge/38852",
+  "ilgililik": "orta",
+  "kategori": "diger",
+  "alt_konu": "Av.K. 35/A uzlaşma tutanağıyla mal rejimi tasfiyesi; VİV beyanında terekeye girecek kısım ve hisse değerlemesi",
+  "hukum": "Eşin ölümünde önce mal rejimi tasfiye edilir; sağ kalan eşin bu tasfiyeden doğan hakkı mirasçılık sıfatından ayrıdır. Tasfiyenin taraflar arasında Av.K. 35/A uyarınca düzenlenen uzlaşma tutanağına dayanılarak yapılmasında hukuki engel yoktur. 01.01.2002 öncesi edinilen hisseler ile sonrasında edinilen hisselerden tasfiye sonunda murise kalan kısım terekeye dahil edilir. Anonim şirket hissesi ilk tarhiyatta VİVK 10/2-d'ye göre değerlenir: borsada kayıtlıysa ölümden önceki üç yıl içindeki son muamele değeriyle, değilse itibari değerle.",
+  "guncellik": "guncel",
+  "guncellik_notu": "Tutanağın damga vergisi yönü bu özelgede ele alınmaz; bkz. 38910.",
+  "kaynak": "ek-arama"
+ },
+ {
   "id": 38910,
   "tarih": "2026-04-06",
   "no": "E-97895701-155[2025/20]-464441",
@@ -28,6 +43,36 @@
   "guncellik": "guncel",
   "guncellik_notu": "31/12/2025 tarihli. Binek otomobil gider ve amortisman sınırları her yıl güncellendiği için ilgili yılın tutarları kontrol edilmeli.",
   "kaynak": "avukat"
+ },
+ {
+  "id": 38832,
+  "tarih": "2025-11-24",
+  "no": "23921810-155-41850",
+  "kanun": "488",
+  "baslik": "Doğrudan temin yöntemiyle yapılan alımlarda damga vergisi uygulaması",
+  "link": "https://gib.gov.tr/mevzuat/kanun/438/ozelge/38832",
+  "ilgililik": "orta",
+  "kategori": "damga-harc",
+  "alt_konu": "Doğrudan teminde resmi dairenin mal ve hizmet alımı ödemelerinde DV (IV/1-a); bağlı birimin resmi daire sayılması; kesilen DV'nin muhtasarla beyanı",
+  "hukum": "DVK m.8'deki resmi dairelere bağlı olup ayrı tüzel kişilik ve iktisadilik vasıflarının ikisini birden taşımayan kuruluş resmi daire sayılır. Böyle bir birimin (ve ondan ayrı tüzel kişiliği olmayan iktisadi işletmesinin) 4734 s.K. 22/d doğrudan temin usulüyle yaptığı mal ve hizmet alımlarına ait ödeme kağıtları (1) sayılı tablo IV/1-a uyarınca DV'ye tabidir. Vergi ödemeden kesilir, ertesi ayın 26'sına kadar muhtasar beyannameyle bildirilip ödenir. Ayrı tüzel kişiliği olan iktisadi işletmenin ödemelerinden DV aranmaz.",
+  "guncellik": "guncel",
+  "guncellik_notu": "IV/1-a oranı özelgede yazmaz; 01/01/2013'ten beri binde 9,48 (28640), 2026'da da binde 9,48. Avukatlık hizmetine uygulanması kıyastır; CMK için bkz. 35082.",
+  "kaynak": "ek-arama"
+ },
+ {
+  "id": 38792,
+  "tarih": "2025-08-25",
+  "no": "28521120-140.04.01-23065",
+  "kanun": "492",
+  "baslik": "İcra Edilebilirlik Şerhi Alınan Arabuluculuk Anlaşmasına Göre Tapuda Yapılacak Devir İşleminde Uygulanacak Tapu Harcı",
+  "link": "https://gib.gov.tr/mevzuat/kanun/439/ozelge/38792",
+  "ilgililik": "orta",
+  "kategori": "damga-harc",
+  "alt_konu": "Ortaklığın giderilmesinde icra edilebilirlik şerhli dava şartı arabuluculuk anlaşmasıyla tapuda devir: tapu harcı",
+  "hukum": "Ortaklığın giderilmesine ilişkin dava şartı arabuluculuk anlaşmasına sulh hukuk mahkemesince icra edilebilirlik şerhi verilince anlaşma ilam niteliğinde belge sayılır (6325 s.K. 18, 18/B). Buna dayanarak diğer paydaşların hisselerinin bedel karşılığı bir paydaşa devri şüyuun izalesi yoluyla satış sayılır ve (4) sayılı tarife I/20-a'ya göre nispi tapu harcı alınır. Hesaplanan nispi harç asgari maktu harçtan düşükse, devir sayısına bakılmaksızın her taşınmazda devreden ve devralandan birer asgari maktu harç alınır (7440 s.K. md.14 ile eklenen cümle).",
+  "guncellik": "muhtemelen_guncel",
+  "guncellik_notu": "Özelgedeki 346,10 TL asgari harç 2025 tutarıdır; maktu tutarlar her yıl güncellenir. I/20-a'daki sonraki değişiklikler için bkz. damga-harc.md.",
+  "kaynak": "ek-arama"
  },
  {
   "id": 38775,
@@ -731,8 +776,23 @@
   "alt_konu": "Sözleşmeli avukatların su idaresine icra takibi hizmetinde KDV tevkifatı",
   "hukum": "Avukatların yargı mercileri nezdindeki ve icra takibi gibi vekalet hizmetleri danışmanlık tevkifatı (9/10) kapsamında değildir. Genel kanuna (2560 s.K.) dayanılarak kurulan ve özel kuruluş kanunu bulunmayan su ve kanalizasyon idaresi KDV GUT I/C-2.1.3.2.13'teki alıcılar arasında olmadığından, avukatların bu idareye düzenlediği SMM'lerde KDV tevkifatı (5/10) uygulanmaz.",
   "guncellik": "muhtemelen_guncel",
-  "guncellik_notu": "KDV %20; sonuç alıcının statüsüne bağlı (5018 cetvelleri, belediyeler, özel kanunla kurulan kurumlar vb. için 5/10 tevkifat gündeme gelir).",
+  "guncellik_notu": "KDV %20. Sonuç alıcının statüsüne bağlıdır: 5018 cetvellerindeki idareler ve kendi kuruluş kanunu ya da CBK'si olan kamu kurumları için 5/10 tevkifat gündeme gelir; kendi kuruluş kanunu olan su idaresinde de (İSKİ, 23533). Belediyenin kendisi I/C-2.1.3.1/b listesinde yoktur, tevkifat yapmaz; %20 GV stopajını ise keser (30252).",
   "kaynak": "avukat"
+ },
+ {
+  "id": 30252,
+  "tarih": "2021-11-10",
+  "no": "76464994-130-177070",
+  "kanun": "3065",
+  "baslik": "Belediyenin Raylı Sistem Yapım İşi ve Personel Taşımacılığı Hizmet Alımı İşinde KDV Tevkifatı Yapılıp Yapılmayacağı",
+  "link": "https://gib.gov.tr/mevzuat/kanun/436/ozelge/30252",
+  "ilgililik": "yuksek",
+  "kategori": "kdv",
+  "alt_konu": "Belediyenin kendisi belirlenmiş alıcı değil: belediyeye verilen hizmette KDV tevkifatı yok; I/C-2.1.3.1/b tam listesi",
+  "hukum": "Belediyeler KDV GUT I/C-2.1.3.1/b'deki belirlenmiş alıcılar arasında yer almadığından, belediyeye ifa edilen yapım işi ve personel taşıma hizmetinde KDV tevkifatı yapılmaz. Listede belediyelerin teşkil ettikleri birlikler ve büyükşehir belediyelerinin su ve kanalizasyon idareleri vardır, belediyenin kendisi yoktur. Belediyenin iktisadi işletmeleri ise KDV mükellefi olarak (I/C-2.1.3.1/a) tevkifat uygular. Avukat için sonuç: belediyeye verilen avukatlık hizmetinde (karşı taraf vekalet ücreti dahil) 5/10 KDV tevkifatı yoktur; belediye GVK 94 sorumlusu olduğundan %20 GV stopajını yine keser (özelge yapım ve taşıma işine ilişkindir, avukatlığa uygulanması listeden çıkarımdır).",
+  "guncellik": "guncel",
+  "guncellik_notu": "Özelge metnindeki sayı E-76464994-130[KDV.2021/114]-177070'dir. Belediyenin kendisinin listede olmadığı tespiti güncel tebliğ metniyle uyumludur. KİT'ler 2021'de belirlenmiş alıcıydı; 2.1.3.2.13 (5/10) listesine 01/03/2024'te girdi. Belediye birlikleri ve büyükşehir su-kanalizasyon idareleri için bkz. kdv.md §4 (23533, 30251).",
+  "kaynak": "ek-arama"
  },
  {
   "id": 28925,
@@ -1168,6 +1228,21 @@
   "guncellik": "guncel",
   "guncellik_notu": "2020 tarihli. KDV oranı artık %20.",
   "kaynak": "avukat"
+ },
+ {
+  "id": 34330,
+  "tarih": "2020-05-06",
+  "no": "97895701-155[2019/223]-354039",
+  "kanun": "488",
+  "baslik": "Kamulaştırmasız el atma bedellerinin icra yoluyla ilgilisine ödenmesi sırasında damga vergisinin hangi matrah üzerinden hesaplanacağı",
+  "link": "https://gib.gov.tr/mevzuat/kanun/438/ozelge/34330",
+  "ilgililik": "orta",
+  "kategori": "damga-harc",
+  "alt_konu": "İcra dairesinin resmi daire namına ödediği kamulaştırmasız el atma bedelinde DV matrahı (faiz, yargılama gideri, avukatlık ücreti dahil)",
+  "hukum": "Kamulaştırmasız el atma bedelinin tahsili için başlatılan icra takibinde icra dairesinin resmi daire namına kişilere yaptığı ödemelere ait kağıtlar (1) sayılı tablo IV/1-d uyarınca nispi DV'ye tabidir. Matrah takip başlangıcındaki tutar değil, faiz, yargılama gideri, avukatlık ücreti ve harç gibi eklentilerle oluşan toplam tutardır; içerdiği KDV matraha girmez (30 Seri No.lu DVGT).",
+  "guncellik": "guncel",
+  "guncellik_notu": "Oran özelgede yazmaz; güncel IV/1-d oranı için damga-harc.md. Resmi dairenin karşı taraf avukatına doğrudan ödediği vekalet ücreti için bkz. 34278 (IV/1-a kapsamında DV yok).",
+  "kaynak": "ek-arama"
  },
  {
   "id": 32239,
@@ -1815,6 +1890,21 @@
   "kaynak": "ek-arama"
  },
  {
+  "id": 34561,
+  "tarih": "2016-04-24",
+  "no": "0792880-155.01[2015/503]-19719",
+  "kanun": "488",
+  "baslik": "Yönetim kurulu kararı, genel müdürlük olur'u ve piyasa araştırması tutanağının damga vergisine tabi olup olmadığı hk.",
+  "link": "https://gib.gov.tr/mevzuat/kanun/438/ozelge/34561",
+  "ilgililik": "orta",
+  "kategori": "damga-harc",
+  "alt_konu": "Kamu kurumunun avukatlık hizmetini doğrudan teminle alması: yönetim kurulu kararı, olur ve piyasa araştırma tutanağının DV'si",
+  "hukum": "4734 s.K. 22 kapsamında doğrudan teminle avukatlık ve bilirkişilik hizmeti alımına ilişkin yönetim kurulu kararı, genel müdürlük olur'u ve harcama yetkilisince imzalanan piyasa fiyat araştırması tutanakları ihale komisyonu kararı niteliğinde olmadığından (1) sayılı tablo II/2 kapsamında DV'ye tabi değildir. Tutanağı imzalayanlar ihale yetkilisince ihale komisyonu olarak görevlendirilmişse tutanak ihale kararı sayılır ve DV'ye tabidir. 44 Seri No.lu DVGT'ye göre doğrudan teminde belli parayı içeren sözleşme düzenlenirse sözleşme DV'ye tabidir.",
+  "guncellik": "muhtemelen_guncel",
+  "guncellik_notu": "Künye tutarsız: GİB kaydında tarih 24.04.2016 ve sayı '0792880-…' görünür; özelge metninde tarih 24/03/2016, sayı 90792880-155.01[2015/503]-19719'dur (atıfta metin esas alınmalı). Belli para içeren sözleşmenin DV oranı (I/A-1) 2026'da binde 9,48.",
+  "kaynak": "ek-arama"
+ },
+ {
   "id": 24572,
   "tarih": "2016-02-22",
   "no": "90792880-155.01.05.02[2015/3888]-7262 ",
@@ -2366,7 +2456,7 @@
   "alt_konu": "CMK zorunlu müdafilik ücretinde KDV ve KDV tevkifatı",
   "hukum": "Baronun CMK kapsamında görevlendirdiği serbest avukatlara ve yanında çalıştığı avukatın SMM'sini kullanan sigortalı avukatlara yapılan müdafilik ödemeleri serbest meslek kazancıdır ve KDV'ye tabidir. Mahkeme nezdindeki avukatlık hizmeti danışmanlık ve denetim hizmeti sayılmadığından bu ödemelerde KDV tevkifatı uygulanmaz.",
   "guncellik": "eskimis_olabilir",
-  "guncellik_notu": "2013 tarihli ve 117 Seri No.lu KDV GT dönemine ait. 35 No.lu KDV GUT değişikliğiyle 01/03/2021'den itibaren kamu idarelerine verilen diğer hizmetlerde 5/10 tevkifat getirildi (I/C-2.1.3.2.13); tevkifat görüşü bu nedenle eskimiş olabilir. KDV oranı da %20'ye çıktı.",
+  "guncellik_notu": "2013 tarihli ve 117 Seri No.lu KDV GT dönemine ait. Özelge yalnız danışmanlık tevkifatını inceler. Oysa 5018 cetvellerindeki idarelere (Başsavcılık dahil) verilen diğer hizmetlerde 5/10 tevkifat o tarihte de vardı: 117 Seri GT 3.2.13 (30576, 2013), sonra KDV GUT I/C-2.1.3.2.13 (30288, 2020). 35 Seri No.lu değişiklik (01/03/2021) yalnız alıcı listesini genişletti. Güncel uygulamada Başsavcılık CMK ödemelerinde 5/10 tevkifat yapar (30273). KDV oranı da %20'ye çıktı.",
   "kaynak": "avukat"
  },
  {
@@ -3341,7 +3431,7 @@
   "alt_konu": "Sigortalı çalışan ve mükellefiyeti kapalı avukatın sürekli CMK görevlerinden aldığı ücretler: mükellefiyet, SMM, tevkifat",
   "hukum": "Baronun CMK kapsamında sürekli görevlendirmesi faaliyetin mutad olarak yapıldığını gösterir. Bu yüzden şirkette sigortalı çalışan avukat da serbest meslek mükellefiyeti açtırmalı ve SMM düzenlemelidir. Ödemeyi yapan kurum %20 GV tevkifatı yapar.",
   "guncellik": "muhtemelen_guncel",
-  "guncellik_notu": "Tevkifat oranının dayanağı artık 2009/14592 BKK (%20). CMK makbuzu ödeme emrini düzenleyen Başsavcılık adına kesilir. Başsavcılık belirlenmiş alıcı olduğundan 01/03/2021'den beri sınırı aşan tutarlarda 5/10 KDV tevkifatı uygulanır; çocuk mahkemesi görevlerinde KDV %10. e-SMM zorunlu.",
+  "guncellik_notu": "Tevkifat oranının dayanağı artık 2009/14592 BKK (%20). CMK makbuzu ödeme emrini düzenleyen Başsavcılık adına kesilir. Başsavcılık 5018'e ekli cetveldeki idare olduğundan sınırı aşan tutarlarda 5/10 KDV tevkifatı uygular (I/C-2.1.3.2.13; 2021 öncesinde de vardı: 30576, 30288); çocuk mahkemesi görevlerinde KDV %10. e-SMM zorunlu.",
   "kaynak": "avukat"
  },
  {
@@ -3610,8 +3700,8 @@
   "kategori": "damga-harc",
   "alt_konu": "CMK müdafi ve vekil ödemelerine ilişkin kağıtlarda damga vergisi oranı",
   "hukum": "Cumhuriyet Başsavcılığının (resmi daire) CMK kapsamında müdafi ve vekil avukatlara yaptığı ödemelere ilişkin kağıtlar, zorunlu yol giderleri dahil, DVK (1) sayılı tablo IV/1-a uyarınca binde 7,5 damga vergisine tabidir. GİB, vergi dairesinin IV/1-b'ye dayanan binde 6 görüşünü bu yönde düzeltmiştir.",
-  "guncellik": "eskimis_olabilir",
-  "guncellik_notu": "2009 tarihli; damga vergisi tablo pozisyonu ve oranı sonradan değişmiş olabilir, güncel DVK (1) sayılı tablodan teyit edilmeli.",
+  "guncellik": "guncel",
+  "guncellik_notu": "İlke güncel: Başsavcılığın CMK ödemelerine ait kağıtlara (zorunlu yol gideri dahil) IV/1-a uygulanır; IV/1-a hükmü 2025'te de aynı içerikle uygulanıyor (38832). Oran eski: özelgedeki binde 7,5 yerine 01/01/2013'ten beri binde 9,48 (BKK 2012/4116; özelge 28640); 2026'da da binde 9,48.",
   "kaynak": "avukat"
  },
  {

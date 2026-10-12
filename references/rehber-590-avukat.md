@@ -14,13 +14,13 @@
 
 ## 2. Kazancın tespiti: tahsil esası (s.6–7)
 - Kazanç, hesap dönemi içinde **tahsil edilen** para, ayın ve para ile ölçülebilen menfaatlerden, aynı dönemde **ödenen** giderlerin düşülmesiyle bulunur. Tahakkuk değil tahsil esası geçerlidir.
-- Müvekkilden mesleki faaliyetle ilgili olarak alınan **gider karşılıkları kazanca eklenir**.
-- **İstisna:** vergi, resim, **harç**, keşif, **şahitlik**, **bilirkişilik**, ekspertiz gibi kalemler için müvekkilden alınan ve **tamamen bu amaçla harcanan** paralar kazanç sayılmaz (GVK 67/2). Avukatın dava masraf avansı bu kapsamdadır. Harcanmayan bakiye için `smm-belge-duzeni.md` dosyasına bakın.
+- Müvekkilden mesleki faaliyetle ilgili olarak alınan **gider karşılıkları kazanca eklenir** (GVK 67/2).
+- **İstisna:** vergi, resim, **harç**, keşif, **şahitlik**, **bilirkişilik**, ekspertiz gibi kalemler için müvekkilden alınan ve **tamamen bu amaçla harcanan** paralar kazanç sayılmaz (GVK 67/4; özelge 21255, 23601). Avukatın dava masraf avansı bu kapsamdadır. Harcanmayan bakiye için `smm-belge-duzeni.md` dosyasına bakın.
 - Amortismana tabi bir kıymet satılırsa, satış bedelinin envanter değerini aşan kısmı kazanca eklenir.
 - **Tahsil hükmündeki haller:** Para fiilen ele geçmemiş olsa da aşağıdakiler tahsil sayılır:
   - Avukatın **haberdar olması şartıyla** kendi adına kamu müessesesine, **icra dairesine**, bankaya, notere veya postaya para yatırılması. Avukat açısından kritik nokta: icra dosyasına avukat adına yatırılan vekalet ücreti, avukat bundan haberdar olduğunda tahsil edilmiş sayılır.
   - Alacağın başkasına **temliki** veya müvekkile olan borçla **takası**.
-- **Serbest Meslek Kazanç Defteri** tutmak zorunludur ve kayıtlar günü gününe yapılır. Adi ortaklıklar da bu defteri tutar. Defter-Beyan Sistemi zorunludur (bkz. §16).
+- **Serbest Meslek Kazanç Defteri** tutmak zorunludur ve kayıtlar günü gününe yapılır. Adi ortaklıklar da bu defteri tutar. Defter-Beyan Sistemi zorunludur (bkz. §17).
 - Üçüncü kişilerle yapılan işlemlere ait kayıtlar belgeyle tevsik edilmelidir (VUK).
 
 ## 3. Belge düzeni: e-SMM (s.7–8)
@@ -46,7 +46,10 @@
 | Tazminatlar | Mesleki faaliyetle ilgili olarak kanun, ilam veya sözleşmeye göre ödenen tazminatlar. |
 | **İndirilemez** | Para cezaları, vergi cezaları ve avukatın suçundan doğan tazminatlar (s.10). |
 
-Bağ-Kur primi: Rehber örneklerinde serbest meslek kazancından düşülür (Örnek 2, 4 ve avukat Örnek 7). Dayanak için `giderler.md` dosyasına bakın.
+**Bağ-Kur primi:**
+- GİB'e göre prim gider değil, beyan edilen serbest meslek kazancından yapılan **indirimdir**. Kazanç primi karşılamazsa kalan kısım diğer gelirlerden düşülmez, zarar doğurmaz ve sonraki yıla devretmez. Geçici vergide kümülatif olarak düşülebilir (özelge 23610, 17.12.2012; 110 Seri No.lu GVGT).
+- Rehber'in hesap tablolarında da prim, giderlerden ayrı bir satırda düşülür (Örnek 2, 4 ve avukat Örnek 7).
+- ⚖️ Örnek 7'nin metni ise primin "gider olarak" indirileceğini söyler. Nitelendirme tartışmalıdır; GİB görüşünü esas alın. Bkz. `uygulama-notlari.md` §8 ve `giderler.md` ("Sigorta ve Bağ-Kur").
 
 ## 5. Gelir vergisi tevkifatı (stopaj) (s.10–11)
 - Serbest meslek ödemelerinde, **ödemeyi yapan** GVK 94'te sayılan bir vergi sorumlusuysa (şirket, kamu idaresi, dernek, vakıf, serbest meslek erbabı, defter tutan tacir vb.) ödeme sırasında kesinti yapar. Noterlere yapılan ödemeler bunun dışındadır.
@@ -57,11 +60,13 @@ Bağ-Kur primi: Rehber örneklerinde serbest meslek kazancından düşülür (Ö
   - Arızi serbest meslek kazancının istisna haddi altında kalan kısmından yapılan kesinti (haddi 2025 için 280.000 TL, **2026 için 350.000 TL**).
   - Tarifenin 4. dilim tutarını aşmayan istisnalı telif kazancından yapılan kesinti (2025 için 4.300.000 TL, **2026 için 5.300.000 TL**).
 - AB hibeleriyle finanse edilen projelerde serbest meslek ödemelerinden kesinti yapılmaz (GVK geçici 84).
-- **Karşı taraf vekalet ücreti (GVK 94/3, 7194 s.K.):** Mahkemelerce veya icra müdürlüklerince karşı tarafa yükletilen ve avukata ait olan vekalet ücretlerinde tevkifatı, **ücreti ödeyen** yapar. Bu, icra ve iflas müdürlüklerine yatırılanları da kapsar (s.11). Ayrıntı için `vekalet-ucreti.md` dosyasına bakın.
+- **Karşı taraf vekalet ücreti (GVK 94/3, yani 7194 s.K. md. 16 ile eklenen fıkra; bent 3 değil):** Mahkemelerce veya icra müdürlüklerince karşı tarafa yükletilen ve avukata ait olan vekalet ücretlerinde tevkifatı, **ücreti ödeyen** yapar. Bu, icra ve iflas müdürlüklerine yatırılanları da kapsar (s.11). Ayrıntı için `vekalet-ucreti.md` dosyasına bakın.
 
 ## 6. İş yeri kirası (s.11–12)
 - Büro kirası, **tutar sınırı olmaksızın** banka veya PTT üzerinden ödenip belgelenmelidir. Dekont, hesap cetveli, internet şubesi ve "kira ödemesi" açıklamasıyla şubeden yapılan yatırma işlemleri kabul edilir. Uyulmazsa her işlem için özel usulsüzlük cezası kesilir.
-- Bürosu kiralık avukat, kiraya verene ödediği kira üzerinden **%20 kira stopajı** yapmakla ve **muhtasar beyan** vermekle de yükümlüdür (GVK 94/5-a). Rehberde ayrıca anlatılmaz. Bkz. `giderler.md`.
+- Bürosu kiralık avukat, kirayı **gerçek kişiye** (GVK 94/5-a) ya da dernek veya vakfa (GVK 94/5-b; mazbut vakıflar hariç) ödüyorsa, kira üzerinden **%20 kira stopajı** yapmakla ve **muhtasar beyan** vermekle de yükümlüdür (oran: 2009/14592 BKK; özelge 29250). Rehberde ayrıca anlatılmaz.
+  - Avukatlar Yardımlaşma Sandığı'na ödenen kiradan stopaj yapılmaz (6207 s.K. md. 2/3; özelge 24483).
+  - Ayrıntı için `giderler.md` dosyasına bakın.
 
 ## 7. İstisnalar (s.12–14)
 - **Telif istisnası (GVK 18):** Avukatın yazdığı kitap, makale veya bilimsel çalışmalardan elde ettiği kazanç istisnadır. Arızi olarak elde edilmesi istisnaya engel değildir. Kadrolu çalışılan bir dergide yazılan yazının karşılığı ise ücret olur (s.13).
@@ -114,7 +119,7 @@ Bağ-Kur primi: Rehber örneklerinde serbest meslek kazancından düşülür (Ö
   - Bağış ve yardımlar: bir kısmı sınırlı, bir kısmı tamamen indirilir. Kızılay ve Yeşilay'a makbuz karşılığı yapılan **nakdi** bağışlar tamamen indirilir (Örnek 3 ve avukat Örnek 7).
   - Sponsorluk harcamaları.
   - Cumhurbaşkanınca başlatılan yardım kampanyalarına yapılan bağışlar.
-  - **Yurt dışı mukimlere verilen hizmet kazancı indirimi** (GVK 89/1-15).
+  - **Yurt dışı mukimlere verilen hizmet kazancı indirimi** (GVK 89/1-13). Rehber bent numarası vermez; 89/1-15 ise 7338 s.K. md. 5 ile mülgadır. **Avukat bu indirimden yararlanamaz:** 89/1-13 kapalı bir liste sayar (mimarlık, mühendislik, tasarım, yazılım, muhasebe, veri hizmetleri vb.) ve avukatlık ile hukuki danışmanlık bu listede yoktur. Bkz. `diger.md` §4 ve `parametreler.md`.
   - Korumalı işyeri indirimi, bireysel katılım yatırımcısı indirimi ve Ar-Ge indirimi.
   - Özel kanunlara göre tamamı indirilen bağışlar (s.18–20).
 - **BES katkı payları beyannamede indirilemez** (s.36).
