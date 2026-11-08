@@ -1,7 +1,7 @@
 # e-SMM ve belge düzeni: akdi ücret, masraflar, tahsil zamanı
 
 **Kapsam:** Avukatın kendi e-SMM düzeni. Akdi ücrette makbuzun zamanı, alıcısı ve tutarı; stopaj ve KDV tevkifatının makbuzda gösterimi; masraf ve gider avansı; avukatlar arası iş ve tevkil; ücret iadesi; ceza, tevsik, stopaj mahsubu ve yoklama. Kaynaklar GİB özelgeleri (yalnız talep edeni bağlar, VUK 413), kanun ve tebliğ metinleridir. Son kontrol: 12.10.2026.
-**İlgili dosyalar:** `parametreler.md` (tüm tutarlar; esas alınır) · `vekalet-ucreti.md` (karşı taraf vekalet ücreti) · `kdv.md` (oran, tevkifat, CMK) · `uygulama-notlari.md` (⚖️ tartışmalı konular, KDV'nin doğması, sık hatalar) · `rehber-590-avukat.md` (GİB Rehberi özeti) · `ek-faaliyetler.md` (CMK, arabuluculuk) · `giderler.md` · `aaut-2025-2026.md` · `mukellefiyet-istisna.md` · `damga-harc.md`.
+**İlgili dosyalar:** `parametreler.md` (tüm tutarlar; esas alınır) · `vekalet-ucreti.md` (karşı taraf vekalet ücreti) · `kdv.md` (oran, tevkifat, CMK) · `uygulama-notlari.md` (⚖️ tartışmalı konular, KDV'nin doğması, sık hatalar) · `rehber-590-avukat.md` (GİB Rehberi özeti) · `ek-faaliyetler.md` (CMK, arabuluculuk) · `giderler.md` · `aaut-2026-2027.md` · `mukellefiyet-istisna.md` · `damga-harc.md`.
 **Özelge tam metinleri:** `ozelgeler/<ID>.txt` (skill kökünden `references/ozelgeler/<ID>.txt`). Dosyanın sonundaki tabloda hangi metnin yerelde bulunduğu yazılıdır.
 
 ## Hızlı karar tablosu
@@ -356,7 +356,7 @@ GVK 67'deki temel ayrım (fıkra numaraları 12.10.2026'da konsolide metinden ko
   - ⚖️ *Tartışmalı:* KDV matrahı için hangi tarihteki tarifenin esas alınacağı (sözleşme tarihi mi, kesinleşme tarihi mi) GİB tarafından açıkça düzenlenmemiştir.
     - AAÜT md. 21 genel bir kuraldır ve karşı tarafa yükletilen ücretle sınırlı değildir: avukatlık ücretinin takdirinde hukuki yardımın tamamlandığı veya dava sonunda hükmün verildiği tarihte yürürlükte olan tarife esas alınır. Tarife akdi ücretin asgarisinin hesabında da dikkate alınır (md. 1/2).
     - KDV'yi doğuran olay (kesinleşme veya hizmetin tamamlanması) md. 21'deki tarihle örtüştüğü için ihtiyatlı yol, sözleşme bedeli ile hukuki yardımın tamamlandığı tarihteki tarife tutarından yüksek olanı matrah almaktır (çıkarım; `uygulama-notlari.md` §3). Sözleşme tarihindeki eski ve genellikle düşük tarifeye dayanmak risklidir.
-    - Sürekli şirket vekilliğinde tarife farkının KDV'si de tartışmalıdır. Bkz. `uygulama-notlari.md` §3 ve §5; `aaut-2025-2026.md`.
+    - Sürekli şirket vekilliğinde tarife farkının KDV'si de tartışmalıdır. Bkz. `uygulama-notlari.md` §3 ve §5; `aaut-2026-2027.md`.
 
     [Kaynak: AAÜT md. 1/2, md. 21 (`kaynak/aaut-2025-metin.txt`); KDVK 10, 27/5]
 - **Belediyeye sözleşmeli avukatlık.**

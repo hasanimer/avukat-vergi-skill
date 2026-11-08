@@ -146,14 +146,17 @@ $ python3 scripts/smm_hesap.py makbuz --kdv-dahil 14400 --kdv-tevkifat 5/10
 
 ```console
 $ python3 scripts/aaut_hesap.py karsi-taraf 250000 --mahkeme asliye
-Vekalet ücreti: 45.000,00 TL (KDV dahil kabul — 311 GVGT md.25/5)
-  e-SMM brüt (KDV hariç): 37.500,00
-  KDV %20: 7.500,00
-  GV stopajı: 7.500,00
+Tarife: AAÜT, RG 03/11/2026-33419
+Vekalet ücreti: 62.000,00 TL (KDV dahil kabul — 311 GVGT md.25/5)
+  (İş adli yardım, aile/tüketici/çocuk mahkemesi, vesayet veya iş uyuşmazlığında dava şartı arabuluculuk kapsamındaysa KDV %10'dur: --kdv 10)
+  e-SMM brüt (KDV hariç): 51.666,67
+  KDV %20: 10.333,33
+  GV stopajı: 10.333,33
   KDV tevkifatı: 0,00
-  Avukata ödenecek: 37.500,00
+  Avukata ödenecek: 51.666,67
   Makbuz: borçlu (davayı kaybeden) adına; icra müdürlüğüne nüsha gerekmez (311 GVGT md.26).
-NOT: Nispi ücret (40.000,00) maktu ücretin (45.000,00) altında: maktu uygulanır (md.13/1).
+  (Borçlu ücreti müvekkile ödediyse, makbuz ödemeyi yapan müvekkil adına kesilir (md.26/5); teminat, haciz veya kefil yoluyla tahsilde tevkifat yapılmaz (md.25/6).)
+NOT: Nispi ücret (40.000,00) maktu ücretin (62.000,00) altında: maktu uygulanır (md.13/1).
 NOT: Mahkeme tarifedeki miktarın 3 katına kadar hükmedebilir (md.3/1); bu asgari tutardır.
 ```
 
@@ -230,7 +233,8 @@ scripts/ozelge_guncelle.py        [--terim avukat] [--sadece-yeni]
 |:---:|---|---|
 | 📘 | GİB, *Serbest Meslek Kazancı Elde Eden Mükellefler İçin Vergi Rehberi*, Şubat 2026, Yayın No 590 | [`rehber-590-avukat.md`](references/rehber-590-avukat.md) |
 | 🧮 | 332 Seri No.lu GVGT · 588 Sıra No.lu VUK GT · 71 Seri No.lu DVK GT (RG 31.12.2025, 33124 5. Mük.) | [`parametreler.md`](references/parametreler.md) |
-| ⚖️ | Avukatlık Asgari Ücret Tarifesi (RG 04.11.2025, 33067; değişiklikler 08.01.2026 ve 28.03.2026) | [`aaut-2025-2026.md`](references/aaut-2025-2026.md) |
+| ⚖️ | Avukatlık Asgari Ücret Tarifesi (RG 03.11.2026, 33419; yürürlükte) | [`aaut-2026-2027.md`](references/aaut-2026-2027.md) |
+| ⚖️ | Önceki tarife: AAÜT (RG 04.11.2025, 33067; değişiklikler 08.01.2026 ve 28.03.2026) | [`aaut-2025-2026.md`](references/aaut-2025-2026.md) |
 | 🧾 | KDV GUT I/C-2.1.3.2.13 ve I/C-2.1.3.4.1 · Seri 36 ve 50 · 2007/13033 BKK (II) 32 | [`kdv.md`](references/kdv.md) |
 | 📄 | GVK 94/3 · 311 Seri No.lu GVGT md. 25–26 · GİB özelgeleri | [`vekalet-ucreti.md`](references/vekalet-ucreti.md) |
 | 🧾 | e-SMM, akdi ücret, masraf avansı, tahsil zamanı · 509 Sıra No.lu VUK GT | [`smm-belge-duzeni.md`](references/smm-belge-duzeni.md) |
@@ -274,6 +278,7 @@ CI bu testleri her push'ta çalıştırır.
 - [x] GİB Rehberi 590: avukat odaklı özet ve tam metin
 - [x] 2026 parametreleri: tarife, had, ceza, damga vergisi, Bağ-Kur
 - [x] AAÜT 2025–2026 tabloları, değişiklikleri ve vergiye çeviri
+- [x] AAÜT 2026–2027 (RG 03.11.2026, 33419) tabloları ve md.21'e göre tarih seçimli hesap
 - [x] KDV tevkifatı, CMK ve adli yardım: birincil kaynaktan doğrulanmış bulgular
 - [x] Hesap araçları ve e-SMM XML arşiv denetimi
 - [x] TBB eğitiminden uygulama notları, güncel mevzuatla karşılaştırmalı

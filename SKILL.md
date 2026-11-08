@@ -1,6 +1,6 @@
 ---
 name: avukat-vergi
-description: Avukatın kendi vergi işleri için serbest meslek kazancı rehberi ve hesap aracı. Kapsadığı konular - e-SMM / serbest meslek makbuzu (brüt-net, KDV, %20 stopaj, KDV tevkifatı, kime düzenlenir), karşı taraf ve akdi vekalet ücreti, Avukatlık Asgari Ücret Tarifesi (AAÜT) ile ücret ve vergi hesabı, CMK/adli yardım, arabuluculuk, bilirkişilik, kayyımlık ve hakemlik ücretleri, geçici vergi, yıllık gelir vergisi beyannamesi (Defter-Beyan, 1001A), giderler (ev-ofis, binek araç, baro aidatı, Bağ-Kur, stajyer), %5 uyum indirimi, iade/mahsup, tevsik, yoklama ve hasılat tespiti, e-SMM XML arşivinin özetlenmesi. Kaynakları GİB Serbest Meslek Kazancı Rehberi (Yayın 590, Şubat 2026), avukatlarla ilgili GİB özelgeleri ve AAÜT 2025-2026. Kullanıcı avukatlık geliri, makbuz, vekalet ücreti, stopaj, KDV, CMK ücreti, geçici vergi, beyanname, gider veya özelge sorduğunda ya da hesap istediğinde kullan.
+description: Avukatın kendi vergi işleri için serbest meslek kazancı rehberi ve hesap aracı. Kapsadığı konular - e-SMM / serbest meslek makbuzu (brüt-net, KDV, %20 stopaj, KDV tevkifatı, kime düzenlenir), karşı taraf ve akdi vekalet ücreti, Avukatlık Asgari Ücret Tarifesi (AAÜT) ile ücret ve vergi hesabı, CMK/adli yardım, arabuluculuk, bilirkişilik, kayyımlık ve hakemlik ücretleri, geçici vergi, yıllık gelir vergisi beyannamesi (Defter-Beyan, 1001A), giderler (ev-ofis, binek araç, baro aidatı, Bağ-Kur, stajyer), %5 uyum indirimi, iade/mahsup, tevsik, yoklama ve hasılat tespiti, e-SMM XML arşivinin özetlenmesi. Kaynakları GİB Serbest Meslek Kazancı Rehberi (Yayın 590, Şubat 2026), avukatlarla ilgili GİB özelgeleri ve AAÜT 2026-2027 (RG 03/11/2026-33419; önceki tarife 2025-2026 da kayıtlı). Kullanıcı avukatlık geliri, makbuz, vekalet ücreti, stopaj, KDV, CMK ücreti, geçici vergi, beyanname, gider veya özelge sorduğunda ya da hesap istediğinde kullan.
 ---
 
 # Avukat Vergi: Serbest Meslek Kazancı
@@ -42,11 +42,12 @@ Avukatın **kendi** vergi yükümlülükleri içindir. Müvekkil adına vergi uy
 | Büro giderleri: ev-ofis, araç, sigorta, baro aidatı, stajyer, eğitim, kredi faizi, tadilat | `references/giderler.md` |
 | İşe başlama ve terk, ortak büro, ücretli avukat, genç girişimci, ölüm, ilave işyeri | `references/mukellefiyet-istisna.md` |
 | Damga vergisi, vekalet suret harcı, Av.K. 35/A uzlaşma | `references/damga-harc.md` |
-| AAÜT 2025-2026 tabloları, nispi/maktu hesap ve vergiye çeviri | `references/aaut-2025-2026.md` |
+| AAÜT 2026-2027 tabloları (RG 03/11/2026-33419, yürürlükte), nispi/maktu hesap ve vergiye çeviri | `references/aaut-2026-2027.md` |
+| Önceki tarife: AAÜT 2025-2026 (RG 04/11/2025-33067; 03/11/2026'dan önce tamamlanan iş ve verilen hüküm, md.21) ve tam madde özeti | `references/aaut-2025-2026.md` |
 | Uygulamadaki sorular: KDV ne zaman doğar (kesinleşme, ücretsiz iş), %10 KDV'nin sınırları, tevkil, ortak vekalet, alt kira, ücret iadesi, sık yapılan hatalar, TBB hesaplama araçlarıyla eşleşme | `references/uygulama-notlari.md` |
 | Diğer: TBB munzam emeklilik, beyannameyi kendin verme, yurt dışı meslektaşa ödeme, yurt dışında verilen hizmet ve yabancı vergi mahsubu, avukatlık yanında başka faaliyet ve ÖKC, Birlik/UYAP hizmet bedelleri, tahsil edilemeyen ücret, avukatın ödediği tazminat; müvekkile bilgi (vergi dairesinde iş takibi, değersiz alacak, ilamla ödenen giderler, 35/A ve VİV) | `references/diger.md` |
 | Özelge dizini: 247 özelge, konuya göre gruplu (tarih, ID, konu, ilgililik, güncellik) | `references/ozelgeler/DIZIN.md` (makine okunur: `dizin.json`, tam metin: `<ID>.txt`) |
-| Kaynak metinler: Rehber 590 ve AAÜT madde metni | `references/kaynak/` |
+| Kaynak metinler: Rehber 590, AAÜT 2025 ve 2026 madde metinleri, AAÜT 2026 ekli ücret tablosu | `references/kaynak/` |
 
 ## En sık kullanılan kurallar (ayrıntı ve kaynak referanslarda)
 - **Gelirin niteliği:**
@@ -104,7 +105,9 @@ python3 scripts/smm_hesap.py yillik --yil 2025 --hasilat 4875000 --gider 678600 
 python3 scripts/smm_hesap.py esmm-ozet <e-SMM-XML-arsivi.zip veya klasör> --yil 2026 --csv /tmp/esmm.csv
 # AAÜT: nispi/maktu ücret ve vekalet ücretinin vergi karşılığı
 python3 scripts/aaut_hesap.py karsi-taraf 250000 --mahkeme asliye
-python3 scripts/aaut_hesap.py karsi-taraf --hukmedilen 45000 --odeyen-gercek-kisi
+python3 scripts/aaut_hesap.py karsi-taraf --hukmedilen 62000 --odeyen-gercek-kisi
+# md.21: tarifeyi hükmün / işin tamamlandığı tarihe göre seç (2025 tarifesi için ör. --tarih 15/10/2026)
+python3 scripts/aaut_hesap.py --tarih 15/10/2026 karsi-taraf 250000 --mahkeme asliye
 python3 scripts/aaut_hesap.py maktu
 # Öz-sınama (Rehber örnekleri ve AAÜT)
 python3 scripts/smm_hesap.py test && python3 scripts/aaut_hesap.py test
@@ -126,6 +129,6 @@ Betikler yalnızca Python standart kütüphanesini kullanır. Kullanıcı belgel
 - **Her yıl Ocak:**
   - Yeni GVGT tarifesini ve yeniden değerleme tutarlarını `parametreler.md` dosyasına ve `smm_hesap.py` içindeki `PARAMS` sözlüğüne işle.
   - VUK 232 fatura sınırını ve KDV tevkifat sınırını güncelle.
-- **Her yıl Kasım:** Yeni AAÜT tablolarını `aaut-2025-2026.md` dosyasına ve `aaut_hesap.py` içindeki `TARIFELER` sözlüğüne işle.
+- **Her yıl Kasım:** Yeni AAÜT tablolarını yeni bir `aaut-YYYY-YYYY.md` dosyasına ve `aaut_hesap.py` içindeki `TARIFELER` sözlüğüne yeni anahtar olarak işle; eski tarifeyi silme (md.21). Son güncelleme: RG 03/11/2026-33419, 08/11/2026'da işlendi.
 - **Yeni GİB rehberi çıktığında:** `rehber-590-avukat.md` dosyasını yenile.
 - **Özelgeler:** `ozelge_guncelle.py` ile yenileri indir, ilgili referans dosyasına kaynaklı madde olarak ekle.

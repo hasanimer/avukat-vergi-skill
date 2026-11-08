@@ -2,7 +2,7 @@
 
 ## Kapsam ve ilgili dosyalar
 - **Kapsam:** Mahkeme veya icra dairesince karşı tarafa yükletilip avukata ödenen vekalet ücreti (ilam ve icra vekalet ücreti). Konular: %20 gelir vergisi stopajını kimin keseceği, e-SMM'nin kimin adına ve ne zaman düzenleneceği, KDV (dahil mi hariç mi, oran, 5/10 tevkifat), ücretli ve kurum avukatları, avukatlar arası paylaşım, CMK ve adli yardımla kesişen noktalar. Müvekkil ve borçlu açısından bilgiler ayrı başlıktadır (11. başlık).
-- **İlgili dosyalar:** `parametreler.md` (tutar, oran, sınır ve cezalarda esas dosya), `uygulama-notlari.md` (⚖️ tartışmalı konular: §3, §4, §5, §14), `kdv.md` (KDV tevkifatı, %10 kapsamı, CMK), `aaut-2025-2026.md` (ücretin tarifeden hesabı), `rehber-590-avukat.md` (GİB Rehberi özeti), `ek-faaliyetler.md`, `smm-belge-duzeni.md`, `damga-harc.md`, `giderler.md`.
+- **İlgili dosyalar:** `parametreler.md` (tutar, oran, sınır ve cezalarda esas dosya), `uygulama-notlari.md` (⚖️ tartışmalı konular: §3, §4, §5, §14), `kdv.md` (KDV tevkifatı, %10 kapsamı, CMK), `aaut-2026-2027.md` (ücretin tarifeden hesabı), `rehber-590-avukat.md` (GİB Rehberi özeti), `ek-faaliyetler.md`, `smm-belge-duzeni.md`, `damga-harc.md`, `giderler.md`.
 - **Hesap:** `scripts/aaut_hesap.py karsi-taraf --hukmedilen <tutar>`. Seçenekler: `--kdv 10`, `--kdv-haric`, `--odeyen-gercek-kisi`, `--kdv-tevkifat 5/10`.
 - **Özelge tam metinleri:** Linkin sonundaki sayı GİB kimlik numarasıdır (ID). Tam metin `references/ozelgeler/<ID>.txt` dosyasındadır. Yerelde bulunmayanlar dosya sonundaki tabloda işaretlidir.
 

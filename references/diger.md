@@ -1,7 +1,7 @@
 # Diğer konular: avukatlık faaliyetine bağlı özel durumlar
 
 **Kapsam:** Avukatın kendi vergisini etkileyen ama başka dosyaya sığmayan özel durumlar: TBB munzam emeklilik yardımı, beyannamelerin gönderilmesi, yurt dışındaki meslektaşa yapılan ödeme ve yurt dışında verilen hizmet, ÖKC ve yan faaliyet, büro çalışanı için ödenen avukatlık ücreti, Birlik hizmet bedelleri, tahsil edilemeyen ücret, avukatın ödediği tazminatlar, eksik beyanın pişmanlıkla düzeltilmesi ve izaha davet. Müvekkile danışmanlıkta işe yarayan özelgeler §10'da ayrı tutuldu.
-**İlgili dosyalar:** `parametreler.md` (bütün tutar ve oranlar; çelişkide esas alınır) · `uygulama-notlari.md` (⚖️ tartışmalı konular; §3 KDV'nin doğması, §8 giderler, §10 yurt dışındaki müvekkil) · `kdv.md` (§4 KDV tevkifatı ve sınır, §7 yurt dışı unsurlu işler, §8 sorumlu sıfatıyla KDV'nin indirimi) · `mukellefiyet-istisna.md` (§9 avukatın kendi mukimliği, yurt dışında büro) · `vekalet-ucreti.md` (karşı taraf vekalet ücreti, GVK 94/3) · `rehber-590-avukat.md` (tahsil esası, GVK 68, Defter-Beyan) · `giderler.md`, `smm-belge-duzeni.md`, `damga-harc.md`, `aaut-2025-2026.md` (md.16: 35/A uzlaşma ücreti), `ozelgeler/DIZIN.md`.
+**İlgili dosyalar:** `parametreler.md` (bütün tutar ve oranlar; çelişkide esas alınır) · `uygulama-notlari.md` (⚖️ tartışmalı konular; §3 KDV'nin doğması, §8 giderler, §10 yurt dışındaki müvekkil) · `kdv.md` (§4 KDV tevkifatı ve sınır, §7 yurt dışı unsurlu işler, §8 sorumlu sıfatıyla KDV'nin indirimi) · `mukellefiyet-istisna.md` (§9 avukatın kendi mukimliği, yurt dışında büro) · `vekalet-ucreti.md` (karşı taraf vekalet ücreti, GVK 94/3) · `rehber-590-avukat.md` (tahsil esası, GVK 68, Defter-Beyan) · `giderler.md`, `smm-belge-duzeni.md`, `damga-harc.md`, `aaut-2026-2027.md` (md.16: 35/A uzlaşma ücreti), `ozelgeler/DIZIN.md`.
 **Son kontrol:** 12/10/2026.
 
 ## Hızlı karar tablosu
@@ -313,7 +313,7 @@ Aşağıdaki özelgeler avukatın kendi vergisini değil, müvekkilin ya da müv
     - Borsada kayıtlı değilse, ya da kayıtlı olup 3 yıl içinde işlem görmemişse, itibari değer esas alınır.
   - VİV iki aşamalı tarh edilir: vergi dairesi sonradan VUK değerine göre ikmal tarhiyatı yapabilir.
   - [Özelge: 10.04.2026, E-97895701-160[2026/5.1-19]-493812 — https://gib.gov.tr/mevzuat/kanun/440/ozelge/38852]
-  - 35/A tutanağının damga vergisi ve harç yönü için `damga-harc.md`; 35/A uzlaşmasında asgari ücret için `aaut-2025-2026.md` (md.16).
+  - 35/A tutanağının damga vergisi ve harç yönü için `damga-harc.md`; 35/A uzlaşmasında asgari ücret için `aaut-2026-2027.md` (md.16).
 
 ---
 

@@ -202,6 +202,7 @@ Amortisman sınırında aracın **alındığı tarihteki** tutar uygulanır. Kay
 - **Stopaj:** CBK 11344 (RG 19/05/2026) yalnız nükleer santral istihkaklarına %1 oran ekledi. Serbest meslek oranları (%20 / %17) değişmedi.
 - **Cezalarda uzlaşma:** VUK GT 592 (RG 28/03/2026-33207) yetkili komisyonları belirledi; eşik 40.000 TL.
 - **AAÜT değişiklikleri:** RG 08/01/2026-33131 ve 28/03/2026-33207. Bkz. `aaut-2025-2026.md`.
+- **AAÜT 2026:** RG 03/11/2026-33419, yayımı tarihinde yürürlükte. İcra maktu eşiği 78.125 TL, arabuluculuk maktu eşiği 62.500 TL, asliye maktu 62.000 TL; nispi dilimler 24.800.000 TL'ye kadar. Bkz. `aaut-2026-2027.md`.
 - **CMK Ücret Tarifesi 2026:** RG 08/01/2026-33131 (2025 tarifesi: RG 01/02/2025-32800). Hukuki yardımın yapıldığı tarihteki tarife uygulanır. Bkz. `ek-faaliyetler.md`.
 - **Arabuluculuk ve Bilirkişilik Asgari Ücret Tarifeleri 2026:** RG 26/12/2025-33119, yürürlük 01/01/2026. Arabuluculukta anlaşma halinde ücret 9.000 TL'den az olamaz; ticari uyuşmazlık ve ortaklığın giderilmesinde alt sınır 13.000 TL'dir. Saatlik tutarlar tebliğ ekindeki tablodadır. Bkz. `ek-faaliyetler.md`.
 - **7589 s.K. (yargı paketi, RG 31/07/2026-33326):**

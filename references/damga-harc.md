@@ -10,7 +10,7 @@
 - `parametreler.md`: 2025/2026 tutar ve oranlar (esas dosya), beyannamelerin maktu DV'si, %20 stopaj, KDV oranları.
 - `uygulama-notlari.md`: §6 (DV pratik notları), §14 #3, #15, #16 ve #16a (⚖️ CMK ödemesinden DV kesilmesi).
 - `vekalet-ucreti.md`: karşı taraf vekalet ücretinde tevkifat ve makbuzun muhatabı (311 Seri No.lu GVGT md.25-26). `kdv.md`: CMK ve adli yardımda KDV ve tevkifat.
-- `ek-faaliyetler.md` (CMK, bilirkişilik, arabuluculuk, uzlaştırmacılık), `aaut-2025-2026.md` (md.16: 35/A ve arabuluculuk ücreti), `smm-belge-duzeni.md` (masraf avansı), `giderler.md` (kira), `rehber-590-avukat.md` (§14: DV beyannamesi Defter-Beyan'dan verilir), `ozelgeler/DIZIN.md`.
+- `ek-faaliyetler.md` (CMK, bilirkişilik, arabuluculuk, uzlaştırmacılık), `aaut-2026-2027.md` (md.16: 35/A ve arabuluculuk ücreti), `smm-belge-duzeni.md` (masraf avansı), `giderler.md` (kira), `rehber-590-avukat.md` (§14: DV beyannamesi Defter-Beyan'dan verilir), `ozelgeler/DIZIN.md`.
 
 ## Hızlı karar tablosu
 
@@ -223,7 +223,7 @@ DVK m.3'e göre mükellef kağıdı imzalayanlardır. Bu belgelerde vergi yükü
     - Duruşma başladıktan sonra düzenlenmesi
     - Müvekkil imzasının eksik olması
   - Özelge İstanbul Defterdarlığınca somut bir tutanak için verilmiştir.
-  - 35/A uzlaşmasındaki avukatlık ücreti için `aaut-2025-2026.md` md.16'ya bak (mahkeme maktu ücretinin ¼ fazlası). Tutanağın miras ve mal rejimi dosyalarında kullanımı için §5'e bak.
+  - 35/A uzlaşmasındaki avukatlık ücreti için `aaut-2026-2027.md` md.16'ya bak (mahkeme maktu ücretinin ¼ fazlası). Tutanağın miras ve mal rejimi dosyalarında kullanımı için §5'e bak.
 - **İcra dairesinde imzalanan borç ödeme taahhütnamesi ise vergilidir.**
   - Taahhütnameyi alacaklı şirketin avukatı, borçlu yetkilisi ve icra müdürü imzalamıştır.
   - Kağıt, borçlunun ödeme taahhüdünü ve avukatın bu taahhüdü kabulünü içerir. Bu nedenle I/A-1 uyarınca nispi DV'ye tabidir (2026'da binde 9,48).

@@ -219,7 +219,7 @@ Dayanak GVK 68 ve 89. Ayrıntı `giderler.md` dosyasında.
 - Uygulamada en sık çıkan sorun budur. Ödeme yapan kurumdan ödeme emri belgesini yazılı talep et.
 
 ## 13. Diğer
-- ✅ **Vergi mahkemesinde vekalet ücreti** dava değerinden bağımsız olarak maktudur (Av.K. 168/2). AAÜT 2025–2026'da duruşmasız 30.000 TL, duruşmalı 40.000 TL.
+- ✅ **Vergi mahkemesinde vekalet ücreti** dava değerinden bağımsız olarak maktudur (Av.K. 168/2). AAÜT 2026–2027'de (RG 03/11/2026-33419) duruşmasız 40.000 TL, duruşmalı 52.000 TL; 03/11/2026'dan önce verilen hükümlerde 2025 tarifesine göre 30.000 / 40.000 TL (md.21).
 - ✅ **Uyumlu mükellef indirimi** (%5): Son 3 yılın beyannameleri süresinde verilmiş ve vergiler ödenmiş olmalı, 1.000 TL'yi aşan vadesi geçmiş borç bulunmamalı, kesinleşmiş tarhiyat olmamalı.
 - **Bağ-Kur prim borcu:** Dönemsel yapılandırma kanunları iki yol tanır: gün ve borcun silinmesi ya da faizsiz taksitlendirme. Güncel imkânlar için SGK duyurularına bak.
 
