@@ -81,6 +81,9 @@ PARAMS = {
     },
 }
 
+# PARAMS'ta yılı tutulmayan dönemler için KDV tevkifat sınırı (KDV GUT I/C-2.1.3.4.1; kaynak parametreler.md).
+KDV_TEVKIFAT_SINIRI_ONCEKI = {2024: 6900}   # 01/03/2024'ten itibaren işlem yılının VUK 232 sınırı (Seri 50)
+
 GV_STOPAJ_SMK = D("0.20")    # GVK 94/2-b (2009/14592 BKK)
 GV_STOPAJ_TELIF = D("0.17")  # GVK 94/2-a — GVK 18 kapsamı
 GECICI_VERGI_ORANI = D("0.15")
@@ -173,34 +176,57 @@ def makbuz(brut=None, net=None, tahsil=None, kdv_dahil=None, stopaj_orani=GV_STO
     }
 
 
-def oran_coz(s: str) -> Decimal:
-    s = s.strip().replace(",", ".").replace("%", "")
-    if "/" in s:
-        a, b = s.split("/")
-        return D(a) / D(b)
-    v = D(s)
-    return v / 100 if v > 1 else v
+def oran_coz(s) -> Decimal:
+    """'20', '%20', '0,20', '0.20' → 0.20; '5/10' → 0.5; '0' → 0. Belirsiz ('1') veya aralık dışı girdi ValueError."""
+    ham = str(s).strip()
+    t = ham.replace(",", ".").replace(" ", "")
+    yuzde = "%" in t
+    t = t.replace("%", "")
+    try:
+        if "/" in t:
+            a, b = t.split("/")
+            v = D(a) / D(b)
+        else:
+            v = D(t)
+            if yuzde or v > 1:
+                v = v / 100
+            elif v == 1:
+                raise ValueError(f"Oran belirsiz: '{ham}'. %1 için 0.01, %100 için 100 yazın.")
+    except (ArithmeticError, ValueError) as e:
+        if isinstance(e, ValueError) and "belirsiz" in str(e):
+            raise
+        raise ValueError(f"Oran okunamadı: '{ham}'. Örnek: 20, %20, 0.20 veya 5/10.") from None
+    if not (0 <= v <= 1):
+        raise ValueError(f"Oran 0 ile %100 arasında olmalı: '{ham}'.")
+    return v
 
 
 # ---------------------------------------------------------------------------
 # Geçici vergi (kümülatif) — Rehber 9 ve 16.2.1
 # ---------------------------------------------------------------------------
 def gecici_vergi(donemler: list[dict]) -> list[dict]:
-    """donemler: [{'hasilat':..,'gider':..,'stopaj':..}, ...] (dönem içi tutarlar, Q1..Q4)."""
-    cum_h = cum_g = cum_s = D(0)
+    """donemler: [{'hasilat':..,'gider':..,'stopaj':..,'bagkur':..}, ...] (dönem içi tutarlar, Q1..Q4).
+
+    Ödenen Bağ-Kur primi kümülatif kazançtan indirilir; kazancı aşan kısmı indirilmez (yillik() ile aynı kural:
+    özelge 23610; parametreler.md "Bağ-Kur").
+    """
+    cum_h = cum_g = cum_s = cum_b = D(0)
     odenen_top = D(0)
     out = []
     for i, d in enumerate(donemler, 1):
         cum_h += D(d.get("hasilat", 0))
         cum_g += D(d.get("gider", 0))
         cum_s += D(d.get("stopaj", 0))
-        matrah = max(D(0), cum_h - cum_g)
+        cum_b += D(d.get("bagkur", 0))
+        kazanc = max(D(0), cum_h - cum_g)
+        bagkur_ind = min(cum_b, kazanc)
+        matrah = kazanc - bagkur_ind
         hesaplanan = r2(matrah * GECICI_VERGI_ORANI)
         odenecek = max(D(0), hesaplanan - cum_s - odenen_top)
         odenecek = r2(odenecek)
         odenen_top += odenecek
         out.append({"donem": i, "kumulatif_matrah": matrah, "hesaplanan": hesaplanan,
-                    "kumulatif_stopaj": cum_s, "onceki_odenen": odenen_top - odenecek,
+                    "kumulatif_stopaj": cum_s, "bagkur_indirimi": bagkur_ind, "onceki_odenen": odenen_top - odenecek,
                     "odenecek": odenecek, "devreden_stopaj": max(D(0), cum_s - hesaplanan)})
     return out
 
@@ -262,7 +288,10 @@ def yillik(a: dict, yil: int) -> dict:
         oran = (max(smk, D(0)) / payda) if payda > 0 else D(0)
         azami = a.get("uyum_indirimi_azami")
         if azami is None:
-            azami = need(p, "uyum_indirimi_azami", yil)      # komut satırı: --uyum-azami
+            azami = p.get("uyum_indirimi_azami")
+            if azami is None:
+                sys.exit(f"{yil} kazancı için %5 uyum indirimi azami tutarı henüz yayımlanmadı (references/parametreler.md). "
+                         "Tutarı --uyum-azami ile verin; azami tutarı aşmayacağınız kesinse yüksek bir değer girebilirsiniz.")
         uyum = min(r2(hesaplanan * oran * UYUM_INDIRIM_ORANI), D(azami))
         notlar.append(f"%5 indirim: hesaplanan vergi × mesleki kazanç payı ({oran:.4%}) × %5. "
                       "Rehber Örnek C oranı 4 haneye yuvarlar; sonuç birkaç TL farklı olabilir.")
@@ -323,6 +352,11 @@ BELIRSIZ_IPUCU = re.compile(r"SU VE KANALİZASYON|\b[A-ZÇĞİÖŞÜ]{1,3}SKİ\b
 BELIRSIZ_KURUM = re.compile(r"ÜNİVERSİTE|HASTANE", re.I)
 # Listede olmayanlar: özel hastane, vakıf üniversitesi (belirlenmiş alıcıdır ama 2.1.3.2.13'te yok).
 LISTE_DISI_IPUCU = re.compile(r"ÖZEL\b.*HASTANE|HASTANE.*\b(A\.Ş|LTD)|VAKIF ÜNİVERSİTE", re.I)
+# Banka, sigorta, reasürans ve emeklilik şirketleri listede (I/C-2.1.3.2.13). Acente, broker ve eksper şirket değildir.
+FINANS_IPUCU = re.compile(r"BANKASI\b|\bBANK\b|BANK A\.?\s?Ş|KATILIM BANKA|SİGORTA|REASÜRANS|EMEKLİLİK", re.I)
+FINANS_DISI_IPUCU = re.compile(r"ACENTE|ARACILIK|BROKER|EKSPER|KAN BANKASI|GIDA BANKASI", re.I)
+# Şirket unvanı: "... A.Ş. BÖLGE MÜDÜRLÜĞÜ" kamu idaresi değildir; KİT ise 01/03/2024'ten itibaren listededir.
+SIRKET_IPUCU = re.compile(r"\bA\.?\s?Ş\b|ANONİM ŞİRKET|\bLTD\b|LİMİTED|\bŞTİ\b|\bA\.?\s?O\b", re.I)
 
 
 def alici_sinifi(ad: str) -> str:
@@ -334,11 +368,34 @@ def alici_sinifi(ad: str) -> str:
         return "belirsiz"
     if BELEDIYE_IPUCU.search(a):
         return "belediye"
-    if KAMU_IPUCU.search(a):        # ör. "SAĞLIK BAKANLIĞI ... DEVLET HASTANESİ", "ÜNİVERSİTESİ DÖNER SERMAYE"
+    if FINANS_IPUCU.search(a) and not FINANS_DISI_IPUCU.search(a):
         return "liste"
+    if KAMU_IPUCU.search(a):        # ör. "SAĞLIK BAKANLIĞI ... DEVLET HASTANESİ", "ÜNİVERSİTESİ DÖNER SERMAYE"
+        # Şirket unvanındaki "müdürlüğü/başkanlığı" kamu idaresi göstermez; KİT olabilir → kontrol edin.
+        return "belirsiz" if SIRKET_IPUCU.search(a) else "liste"
     if BELIRSIZ_KURUM.search(a):
         return "belirsiz"
     return ""
+
+
+TARIH_RE = re.compile(r"^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$")
+
+
+def tarih_duzelt(t: str) -> str:
+    """'04.05.2026', '04/05/2026', '2026-05-04T10:00:00' → '2026-05-04'. Çözülemezse olduğu gibi döner."""
+    t = (t or "").strip()
+    m = re.match(r"^(\d{2})[./-](\d{2})[./-](\d{4})", t)
+    if m:
+        t = f"{m.group(3)}-{m.group(2)}-{m.group(1)}"
+    return t[:10] if TARIH_RE.match(t[:10]) else t
+
+
+def tarih_gecerli(t: str) -> bool:
+    return bool(TARIH_RE.match(t or ""))
+
+
+def yurt_disi(s: dict) -> bool:
+    return bool(s.get("ulke")) and s["ulke"].replace("i", "İ").upper() not in ("TÜRKİYE", "TURKİYE", "TURKIYE", "TR")
 
 
 def _t(el, path):
@@ -392,7 +449,7 @@ def esmm_oku(kaynak: str) -> list[dict]:
             kalemler = [_t(x, "e:ad") for x in m.findall("./e:malHizmetBilgisi/e:malHizmet", NS)]
             brut = D(_t(m, "e:toplamTutar") or "0")
             satirlar.append({
-                "dosya": ad, "makbuz_no": _t(m, "e:makbuzNo"), "tarih": _t(m, "e:belgeTarihi"),
+                "dosya": ad, "makbuz_no": _t(m, "e:makbuzNo"), "tarih": tarih_duzelt(_t(m, "e:belgeTarihi")),
                 "alici": alici, "alici_kimlik": kimlik, "alici_tur": tur,
                 "alici_sinifi": alici_sinifi(alici), "ulke": ulke,
                 "kalemler": " | ".join(kalemler), "brut": brut, "kdv": v["kdv"], "stopaj": v["stopaj"],
@@ -404,15 +461,15 @@ def esmm_oku(kaynak: str) -> list[dict]:
 
 
 def kdv_tevkifat_siniri(tarih: str):
-    """KDV GUT I/C-2.1.3.4.1 kısmi tevkifat sınırı (KDV dahil, işlem bazında)."""
+    """KDV GUT I/C-2.1.3.4.1 kısmi tevkifat sınırı (KDV dahil, işlem bazında). Tarih okunamazsa None."""
+    if not tarih_gecerli(tarih):
+        return None
     if tarih < "2021-07-01":
         return D(1000)
     if tarih < "2024-03-01":
         return D(2000)                     # KDV GUT Seri 36
     yil = int(tarih[:4])                   # Seri 50: işlem yılının VUK 232 fatura sınırı
-    if yil == 2024:
-        return D(6900)
-    v = PARAMS.get(yil, {}).get("kdv_tevkifat_siniri")
+    v = KDV_TEVKIFAT_SINIRI_ONCEKI.get(yil) or PARAMS.get(yil, {}).get("kdv_tevkifat_siniri")
     return D(v) if v is not None else None
 
 
@@ -421,7 +478,9 @@ def esmm_uyarilar(s: dict) -> list[str]:
     beklenen = s["brut"] - s["stopaj"] + s["kdv"] - s["kdv_tevkifat"]
     if abs(beklenen - s["tahsil"]) > D("0.05"):
         u.append(f"tahsil tutarı tutmuyor (beklenen {tl(beklenen)})")
-    if s["alici_tur"] == "tuzel" and s["stopaj"] == 0:
+    if not tarih_gecerli(s["tarih"]):
+        u.append(f"belge tarihi okunamadı ('{s['tarih']}') — dönem toplamlarında 'tarih?' altında; tevkifat sınırı denetlenmedi")
+    if s["alici_tur"] == "tuzel" and s["stopaj"] == 0 and not yurt_disi(s):
         u.append("tüzel kişi alıcı ama GV stopajı yok — alıcı GVK 94 sorumlusuysa %20 kesinti gerekir")
     if s["alici_tur"] == "gercek" and s["stopaj"] > 0:
         u.append("gerçek kişi alıcıda stopaj var — alıcı GVK 94/1'de sayılan tacir/serbest meslek erbabı değilse "
@@ -437,10 +496,12 @@ def esmm_uyarilar(s: dict) -> list[str]:
         u.append("belediye alıcı: belediyenin kendisi belirlenmiş alıcı değil (KDV GUT I/C-2.1.3.1/b; özelge 30252), "
                  "dava, icra ve danışmanlıkta KDV tevkifatı uygulanmamalıydı; KDV'nin tamamı 1 No.lu beyannamede beyan edilir "
                  "(GV stopajı ise kesilir)")
-    elif sinif in ("liste", "belirsiz") and s["tarih"]:
+    elif sinif in ("liste", "belirsiz") and tarih_gecerli(s["tarih"]):
         sinir = kdv_tevkifat_siniri(s["tarih"])
         kdv_dahil = s["brut"] + s["kdv"]
-        etiket = "kamu alıcı" if sinif == "liste" else "belirlenmiş alıcı olabilir"
+        ad_b = (s["alici"] or "").replace("i", "İ").replace("ı", "I").upper()
+        finans = bool(FINANS_IPUCU.search(ad_b)) and not FINANS_DISI_IPUCU.search(ad_b)
+        etiket = ("banka/sigorta alıcı" if finans else "kamu alıcı") if sinif == "liste" else "belirlenmiş alıcı olabilir"
         if sinir is None:
             u.append(f"{etiket}: KDV tevkifatı sınırı {s['tarih'][:4]} için tanımsız — KDV dahil {tl(kdv_dahil)} TL'yi VUK 232 sınırıyla karşılaştırın")
         elif kdv_dahil <= sinir and s["kdv_tevkifat"] > 0:
@@ -449,21 +510,24 @@ def esmm_uyarilar(s: dict) -> list[str]:
         elif sinif == "belirsiz" and kdv_dahil > sinir:
             u.append(f"{etiket}, KDV dahil {tl(kdv_dahil)} > {tl(sinir)}: dava ve icrada 5/10 KDV tevkifatı yalnız alıcı "
                      "KDV GUT I/C-2.1.3.2.13 listesindeyse gerekir (devlet üniversitesi/hastanesi, kendi kuruluş kanunu olan su "
-                     "idaresi gibi: özelge 23533); vakıf üniversitesi ve kendi kuruluş kanunu olmayan su idaresinde yok (özelge 30251); "
+                     "idaresi gibi: özelge 23533; 01/03/2024'ten itibaren KİT'ler); vakıf üniversitesi, kendi kuruluş kanunu "
+                     "olmayan su idaresi (özelge 30251) ve özel şirketin bölge/şube müdürlüğünde yok; "
                      f"bu makbuzda tevkifat {'var' if s['kdv_tevkifat'] > 0 else 'yok'} — alıcının statüsünü kontrol edin")
         elif kdv_dahil > sinir and s["kdv_tevkifat"] == 0:
-            u.append(f"kamu alıcı ve KDV dahil {tl(kdv_dahil)} > {tl(sinir)}: 5/10 KDV tevkifatı beklenirdi (KDV GUT I/C-2.1.3.2.13) "
+            u.append(f"{etiket} ve KDV dahil {tl(kdv_dahil)} > {tl(sinir)}: 5/10 KDV tevkifatı beklenirdi (KDV GUT I/C-2.1.3.2.13) "
                      "— makbuz birden fazla dosyayı kapsıyorsa sınırı dosya bazında kontrol edin (GİB arabuluculukta dosya bazında "
                      "uyguladı: özelge 30159)")
         elif kdv_dahil > sinir and s["kdv_tevkifat"] > 0:
             u.append(f"bilgi: 5/10 KDV tevkifatı uygulanmış (KDV dahil {tl(kdv_dahil)} > {tl(sinir)}); makbuz birden fazla "
                      "dosyayı kapsıyorsa her dosyanın ayrı ayrı sınırı aşıp aşmadığını kontrol edin (özelge 30159)")
-    if s["ulke"] and s["ulke"].upper() not in ("TÜRKİYE", "TURKIYE", "TR") and s["kdv"] > 0:
+    if yurt_disi(s) and s["kdv"] > 0:
         u.append(f"alıcı adresi {s['ulke']}: hizmetten yurt dışında faydalanılıyorsa KDVK 11/1-a istisnası değerlendirilmeli (Türkiye'deki taşınmaz/dava için genelde KDV'li)")
     return u
 
 
 def ceyrek(tarih: str) -> str:
+    if not tarih_gecerli(tarih):
+        return "tarih?"
     y, m = tarih[:4], int(tarih[5:7])
     return f"{y}-Ç{(m - 1) // 3 + 1}"
 
@@ -471,7 +535,7 @@ def ceyrek(tarih: str) -> str:
 def esmm_ozet(kaynak: str, csv_yolu: str | None, yil: int | None) -> None:
     satirlar = esmm_oku(kaynak)
     if yil:
-        satirlar = [s for s in satirlar if s["tarih"].startswith(str(yil))]
+        satirlar = [s for s in satirlar if s["tarih"].startswith(str(yil)) or not tarih_gecerli(s["tarih"])]
     if not satirlar:
         print("Makbuz bulunamadı.")
         return
@@ -487,7 +551,7 @@ def esmm_ozet(kaynak: str, csv_yolu: str | None, yil: int | None) -> None:
                 t[k][a] += s[a]
         return t, n
 
-    for baslik, fn in (("AYLIK", lambda s: s["tarih"][:7]), ("ÇEYREK (geçici vergi dönemi)", lambda s: ceyrek(s["tarih"]))):
+    for baslik, fn in (("AYLIK", lambda s: s["tarih"][:7] if tarih_gecerli(s["tarih"]) else "tarih?"), ("ÇEYREK (geçici vergi dönemi)", lambda s: ceyrek(s["tarih"]))):
         t, n = topla(fn)
         print(f"\n== {baslik} ==")
         print(f"{'dönem':<10}{'adet':>5}{'brüt':>15}{'KDV':>13}{'KDV tevk.':>12}{'beyan KDV*':>13}{'GV stopaj':>13}{'tahsil':>15}")
@@ -618,6 +682,44 @@ def test() -> int:
     ornek.update(alici="ÖRNEK CUMHURİYET BAŞSAVCILIĞI", alici_sinifi="liste", kdv_tevkifat=D(0), tahsil=D(15000))
     dogru("Başsavcılık, sınır üstü, tevkifatsız → 5/10 uyarısı",
           any("5/10 KDV tevkifatı beklenirdi" in x for x in esmm_uyarilar(ornek)))
+    # Oran çözümü
+    for girdi, beklenen in (("20", "0.20"), ("%20", "0.20"), ("0,20", "0.20"), ("0.20", "0.20"), ("5/10", "0.5"),
+                            ("0", "0"), ("%1", "0.01"), ("100", "1")):
+        esit(f"Oran '{girdi}'", oran_coz(girdi), D(beklenen), tol=D(0))
+    for girdi in ("1", "abc", "150", "-5", "5/0"):
+        try:
+            oran_coz(girdi)
+            dogru(f"Oran '{girdi}' reddedilir", False)
+        except ValueError:
+            dogru(f"Oran '{girdi}' reddedilir", True)
+    # Geçici vergide Bağ-Kur kümülatif kazançtan indirilir; devreden stopaj raporlanır
+    gb = gecici_vergi([{"hasilat": 400000, "gider": 100000, "stopaj": 30000, "bagkur": 35000},
+                       {"hasilat": 100000, "gider": 0, "stopaj": 80000, "bagkur": 35000}])
+    esit("Geçici vergi Ç1 Bağ-Kur sonrası matrah", gb[0]["kumulatif_matrah"], 265000)
+    esit("Geçici vergi Ç1 ödenecek", gb[0]["odenecek"], D("9750"))
+    esit("Geçici vergi Ç2 devreden stopaj", gb[1]["devreden_stopaj"], 110000 - D("49500"))
+    gz = gecici_vergi([{"hasilat": 50000, "gider": 40000, "bagkur": 35000}])
+    esit("Geçici vergide Bağ-Kur kazançla sınırlı", gz[0]["bagkur_indirimi"], 10000)
+    esit("Tevkifat sınırı 2024", kdv_tevkifat_siniri("2024-06-01"), 6900)
+    dogru("Tevkifat sınırı: bozuk tarih → None", kdv_tevkifat_siniri("05/2026") is None)
+    # Alıcı sınıfı: banka ve sigorta listede; şirketin bölge müdürlüğü kamu sayılmaz
+    dogru("Banka → liste", alici_sinifi("T.C. ZİRAAT BANKASI A.Ş.") == "liste")
+    dogru("Sigorta şirketi → liste", alici_sinifi("ÖRNEK SİGORTA A.Ş.") == "liste")
+    dogru("Sigorta acentesi → liste dışı", alici_sinifi("ÖRNEK SİGORTA ACENTELİĞİ LTD. ŞTİ.") == "")
+    dogru("Şirketin bölge müdürlüğü → belirsiz (kamu değil)",
+          alici_sinifi("ABC TİCARET A.Ş. İSTANBUL BÖLGE MÜDÜRLÜĞÜ") == "belirsiz")
+    dogru("İl müdürlüğü → liste", alici_sinifi("ÖRNEK İL SAĞLIK MÜDÜRLÜĞÜ") == "liste")
+    ornek.update(alici="ÖRNEK SİGORTA A.Ş.", alici_sinifi="liste")
+    dogru("Sigorta, sınır üstü, tevkifatsız → 5/10 uyarısı",
+          any(x.startswith("banka/sigorta alıcı") and "5/10 KDV tevkifatı beklenirdi" in x for x in esmm_uyarilar(ornek)))
+    # Tarih ve yurt dışı alıcı
+    dogru("Tarih gg.aa.yyyy → ISO", tarih_duzelt("04.05.2026") == "2026-05-04")
+    dogru("Bozuk tarih → çeyrek 'tarih?'", ceyrek("2026/5") == "tarih?")
+    ornek.update(tarih="bilinmiyor")
+    dogru("Bozuk tarih → uyarı, çökme yok", any("belge tarihi okunamadı" in x for x in esmm_uyarilar(ornek)))
+    yd = dict(ornek, alici="EXAMPLE GMBH", alici_sinifi="", tarih="2026-05-04", ulke="ALMANYA", stopaj=D(0), kdv=D(0),
+              tahsil=D(15000))
+    dogru("Yurt dışı tüzel kişi → stopaj uyarısı yok", not any("GV stopajı yok" in x for x in esmm_uyarilar(yd)))
     print(f"\n{'Tüm testler geçti.' if not hatalar else f'{hatalar} test başarısız.'}")
     return 1 if hatalar else 0
 
@@ -688,7 +790,8 @@ def main(argv=None) -> int:
 
     gv = sub.add_parser("gecici", help="kümülatif geçici vergi")
     gv.add_argument("--donem", action="append", required=True,
-                    help="hasılat,gider,stopaj (dönem içi). Her çeyrek için bir kez verin; sıra Ç1..Ç4")
+                    help="hasılat,gider,stopaj[,bağkur] (dönem içi tutarlar; bağkur o dönemde ödenen prim). "
+                         "Her çeyrek için bir kez verin; sıra Ç1..Ç4")
 
     y = sub.add_parser("yillik", help="yıllık beyan simülasyonu")
     y.add_argument("--yil", type=int, default=2025)
@@ -714,7 +817,10 @@ def main(argv=None) -> int:
     a = ap.parse_args(argv)
 
     if a.komut == "makbuz":
-        so, ko, to = oran_coz(a.stopaj), oran_coz(a.kdv), oran_coz(a.kdv_tevkifat)
+        try:
+            so, ko, to = oran_coz(a.stopaj), oran_coz(a.kdv), oran_coz(a.kdv_tevkifat)
+        except ValueError as e:
+            sys.exit(f"Hata: {e}")
         r = makbuz(brut=a.brut, net=a.net, tahsil=a.tahsil, kdv_dahil=a.kdv_dahil,
                    stopaj_orani=so, kdv_orani=ko, kdv_tevkifat=to)
         makbuz_yazdir(r, so, ko, to)
@@ -725,13 +831,26 @@ def main(argv=None) -> int:
     elif a.komut == "gecici":
         ds = []
         for s in a.donem:
-            parca = [x.strip() for x in s.split(",")] + ["0", "0"]
-            ds.append({"hasilat": parca[0] or 0, "gider": parca[1] or 0, "stopaj": parca[2] or 0})
+            parca = [x.strip() for x in s.split(",")] + ["0", "0", "0"]
+            if len(parca) > 7 or len(a.donem) > 4:
+                sys.exit("Hata: --donem en çok dört kez ve 'hasılat,gider,stopaj[,bağkur]' biçiminde verilir "
+                         "(tutarlarda binlik ayırıcı kullanmayın).")
+            try:
+                ds.append({k: D(parca[i] or 0) for i, k in enumerate(("hasilat", "gider", "stopaj", "bagkur"))})
+            except ArithmeticError:
+                sys.exit(f"Hata: --donem '{s}' okunamadı. Biçim: hasılat,gider,stopaj[,bağkur] (ör. 400000,80000,30000).")
         print(f"{'Dönem':<6}{'Küm. matrah':>15}{'Hesaplanan':>13}{'Küm. stopaj':>13}{'Önce ödenen':>13}{'ÖDENECEK':>12}")
-        for r in gecici_vergi(ds):
+        sonuc = gecici_vergi(ds)
+        for r in sonuc:
             print(f"{'Ç' + str(r['donem']):<6}{tl(r['kumulatif_matrah']):>15}{tl(r['hesaplanan']):>13}"
                   f"{tl(r['kumulatif_stopaj']):>13}{tl(r['onceki_odenen']):>13}{tl(r['odenecek']):>12}")
         print("Oran %15; kesilen stopaj ve önceki dönemlerde ödenen geçici vergi mahsup edilir (Rehber s.28-29).")
+        son = sonuc[-1]
+        if son["bagkur_indirimi"] > 0:
+            print(f"NOT: Kümülatif matrahtan {tl(son['bagkur_indirimi'])} TL Bağ-Kur primi indirildi (ödenen prim, kazançla sınırlı).")
+        if son["devreden_stopaj"] > 0:
+            print(f"NOT: Kesilen stopajın {tl(son['devreden_stopaj'])} TL'si hesaplanan geçici vergiyi aşıyor; sonraki dönemlerde "
+                  "ve yıllık beyannamede mahsup edilir, geçici vergi döneminde iade edilmez.")
     elif a.komut == "yillik":
         girdi = {k: v for k, v in vars(a).items() if v is not None and k not in ("komut", "yil", "json")}
         r = yillik(girdi, a.yil)

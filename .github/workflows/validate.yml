@@ -12,28 +12,20 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: SKILL.md ön bilgisi
-        run: |
-          python3 - <<'PY'
-          import re, sys
-          t = open("SKILL.md", encoding="utf-8").read()
-          m = re.match(r"^---\n(.*?)\n---\n", t, re.S)
-          assert m, "SKILL.md ön bilgisi yok"
-          fm = m.group(1)
-          assert re.search(r"^name:\s*avukat-vergi\s*$", fm, re.M), "name alanı"
-          d = re.search(r"^description:\s*(.+)$", fm, re.M)
-          assert d and len(d.group(1)) <= 1024, "description alanı (<=1024)"
-          for ref in [r for r in re.findall(r"`(references/[^`*<]+?\.md)`", t) if ".local." not in r]:
-              open(ref, encoding="utf-8").close()
-          print("SKILL.md tamam")
-          PY
       - name: Hesap araçları öz-sınaması
         run: |
           python3 scripts/smm_hesap.py test
           python3 scripts/aaut_hesap.py test
+      - name: Depo tutarlılık denetimi (ön bilgi, atıflar, özelge sayısı, tutarlar, README örnekleri)
+        run: python3 scripts/depo_denetim.py
       - name: e-SMM arşiv denetimi (örnek veri)
         run: |
           out=$(python3 scripts/smm_hesap.py esmm-ozet examples/ornek-esmm)
           echo "$out"
           echo "$out" | grep -q "5/10 KDV tevkifatı beklenirdi"
           echo "$out" | grep -q "gerçek kişi alıcıda stopaj var"
+      - name: Hatalı girdi sessizce sonuç üretmemeli
+        run: |
+          ! python3 scripts/aaut_hesap.py karsi-taraf --mahkeme asliye
+          ! python3 scripts/aaut_hesap.py maktu yok-boyle-anahtar
+          ! python3 scripts/smm_hesap.py makbuz --brut 1000 --kdv 1

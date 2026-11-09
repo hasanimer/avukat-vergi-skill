@@ -4,7 +4,7 @@
 - Kaynaklar: GİB özelgeleri (sentez, özelge metinlerine karşı denetlendi), GVK/KDVK/VUK, KDV GUT, CMK Ücret Yönetmeliği ve tarifeleri, Rehber 590. Son kontrol: **12.10.2026**.
 - Kapsam dışı: müvekkilin vergi uyuşmazlığı. Müvekkile veya yönetilen malvarlığına ilişkin bilgiler ayrı "Müvekkile bilgi" başlıklarında.
 
-**İlgili dosyalar:** `parametreler.md` (tutar ve oranlar, esas) · `kdv.md` (KDV oranı ve tevkifat) · `uygulama-notlari.md` (⚖️ tartışmalı konular, sık hatalar) · `rehber-590-avukat.md` (genel kurallar) · `aaut-2025-2026.md` (AAÜT, CMK mahsubu md.14) · `vekalet-ucreti.md` · `giderler.md` · `damga-harc.md` · `mukellefiyet-istisna.md` · `smm-belge-duzeni.md` · `ozelgeler/DIZIN.md`
+**İlgili dosyalar:** `parametreler.md` (tutar ve oranlar, esas) · `kdv.md` (KDV oranı ve tevkifat) · `uygulama-notlari.md` (⚖️ tartışmalı konular, sık hatalar) · `rehber-590-avukat.md` (genel kurallar) · `aaut.md` (AAÜT, CMK mahsubu md.14) · `vekalet-ucreti.md` · `giderler.md` · `damga-harc.md` · `mukellefiyet-istisna.md` · `smm-belge-duzeni.md` · `ozelgeler/DIZIN.md`
 
 ## Hızlı karar tablosu
 | Soru | Kısa cevap | Dayanak |
@@ -189,7 +189,7 @@
 - **Tarife:**
   - Hukuki yardımın yapıldığı tarihteki tarife uygulanır (Yönetmelik md. 10/11). Yıllık tarifeler 1 Ocak'tan geçerlidir (tarife md. 5).
   - Aynı evrede aynı kişi için aynı avukata birden fazla ücret ödenmez (md. 10/3). Aynı dosyada birden fazla şüpheli varsa md. 10/4 uygulanır.
-  - Karşı tarafa hükmedilen vekalet ücretinden CMK ücretinin mahsubu için `aaut-2025-2026.md` (AAÜT md. 14).
+  - Karşı tarafa hükmedilen vekalet ücretinden CMK ücretinin mahsubu için `aaut.md` (AAÜT md. 14).
 
 | İş (tarife md. 4) | 2025, TL (RG 01.02.2025/32800) | 2026, TL (RG 08.01.2026/33131) |
 |---|---|---|

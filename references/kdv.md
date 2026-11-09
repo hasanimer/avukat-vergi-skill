@@ -10,7 +10,7 @@
 - `parametreler.md`: oranlar, tevkifat sınırı (2025: 9.900 TL; 2026: 12.000 TL), stopaj, cezalar.
 - `vekalet-ucreti.md`: karşı taraf vekalet ücretinde GV stopajı ve belge düzeni (311 GVGT md.25-26, 17.10.2022 tarihli özelge).
 - `smm-belge-duzeni.md` (e-SMM düzeni), `ek-faaliyetler.md` (CMK tarifesi, arabuluculuk, bilirkişilik), `giderler.md` (giderin GV yönü), `damga-harc.md`, `diger.md` (yurt dışı faaliyet, ÇVÖA), `mukellefiyet-istisna.md` (arızi kazanç, mükellefiyetin açılıp kapanması).
-- `uygulama-notlari.md` (⚖️ tartışmalı konular, "KDV ne zaman doğar" tablosu, sık hatalar), `aaut-2025-2026.md` (iç yüzde örnekleri), `rehber-590-avukat.md`, `ozelgeler/DIZIN.md`.
+- `uygulama-notlari.md` (⚖️ tartışmalı konular, "KDV ne zaman doğar" tablosu, sık hatalar), `aaut.md` (iç yüzde örnekleri), `rehber-590-avukat.md`, `ozelgeler/DIZIN.md`.
 
 > **Okuma notu.**
 > - Bu dosya GİB özelgelerinin sentezidir. Özelge VUK 413 uyarınca yalnız talep edeni ve onun anlattığı somut olayı bağlar; genel düzenleyici işlem değildir. Kuralları "GİB'in bu konudaki yerleşik görüşü" olarak oku. Alıcının statüsü, hizmetin yeri veya sözleşme yapısı farklıysa sonuç değişebilir.
@@ -252,7 +252,7 @@ Tevkifat yalnız **KDV dahil bedel** işlem yılının VUK 232 fatura sınırın
 - **Borçlu belediye.** Belediye 2.1.3.2.13 listesinde olmadığından KDV tevkifatı yoktur; GV stopajı vardır (yukarıda; 30252, 30257, 30268).
   - Örnek (2026, %20): 45.000 TL hükmedilen ücret KDV dahildir. KDV hariç ücret 37.500 TL, KDV 7.500 TL, stopaj 7.500 TL. Belediye 37.500 TL öder. Avukat 7.500 TL KDV'nin tamamını 1 No.lu beyannamede beyan eder. Komut: `smm_hesap.py makbuz --kdv-dahil 45000`.
   - Kendi kuruluş kanunu olan bağlı idarede (ör. İSKİ) 5/10 vardır (23533).
-- Hesap örneği (45.000 TL, kamu idaresi borçlu) `aaut-2025-2026.md`'dedir.
+- Hesap örneği (45.000 TL, kamu idaresi borçlu) `aaut.md`'dedir.
 
 ### Tutar sınırı (I/C-2.1.3.4.1)
 - **Uygulanışı.** Sınır KDV dahil bedele ve **işlem bazında** uygulanır; aşılırsa bedelin tamamına tevkifat yapılır. Sınırdan kaçınmak için bütünlük arz eden işin bedeli birden fazla belgeye bölünemez. 01.03.2024'ten beri metin şöyledir: işlemin KDV dahil bedeli "işlemin yapıldığı yıla ilişkin" VUK 232 fatura düzenleme sınırını aşmazsa tevkifat yapılmaz (Seri 50 md.3). [Özelge: 02.06.2021, E-43735382-130[KDV:13-2]-18110 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/28936] [Özelge: 09.06.2022, 64597866-130-9597 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/30226] [Özelge: 25.09.2024, E-35831311-010.01-23750 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/30151] [Özelge: 19.11.2025, E-93996897-130-211856 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/38780]
@@ -329,7 +329,7 @@ Tevkifat yalnız **KDV dahil bedel** işlem yılının VUK 232 fatura sınırın
     - Ücretler farklı dosyalara aitse her biri yaklaşık 3.409 TL'dir; dosya bazlı yaklaşımla tevkifat gerekmezdi (kıyas, 30159).
     - Aynı dosyada birden fazla şüpheliye aitse toplam üzerinden tevkifat savunulabilir.
     - Her durumda e-SMM, UHAP'ın fiilen yaptığı kesintiyle aynı olmalıdır (doğrulanmış araştırma notu).
-- **CMK ödemelerinde damga vergisi.** GİB'in 2009 görüşü (35082) CMK ödemesini IV/1-a kapsamında damga vergisine tabi sayar (⚖️). Ayrıntı `damga-harc.md` ve `uygulama-notlari.md` §14/16a'dadır.
+- **CMK ödemelerinde damga vergisi.** GİB'in 2009 görüşü (35082) CMK ödemesini IV/1-a kapsamında damga vergisine tabi sayar (⚖️). Ayrıntı `damga-harc.md` ve `uygulama-notlari.md` §14 #16a'dadır.
 - **Eskimiş görüş (artık uygulanmaz).**
   - 2013 tarihli özelge, baronun görevlendirdiği zorunlu müdafilere yapılan ödemelerde KDV tevkifatı gerekmediğini söylemişti. Gerekçesi, mahkeme nezdindeki hizmetin danışmanlık sayılmamasıydı (30484).
   - Bu görüş 117 Seri No.lu Tebliğ dönemine aittir ve o dönemde bile tutarlı değildi. Ödeme Adalet Bakanlığı bütçesinden, yani 5018 cetvelindeki bir idareden yapılıyordu. Aynı yıl 5018 idarelerine verilen avukatlık hizmetinde 5/10 öngören bir özelge vardı (30576).
@@ -482,18 +482,18 @@ Her konuda önce GİB görüşü verilmiştir. Karşı görüş ve risk değerle
 | Konu | GİB görüşü (öncelikli) | Diğer görüş / not | Ayrıntı |
 |---|---|---|---|
 | Tüketici hakem heyeti başvurusu ve buna bağlı takipler | %20; B/32 kapsamı dışı. Özelge yazılıdır (32205) | Hakem heyeti kararına karşı tüketici mahkemesindeki itiraz davası %10 (çıkarım) | §1; `uygulama-notlari.md` §4 |
-| Aile mahkemesi işine bağlı **ilamsız** takip (ör. tedbir nafakası) | %20 (B/32 yalnız "ilamlı" takibi sayar; Maliye görüşü) | Eğitimci: "işler" ibaresi nedeniyle %10 | §1; `uygulama-notlari.md` §4 ve §14/9 |
+| Aile mahkemesi işine bağlı **ilamsız** takip (ör. tedbir nafakası) | %20 (B/32 yalnız "ilamlı" takibi sayar; Maliye görüşü) | Eğitimci: "işler" ibaresi nedeniyle %10 | §1; `uygulama-notlari.md` §4 ve §14 #9 |
 | Dava açılmadan verilen aile hukuku danışmanlığı | Doğrudan özelge yok. B/32 "görev alanındaki dava ve işler" der; ölçüt mahkemenin görev alanıdır (32149) | Eğitimci: "davalar ve işler" ibaresi nedeniyle %10. İhtiyatlı yol %20 ya da özelge (teyit edilmedi) | §1; `uygulama-notlari.md` §4 |
 | Özel vekil sıfatıyla açılan davada adli yardım | %20 (Maliye görüşü; yargıya taşınmış uyuşmazlık yok) | Eğitimci ve akademi: %10 | `uygulama-notlari.md` §4 |
 | CMK zorunlu müdafilik (çocuk mahkemesi dışı) | Özelge yok; B/32'nin lafzına göre %20 | Açık soru; tereddütte özelge alınmalı | §1, §5 |
-| Karşı taraf vekalet ücretinde KDV tevkifatı | Uygulanır: borçlu listede ve sınır aşılıyorsa 5/10 (30232, 30226) | "Yargılama gideridir, tevkifat yapılmaz" görüşü özelgelerle çelişir | §4; `uygulama-notlari.md` §14/17 |
+| Karşı taraf vekalet ücretinde KDV tevkifatı | Uygulanır: borçlu listede ve sınır aşılıyorsa 5/10 (30232, 30226) | "Yargılama gideridir, tevkifat yapılmaz" görüşü özelgelerle çelişir | §4; `uygulama-notlari.md` §14 #17 |
 | Hizmet ihracı (yurt dışındaki müvekkil, Türkiye'de verilen hizmet) | İstisna için yararlanmanın yurt dışında olması şart. Türkiye'deki dava, icra ve haklarla ilgili hizmette KDV hesaplanır (28940) | Eğitimci: müvekkil yurt dışındaysa ve sonuçtan yurt dışında yararlanılıyorsa istisna. Döviz şartı güncel GUT II/A-2 alıntılarında yoktur | §7; `uygulama-notlari.md` §10; `diger.md` |
 | Ücretin müvekkile iadesi (iş bırakıldı, anlaşma bozuldu, dava kaybedildi) | Hizmet ifa edildiyse KDV düzeltilmez (23574, 23649). Bozma kararıyla iade edilen karşı taraf vekalet ücretinde KDVK 35 düzeltmesi yapılır (23702, 29150) | `uygulama-notlari.md` §5 iade tutarındaki KDV'nin indirilecek KDV olarak alınmasını öneriyor. Bu, ancak hizmet tamamlanmadan işlemden vazgeçilmesi gibi KDVK 35 hallerinde savunulabilir (çıkarım); aksi halde risklidir | §2 |
-| KDV matrahında hangi tarihteki AAÜT esas alınır | Matrah tarifenin altında olamaz (KDVK 27/5; 23601). Hangi tarihteki tarifenin esas alınacağına ilişkin GİB görüşü yok | AAÜT md.21 geneldir: ücretin takdirinde hukuki yardımın tamamlandığı veya hükmün verildiği tarihteki tarife esas alınır. Md.1/2'ye göre tarife akdi ücretin asgarisinin hesabında da dikkate alınır. KDV de çoğunlukla bu anda doğar (§2). Bu yüzden ihtiyatlı yol tamamlanma tarihindeki tarifedir (çıkarım). `uygulama-notlari.md` §3 md.21'i yalnız karşı tarafa yükletilecek ücrete bağlıyor ve sözleşme ya da işe başlama tarihini öneriyor; md.21'in metninde bu sınırlama yoktur | §2; `aaut-2025-2026.md` |
+| KDV matrahında hangi tarihteki AAÜT esas alınır | Matrah tarifenin altında olamaz (KDVK 27/5; 23601). Hangi tarihteki tarifenin esas alınacağına ilişkin GİB görüşü yok | AAÜT md.21 geneldir: ücretin takdirinde hukuki yardımın tamamlandığı veya hükmün verildiği tarihteki tarife esas alınır. Md.1/2'ye göre tarife akdi ücretin asgarisinin hesabında da dikkate alınır. KDV de çoğunlukla bu anda doğar (§2). Bu yüzden ihtiyatlı yol tamamlanma tarihindeki tarifedir (çıkarım). `uygulama-notlari.md` §3 md.21'i yalnız karşı tarafa yükletilecek ücrete bağlıyor ve sözleşme ya da işe başlama tarihini öneriyor; md.21'in metninde bu sınırlama yoktur | §2; `aaut.md` |
 | Sürekli şirket vekilliğinde tarife toplamının aylık ücretleri aşan farkı | Doğrudan GİB görüşü yok. KDVK 27/5'teki tarife alt sınırı ilkesi geçerlidir | Eğitimci: fark talep edilmese de KDV'si doğar | `uygulama-notlari.md` §5 |
 | Tevkifat sınırında "işlem yılı" | Metin "işlemin yapıldığı yıl" der; hizmet yılı mı makbuz yılı mı, belirsiz | Açık soru | §4 |
 | Birden çok CMK ücretinin tek ödemede toplanması | Özelge yok. Arabuluculukta dosya bazlı sınır (30159) | Farklı dosyalarda dosya bazlı yaklaşım kıyasen savunulabilir | §4, §5 |
-| CMK ödemesinden damga vergisi kesilmesi | 2009 görüşüne göre IV/1-a kapsamında DV'ye tabi (35082) | "Kesinti haksızdır" görüşü tartışmalı | `damga-harc.md`; `uygulama-notlari.md` §14/16a |
+| CMK ödemesinden damga vergisi kesilmesi | 2009 görüşüne göre IV/1-a kapsamında DV'ye tabi (35082) | "Kesinti haksızdır" görüşü tartışmalı | `damga-harc.md`; `uygulama-notlari.md` §14 #16a |
 
 ## 10. Eskimiş ve çelişkili görüşler (dikkat)
 
@@ -504,7 +504,7 @@ Her konuda önce GİB görüşü verilmiştir. Karşı görüş ve risk değerle
 | 30267, 30274, 28936, 30273 (2021) | Tevkifat sınırı 1.000 TL. 2.1.3.2.13 listesinde yalnız "kanunla kurulan" kurumlar ve yalnız "sigorta ve reasürans şirketleri" var | Sınır 01.07.2021'de 2.000 TL'ye çıktı; 01.03.2024'ten beri VUK 232 sınırıdır (2026: 12.000 TL). Liste 01.07.2021'de CBK ile kurulan kurumlar ve emeklilik şirketleriyle (Seri 36), 01.03.2024'te KİT'lerle (Seri 50) genişledi. 5/10 oranı değişmedi. |
 | 30232 (06.06.2022) | 2.1.3.2.13 alıntısında emeklilik şirketleri yok | Özelge eski metni aktarmıştır. 01.07.2021'den beri emeklilik şirketleri listededir (Seri 36; 28922, 30229). |
 | 30154 (06.05.2024) | 2.1.3.2.13 alıntısında KİT'ler yok | Seri 50 md.2 KİT'leri 01.03.2024'ten itibaren listeye ekledi. Özelge eski metni aktarmıştır (30150 ve 38680 güncel metni verir). |
-| Araştırma notu (cmk_dogrulama.md §1) | "Seri 50, KİT'leri belirlenmiş alıcılara ekledi" | Kesin değil. KİT'ler 2021'de zaten I/C-2.1.3.1/b'de belirlenmiş alıcıydı (30252). Seri 50 md.2 KİT'leri 5/10 "diğer hizmetler" listesine (I/C-2.1.3.2.13) ekledi; RG metni kontrol edildi. |
+| Önceki araştırma notu (depoda yer almayan çalışma dosyası) | "Seri 50, KİT'leri belirlenmiş alıcılara ekledi" | Kesin değil. KİT'ler 2021'de zaten I/C-2.1.3.1/b'de belirlenmiş alıcıydı (30252). Seri 50 md.2 KİT'leri 5/10 "diğer hizmetler" listesine (I/C-2.1.3.2.13) ekledi; RG metni kontrol edildi. |
 | 30226, 30159 (2022–2023) | Sınır 2.000 TL | Güncel VUK 232 sınırı uygulanır. |
 | 32239, 32217, 32205, 32244, 32149 (2020–2022) | İndirimli oran %8, genel oran %18 | 10.07.2023'ten itibaren %10 ve %20. Kapsam tespitleri geçerlidir. |
 | 29584 (02.01.2012), 30484, 23702 | 15 ve 117 Seri No.lu KDV GT'lere atıf | Bu tebliğler 01.05.2014'te mülga oldu. "KDV hariç yazmıyorsa dahil" kuralı KDV GUT I/B-4'te aynen sürer. |

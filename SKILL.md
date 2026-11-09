@@ -1,6 +1,6 @@
 ---
 name: avukat-vergi
-description: Avukatın kendi vergi işleri için serbest meslek kazancı rehberi ve hesap aracı. Kapsadığı konular - e-SMM / serbest meslek makbuzu (brüt-net, KDV, %20 stopaj, KDV tevkifatı, kime düzenlenir), karşı taraf ve akdi vekalet ücreti, Avukatlık Asgari Ücret Tarifesi (AAÜT) ile ücret ve vergi hesabı, CMK/adli yardım, arabuluculuk, bilirkişilik, kayyımlık ve hakemlik ücretleri, geçici vergi, yıllık gelir vergisi beyannamesi (Defter-Beyan, 1001A), giderler (ev-ofis, binek araç, baro aidatı, Bağ-Kur, stajyer), %5 uyum indirimi, iade/mahsup, tevsik, yoklama ve hasılat tespiti, e-SMM XML arşivinin özetlenmesi. Kaynakları GİB Serbest Meslek Kazancı Rehberi (Yayın 590, Şubat 2026), avukatlarla ilgili GİB özelgeleri ve AAÜT 2025-2026. Kullanıcı avukatlık geliri, makbuz, vekalet ücreti, stopaj, KDV, CMK ücreti, geçici vergi, beyanname, gider veya özelge sorduğunda ya da hesap istediğinde kullan.
+description: Avukatın kendi vergi işleri için serbest meslek kazancı rehberi ve hesap aracı. Kapsadığı konular - e-SMM / serbest meslek makbuzu (brüt-net, KDV, %20 stopaj, KDV tevkifatı, kime düzenlenir), karşı taraf ve akdi vekalet ücreti, Avukatlık Asgari Ücret Tarifesi (AAÜT) ile ücret ve vergi hesabı, CMK/adli yardım, arabuluculuk, bilirkişilik, kayyımlık ve hakemlik ücretleri, geçici vergi, yıllık gelir vergisi beyannamesi (Defter-Beyan), giderler (ev-ofis, binek araç, baro aidatı, Bağ-Kur, stajyer), büro kirası stopajı ve muhtasar, damga vergisi ve harç, yurt dışı müvekkil, ortak büro, genç girişimci istisnası, %5 uyum indirimi, iade/mahsup, tevsik, yoklama, e-SMM XML arşivinin özetlenmesi. Kaynakları GİB Serbest Meslek Kazancı Rehberi (Yayın 590, Şubat 2026), avukatlarla ilgili GİB özelgeleri ve güncel AAÜT (03/11/2026). Kullanıcı avukatlık geliri, makbuz, vekalet ücreti, stopaj, KDV, CMK ücreti, geçici vergi, beyanname, gider, damga vergisi veya özelge sorduğunda ya da hesap istediğinde kullan.
 ---
 
 # Avukat Vergi: Serbest Meslek Kazancı
@@ -29,6 +29,7 @@ Avukatın **kendi** vergi yükümlülükleri içindir. Müvekkil adına vergi uy
    - Beyan dışı bırakma
    - Cezalı tarhiyat ihtimali
    - Özelgeler arasında çelişki
+7. **Yanıtın niteliğini belirt.** Tutar hesaplayan veya beyana ilişkin yön gösteren yanıtın sonunda tek cümleyle bunun genel bilgi olduğunu, mali müşavirlik veya özelge yerine geçmediğini söyle. Her mesajda tekrarlama; konuşmada bir kez ve riskli konularda yeterlidir.
 
 ## Referans haritası
 | Soru | Dosya |
@@ -42,11 +43,11 @@ Avukatın **kendi** vergi yükümlülükleri içindir. Müvekkil adına vergi uy
 | Büro giderleri: ev-ofis, araç, sigorta, baro aidatı, stajyer, eğitim, kredi faizi, tadilat | `references/giderler.md` |
 | İşe başlama ve terk, ortak büro, ücretli avukat, genç girişimci, ölüm, ilave işyeri | `references/mukellefiyet-istisna.md` |
 | Damga vergisi, vekalet suret harcı, Av.K. 35/A uzlaşma | `references/damga-harc.md` |
-| AAÜT 2025-2026 tabloları, nispi/maktu hesap ve vergiye çeviri | `references/aaut-2025-2026.md` |
+| AAÜT tabloları (03/11/2026 ve 04/11/2025 tarifeleri), hangi tarihte hangisi uygulanır, nispi/maktu hesap ve vergiye çeviri | `references/aaut.md` |
 | Uygulamadaki sorular: KDV ne zaman doğar (kesinleşme, ücretsiz iş), %10 KDV'nin sınırları, tevkil, ortak vekalet, alt kira, ücret iadesi, sık yapılan hatalar, TBB hesaplama araçlarıyla eşleşme | `references/uygulama-notlari.md` |
 | Diğer: TBB munzam emeklilik, beyannameyi kendin verme, yurt dışı meslektaşa ödeme, yurt dışında verilen hizmet ve yabancı vergi mahsubu, avukatlık yanında başka faaliyet ve ÖKC, Birlik/UYAP hizmet bedelleri, tahsil edilemeyen ücret, avukatın ödediği tazminat; müvekkile bilgi (vergi dairesinde iş takibi, değersiz alacak, ilamla ödenen giderler, 35/A ve VİV) | `references/diger.md` |
-| Özelge dizini: 247 özelge, konuya göre gruplu (tarih, ID, konu, ilgililik, güncellik) | `references/ozelgeler/DIZIN.md` (makine okunur: `dizin.json`, tam metin: `<ID>.txt`) |
-| Kaynak metinler: Rehber 590 ve AAÜT madde metni | `references/kaynak/` |
+| Özelge dizini: 256 özelge, konuya göre gruplu (tarih, ID, konu, ilgililik, güncellik) | `references/ozelgeler/DIZIN.md` (makine okunur: `dizin.json`, tam metin: `<ID>.txt`) |
+| Kaynak metinler: Rehber 590 ve AAÜT madde metinleri (2025, 2026) | `references/kaynak/` |
 
 ## En sık kullanılan kurallar (ayrıntı ve kaynak referanslarda)
 - **Gelirin niteliği:**
@@ -63,7 +64,7 @@ Avukatın **kendi** vergi yükümlülükleri içindir. Müvekkil adına vergi uy
   - Kararda "KDV hariç" yazmıyorsa ücret **KDV dahil** sayılır; stopaj KDV hariç tutar üzerinden hesaplanır (311 GVGT md.25-26).
   - Tevkifat yapılmazsa avukat ücreti brüt beyan eder ve mahsup edecek tutarı olmaz.
 - **Kamu ve belirlenmiş alıcılara makbuz (Başsavcılık, bakanlık, devlet üniversitesi, baro, banka, sigorta şirketi vb.; belediyenin kendisi hariç):**
-  - Alıcı KDV GUT I/C-2.1.3.2.13 listesindeyse ve KDV dahil tutar sınırı aşarsa alıcı dava ve icra hizmetinde **5/10 KDV tevkifatı** yapar. Bu kural, listedeki borçlu adına düzenlenen **karşı taraf vekalet ücreti** makbuzlarında da geçerlidir (GİB özelgeleri 30226 ve 30232). "Vekalet ücreti yargılama gideridir, tevkifat yapılmaz" görüşü ⚖️ tartışmalıdır ve bu özelgelerle çelişir (`uygulama-notlari.md` §14/17).
+  - Alıcı KDV GUT I/C-2.1.3.2.13 listesindeyse ve KDV dahil tutar sınırı aşarsa alıcı dava ve icra hizmetinde **5/10 KDV tevkifatı** yapar. Bu kural, listedeki borçlu adına düzenlenen **karşı taraf vekalet ücreti** makbuzlarında da geçerlidir (GİB özelgeleri 30226 ve 30232). "Vekalet ücreti yargılama gideridir, tevkifat yapılmaz" görüşü ⚖️ tartışmalıdır ve bu özelgelerle çelişir (`uygulama-notlari.md` §14 #17).
   - **Belediye listede yoktur.** Belediyeler (büyükşehir dahil) KDV GUT I/C-2.1.3.1/b'deki belirlenmiş alıcılar arasında değildir (özelgeler 30252, 30257). Belediyeye verilen avukatlık hizmetinde ve belediyenin borçlu olduğu karşı taraf vekalet ücretinde KDV tevkifatı yoktur. Belediye GVK 94 sorumlusu olduğundan %20 GV stopajı yine kesilir. Belediye birlikleri ve büyükşehir su ve kanalizasyon idareleri belirlenmiş alıcıdır; bunlar için `kdv.md` §4'e bak.
   - Oran ve sınır için `kdv.md` ve `parametreler.md` dosyalarına bak. Arşivi `smm_hesap.py esmm-ozet` komutuyla denetle. Betiğin kamu alıcı uyarısı alıcı adından tahmin yürütür; alıcının listede olup olmadığını `kdv.md` §4'ten doğrula.
 - **Masraf avansı:** Harç, tebligat ve bilirkişi için alınıp **tamamen harcanan** paralar kazanç sayılmaz (GVK 67/4). Vekalet ücreti dışındaki masraf karşılıkları için `smm-belge-duzeni.md` dosyasına bak.
@@ -98,12 +99,13 @@ python3 scripts/smm_hesap.py makbuz --tahsil 10000 --stopaj 0          # gerçek
 python3 scripts/smm_hesap.py makbuz --kdv-dahil 9627 --kdv-tevkifat 5/10 # biçim örneği: 5/10 yalnız listedeki alıcıda ve işlemin KDV dahil toplamı sınırı aşarsa (2025: 9.900; 2026: 12.000 TL); 9.627 tek başına aşmaz, bkz. kdv.md §4-5
 # Tarife, geçici vergi, yıllık beyan
 python3 scripts/smm_hesap.py vergi 1500000 --yil 2026
-python3 scripts/smm_hesap.py gecici --donem 400000,80000,30000 --donem 350000,70000,25000
+python3 scripts/smm_hesap.py gecici --donem 400000,80000,30000 --donem 350000,70000,25000   # hasılat,gider,stopaj[,ödenen Bağ-Kur]
 python3 scripts/smm_hesap.py yillik --yil 2025 --hasilat 4875000 --gider 678600 --bagkur 143000 --bagis-tam 26000 --tevkifat 975000 --uyum-indirimi
 # e-SMM XML arşivi (klasör veya zip): ay/çeyrek toplamları ve tutarlılık uyarıları
 python3 scripts/smm_hesap.py esmm-ozet <e-SMM-XML-arsivi.zip veya klasör> --yil 2026 --csv /tmp/esmm.csv
 # AAÜT: nispi/maktu ücret ve vekalet ücretinin vergi karşılığı
 python3 scripts/aaut_hesap.py karsi-taraf 250000 --mahkeme asliye
+python3 scripts/aaut_hesap.py --hukum-tarihi 15.10.2026 karsi-taraf 250000   # hüküm tarihindeki tarife (md.21)
 python3 scripts/aaut_hesap.py karsi-taraf --hukmedilen 45000 --odeyen-gercek-kisi
 python3 scripts/aaut_hesap.py maktu
 # Öz-sınama (Rehber örnekleri ve AAÜT)
@@ -119,13 +121,14 @@ Betikler yalnızca Python standart kütüphanesini kullanır. Kullanıcı belgel
   - e-SMM arşivlerinin yolu
   - Gelir yapısı (ör. CMK ağırlığı)
   - Bağlı olunan vergi dairesi
-- Dosya kişiseldir ve `.gitignore` ile depoya girmez. Yoksa kullanıcıya sor.
+- Dosya kişiseldir ve `.gitignore` ile depoya girmez. Yoksa kullanıcıya sor; kalıcı olmasını isterse `references/kullanici-profili.ornek.md` şablonunu kopyalayıp doldurmasını öner.
 - Kişisel kimlik ve hesap bilgilerini (TCKN, IBAN) yanıtlarda tekrar etme. Bunları profile yazma.
 
 ## Güncelleme
 - **Her yıl Ocak:**
   - Yeni GVGT tarifesini ve yeniden değerleme tutarlarını `parametreler.md` dosyasına ve `smm_hesap.py` içindeki `PARAMS` sözlüğüne işle.
   - VUK 232 fatura sınırını ve KDV tevkifat sınırını güncelle.
-- **Her yıl Kasım:** Yeni AAÜT tablolarını `aaut-2025-2026.md` dosyasına ve `aaut_hesap.py` içindeki `TARIFELER` sözlüğüne işle.
+- **Her yıl Eylül–Kasım:** Yeni AAÜT yayımlanınca tablolarını `aaut.md` dosyasına yeni sütun, `aaut_hesap.py` içindeki `TARIFELER` sözlüğüne yeni anahtar olarak işle; madde metnini `references/kaynak/` altına koy ve önceki metinle karşılaştır.
 - **Yeni GİB rehberi çıktığında:** `rehber-590-avukat.md` dosyasını yenile.
 - **Özelgeler:** `ozelge_guncelle.py` ile yenileri indir, ilgili referans dosyasına kaynaklı madde olarak ekle.
+- **Her değişiklikten sonra:** `python3 scripts/depo_denetim.py` çalıştır. Kırık dosya ve bölüm atıflarını, özelge sayısını, betik tutarlarının referanslarla uyumunu ve README örnek çıktılarını denetler.
