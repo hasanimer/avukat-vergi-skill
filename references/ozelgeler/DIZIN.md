@@ -78,7 +78,7 @@ Bu dizin avukatlık faaliyetiyle ilgili GİB özelgelerini listeler: "avukat" ar
 | 2008-01-22 | [36976](https://gib.gov.tr/mevzuat/kanun/447/ozelge/36976) | Kayyımların üstlendikleri gayrimenkullerin emlak vergisinden muaf tutulup tutulmayacağı hakkında | orta | muhtemelen_guncel |
 | 1997-03-14 | [25017](https://gib.gov.tr/mevzuat/kanun/434/ozelge/25017) | Yasal mirasçıların henüz belli olmamması halinde vergisel ödevlerin mahkemece atanmış kayyım tarafından yerine getirileceği ve muris adına o | orta | eskimis_olabilir |
 
-## giderler (37)
+## giderler (38)
 
 | Tarih | ID | Konu | İlgililik | Güncellik |
 |---|---|---|---|---|
@@ -109,6 +109,7 @@ Bu dizin avukatlık faaliyetiyle ilgili GİB özelgelerini listeler: "avukat" ar
 | 2014-04-16 | [23593](https://gib.gov.tr/mevzuat/kanun/433/ozelge/23593) | Avukata ödenen vekalet ücretinin serbest meslek kazancından indirimi hk. | orta | muhtemelen_guncel |
 | 2014-04-03 | [23599](https://gib.gov.tr/mevzuat/kanun/433/ozelge/23599) | Avukatlık faaliyetinden dolayı kayıtlı adi ortaklığın ortakları üzerine kayıtlı olan araçların akaryakıt, tamir v.b. giderlerinin indirim ko | yuksek | eskimis_olabilir |
 | 2013-09-04 | [23604](https://gib.gov.tr/mevzuat/kanun/433/ozelge/23604) | Ücretli çalışan avukatın sebep olduğu fiiller nedeniyle ödenen bedellerin gider yazılıp yazılamayacağı hk. | yuksek | muhtemelen_guncel |
+| 2012-12-17 | [23610](https://gib.gov.tr/mevzuat/kanun/433/ozelge/23610) | Serbest meslek erbabının ödediği SGK 4-B (Bağ-Kur) primlerinin ne şekilde giderleştirileceği hk. | yuksek | guncel |
 | 2012-09-14 | [23611](https://gib.gov.tr/mevzuat/kanun/433/ozelge/23611) | Serbest meslek erbabının dış giyim harcamalarının mesleki kazıncın tespitinde indirm konusu yapılıp yapılamacağı hk. | yuksek | muhtemelen_guncel |
 | 2012-02-03 | [23623](https://gib.gov.tr/mevzuat/kanun/433/ozelge/23623) | Serbest Meslek Kazancında Avukatlık Hizmetinde Eşe Ait Cep Telefonu Faturasının İndirim Konusu yapılıp Yapılamayacağı Hk. | yuksek | muhtemelen_guncel |
 | 2012-01-31 | [23730](https://gib.gov.tr/mevzuat/kanun/433/ozelge/23730) | Serbest Meslek Erbabının satın aldığı gayrimenkulü işyeri olarak kullanmasından dolayı ödediği KDV'nin indirim konusu yapılması hk. | yuksek | muhtemelen_guncel |
@@ -120,7 +121,7 @@ Bu dizin avukatlık faaliyetiyle ilgili GİB özelgelerini listeler: "avukat" ar
 | 2010-04-22 | [23671](https://gib.gov.tr/mevzuat/kanun/433/ozelge/23671) | Serbest meslek erbabının kredi kullanarak aldığı işyeri için ödediği faizlerin gayrimenkulün aktife alındığı hesap dönemi sonuna kadar olan  | yuksek | muhtemelen_guncel |
 | 2005-03-15 | [37843](https://gib.gov.tr/mevzuat/kanun/433/ozelge/37843) | Mesleğin ifası için alınan eğitim hizmeti (diksiyon kursu) için yapılan ödemelerin, serbest meslek kazancının tespitinde gider olarak indiri | yuksek | muhtemelen_guncel |
 
-## kdv (39)
+## kdv (40)
 
 | Tarih | ID | Konu | İlgililik | Güncellik |
 |---|---|---|---|---|
@@ -135,6 +136,7 @@ Bu dizin avukatlık faaliyetiyle ilgili GİB özelgelerini listeler: "avukat" ar
 | 2022-02-16 | [32149](https://gib.gov.tr/mevzuat/kanun/436/ozelge/32149) | Avukatlık hizmetlerine uygulanacak KDV oranı HK. | yuksek | muhtemelen_guncel |
 | 2021-11-11 | [30251](https://gib.gov.tr/mevzuat/kanun/436/ozelge/30251) | Avukat Vekalet Ücreti Ödemelerinde KDV Tevkifatı | yuksek | muhtemelen_guncel |
 | 2021-11-10 | [30252](https://gib.gov.tr/mevzuat/kanun/436/ozelge/30252) | Belediyenin Raylı Sistem Yapım İşi ve Personel Taşımacılığı Hizmet Alımı İşinde KDV Tevkifatı Yapılıp Yapılmayacağı | yuksek | guncel |
+| 2021-11-01 | [30257](https://gib.gov.tr/mevzuat/kanun/436/ozelge/30257) | Ticari reklam hizmetinde KDV Tevkifatı | yuksek | guncel |
 | 2021-08-06 | [28925](https://gib.gov.tr/mevzuat/kanun/436/ozelge/28925) | İtalya Mukimi Firmadan Alınan Danışmanlık Hizmetinin ve Bu Hizmetin Türkiye'deki Firmalara Verilmesinin Vergilendirilmesi Hk. | orta | muhtemelen_guncel |
 | 2021-06-04 | [30267](https://gib.gov.tr/mevzuat/kanun/436/ozelge/30267) | KDV Tevkifatı hk. | yuksek | muhtemelen_guncel |
 | 2021-06-02 | [30274](https://gib.gov.tr/mevzuat/kanun/436/ozelge/30274) | Avukatlık Hizmetinde KDV Tevkifatı hk. | yuksek | muhtemelen_guncel |
@@ -198,7 +200,7 @@ Bu dizin avukatlık faaliyetiyle ilgili GİB özelgelerini listeler: "avukat" ar
 | 2010-03-25 | [24262](https://gib.gov.tr/mevzuat/kanun/433/ozelge/24262) | Avukatlık faaliyetinin sona ermesi ve mükellefiyetin kapatıldığı, avukatlık yaptığı sırada açılan ve henüz sonuçlanmayan davalarla ilgili ol | yuksek | muhtemelen_guncel |
 | 2002-01-24 | [24657](https://gib.gov.tr/mevzuat/kanun/433/ozelge/24657) | Serbest bölgede faaliyet gösteren gerçek veya tüzel kişilere sunulan hukuk danışmanlığı ve avukatlık hizmeti karşılığında elde edilen geliri | orta | eskimis_olabilir |
 
-## smm-belge-duzeni (32)
+## smm-belge-duzeni (33)
 
 | Tarih | ID | Konu | İlgililik | Güncellik |
 |---|---|---|---|---|
@@ -226,6 +228,7 @@ Bu dizin avukatlık faaliyetiyle ilgili GİB özelgelerini listeler: "avukat" ar
 | 2013-08-23 | [22146](https://gib.gov.tr/mevzuat/kanun/434/ozelge/22146) | Harita ve kadastro mühendisinin vergilendirilmesi ve belge düzeni hk. | orta | eskimis_olabilir |
 | 2012-08-29 | [23289](https://gib.gov.tr/mevzuat/kanun/433/ozelge/23289) | Serbest meslek makbuzundan alınmayan hizmet bedeline tekabül eden stopajın ne şekilde ödeneceği hk. | yuksek | muhtemelen_guncel |
 | 2012-03-06 | [26378](https://gib.gov.tr/mevzuat/kanun/434/ozelge/26378) | Belediyelere verilecek kısmi zamanlı avukatlık hizmeti sözleşmelerinde serbest meslek makbuzunun avukatlık asgari ücret tarifesi üzerinden m | yuksek | muhtemelen_guncel |
+| 2012-02-28 | [23620](https://gib.gov.tr/mevzuat/kanun/433/ozelge/23620) | Sosyal Güvenlik Destekleme Primi için açılan dava ile ilgili olarak düzenlenecek serbest meslek makbuzunda stopaj olup olmayacağı hk. | yuksek | guncel |
 | 2012-02-21 | [23574](https://gib.gov.tr/mevzuat/kanun/436/ozelge/23574) | Hizmetin yapılmasını müteakip düzenlenen belgelerde yer alan KDV'nin vergiyi doğuran olayın meydana geldiği döneme ait KDV beyannamesi ile b | yuksek | muhtemelen_guncel |
 | 2011-11-11 | [23630](https://gib.gov.tr/mevzuat/kanun/433/ozelge/23630) | Serbest meslek makbuzunda stopaj ve KDV'nin hesaplanması hk. | yuksek | muhtemelen_guncel |
 | 2011-10-24 | [23622](https://gib.gov.tr/mevzuat/kanun/436/ozelge/23622) | Sözleşmeye Bağlı Avukatlık Hizmeti Ödemesinde Belge Düzeni hk. | yuksek | muhtemelen_guncel |

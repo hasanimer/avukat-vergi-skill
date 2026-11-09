@@ -1,7 +1,7 @@
 # e-SMM ve belge düzeni: akdi ücret, masraflar, tahsil zamanı
 
 **Kapsam:** Avukatın kendi e-SMM düzeni. Akdi ücrette makbuzun zamanı, alıcısı ve tutarı; stopaj ve KDV tevkifatının makbuzda gösterimi; masraf ve gider avansı; avukatlar arası iş ve tevkil; ücret iadesi; ceza, tevsik, stopaj mahsubu ve yoklama. Kaynaklar GİB özelgeleri (yalnız talep edeni bağlar, VUK 413), kanun ve tebliğ metinleridir. Son kontrol: 12.10.2026.
-**İlgili dosyalar:** `parametreler.md` (tüm tutarlar; esas alınır) · `vekalet-ucreti.md` (karşı taraf vekalet ücreti) · `kdv.md` (oran, tevkifat, CMK) · `uygulama-notlari.md` (⚖️ tartışmalı konular, KDV'nin doğması, sık hatalar) · `rehber-590-avukat.md` (GİB Rehberi özeti) · `ek-faaliyetler.md` (CMK, arabuluculuk) · `giderler.md` · `aaut-2025-2026.md` · `mukellefiyet-istisna.md` · `damga-harc.md`.
+**İlgili dosyalar:** `parametreler.md` (tüm tutarlar; esas alınır) · `vekalet-ucreti.md` (karşı taraf vekalet ücreti) · `kdv.md` (oran, tevkifat, CMK) · `uygulama-notlari.md` (⚖️ tartışmalı konular, KDV'nin doğması, sık hatalar) · `rehber-590-avukat.md` (GİB Rehberi özeti) · `ek-faaliyetler.md` (CMK, arabuluculuk) · `giderler.md` · `aaut.md` · `mukellefiyet-istisna.md` · `damga-harc.md`.
 **Özelge tam metinleri:** `ozelgeler/<ID>.txt` (skill kökünden `references/ozelgeler/<ID>.txt`). Dosyanın sonundaki tabloda hangi metnin yerelde bulunduğu yazılıdır.
 
 ## Hızlı karar tablosu
@@ -159,8 +159,8 @@
   - Ücretli çalışan avukatın işverenine yapılan vekalet ücreti ödemesinden tevkifat yapılmaz; işveren avukata öderken ücret hükümlerine göre keser ve ödeme bordroyla belgelenir (311 Seri No.lu GVGT md. 25/2-c, 25/4, 26/4–26/6). 2016 tarihli 23579 bu düzenlemeden önce verilmiştir; çeliştiği yerde 311 Seri No.lu GVGT'yi esas alın.
   - Borçlu GVK 94/1'de sayılmıyorsa stopaj yapılmaz; avukat ücreti brüt olarak beyan eder (311 Seri No.lu GVGT md. 25/3).
   - Haciz, kefil ya da teminat yoluyla tahsilde borçlu stopaj yapmaz. e-SMM yine borçlu adına düzenlenir ve ücret brüt olarak beyan edilir.
-  - Sorumlu stopaj yapmazsa sorumlu adına tarhiyat yapılır. Avukat brüt tutarı kazancına katar ve mahsup edeceği vergi olmaz. ⚖️ Kesilmeyen stopajın makbuzda gösterilip gösterilmeyeceği tartışmalıdır; hangisi seçilirse seçilsin stopajı mahsup etme (`uygulama-notlari.md` §14, 5a).
-  - Borçlu belirlenmiş alıcıysa ve KDV dahil tutar sınırı aşıyorsa KDV tevkifatı uygulanır; aynı davanın ilam ve icra vekalet ücretleri sınır hesabında toplanır. ⚖️ "Yargılama gideridir, tevkifat yapılmaz" görüşü GİB özelgeleriyle çelişir (`kdv.md` §9; `uygulama-notlari.md` §14, 17).
+  - Sorumlu stopaj yapmazsa sorumlu adına tarhiyat yapılır. Avukat brüt tutarı kazancına katar ve mahsup edeceği vergi olmaz. ⚖️ Kesilmeyen stopajın makbuzda gösterilip gösterilmeyeceği tartışmalıdır; hangisi seçilirse seçilsin stopajı mahsup etme (`uygulama-notlari.md` §14 #5a).
+  - Borçlu belirlenmiş alıcıysa ve KDV dahil tutar sınırı aşıyorsa KDV tevkifatı uygulanır; aynı davanın ilam ve icra vekalet ücretleri sınır hesabında toplanır. ⚖️ "Yargılama gideridir, tevkifat yapılmaz" görüşü GİB özelgeleriyle çelişir (`kdv.md` §9; `uygulama-notlari.md` §14 #17).
 
   [Özelge: 31.07.2024, E-62030549-120-1020639 — https://gib.gov.tr/mevzuat/kanun/433/ozelge/23511] [Özelge: 07.07.2023, 62030549-120[94-2021/516]-718872 — https://gib.gov.tr/mevzuat/kanun/433/ozelge/23519] [Özelge: 29.08.2022, 48816587-120[2019]-60836 — https://gib.gov.tr/mevzuat/kanun/433/ozelge/23697] [Özelge: 20.04.2012, B.07.1.GİB.4.38.15.01-GV-20-485-57 — https://gib.gov.tr/mevzuat/kanun/433/ozelge/23617] [Özelge: 26.05.2016, B.07.1.GİB.4.35.16.01-120.04.06[94-2016/2]-296 — https://gib.gov.tr/mevzuat/kanun/433/ozelge/23579] [Özelge: 06.06.2022, 36062021-130[09-2021/ÖZE-40]-50290 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/30232] [Özelge: 09.06.2022, 64597866-130-9597 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/30226] [Kaynak: Av.K. 164; 311 Seri No.lu GVGT md. 25–26]
   - *Eskimiş:* 2012 tarihli özelge, 375 Sıra No.lu VUK GT'ye dayanarak makbuzun bir nüshasının ödemeyi yapan icra memuruna verileceğini söylüyordu. 311 Seri No.lu GVGT md. 26/3 (RG 27.05.2020) ile buna gerek kalmadı. [Özelge: 20.04.2012, B.07.1.GİB.4.38.15.01-GV-20-485-57 — https://gib.gov.tr/mevzuat/kanun/433/ozelge/23617]
@@ -208,7 +208,7 @@
   - **Tarife:**
     - Hukuki yardımın yapıldığı tarihte yürürlükte olan tarife uygulanır (Yönetmelik md. 10/11). 2025 CMK Ücret Tarifesi RG 01.02.2025/32800'de, 2026 tarifesi RG 08.01.2026/33131'de yayımlandı.
     - Aynı soruşturma veya kovuşturma evresinde bir kişi için aynı avukata birden fazla ücret ödenmez (md. 10/3). Aralarında menfaat çatışması olmayan birden fazla kişi için ise her biri adına ayrı ücret ödenir (md. 10/4).
-  - ⚖️ CMK ödemelerinden damga vergisi kesilmesi tartışmalıdır (`uygulama-notlari.md` §14, 16a; `damga-harc.md`).
+  - ⚖️ CMK ödemelerinden damga vergisi kesilmesi tartışmalıdır (`uygulama-notlari.md` §14 #16a; `damga-harc.md`).
 
   [Özelge: 02.07.2025, E-84974990-130[KDV-2/İ/28-2025/75]-365183 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/38775] [Özelge: 16.02.2022, E-62902401-130[2020-701-75]-22832 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/32149] [Özelge: 02.06.2021, E-66523654-130[ÖZG-7-2021]-29773 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/30273] [Özelge: 26.05.2014, 39044742-130-1439 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/31985] [Özelge: 22.10.2013, 88409335-130[9-ÖZELGE-2013-1-3]-26 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/30484] [Özelge: 12.08.2020, 37009108-130[242841]-E.63884 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/30288] [Özelge: 21.02.2013, 30094508-130[9-2012/2.7]-5 — https://gib.gov.tr/mevzuat/kanun/436/ozelge/30576] [Özelge: 11.03.2013, 97677631-041-2-7 — https://gib.gov.tr/mevzuat/kanun/433/ozelge/23700] [Özelge: 09.06.2011, B.07.1.GİB.4.38.15.02-VUK-21-197-50 — https://gib.gov.tr/mevzuat/kanun/433/ozelge/23655] [Kaynak: CMK Ücret Yönetmeliği (mevzuat.gov.tr MevzuatNo=11156) md. 4/1-e, 10/3, 10/4, 10/11, 11/3–11/8; Danıştay 8. D., 24.12.2025, E.2025/1380, K.2025/10316; KDV GUT I/C-2.1.3.2.13, I/C-2.1.3.4.1, I/C-2.1.3.4.3.1; doğrulanmış araştırma notu, 12.10.2026]
 
@@ -356,7 +356,7 @@ GVK 67'deki temel ayrım (fıkra numaraları 12.10.2026'da konsolide metinden ko
   - ⚖️ *Tartışmalı:* KDV matrahı için hangi tarihteki tarifenin esas alınacağı (sözleşme tarihi mi, kesinleşme tarihi mi) GİB tarafından açıkça düzenlenmemiştir.
     - AAÜT md. 21 genel bir kuraldır ve karşı tarafa yükletilen ücretle sınırlı değildir: avukatlık ücretinin takdirinde hukuki yardımın tamamlandığı veya dava sonunda hükmün verildiği tarihte yürürlükte olan tarife esas alınır. Tarife akdi ücretin asgarisinin hesabında da dikkate alınır (md. 1/2).
     - KDV'yi doğuran olay (kesinleşme veya hizmetin tamamlanması) md. 21'deki tarihle örtüştüğü için ihtiyatlı yol, sözleşme bedeli ile hukuki yardımın tamamlandığı tarihteki tarife tutarından yüksek olanı matrah almaktır (çıkarım; `uygulama-notlari.md` §3). Sözleşme tarihindeki eski ve genellikle düşük tarifeye dayanmak risklidir.
-    - Sürekli şirket vekilliğinde tarife farkının KDV'si de tartışmalıdır. Bkz. `uygulama-notlari.md` §3 ve §5; `aaut-2025-2026.md`.
+    - Sürekli şirket vekilliğinde tarife farkının KDV'si de tartışmalıdır. Bkz. `uygulama-notlari.md` §3 ve §5; `aaut.md`.
 
     [Kaynak: AAÜT md. 1/2, md. 21 (`kaynak/aaut-2025-metin.txt`); KDVK 10, 27/5]
 - **Belediyeye sözleşmeli avukatlık.**
