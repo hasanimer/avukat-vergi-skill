@@ -56,7 +56,7 @@
   [Özelge: 27.06.2025, E-11395140-105[VUK-3-4253]-798105 — https://gib.gov.tr/mevzuat/kanun/434/ozelge/38672] [Özelge: 20.11.2020, 11395140-105[VUK-1-22499]-864517 — https://gib.gov.tr/mevzuat/kanun/434/ozelge/26369]
 - **2025–2026 tebliğ değişiklikleri e-SMM'yi etkilemedi.**
   - 589 Sıra No.lu VUK GT (RG 31.12.2025, 33124 5. Mük.) yalnız 509 Sıra No.lu Tebliğ IV.2.4.3'teki e-Arşiv zorunluluğunu basit usul ve işletme esası mükellefleri için 01.01.2027'ye erteler.
-  - 01.02–12.10.2026 arasında yayımlanan VUK genel tebliğleri de e-SMM yükümlülüğünü değiştirmez: 591 (taksi mali cihazı), 592 (uzlaşma), 594 (531 değişikliği, teminat), 595 (538 değişikliği, e-ticaret ve ilan bildirimi), 596 (e-tebligat usulü; §10).
+  - 01.02–12.10.2026 arasında yayımlanan VUK genel tebliğleri de e-SMM yükümlülüğünü değiştirmez: 591 (taksi mali cihazı), 592 (uzlaşma), 594 (531 değişikliği, teminat), 595 (538 değişikliği, e-ticaret ve ilan bildirimi), 596 (e-tebligat usulü; §10). 597 (RG 10.11.2026, 33426; vergi borçlularının açıklanması) da e-SMM'yi ilgilendirmez.
   - 593 Sıra No.lu Tebliğ 509'u değiştirmez. 509 kapsamındaki e-Belgelerden GİB kılavuzunda sayılanların YN ÖKC'den de düzenlenebilmesine izin verir; zorunluluk getirmez. e-SMM'nin bu kapsamda olup olmadığı kılavuza bırakılmıştır (teyit edilmedi). YN ÖKC'den düzenlenen e-Belge, cihazın mali sertifikasıyla imzalanır (md. 4/3).
 
   [Kaynak: 589 Sıra No.lu VUK GT; RG başlık araması 01.12.2025–12.10.2026: VUK GT 591 (RG 13.02.2026, 33167), 592 (RG 28.03.2026, 33207), 594 (RG 31.07.2026, 33326), 595 (RG 05.09.2026, 33361), 596 (RG 11.10.2026, 33397); 593 Sıra No.lu VUK GT (RG 08.05.2026, 33247) md. 1, 4; metinler 12.10.2026'da RG'den okundu; güven orta]

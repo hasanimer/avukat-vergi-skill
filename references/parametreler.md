@@ -2,6 +2,7 @@
 
 Son kontrol: **12/10/2026**. Tutarlar, oranlar ve tarihler aynı gün tarihli doğrulama paketiyle tek tek karşılaştırıldı.
 - **09/11/2026 ara kontrolü (kısmi):** Yalnız iki kalem yeniden bakıldı. (1) Yeni AAÜT yayımlandı: RG 03/11/2026-33419 (aşağıda "2026'da avukatı etkileyen değişiklikler" ve `aaut.md`). (2) 2026 yeniden değerleme oranı henüz ilan edilmedi: Resmî Gazete'de 15/10/2026–09/11/2026 arasında bu oranı ilan eden VUK Genel Tebliği bulunamadı (başlık ve içerik araması). Geri kalan tutarlar 12/10/2026 kontrolündeki hâliyle duruyor.
+- **10/11/2026 eki:** 597 Sıra No.lu VUK GT yayımlandı (RG 10/11/2026-33426). Konusu vergi borçlularının açıklanmasıdır; yeniden değerleme oranını ilan etmez ve bu dosyadaki tutarları değiştirmez (aşağıda "2026'da avukatı etkileyen değişiklikler"). 2026 yeniden değerleme oranı 10/11/2026 itibarıyla hâlâ ilan edilmedi.
 - 2026 tutarlarının çoğu 31/12/2025 tarihli Resmî Gazete'nin 5. mükerrer sayısındaki (33124) tebliğlere dayanır:
   - 332 Seri No.lu GVGT
   - 588 Sıra No.lu VUK GT
@@ -202,6 +203,15 @@ Amortisman sınırında aracın **alındığı tarihteki** tutar uygulanır. Kay
 - **Yurt dışına verilen hizmet indirimi:** CBK 11257 (RG 30/04/2026) oranı %100'e çıkardı. Avukatlık kapsam dışıdır; bkz. yukarıdaki tablo.
 - **Stopaj:** CBK 11344 (RG 19/05/2026) yalnız nükleer santral istihkaklarına %1 oran ekledi. Serbest meslek oranları (%20 / %17) değişmedi.
 - **Cezalarda uzlaşma:** VUK GT 592 (RG 28/03/2026-33207) yetkili komisyonları belirledi; eşik 40.000 TL.
+- **Vergi borçlularının açıklanması (VUK 5/4; VUK GT 597, RG 10/11/2026-33426, yayımı tarihinde yürürlükte):**
+  - Kapsam: her bir vergi dairesine **5.000.000 TL** ve üzeri borcu olan veya bu tutar ve üzerinde kesinleşen vergi ve cezası bulunan mükellefler. Eşik vergi dairesi bazındadır.
+  - Borç ölçütü: 31/12/2025 itibarıyla vadesi geldiği hâlde **20/11/2026** itibarıyla ödenmemiş olan ve nev'i itibarıyla 293 Sıra No.lu VUK GT kapsamındaki vergi ve cezalar. Çıkarım: 20/11/2026'ya kadar ödenen borç listeye girmez.
+  - Tarhiyat ölçütü: 01/06/2025–31/05/2026 arasında kesinleşen ikmalen, re'sen veya idarece tarhiyatlar. Bu liste borç ödenmiş olsa da kesinleşmeye bakar (293 I-A; ayrıntısı teyit edilmedi).
+  - Açıklama: 01–15/12/2026 vergi dairelerinin ilan yerlerinde, 16–30/12/2026 GİB internet sitesinde (tarihler dahil).
+  - Kapsam dışı (md.3): 6736, 7020, 7143, 7256, 7326 ve 7440 sayılı Kanunlara göre yapılandırması devam eden alacaklar ile belediyelerin 5216 geçici 3, 5393 geçici 5 ve 6111 md.167 kapsamındaki 31/12/2004 ve öncesi vadeli borçları. 6183 md.48 tecili ve 2026 düşük faizli yapılandırması (Tahsilat GT Seri B Sıra 20) md.3'te sayılmamıştır; tecilli borcun listeye girip girmediği teyit edilmedi.
+  - Geçerliliğini koruyan yürütmenin durdurulması kararı bulunan borç açıklanmaz (293 I-B/f; ikincil kaynaktan okundu, güven orta).
+  - Tahsil kabiliyeti olmayan alacaklar listede "Alacağın tahsil kabiliyeti bulunmamaktadır." notuyla gösterilir (md.2/1-d).
+  - Serbest meslek kazancına, e-SMM'ye ve bu dosyadaki tutarlara etkisi yok. Avukat için önemi: kendi borcu veya müvekkil danışmanlığı (20/11/2026'dan önce ödeme, yürütmeyi durdurma).
 - **AAÜT:** Yeni tarife RG 03/11/2026-33419 ile yayımlandı ve aynı gün yürürlüğe girdi (asliye maktu 62.000 TL; icra eşiği 78.125 TL; arabuluculuk eşiği 62.500 TL). 04/11/2025 tarifesi 02/11/2026'ya kadar verilen hükümlerde uygulanır; o tarifenin değişiklikleri RG 08/01/2026-33131 ve 28/03/2026-33207. Bkz. `aaut.md`.
 - **CMK Ücret Tarifesi 2026:** RG 08/01/2026-33131 (2025 tarifesi: RG 01/02/2025-32800). Hukuki yardımın yapıldığı tarihteki tarife uygulanır. Bkz. `ek-faaliyetler.md`.
 - **Arabuluculuk ve Bilirkişilik Asgari Ücret Tarifeleri 2026:** RG 26/12/2025-33119, yürürlük 01/01/2026. Arabuluculukta anlaşma halinde ücret 9.000 TL'den az olamaz; ticari uyuşmazlık ve ortaklığın giderilmesinde alt sınır 13.000 TL'dir. Saatlik tutarlar tebliğ ekindeki tablodadır. Bkz. `ek-faaliyetler.md`.
