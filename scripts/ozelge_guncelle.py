@@ -18,6 +18,7 @@ import json
 import os
 import re
 import sys
+import urllib.error
 import urllib.request
 
 API = "https://gib.gov.tr/api/gibportal/mevzuat/ozelge/list?page={page}&size={size}&sortFieldName=ozelgeTarih&sortType=DESC"
@@ -66,9 +67,15 @@ def main() -> int:
     dizin_yolu = os.path.join(a.hedef, "dizin.json")
     eski = {}
     if os.path.exists(dizin_yolu):
-        eski = {str(x["id"]): x for x in json.load(open(dizin_yolu, encoding="utf-8"))}
+        with open(dizin_yolu, encoding="utf-8") as f:
+            eski = {str(x["id"]): x for x in json.load(f)}
 
-    kayitlar = indir(a.terim)
+    try:
+        kayitlar = indir(a.terim)
+    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, OSError) as e:
+        print(f"GİB özelge servisine ulaşılamadı: {e}\nAğ erişimini (gib.gov.tr) kontrol edin; dizin değiştirilmedi.",
+              file=sys.stderr)
+        return 2
     yeniler = [k for k in kayitlar if str(k["id"]) not in eski]
     print(f"GİB'de '{a.terim}' için {len(kayitlar)} özelge; dizinde olmayan {len(yeniler)} adet.")
     for k in sorted(yeniler, key=lambda x: x.get("ozelgeTarih") or "", reverse=True):
@@ -86,10 +93,29 @@ def main() -> int:
             f.write(bas + metin + "\n")
         eski[str(k["id"])] = {"id": k["id"], "tarih": str(k.get("ozelgeTarih"))[:10], "kanun": k.get("kanunNo"),
                               "baslik": (k.get("title") or "").strip(), "no": k.get("ozelgeNo"),
-                              "link": k.get("siteLink"), "ilgililik": "sınıflandırılmadı", "kategori": "", "hukum": ""}
+                              "link": k.get("siteLink"), "ilgililik": "sınıflandırılmadı", "kategori": "",
+                              "alt_konu": "", "hukum": "", "guncellik": "", "guncellik_notu": "", "kaynak": a.terim}
+    if not yeniler:
+        print("Yeni özelge yok; dizin değiştirilmedi.")
+        return 0
     with open(dizin_yolu, "w", encoding="utf-8") as f:
-        json.dump(sorted(eski.values(), key=lambda x: x["tarih"], reverse=True), f, ensure_ascii=False, indent=0)
-    print(f"{len(yeniler)} yeni özelge yazıldı → {a.hedef}. Yenileri ilgili references/*.md dosyasına işlemeyi unutmayın.")
+        json.dump(sorted(eski.values(), key=lambda x: x["tarih"], reverse=True), f, ensure_ascii=False, indent=1)
+    dizin_md = os.path.join(a.hedef, "DIZIN.md")
+    if os.path.exists(dizin_md):
+        baslik = "## sınıflandırılmadı"
+        with open(dizin_md, encoding="utf-8") as f:
+            md = f.read()
+        if baslik not in md:
+            md = md.rstrip("\n") + (f"\n\n{baslik}\n\nBetikle indirilen, henüz kategoriye ve referans dosyasına işlenmemiş "
+                                    "özelgeler. İşleyince ilgili kategori tablosuna taşı.\n\n"
+                                    "| Tarih | ID | Konu | İlgililik | Güncellik |\n|---|---|---|---|---|\n")
+        for k in sorted(yeniler, key=lambda x: x.get("ozelgeTarih") or "", reverse=True):
+            konu = (k.get("title") or "").strip().replace("|", "/")[:140]
+            md = md.rstrip("\n") + f"\n| {str(k.get('ozelgeTarih'))[:10]} | [{k['id']}]({k.get('siteLink')}) | {konu} | sınıflandırılmadı | |"
+        with open(dizin_md, "w", encoding="utf-8") as f:
+            f.write(md + "\n")
+    print(f"{len(yeniler)} yeni özelge yazıldı → {a.hedef}. DIZIN.md'de 'sınıflandırılmadı' bölümüne eklendi; "
+          "ilgili references/*.md dosyasına işlemeyi ve SKILL.md/README'deki özelge sayısını güncellemeyi unutmayın.")
     return 0
 
 
