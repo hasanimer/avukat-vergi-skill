@@ -11,7 +11,7 @@
 [![Paket kontrolü](https://img.shields.io/github/actions/workflow/status/hasanimer/avukat-vergi-skill/validate.yml?branch=main&style=flat-square&label=paket%20kontrol%C3%BC&labelColor=0f1b33)](https://github.com/hasanimer/avukat-vergi-skill/actions/workflows/validate.yml)
 ![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-D97757?style=flat-square&labelColor=0f1b33)
 ![Python](https://img.shields.io/badge/Python-3.9%2B%20%C2%B7%20yaln%C4%B1z%20stdlib-3776AB?style=flat-square&labelColor=0f1b33)
-![Güncellik](https://img.shields.io/badge/g%C3%BCncellik-09.11.2026-c99a3b?style=flat-square&labelColor=0f1b33)
+![Güncellik](https://img.shields.io/badge/g%C3%BCncellik-10.11.2026-c99a3b?style=flat-square&labelColor=0f1b33)
 [![Lisans](https://img.shields.io/badge/lisans-MIT-2ea44f?style=flat-square&labelColor=0f1b33)](LICENSE)
 
 **[Kurulum](#-kurulum)** · **[Örnekler](#-örnekler)** · **[Ne sorabilirsiniz?](#-ne-sorabilirsiniz)** · **[Kaynaklar](#-kaynaklar)** · **[Yol haritası](#-yol-haritası)**
