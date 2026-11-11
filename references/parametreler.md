@@ -3,6 +3,7 @@
 Son kontrol: **12/10/2026**. Tutarlar, oranlar ve tarihler aynı gün tarihli doğrulama paketiyle tek tek karşılaştırıldı.
 - **09/11/2026 ara kontrolü (kısmi):** Yalnız iki kalem yeniden bakıldı. (1) Yeni AAÜT yayımlandı: RG 03/11/2026-33419 (aşağıda "2026'da avukatı etkileyen değişiklikler" ve `aaut.md`). (2) 2026 yeniden değerleme oranı henüz ilan edilmedi: Resmî Gazete'de 15/10/2026–09/11/2026 arasında bu oranı ilan eden VUK Genel Tebliği bulunamadı (başlık ve içerik araması). Geri kalan tutarlar 12/10/2026 kontrolündeki hâliyle duruyor.
 - **10/11/2026 eki:** 597 Sıra No.lu VUK GT yayımlandı (RG 10/11/2026-33426). Konusu vergi borçlularının açıklanmasıdır; yeniden değerleme oranını ilan etmez ve bu dosyadaki tutarları değiştirmez (aşağıda "2026'da avukatı etkileyen değişiklikler"). 2026 yeniden değerleme oranı 10/11/2026 itibarıyla hâlâ ilan edilmedi.
+- **11/11/2026 eki:** Dijital Vergi Dairesi "KDV Beyannamesinde Değişiklikler" duyurusu işlendi (1 No.lu beyannamede 511 satırı; kümülatif bedel alanının kaldırılması; Ekim/2026 dönemi). Beyanname biçimine ilişkindir; bu dosyadaki oran ve tutarları değiştirmez (`diger.md` §2).
 - 2026 tutarlarının çoğu 31/12/2025 tarihli Resmî Gazete'nin 5. mükerrer sayısındaki (33124) tebliğlere dayanır:
   - 332 Seri No.lu GVGT
   - 588 Sıra No.lu VUK GT
@@ -212,6 +213,7 @@ Amortisman sınırında aracın **alındığı tarihteki** tutar uygulanır. Kay
   - Geçerliliğini koruyan yürütmenin durdurulması kararı bulunan borç açıklanmaz (293 I-B/f; ikincil kaynaktan okundu, güven orta).
   - Tahsil kabiliyeti olmayan alacaklar listede "Alacağın tahsil kabiliyeti bulunmamaktadır." notuyla gösterilir (md.2/1-d).
   - Serbest meslek kazancına, e-SMM'ye ve bu dosyadaki tutarlara etkisi yok. Avukat için önemi: kendi borcu veya müvekkil danışmanlığı (20/11/2026'dan önce ödeme, yürütmeyi durdurma).
+- **1 No.lu KDV beyannamesi (Ekim/2026 döneminden itibaren; Dijital Vergi Dairesi duyurusu):** "Matrah → Diğer İşlemler" tablosuna 511 "Vergiye Tabi Olmayan İşlemler" eklendi (matrahı toplam matrahı etkilemez; vergisi hesaplanan KDV'ye eklenir). "Teslim ve Hizmetlerin Karşılığını Teşkil Eden Bedel (Kümülatif)" alanı kaldırıldı. KDV oranı, tevkifat ve beyan süresi değişmedi. Bkz. `diger.md` §2.
 - **AAÜT:** Yeni tarife RG 03/11/2026-33419 ile yayımlandı ve aynı gün yürürlüğe girdi (asliye maktu 62.000 TL; icra eşiği 78.125 TL; arabuluculuk eşiği 62.500 TL). 04/11/2025 tarifesi 02/11/2026'ya kadar verilen hükümlerde uygulanır; o tarifenin değişiklikleri RG 08/01/2026-33131 ve 28/03/2026-33207. Bkz. `aaut.md`.
 - **CMK Ücret Tarifesi 2026:** RG 08/01/2026-33131 (2025 tarifesi: RG 01/02/2025-32800). Hukuki yardımın yapıldığı tarihteki tarife uygulanır. Bkz. `ek-faaliyetler.md`.
 - **Arabuluculuk ve Bilirkişilik Asgari Ücret Tarifeleri 2026:** RG 26/12/2025-33119, yürürlük 01/01/2026. Arabuluculukta anlaşma halinde ücret 9.000 TL'den az olamaz; ticari uyuşmazlık ve ortaklığın giderilmesinde alt sınır 13.000 TL'dir. Saatlik tutarlar tebliğ ekindeki tablodadır. Bkz. `ek-faaliyetler.md`.
