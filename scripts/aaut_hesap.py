@@ -122,6 +122,7 @@ TARIFELER = {
             "Tüzük, yönetmelik, miras sözleşmesi, vasiyetname, vakıf senedi": "40.000",
             "Şirket ana sözleşmesi, devir/birleşme vb. ticari sözleşmeler": "27.000",
             "Arabuluculuk anlaşmazlıkla sonuçlanırsa taraf vekili (md.16/2-c)": "10.000",
+            "Vasi, kayyım, yasal danışman yıllık ücret alt sınırı (md.18/3; birinci kısım ikinci bölüm 2/a)": "15.000",
             "İş takibi: belgelendirme, tahsil, örnek çıkarma": "7.500",
             "İş takibi: hakkın doğumu/tespiti/tescili/nakli/sona ermesi": "15.000",
             "İş takibi: ipotek tesis/fek vb. sürekli sözleşmeli bankalar için her işlem": "4.000",
@@ -189,12 +190,21 @@ def karsi_taraf(deger=None, mahkeme="asliye", tur="dava", odeme_suresinde=False,
             ucret = min(mk, D(asil_alacak if asil_alacak is not None else deger))
             notlar.append(f"Takip miktarı ≤ {tl(t['icra_maktu_esik'])}: icra dairesi maktu ücreti, "
                           f"{t['icra_maktu_tavan']} geçemez (md.11/1).")
+            if asil_alacak is None:
+                notlar.append("Sınır olarak takip miktarı kullanıldı; üst sınır farklıysa (ör. kısmi itiraz) "
+                              "--kesinlesen / --asil-alacak ile verin.")
         else:
             ucret = nispi(deger, tarife)
             notlar.append("Takip miktarı eşik üstü: üçüncü kısım nispi ücret (md.11/1).")
+        sinirlandi = D(deger) <= D(t["icra_maktu_esik"]) and ucret < mk
         if odeme_suresinde:
             ucret = r2(ucret * D("0.75"))
-            notlar.append("Borçlu ödeme süresinde ödedi: ücretin 3/4'ü (md.11/4).")
+            notlar.append("Borçlu ödeme süresinde ödedi: ücretin 3/4'ü (md.11/4). Şart: dosya borcunun tamamı "
+                          "(asıl alacak, faiz, masraf, ücret) süresinde ödenmiş olmalı (Yarg. 12. HD 2013/2131-10220).")
+            if sinirlandi:
+                alt = r2(min(mk * D("0.75"), D(asil_alacak if asil_alacak is not None else deger)))
+                notlar.append(f"⚖️ Önce sınır sonra 3/4 uygulandı ({tl(ucret)}). Sınır nihai ücrete uygulanırsa sonuç "
+                              f"{tl(alt)} olur; md.11/1 ve 11/4 sırayı belirtmez, içtihat bulunamadı (08/11/2026).")
     elif tur == "arabuluculuk-anlasma":
         if D(deger) <= D(t["arabuluculuk_maktu_esik"]):
             ucret = r2(D(t["arabuluculuk_anlasmazlik"]) * D("1.25"))
@@ -213,7 +223,11 @@ def karsi_taraf(deger=None, mahkeme="asliye", tur="dava", odeme_suresinde=False,
         if ucret > D(deger):
             ucret = D(deger)
             notlar.append("Ücret kabul/red edilen miktarı geçemez (md.13/2).")
-    notlar.append("Mahkeme tarifedeki miktarın 3 katına kadar hükmedebilir (md.3/1); bu asgari tutardır.")
+    if tur == "icra":
+        notlar.append("İcra dairesinde ücret tarifeye göre hesaplanır; md.3/1'deki 3 kata kadar artırma "
+                      "yargı yerlerinin hükmettiği ücret içindir.")
+    elif tur != "arabuluculuk-anlasma":   # arabuluculukta tutar akdi ücretin asgarisidir (md.16), md.3/1 uygulanmaz
+        notlar.append("Mahkeme tarifedeki miktarın 3 katına kadar hükmedebilir (md.3/1); bu asgari tutardır.")
     return {"ucret": ucret, "notlar": notlar}
 
 
@@ -269,6 +283,16 @@ def test() -> int:
     esit("2026 asliye 30.000 → kabul/red miktarı sınırı", karsi_taraf(30000, "asliye", tarife=y)["ucret"], 30000)
     esit("2026 icra 70.000 → maktu 12.500", karsi_taraf(70000, tur="icra", tarife=y)["ucret"], 12500)
     esit("2026 icra 100.000 süresinde ödeme", karsi_taraf(100000, tur="icra", odeme_suresinde=True, tarife=y)["ucret"], 12000)
+    esit("2026 icra 78.125 (eşik dahil) → maktu", karsi_taraf(78125, tur="icra", tarife=y)["ucret"], 12500)
+    esit("2026 icra 78.126 → nispi", karsi_taraf(78126, tur="icra", tarife=y)["ucret"], D("12500.16"))
+    esit("2026 icra 10.000 → kesinleşen miktar sınırı", karsi_taraf(10000, tur="icra", tarife=y)["ucret"], 10000)
+    esit("2026 icra 20.000, kesinleşen 10.000, süresinde ödeme → önce sınır", karsi_taraf(20000, tur="icra", odeme_suresinde=True, tarife=y, asil_alacak=10000)["ucret"], 7500)
+    dogru("Arabuluculukta md.3/1 (3 kat) notu yok", not any("3 katına" in n for n in karsi_taraf(60000, tur="arabuluculuk-anlasma", tarife=y)["notlar"]))
+    dogru("İcrada md.3/1 (3 kat) notu yok", not any("3 katına" in n for n in karsi_taraf(70000, tur="icra", tarife=y)["notlar"]))
+    esit("2026 ağır ceza para dışı", karsi_taraf(tur="para-disi", mahkeme="agir-ceza", tarife=y)["ucret"], 86000)
+    esit("2026 vergi mahkemesi duruşmasız", TARIFELER[y]["maktu"]["idare-durusmasiz"][1], 40000)
+    esit("2026 62.000 KDV dahil → brüt", vergi_karsiligi(62000)["brut"], D("51666.67"))
+    esit("2026 62.000 kamu idaresi 5/10 → ödenecek", vergi_karsiligi(62000, kdv_tevkifat="5/10")["tahsil_edilecek"], 46500)
     esit("2026 arabuluculuk 60.000 anlaşma", karsi_taraf(60000, tur="arabuluculuk-anlasma", tarife=y)["ucret"], 12500)
     esit("2026 para dışı asliye", karsi_taraf(mahkeme="asliye", tur="para-disi", tarife=y)["ucret"], 62000)
     dogru("İki tarifede aynı maktu anahtarları", set(TARIFELER[e]["maktu"]) == set(TARIFELER[y]["maktu"]))
@@ -306,7 +330,9 @@ def main(argv=None) -> int:
     k.add_argument("--mahkeme", default="asliye")
     k.add_argument("--tur", default="dava", choices=["dava", "icra", "arabuluculuk-anlasma", "maddi-tazminat-red", "para-disi"])
     k.add_argument("--odeme-suresinde", action="store_true")
-    k.add_argument("--asil-alacak", type=D)
+    k.add_argument("--asil-alacak", "--kesinlesen", dest="asil_alacak", type=D,
+                   help="Ücretin üst sınırı: icrada 2026 tarifesinde takipte kesinleşen miktar, 2025 tarifesinde asıl alacak; "
+                   "arabuluculukta asıl alacak")
     k.add_argument("--hukmedilen", type=D, help="Kararda yazan ücret (verilirse tarife hesabı atlanır)")
     k.add_argument("--kdv-haric", action="store_true", help="Kararda 'KDV hariç' ibaresi varsa")
     k.add_argument("--odeyen-gercek-kisi", "--odeyen-sorumlu-degil", dest="odeyen_gercek_kisi", action="store_true",
