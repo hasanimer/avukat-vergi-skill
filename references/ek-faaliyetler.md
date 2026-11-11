@@ -4,7 +4,7 @@
 - Kaynaklar: GİB özelgeleri (sentez, özelge metinlerine karşı denetlendi), GVK/KDVK/VUK, KDV GUT, CMK Ücret Yönetmeliği ve tarifeleri, Rehber 590. Son kontrol: **12.10.2026**.
 - Kapsam dışı: müvekkilin vergi uyuşmazlığı. Müvekkile veya yönetilen malvarlığına ilişkin bilgiler ayrı "Müvekkile bilgi" başlıklarında.
 
-**İlgili dosyalar:** `parametreler.md` (tutar ve oranlar, esas) · `kdv.md` (KDV oranı ve tevkifat) · `uygulama-notlari.md` (⚖️ tartışmalı konular, sık hatalar) · `rehber-590-avukat.md` (genel kurallar) · `aaut-2025-2026.md` (AAÜT, CMK mahsubu md.14) · `vekalet-ucreti.md` · `giderler.md` · `damga-harc.md` · `mukellefiyet-istisna.md` · `smm-belge-duzeni.md` · `ozelgeler/DIZIN.md`
+**İlgili dosyalar:** `parametreler.md` (tutar ve oranlar, esas) · `kdv.md` (KDV oranı ve tevkifat) · `uygulama-notlari.md` (⚖️ tartışmalı konular, sık hatalar) · `rehber-590-avukat.md` (genel kurallar) · `aaut.md` (AAÜT, CMK mahsubu md.14) · `vekalet-ucreti.md` · `giderler.md` · `damga-harc.md` · `mukellefiyet-istisna.md` · `smm-belge-duzeni.md` · `ozelgeler/DIZIN.md`
 
 ## Hızlı karar tablosu
 | Soru | Kısa cevap | Dayanak |
@@ -189,7 +189,7 @@
 - **Tarife:**
   - Hukuki yardımın yapıldığı tarihteki tarife uygulanır (Yönetmelik md. 10/11). Yıllık tarifeler 1 Ocak'tan geçerlidir (tarife md. 5).
   - Aynı evrede aynı kişi için aynı avukata birden fazla ücret ödenmez (md. 10/3). Aynı dosyada birden fazla şüpheli varsa md. 10/4 uygulanır.
-  - Karşı tarafa hükmedilen vekalet ücretinden CMK ücretinin mahsubu için `aaut-2026-2027.md` (AAÜT md. 14; 03/11/2026 öncesi hükümlerde `aaut-2025-2026.md`).
+  - Karşı tarafa hükmedilen vekalet ücretinden CMK ücretinin mahsubu için `aaut.md` (AAÜT md. 14).
 
 | İş (tarife md. 4) | 2025, TL (RG 01.02.2025/32800) | 2026, TL (RG 08.01.2026/33131) |
 |---|---|---|
@@ -297,7 +297,6 @@
 - **Tarife:** 2026 Bilirkişilik Asgari Ücret Tarifesi RG 26.12.2025/33119'da yayımlandı (tutarlar bu dosyada aktarılmadı).
 
 ## 7. Kayyım, tereke temsilcisi, iflas idaresi ve konkordato komiserliği
-- **AAÜT 2026 md.18/3 (yeni):** Vesayet makamının talebiyle baronun bildirdiği avukatlar arasından vasi, kayyım veya yasal danışman olarak görevlendirilen avukata, istemi halinde TMK 457 uyarınca her yıl için ücret hükmolunur; bu ücret 15.000 TL'den (birinci kısım ikinci bölüm sıra 2/a) az olamaz. Görev süresi uzatılırsa uzatma kararı tarihindeki tarife uygulanır. Hüküm ücretin asgarisini belirler; aşağıdaki vergisel niteliği (ücret geliri) değiştirmez (*çıkarım*). Bkz. `aaut-2026-2027.md`.
 - **Kayyımlık ücreti (TMK 458):** Serbest meslek faaliyeti dışında mahkemece kayyım atanan avukatın ücreti ücrettir ve GVK 61, 94, 103, 104 uyarınca vergilenir; SMM düzenlenmesine gerek yoktur. Özelgedeki olayda ödeyen kurum (Aile, Çalışma ve Sosyal Hizmetler İl Müdürlüğü), avukat olduğu gerekçesiyle %20 stopajlı ve KDV'li SMM ile damga vergisi istemişti. GİB ödemeyi ücret saydı ve SMM gerekmediğini belirtti. [Özelge: 12.08.2020, 84098128-120.03[61-2019/2]-226854 — https://gib.gov.tr/mevzuat/kanun/433/ozelge/23186]
 - **Tereke temsilcisi (TMK 640):**
   - Sulh hukuk mahkemesince atanmanın karşılığı olan ödeme ücrettir.

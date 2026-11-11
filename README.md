@@ -11,7 +11,7 @@
 [![Paket kontrolü](https://img.shields.io/github/actions/workflow/status/hasanimer/avukat-vergi-skill/validate.yml?branch=main&style=flat-square&label=paket%20kontrol%C3%BC&labelColor=0f1b33)](https://github.com/hasanimer/avukat-vergi-skill/actions/workflows/validate.yml)
 ![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-D97757?style=flat-square&labelColor=0f1b33)
 ![Python](https://img.shields.io/badge/Python-3.9%2B%20%C2%B7%20yaln%C4%B1z%20stdlib-3776AB?style=flat-square&labelColor=0f1b33)
-![Güncellik](https://img.shields.io/badge/g%C3%BCncellik-12.10.2026-c99a3b?style=flat-square&labelColor=0f1b33)
+![Güncellik](https://img.shields.io/badge/g%C3%BCncellik-10.11.2026-c99a3b?style=flat-square&labelColor=0f1b33)
 [![Lisans](https://img.shields.io/badge/lisans-MIT-2ea44f?style=flat-square&labelColor=0f1b33)](LICENSE)
 
 **[Kurulum](#-kurulum)** · **[Örnekler](#-örnekler)** · **[Ne sorabilirsiniz?](#-ne-sorabilirsiniz)** · **[Kaynaklar](#-kaynaklar)** · **[Yol haritası](#-yol-haritası)**
@@ -31,9 +31,9 @@ Her cevap bir **GİB rehberi sayfasına, özelgeye ya da mevzuat maddesine** day
 <table>
 <tr>
 <td align="center" width="25%"><h3>590</h3><sub>GİB Serbest Meslek Kazancı Rehberi<br/>(Şubat 2026), sayfa referanslı</sub></td>
-<td align="center" width="25%"><h3>450+</h3><sub>avukatlıkla ilgili GİB özelgesi tarandı;<br/>253'ü tam metniyle pakette</sub></td>
+<td align="center" width="25%"><h3>450+</h3><sub>avukatlıkla ilgili GİB özelgesi tarandı;<br/>256'sı tam metniyle pakette</sub></td>
 <td align="center" width="25%"><h3>2026</h3><sub>tarife, had ve cezalar<br/>332 GVGT · 588 VUK GT · 71 DVK GT</sub></td>
-<td align="center" width="25%"><h3>63 ✓</h3><sub>öz-sınama + 12 senaryo testi<br/>(bağımsız hakem: 9,1/10)</sub></td>
+<td align="center" width="25%"><h3>113 ✓</h3><sub>öz-sınama + 12 senaryo testi<br/>(bağımsız hakem: 9,1/10)</sub></td>
 </tr>
 </table>
 
@@ -117,7 +117,7 @@ cd ~/.claude/skills/avukat-vergi && python3 scripts/smm_hesap.py test && python3
 ```
 
 > [!TIP]
-> Muhasebe klasörünüzü, e-SMM arşivinizin yolunu ve vergi dairenizi `references/kullanici-profili.local.md` dosyasına yazın. Skill bu dosyayı okur; dosya `.gitignore` ile depo dışında kalır.
+> Muhasebe klasörünüzü, e-SMM arşivinizin yolunu ve vergi dairenizi `references/kullanici-profili.local.md` dosyasına yazın. Skill bu dosyayı okur; dosya `.gitignore` ile depo dışında kalır. Şablon: [`kullanici-profili.ornek.md`](references/kullanici-profili.ornek.md).
 
 ## 🧾 Örnekler
 
@@ -136,17 +136,18 @@ $ python3 scripts/smm_hesap.py makbuz --kdv-dahil 14400 --kdv-tevkifat 5/10
 ├────────────────────────────────────────────────────┤
 │ Tahsil edilecek                          10.800,00 │
 └────────────────────────────────────────────────────┘
+  GV stopajı %20: ödeyen keser, muhtasarla beyan eder
+  KDV tevkifatı (5/10): alıcı 2 No.lu KDV ile beyan eder; genel bütçeli idare (ör. Başsavcılık) beyanname vermez, gelir kaydeder (KDV GUT I/C-2.1.1.1)
   KDV dahil makbuz toplamı: 14.400,00 · KDV1'de beyan edilecek KDV: 1.200,00
 ```
 
 </details>
 
 <details>
-<summary><b>Karşı taraf vekâlet ücreti</b>: 250.000 TL'lik asliye hukuk davası, borçlu bir şirket</summary>
+<summary><b>Karşı taraf vekâlet ücreti</b>: 250.000 TL'lik asliye hukuk davası, borçlu bir şirket (03.11.2026 tarifesi)</summary>
 
 ```console
 $ python3 scripts/aaut_hesap.py karsi-taraf 250000 --mahkeme asliye
-Tarife: AAÜT, RG 03/11/2026-33419
 Vekalet ücreti: 62.000,00 TL (KDV dahil kabul — 311 GVGT md.25/5)
   (İş adli yardım, aile/tüketici/çocuk mahkemesi, vesayet veya iş uyuşmazlığında dava şartı arabuluculuk kapsamındaysa KDV %10'dur: --kdv 10)
   e-SMM brüt (KDV hariç): 51.666,67
@@ -158,6 +159,7 @@ Vekalet ücreti: 62.000,00 TL (KDV dahil kabul — 311 GVGT md.25/5)
   (Borçlu ücreti müvekkile ödediyse, makbuz ödemeyi yapan müvekkil adına kesilir (md.26/5); teminat, haciz veya kefil yoluyla tahsilde tevkifat yapılmaz (md.25/6).)
 NOT: Nispi ücret (40.000,00) maktu ücretin (62.000,00) altında: maktu uygulanır (md.13/1).
 NOT: Mahkeme tarifedeki miktarın 3 katına kadar hükmedebilir (md.3/1); bu asgari tutardır.
+NOT: Tarife: AAÜT, RG 03/11/2026-33419. Hüküm tarihindeki tarife uygulanır (md.21); başka tarih için --hukum-tarihi verin.
 ```
 
 </details>
@@ -181,17 +183,29 @@ Oran %15; kesilen stopaj ve önceki dönemlerde ödenen geçici vergi mahsup edi
 
 ```console
 $ python3 scripts/smm_hesap.py esmm-ozet examples/ornek-esmm
+
+== AYLIK ==
+dönem      adet           brüt          KDV   KDV tevk.   beyan KDV*    GV stopaj         tahsil
+2026-02       1       5.753,33     1.150,67        0,00     1.150,67     1.150,67       5.753,33
+2026-03       1      12.000,00     2.400,00    1.200,00     1.200,00     2.400,00      10.800,00
+2026-05       1      50.000,00    10.000,00        0,00    10.000,00    10.000,00      50.000,00
+2026-07       1      25.000,00     5.000,00        0,00     5.000,00     5.000,00      25.000,00
+2026-08       1      15.000,00     3.000,00        0,00     3.000,00     3.000,00      15.000,00
+2026-09       1      20.000,00     4.000,00        0,00     4.000,00         0,00      24.000,00
+
 == ÇEYREK (geçici vergi dönemi) ==
 dönem      adet           brüt          KDV   KDV tevk.   beyan KDV*    GV stopaj         tahsil
 2026-Ç1       2      17.753,33     3.550,67    1.200,00     2.350,67     3.550,67      16.553,33
 2026-Ç2       1      50.000,00    10.000,00        0,00    10.000,00    10.000,00      50.000,00
 2026-Ç3       3      60.000,00    12.000,00        0,00    12.000,00     8.000,00      64.000,00
+* beyan KDV: KDV1'de ödenecek hale gelen kısım (hesaplanan − alıcının tevkif ettiği KDV). Tevkif edilen KDV'yi alıcı 2 No.lu KDV ile beyan eder; genel bütçeli idareler (ör. Başsavcılık) beyanname vermez, doğrudan gelir kaydeder (KDV GUT I/C-2.1.1.1).
 
 == UYARILAR ==
-ORN…004  ÖRNEK MÜVEKKİL: gerçek kişi alıcıda stopaj var — alıcı tacir/serbest meslek erbabı değilse stopaj yapılmaz
-ORN…004  ÖRNEK MÜVEKKİL: aile/tüketici/çocuk mahkemesi, vesayet veya adli yardım işi: KDV %10 olabilir
-ORN…005  ÖRNEK CUMHURİYET BAŞSAVCILIĞI: KDV dahil 18.000,00 > 12.000,00: 5/10 KDV tevkifatı beklenirdi
-ORN…006  ÖRNEK YURTDIŞI MÜVEKKİL: alıcı adresi Almanya: KDVK 11/1-a istisnası değerlendirilmeli
+ORN2026000000002 2026-03-12 ÖRNEK CUMHURİYET BAŞSAVCILIĞI: bilgi: 5/10 KDV tevkifatı uygulanmış (KDV dahil 14.400,00 > 12.000,00); makbuz birden fazla dosyayı kapsıyorsa her dosyanın ayrı ayrı sınırı aşıp aşmadığını kontrol edin (özelge 30159)
+ORN2026000000004 2026-07-01 ÖRNEK MÜVEKKİL: gerçek kişi alıcıda stopaj var — alıcı GVK 94/1'de sayılan tacir/serbest meslek erbabı değilse veya ödemeyi bu faaliyetiyle ilgisiz (kişisel) bir iş için yapıyorsa stopaj yapılmaz (özelge 23620)
+ORN2026000000004 2026-07-01 ÖRNEK MÜVEKKİL: aile/tüketici/çocuk mahkemesi, vesayet veya adli yardım işi: KDV %10 olabilir (2007/13033 BKK (II) 32; özelge 32149, 38775) — kontrol edin
+ORN2026000000005 2026-08-20 ÖRNEK CUMHURİYET BAŞSAVCILIĞI: kamu alıcı ve KDV dahil 18.000,00 > 12.000,00: 5/10 KDV tevkifatı beklenirdi (KDV GUT I/C-2.1.3.2.13) — makbuz birden fazla dosyayı kapsıyorsa sınırı dosya bazında kontrol edin (GİB arabuluculukta dosya bazında uyguladı: özelge 30159)
+ORN2026000000006 2026-09-03 ÖRNEK YURTDIŞI MÜVEKKİL: alıcı adresi Almanya: hizmetten yurt dışında faydalanılıyorsa KDVK 11/1-a istisnası değerlendirilmeli (Türkiye'deki taşınmaz/dava için genelde KDV'li)
 ```
 
 </details>
@@ -233,8 +247,7 @@ scripts/ozelge_guncelle.py        [--terim avukat] [--sadece-yeni]
 |:---:|---|---|
 | 📘 | GİB, *Serbest Meslek Kazancı Elde Eden Mükellefler İçin Vergi Rehberi*, Şubat 2026, Yayın No 590 | [`rehber-590-avukat.md`](references/rehber-590-avukat.md) |
 | 🧮 | 332 Seri No.lu GVGT · 588 Sıra No.lu VUK GT · 71 Seri No.lu DVK GT (RG 31.12.2025, 33124 5. Mük.) | [`parametreler.md`](references/parametreler.md) |
-| ⚖️ | Avukatlık Asgari Ücret Tarifesi (RG 03.11.2026, 33419; yürürlükte) | [`aaut-2026-2027.md`](references/aaut-2026-2027.md) |
-| ⚖️ | Önceki tarife: AAÜT (RG 04.11.2025, 33067; değişiklikler 08.01.2026 ve 28.03.2026) | [`aaut-2025-2026.md`](references/aaut-2025-2026.md) |
+| ⚖️ | Avukatlık Asgari Ücret Tarifesi: RG 03.11.2026, 33419 (güncel) ve RG 04.11.2025, 33067 (02.11.2026'ya kadarki hükümler; değişiklikler 08.01.2026 ve 28.03.2026) | [`aaut.md`](references/aaut.md) |
 | 🧾 | KDV GUT I/C-2.1.3.2.13 ve I/C-2.1.3.4.1 · Seri 36 ve 50 · 2007/13033 BKK (II) 32 | [`kdv.md`](references/kdv.md) |
 | 📄 | GVK 94/3 · 311 Seri No.lu GVGT md. 25–26 · GİB özelgeleri | [`vekalet-ucreti.md`](references/vekalet-ucreti.md) |
 | 🧾 | e-SMM, akdi ücret, masraf avansı, tahsil zamanı · 509 Sıra No.lu VUK GT | [`smm-belge-duzeni.md`](references/smm-belge-duzeni.md) |
@@ -243,7 +256,7 @@ scripts/ozelge_guncelle.py        [--terim avukat] [--sadece-yeni]
 | 🪪 | Mükellefiyet, genç girişimci (GVK mük. 20), arızi kazanç, iade ve mahsup | [`mukellefiyet-istisna.md`](references/mukellefiyet-istisna.md) |
 | 🔏 | Damga vergisi (71 Seri No.lu DVK GT) ve harçlar | [`damga-harc.md`](references/damga-harc.md) |
 | 🧩 | Özel durumlar: TBB munzam emeklilik, yurt dışı meslektaş, tazminat, ortaklık | [`diger.md`](references/diger.md) |
-| 🗂 | 253 GİB özelgesinin tam metni ve dizini | [`ozelgeler/DIZIN.md`](references/ozelgeler/DIZIN.md) |
+| 🗂 | 256 GİB özelgesinin tam metni ve dizini | [`ozelgeler/DIZIN.md`](references/ozelgeler/DIZIN.md) |
 | 🎓 | TBB Eğitim Merkezi, *Avukatın Vergilendirilmesi* çevrim içi eğitimi (Av. Oğuzhan Aslan, 2025). Uygulama notları, güncel mevzuatla karşılaştırmalı | [`uygulama-notlari.md`](references/uygulama-notlari.md) |
 
 <details>
@@ -265,9 +278,11 @@ scripts/ozelge_guncelle.py        [--terim avukat] [--sadece-yeni]
 Ayrıca şunlar sınanır:
 - 2026 tarifesinin sabit tutarları (332 GVGT)
 - UHAP CMK dökümü (iç yüzde ve 5/10 tevkifat)
-- AAÜT nispi ve maktu hesapları
+- AAÜT nispi ve maktu hesapları (2025 ve 2026 tarifeleri), hüküm tarihine göre tarife seçimi
+- Girdi hataları: değersiz dava, bilinmeyen mahkeme, belirsiz oran, bozuk belge tarihi
+- Alıcı sınıflaması: banka, sigorta, belediye, şirketin bölge müdürlüğü
 
-CI bu testleri her push'ta çalıştırır.
+CI bu testleri ve `scripts/depo_denetim.py` tutarlılık denetimini her push'ta çalıştırır.
 
 **Senaryo testi.** 12 gerçekçi avukat sorusu (CMK, çocuk mahkemesi %10 KDV, belediye aleyhine vekalet ücreti, icraya stopajsız yatırma, ücretsiz iş, geçici vergi, ev-ofis ve binek araç, bilirkişilik, yurt dışı müvekkil, arabuluculuk, tevkil) yalnız skill kullanılarak cevaplandı ve bağımsız bir hakem ajanı cevap anahtarı ile özelge metinlerine göre puanladı. Ortalama **9,1/10**; hiçbir anahtar maddede yanlış sonuç yok. Hakemlerin ve dosyalar arası denetçinin bulguları birincil kaynakla doğrulanarak işlendi; en zayıf dört senaryo yeniden sınandığında ortalama **9,6/10** oldu.
 
@@ -277,15 +292,16 @@ CI bu testleri her push'ta çalıştırır.
 
 - [x] GİB Rehberi 590: avukat odaklı özet ve tam metin
 - [x] 2026 parametreleri: tarife, had, ceza, damga vergisi, Bağ-Kur
-- [x] AAÜT 2025–2026 tabloları, değişiklikleri ve vergiye çeviri
-- [x] AAÜT 2026–2027 (RG 03.11.2026, 33419) tabloları ve md.21'e göre tarih seçimli hesap
+- [x] AAÜT tabloları (03.11.2026 ve 04.11.2025 tarifeleri yan yana), değişiklikleri ve vergiye çeviri; hüküm tarihine göre tarife seçimi
 - [x] KDV tevkifatı, CMK ve adli yardım: birincil kaynaktan doğrulanmış bulgular
 - [x] Hesap araçları ve e-SMM XML arşiv denetimi
 - [x] TBB eğitiminden uygulama notları, güncel mevzuatla karşılaştırmalı
 - [x] Özelge sentezi: e-SMM ve belge düzeni, giderler, yan faaliyetler (arabuluculuk, bilirkişilik, kayyımlık), mükellefiyet, damga vergisi
 - [x] Gerçekçi avukat senaryolarıyla değerlendirme seti ve dosyalar arası tutarlılık denetimi
-- [ ] Kasım 2026 AAÜT ve Ocak 2027 parametre güncellemesi
-- [ ] Açık konular: e-SMM iptal ve düzeltme usulü, kısmi tevkifattan doğan KDV iadesi, emekli avukatın SGDP'si, binek araç MTV'si, önceki (2024–2025) AAÜT tarifesi
+- [x] Kasım 2026 AAÜT güncellemesi (RG 03.11.2026-33419)
+- [x] Depo tutarlılık denetimi (`scripts/depo_denetim.py`): atıflar, özelge sayısı, betik–referans tutar uyumu, README örnek çıktıları
+- [ ] Ocak 2027 parametre güncellemesi (2026 yeniden değerleme oranı ve 2027 tebliğleri yayımlanınca)
+- [ ] Açık konular: e-SMM iptal ve düzeltme usulü, kısmi tevkifattan doğan KDV iadesi, emekli avukatın SGDP'si, binek araç MTV'si, 2023 ve 2024 AAÜT tarifelerinin tabloları, yerel metni olmayan özelgelerin arşive alınması
 
 ## ⚠️ Uyarı
 

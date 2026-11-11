@@ -11,7 +11,7 @@
 - `rehber-590-avukat.md`: Rehber özeti (§7 istisnalar, §9 uyum indirimi, §16 iade, §17 Defter-Beyan, §19 bildirimler). `uygulama-notlari.md`: TBB eğitimi, ⚖️ tartışmalı konular ve hata listesi (§1, §9, §11, §14).
 - `ek-faaliyetler.md`: CMK, adli yardım, arabuluculuk, bilirkişilik, hakemlik. `kdv.md`: KDV oranı ve tevkifatı.
 - `vekalet-ucreti.md`: karşı taraf vekalet ücreti ve ücretli avukat adına hükmedilen ücret. `giderler.md`: stajyer, ortak ofis, kira stopajı.
-- `smm-belge-duzeni.md`, `damga-harc.md`, `diger.md`, `aaut-2026-2027.md`.
+- `smm-belge-duzeni.md`, `damga-harc.md`, `diger.md`, `aaut.md`.
 - Özelge dizini `ozelgeler/DIZIN.md`; tam metinler `ozelgeler/<ID>.txt` (ID, özelge linkinin son sayısıdır).
 
 ## Hızlı karar tablosu

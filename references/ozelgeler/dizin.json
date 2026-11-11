@@ -795,6 +795,21 @@
   "kaynak": "ek-arama"
  },
  {
+  "id": 30257,
+  "tarih": "2021-11-01",
+  "no": "16432732-130[14-2021-14]-50118",
+  "kanun": "3065",
+  "baslik": "Ticari reklam hizmetinde KDV Tevkifatı",
+  "link": "https://gib.gov.tr/mevzuat/kanun/436/ozelge/30257",
+  "ilgililik": "yuksek",
+  "kategori": "kdv",
+  "alt_konu": "Belediyeler (büyükşehir dahil) belirlenmiş alıcı değil: belediyeye verilen hizmette KDV tevkifatı yok",
+  "hukum": "Belediyeler (büyükşehir belediyeleri dahil) KDV GUT I/C-2.1.3.1/b'de sayılan belirlenmiş alıcılar arasında yer almadığından belediyeye verilen (olayda ticari reklam) hizmette KDV tevkifatı uygulanmaz. 30252 ile aynı yönde; avukatlık hizmetine kıyasen uygulanır.",
+  "guncellik": "guncel",
+  "guncellik_notu": "Metin 09/11/2026'da okundu; dayanak hükümler yürürlükte.",
+  "kaynak": "ek: referans dosyalarında atıf yapılan özelge (Legaluga gib_ozelge_getir)"
+ },
+ {
   "id": 28925,
   "tarih": "2021-08-06",
   "no": "84974990-130[KDV.5/H/9140.09.48]-238180",
@@ -2670,6 +2685,21 @@
   "kaynak": "ek-arama"
  },
  {
+  "id": 23610,
+  "tarih": "2012-12-17",
+  "no": "62030549-GVK 68-3226",
+  "kanun": "193",
+  "baslik": "Serbest meslek erbabının ödediği SGK 4-B (Bağ-Kur) primlerinin ne şekilde giderleştirileceği hk.",
+  "link": "https://gib.gov.tr/mevzuat/kanun/433/ozelge/23610",
+  "ilgililik": "yuksek",
+  "kategori": "giderler",
+  "alt_konu": "Bağ-Kur primi gider değil, beyan edilen serbest meslek kazancından indirim; kazancı aşan kısım devretmez; geçici vergide kümülatif indirim",
+  "hukum": "Bağ-Kur primleri 110 Seri No.lu GVGT uyarınca gider olarak değil, yalnız ilgili gelir unsuruna (serbest meslek kazancı) ilişkin olarak beyan edilen gelirden indirilir. Kazanç yetersizse indirilemeyen tutar diğer gelir unsurlarından indirilemez ve sonraki yıllara devretmez. Primler, önceki üçer aylık dönemlerde ödenenler dahil kümülatif olarak geçici vergiye esas kazancın tespitinde indirilebilir. Fiilen ödenmeyen prim indirilemez (5510 md.88).",
+  "guncellik": "guncel",
+  "guncellik_notu": "Metin 09/11/2026'da okundu; dayanak hükümler yürürlükte.",
+  "kaynak": "ek: referans dosyalarında atıf yapılan özelge (Legaluga gib_ozelge_getir)"
+ },
+ {
   "id": 26366,
   "tarih": "2012-12-06",
   "no": "53445970-105-[236-2012-27-15]-128",
@@ -2833,6 +2863,21 @@
   "guncellik": "muhtemelen_guncel",
   "guncellik_notu": "KDV matrahı yönünden KDVK 27/5 (tarifeden düşük olamaz) ayrıca dikkate alınmalı; e-SMM zorunlu.",
   "kaynak": "avukat"
+ },
+ {
+  "id": 23620,
+  "tarih": "2012-02-28",
+  "no": "B.07.1.GİB.4.41.15.01-GVK-2011/24-49",
+  "kanun": "193",
+  "baslik": "Sosyal Güvenlik Destekleme Primi için açılan dava ile ilgili olarak düzenlenecek serbest meslek makbuzunda stopaj olup olmayacağı hk.",
+  "link": "https://gib.gov.tr/mevzuat/kanun/433/ozelge/23620",
+  "ilgililik": "yuksek",
+  "kategori": "smm-belge-duzeni",
+  "alt_konu": "Gerçek kişi müvekkile düzenlenen SMM'de stopaj ölçütü: ödeyen GVK 94/1'de sayılıyor mu ve ödeme ticari/mesleki işiyle ilgili mi",
+  "hukum": "Serbest meslek ödemesi GVK 94/1'de sayılanlarca yapılırsa tevkifat yapılır, aksi halde yapılmaz. Tacir veya serbest meslek erbabı olan müvekkillerin emekli maaşından kesilen SGDP'nin iadesi için açtığı dava ticari ve mesleki faaliyetle ilgili olmayan kişisel bir davadır; bu kişilerin avukata yaptığı ödemeden gelir vergisi kesintisi yapılmaz.",
+  "guncellik": "guncel",
+  "guncellik_notu": "Metin 09/11/2026'da okundu; dayanak hükümler yürürlükte.",
+  "kaynak": "ek: referans dosyalarında atıf yapılan özelge (Legaluga gib_ozelge_getir)"
  },
  {
   "id": 20767,
