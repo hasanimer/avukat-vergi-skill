@@ -314,6 +314,8 @@ CI bu testleri ve `scripts/depo_denetim.py` tutarlılık denetimini her push'ta 
 
 Kod ve özgün metinler [MIT](LICENSE) lisanslıdır. GİB yayınları, Resmî Gazete metinleri ve özelgeler resmî belgelerdir; kaynak gösterilerek alıntılanmıştır.
 
+Bu beceriyi kullandığınız çalışmalarda [Avukat Vergi Skill](https://github.com/hasanimer/avukat-vergi-skill) bağlantısını paylaşarak atıf yapmanızı rica ederiz.
+
 <div align="center">
 <br/>
 <sub>Av. Hasan İmer Akın tarafından, Claude Code ile hazırlandı · <a href="https://github.com/hasanimer">@hasanimer</a></sub>
